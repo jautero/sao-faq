@@ -2,9 +2,9 @@
 
 <article>
 
-<title>Erityisesti Suomessa käytettyjä algoritmeja (FAQ)
+<title>Tietokoneohjelmoinnista usein esitettyjä kysymyksiä vastauksineen
 <author>Antti-Juhani Kaijanaho, <tt/gaia@iki.fi/
-<date>$Id: sao-faq.sgml,v 1.6 1998/06/25 16:30:28 antkaij Exp $
+<date>$Id: sao-faq.sgml,v 1.7 1998/08/16 19:47:50 antkaij Exp $
 
 <abstract>
 <bf/FAQin kokoaja ei vastaa vastausten oikeellisuudesta./
@@ -36,13 +36,14 @@ Tämän dokumentin on tarkoitus vastata sellaisiin keskusteluryhmässä
 <htmlurl url="news:sfnet.atk.ohjelmointi" name=sfnet.atk.ohjelmointi>
 usein esitettyihin kysymyksiin, joihin ei ole järkevää vastata &ndash;
 tai joihin ei ole vielä vastattu &ndash; kansainvälisissä
-FAQ:eissa. Tämä tarkoittaa sitä, että tämä FAQ ei käsittele
+FAQ:eissa. Tämä tarkoittaa sitä, että tämä FAQ ei juurikaan käsittele
 esimerkiksi ohjelmointikieliä eikä numeerisia menetelmiä.  Tässä
-artikkelissa käsitellään myös meta-asiaa: mitä asioita tulisi kysyä
-muualla.
+artikkelissa käsitellään myös hieman ryhmässä noudatettavia
+käyttäytymissääntöjä.
 
-Usein tämän FAQin käsittelemien algoritmien käyttöönoton taustalla on
-hallinnollinen tai poliittinen päätös.
+Edellä esitettyjen rajausten vuoksi tämä FAQ käsittelee lähinnä
+sellaisia algoritmeja, joiden käyttöönoton taustalla on hallinnollinen
+tai poliittinen päätös.
 
 <sect1>Mistä tämän FAQin saa?
 <p>
