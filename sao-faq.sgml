@@ -4,7 +4,7 @@
 
 <title>Erityisesti Suomessa käytettyjä algoritmeja (FAQ)
 <author>Antti-Juhani Kaijanaho, <tt/gaia@iki.fi/
-<date>$Id: sao-faq.sgml,v 1.3 1997/08/17 13:09:31 gaia Exp $
+<date>$Id: sao-faq.sgml,v 1.4 1998/06/23 12:51:39 antkaij Exp $
 
 <abstract>
 <bf/FAQin kokoaja ei vastaa vastausten oikeellisuudesta./
@@ -25,6 +25,11 @@ uudestaan julkisissa, käyttäjälle maksuttomissa Internetin palveluissa
 (mm. DejaNews ja useimpien yritysten seittisivut). Muu julkaiseminen
 ja levittäminen ilman etukäteen annettua kirjallista lupaa kielletään.
 
+Toivon, että kaikissa viittauksissa tähän artikkeliin mainitaan sen
+<url url="http://www.iki.fi/gaia/faq/sao-faq.html" name="ikiosoite">.
+Viittauksissa ei tule käyttää muita osoitteita, sillä vain mainitun
+osoitteen toimiminen taataan.
+
 <sect1>Olemisen tarkoitus
 <p>
 Tämän dokumentin on tarkoitus vastata sellaisiin keskusteluryhmässä
@@ -32,15 +37,17 @@ Tämän dokumentin on tarkoitus vastata sellaisiin keskusteluryhmässä
 usein esitettyihin kysymyksiin, joihin ei ole järkevää vastata &ndash;
 tai joihin ei ole vielä vastattu &ndash; kansainvälisissä
 FAQ:eissa. Tämä tarkoittaa sitä, että tämä FAQ ei käsittele
-esimerkiksi ohjelmointikieliä eikä numeerisia menetelmiä.
+esimerkiksi ohjelmointikieliä eikä numeerisia menetelmiä.  Tässä
+artikkelissa käsitellään myös meta-asiaa: mitä asioita tulisi kysyä
+muualla.
 
 Usein tämän FAQin käsittelemien algoritmien käyttöönoton taustalla on
 hallinnollinen tai poliittinen päätös.
 
 <sect1>Mistä tämän FAQin saa?
 <p>
-Yleensä tähän kysymykseen vastataan: "Luet sitä nyt juuri, joten
-<em/säilytä/ hallussasi oleva kappale."
+Yleensä tähän kysymykseen vastataan: ''Luet sitä nyt juuri, joten
+<em/säilytä/ hallussasi oleva kappale.''
 
 Uusin versio on aina löydettävissä FAQin <url
 url="http://www.iki.fi/gaia/faq/sao-faq.html" name="seittisivulta">.
@@ -55,17 +62,46 @@ name="SGML-sorsat"> ovat saatavilla.
 
 Kaikissa ylläolevissa osoitteissa on aina FAQin uusin julkaistu versio.
 
-Kopio tekstiversiosta pyritään postaamaan joka kuukauden 17. päivänä
-uutisryhmään <htmlurl url="news:sfnet.atk.ohjelmointi"
-name="sfnet.atk.ohjelmointi">.
+Muistutus tämän FAQin olemassaolosta ja osoitteesta pyritään
+postaamaan joka kuukauden 17. päivänä uutisryhmiin <htmlurl
+url="news:sfnet.atk.ohjelmointi" name="sfnet.atk.ohjelmointi"> ja
+<htmlurl url="news:sfnet.atk.ohjelmointi.alkeet"
+name="sfnet.atk.ohjelmointi.alkeet">.
+
+<sect>Missä ja mitä voin kysyä?
+<p>
+Ennenkuin kysyt, tarkista, onko kysymykseesi vastattu tässä
+kirjoitelmassa.
+
+Uutisryhmä <htmlurl url="news:sfnet.atk.ohjelmointi"
+name="sfnet.atk.ohjelmointi"> on tarkoitettu tietokoneen ohjelmoinnin
+yhteydessä esiin nousseiden aiheiden käsittelyyn.  Virallisen
+kuvauksen mukaan ryhmään sopii ''kaikenlainen ohjelmointiin vaan ei
+valmiiden ohjelmien käyttöön liittyvä keskustelu: algoritmit,
+ohjelmointikielet, työkalut, ohjelmien suunnittelu, määrittely,
+testaus&nbsp;jne.''
+
+Keväällä&nbsp;1998 perustettiin uutisryhmä <htmlurl
+url="news:sfnet.atk.ohjelmointi.alkeet"
+name="sfnet.atk.ohjelmointi.alkeet">.  Ryhmän virallinen kuvaus
+kertoo, että se ''on tarkoitettu ohjelmointia aloitteleville tai
+sellaisille, jotka tutustuvat itselleen uuteen ohjelmoinnin
+osa-alueeseen''.
+
+<em/HTML-kieleen liittyvät kysymykset eivät kuulu kumpaankaan
+ohjelmointiryhmään./ Esitä ne mielummin WWW-kysymyksille varatussa
+ryhmässä <htmlurl url="news:sfnet.viestinta.www"
+name="sfnet.viestinta.www">, kun olet ensin tarkistanut, ettei
+kysymykseesi ole vastattu englanninkielisessä <url
+url="http://www.stack.nl/htmlhelp/faq/wdgfaq.htm" name="FAQ:ssa">.
 
 <sect>Numerosarjoja ja niiden tarkistemerkkejä
 <p>
 <sect1>Miten pankkiviitenumero muodostetaan?
 <p>
-Pankkiviitenumero on vähintään kolme ja korkeintaan 20 merkkiä
-pitkä numerosarja. Sen tulisi kuitenkin olla mahdollisimman lyhyt,
-jotta näppäilyvirheet vähenisivät. Laskuttaja voi valita viitenumeron
+Pankkiviitenumero on vähintään neljä ja korkeintaan 20 merkkiä pitkä
+numerosarja. Sen tulisi kuitenkin olla mahdollisimman lyhyt, jotta
+näppäilyvirheet vähenisivät. Laskuttaja voi valita viitenumeron
 vapaasti viimeistä numeroa lukuunottamatta. Viitenumero suositellaan
 tulostettavaksi viiden numeron ryhmissä oikealta alkaen. Alkunollia ei
 tulosteta.
@@ -96,7 +132,7 @@ syntymäajasta, vuosisatamerkistä, tunnusluvusta ja
 tarkistemerkistä. Niinpä se on muotoa PPKKVVCNNNT.  Kaikki nollat
 tulostetaan.
 
-Vuosisatamerkki (C) on "-" 1900-luvulla ja "+" 1800-luvulla
+Vuosisatamerkki (C) on ''-'' 1900-luvulla ja ''+'' 1800-luvulla
 syntyneillä. 2000-luvulla syntyneiden henkilötunnuksissa käytettäneen
 isoa A-kirjainta. <em/Huomaa, että henkilötunnuksessa ei ole
 automaattisesti viivaa välissä/; kaikki ohjelmat, jotka olettavat
@@ -109,7 +145,7 @@ Tarkistemerkki (T) lasketaan siten, että syntymäaika ja tunnusluku
 yhdistetään yhdeksi 9-merkkiseksi luvuksi, joka on siis muotoa
 PPKKVVNNN.  Tämä luku jaetaan 31:llä. Jakojäännöksen perusteella
 valitaan tarkistemerkiksi yksi merkeistä
-"0123456789ABCDEFHJKLMNPRSTUVWXY" siten, että jaon mennessä tasan
+0123456789ABCDEFHJKLMNPRSTUVWXY siten, että jaon mennessä tasan
 tarkistemerkki on 0, jakojäännöksen ollessa yksi se on 1 jne. Jos siis
 jakojäännös on 30, on tarkistemerkkinä kirjain Y.
 
@@ -135,12 +171,13 @@ järjestysnumeron
 <item>seitsemäs numero luvlla 7
 </itemize>
 
-sekä lasketaan näin saadut tulos yhteen ja jaetaan summa luvulla
-11. Tarkistussnumero määräytyy jakolaskun jakojäännöksen perusteella
-seuraavasti: jos jakojäännös on nolla, on tarkistusnumero nolla. Jos
-jakojäännös on suurempi kuin yksi, on tarkistusnumero erotus, joka
-saadaan vähentämällä jakojäännös luvusta 11. Jos jakojäännös on yksi,
-jätetään tarkistusnumeroa vastaava järjestysnumero käyttämättä.
+sekä lasketaan näin saadut tulos yhteen ja jaetaan summa
+luvulla&nbsp;11. Tarkistussnumero määräytyy jakolaskun jakojäännöksen
+perusteella seuraavasti: jos jakojäännös on nolla, on tarkistusnumero
+nolla. Jos jakojäännös on suurempi kuin yksi, on tarkistusnumero
+erotus, joka saadaan vähentämällä jakojäännös luvusta 11. Jos
+jakojäännös on yksi, jätetään tarkistusnumeroa vastaava
+järjestysnumero käyttämättä.
 
 Erikoistapausta, jossa jakojäännös on yksi, selvittänee esimerkki.
 Kuvitteellisen Oy Yritys Ab:n LY-tunnus on 1111111-3. Koska
@@ -263,15 +300,80 @@ viikkonumeron laskemiseen. Ohjelmoijan on oltava kuitenkin tarkkana
 siitä, että hän käyttää työkaluja, jotka laskevat oikean maan
 viikkonumeroita &ndash; oikein. :-)
 
-<sect>Muita?
+<sect>Muuta luettavaa
 <p>
-Jos sinä tunnet muita erityisesti Suomessa käytettyjä algoritmeja,
-jotka ovat yleisesti kiinnostavia ja tämän FAQin aihepiiriin
-soveltuvia, meilaa ne minulle osoitteeseen <htmlurl
-url="mailto:gaia@iki.fi" name="gaia@iki.fi">. Todettakoon, että tuohon
-osoitteeseen ei kannata lähettää etukäteen sopimatta 50 000 tavun
-kokoisia tai suurempia viestejä &ndash; ne tulevat bumerangeina
-takaisin.
+Tämän artikkelin sisälmys on tarkoituksella rajattu ahtaasti, sillä
+maailmalla on runsaasti hyvää &ndash; ja toki myös asiantuntematonta &ndash;
+materiaalia, joka vastaa useimpiin kysymyksiin.  Tässä annetaan
+vihjeitä hyviksi aloituspaikoiksi.
+
+<sect1>Kirjallisuutta
+<p>
+Vesa Lappalainen on koonnut <url name="seittisivulleen"
+url="http://wekotin.math.jyu.fi/~vesal/kurssit/kirjallisuutta.html">
+arvioita ohjelmointiin yleensä ja erityisesti graafisiin
+käyttöliittymiin, olio-ohjelmointiin, C++-kieleen ja Delphiin
+liittyvistä kirjoista.
+
+<sect1>Ohjelmointikielet
+<p>
+Tärkein verkosta saatavissaa oleva C-ohjelmointikieleen liittyvä
+kirjoitus on <url name="C-FAQ"
+url="http://www.eskimo.com/~scs/C-faq/top.html">.  Jukka Korpela on
+myös koonnut <url name="hyödyllistä tietoa"
+url="http://www.hut.fi/u/jkorpela/Cinfo.html"> C-kielestä.
+
+Bjarne Stroustrupin kehittämään C++-kieleen liittyvää materiaalia
+löytyy kasapäin keksijän itsensä kokoaman <url name="seittisivun"
+url="http://www.research.att.com/~bs/C++.html"> kautta.  Erityisesti
+mainittakoon <url name="C++-FAQ"
+url="http://www.utu.fi/~sisasa/oasis/cppfaq/">.
+
+Java-kielestä on olemassa <url name="FAQ-lista"
+url="http://www.afu.com/javafaq.html">.  Muutakin Java-materiaalia on
+<url name="seitissä" url="http://www.afu.com/">.
+
+Pascal-kielen Borland-murteisiin (poislukien Delphi) liittyviä
+tekstejä löytyy <url name="mini-FAQ:n"
+url="http://www.faqs.org/faqs/pascal/borland-minifaq/"> kauttta.
+
+Perl-materiaalia on <url name="The Perl Instituten seittisivulla"
+url="http://www.perl.org">.  Lisäksi on saatavilla
+<url name="Perl-FAQ" url="http://www.faqs.org/faqs/perl-faq/part0/">.
+
+Python-kielen <url name="seittisivusto" url="http://www.python.org/">
+on olemassa.
+
+<url name="Visual Basic FAQ"
+url="http://home.sol.no/~jansh/vb/default.htm"> on.
+
+Lisp-kielestäkin on <url name="FAQ-lista"
+url="http://www.cs.cmu.edu/Groups/AI/html/faqs/lang/lisp/top.html">
+
+Jukka Korpela on koonnut <url name="linkkejä"
+url="http://www.hut.fi/u/jkorpela/fortran.html">
+Fortran-kielimateriaaliin.
+
+<sect1>Käyttöjärjestelmät
+<p>
+Microsoftin käyttöjärjestelmistä tietoa löytyy kasapäin ympäri
+verkkoa.  Parhaan tuloksen saa etsimällä kysymykseensä vastausta
+suosikkihakurobotillaan ja lisäksi <url name="DejaNewsin
+keskusteluarkistoista" url="http://www.dejanews.com/">.
+MS-DOS-ohjelmoinnin kysymyksiin vastaillaan <url name="FAQ-listassa"
+url="http://www.faqs.org/faqs/msdos-programmer-faq/part1/preamble.html">.
+Windows-ohjelmointiin sopivaa lähtökohtapaikkaa en tiedä.
+
+Macintosh-ohjelmoinnista on <url name="FAQ-lista"
+url="http://www.faqs.org/faqs/macintosh/programming-faq/">.
+
+Unix-ohjelmoinnistakin on <url name="FAQ-lista"
+url="http://www.erlenstar.demon.co.uk/unix/faq_toc.html">
+
+<sect>Kommentteja?
+<p>
+Kommentteja, korjauksia, lisäyksiä ja muuta sellaista otetaan vastaan
+osoitteessa <htmlurl url="mailto:gaia@iki.fi" name="gaia@iki.fi">.
 
 <sect>Kiitokset
 <p>
@@ -281,9 +383,11 @@ ehdotuksillaan.  Suuri kiitos heille kaikille.
 
 <itemize>
 <item>Jonne Itkonen, <tt/ji@math.jyu.fi/
+<item>Jukka Korpela, <tt/Jukka.Korpela@hut.fi/
 <item>Jukka Lahtinen, <tt/walker@clinet.fi/
 <item>Tero Lahtinen, <tt/l126033@cs.tut.fi/
 <item>Sami J. Laine, <tt/no.spam.lane@iki.fi/
+<item>Vesa Lappalainen, <tt/vesal@math.jyu.fi/
 <item>Veli-Pekka Lehtosaari, <tt/vplehto@technopark.fi/
 <item>Tor Lillqvist, <tt/tml@iki.fi/
 <item>Riku Meskanen, <tt/mesrik@cc.jyu.fi/
@@ -291,6 +395,7 @@ ehdotuksillaan.  Suuri kiitos heille kaikille.
 <item>Juha-Heikki Ruismäki, <tt/jr87641@cs.tut.fi/
 <item>Kimmo Surakka, <tt/kusti@cs.tut.fi/
 <item>Tapani Tarvainen, <tt/tt@math.jyu.fi/
+<item>Lars Wirzenius, <tt/liw@iki.fi/
 </itemize>
 
 
