@@ -4,7 +4,7 @@
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori M‰ntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.22 $ $Date: 1999/12/10 15:43:09 $
+<version>$Revision: 1.23 $ $Date: 1999/12/10 15:46:17 $
 
 <copyright>
 Copyright &copy; 1999 Antti-Juhani Kaijanaho ja Jori M‰ntysalo.  T‰t‰
@@ -331,7 +331,7 @@ Edell‰ mainittu Laaman tie peliohjelmointiin sis‰lt‰‰ joitakin ohjeita.
 On melkeinp‰ vale puhua satunnaisuudesta samassa yhteydess‰
 ohjelmointikielten erilaisten rand-k‰skyjen tai -kirjastoaliohjelmien
 kanssa.  N‰iden tuottama satunnaisuus on n‰enn‰ist‰: takana on t‰ysin
-ennustettavissa oleva matemaattinen metodi, joka pyrkii tuottamaan
+toistettavissa oleva matemaattinen metodi, joka pyrkii tuottamaan
 suhteellisen satunnaisilta n‰ytt‰vi‰ lukuja.  Yksi t‰m‰n aiheuttama
 ongelma on se, ett‰ generaattori on <em/alustettava/.  Alustustapa
 riippuu kielest‰; kohtuuhyv‰ metodi on uudehkoissa Pascal-murteissa
@@ -349,9 +349,11 @@ name="Esimerkki virheest‰"> tuottaa ajettaessa <url
 id="http://www.iki.fi/gaia/faq/srand-virhe-esim" name="mainitun
 tuloksen">.
 <p>
-Vastaus on yksinkertainen: <strong/K‰yt‰ satunnaisluvun alustajaa
+P‰‰s‰‰ntˆ on yksinkertainen: <strong/K‰yt‰ satunnaisluvun alustajaa
 (randomize, srand tms) vain kerran ohjelmassa/.  Yleens‰ hyv‰ paikka
-t‰lle on juuri ohjelman alussa.
+t‰lle on juuri ohjelman alussa.  K‰yt‰ alustajaa useita kertoja vain,
+jos ymm‰rr‰t sek‰ ohjelmointitekniikan ett‰ tilastomatematiikan
+kannalta, mit‰ olet tekem‰ss‰.
 
 <sect>Miten saan satunnaisen kokonaisluvun v‰lilt‰ 42..512?
 <p>
@@ -388,14 +390,14 @@ ja <tt/RAND_MAX/ satunnaislukugeneraattorin <tt/rand()/ tuottama
 suurin kokonaisluku (pienin on nolla).  T‰m‰n metodin hankaluutena on
 liukulukujen k‰ytˆn aiheuttama laskentaep‰tarkkuus.
 <p>
-Toinen tapa (kiitokset Kalle Olavi Niemitalolle) on seuraava: Olkoon
-ensin <tt/N := MAX - MIN/ ja <tt/RM := RAND_MAX + 1/ (miss‰
-<tt/RAND_MAX/ on suurin luku, jonka satunnaislukugeneraattori
-tuottaa).  Jaetaan v‰li <tt/0..RAND_MAX/ N:‰‰n yht‰ pitk‰‰n osaan
-(mik‰li viimeinen osa on lyhyempi kuin muut, sille osuvat
-arvontatulokset hyl‰t‰‰n).  T‰llˆin haluttu satunnaisluku on sen osan
-j‰rjestysnumero <tt/+ MIN - 1/, jolle satunnaislukugeneraattorin
-palauttama osa osuu.  Valmis C-koodi lˆytyy Niemitalon artikkelista
+Toinen tapa on seuraava: Olkoon ensin <tt/N := MAX - MIN/ ja <tt/RM :=
+RAND_MAX + 1/ (miss‰ <tt/RAND_MAX/ on suurin luku, jonka
+satunnaislukugeneraattori tuottaa).  Jaetaan v‰li <tt/0..RAND_MAX/
+N:‰‰n yht‰ pitk‰‰n osaan (mik‰li viimeinen osa on lyhyempi kuin muut,
+sille osuvat arvontatulokset hyl‰t‰‰n).  T‰llˆin haluttu satunnaisluku
+on sen osan j‰rjestysnumero <tt/+ MIN - 1/, jolle
+satunnaislukugeneraattorin palauttama osa osuu.  Valmis C-koodi lˆytyy
+Niemitalon artikkelista
 <tt>&lt;iznpv693fk8.fsf@stekt38.oulu.fi&gt;</tt> (<url
 id="http://www.deja.com/getdoc.xp?AN=455576976" name="Deja.com: Re:
 Satunnaislukujen generointi C++:ssa?">).
