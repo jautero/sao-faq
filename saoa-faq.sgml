@@ -4,7 +4,7 @@
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori Mäntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.27 $ $Date: 2000/02/11 18:02:37 $
+<version>$Revision: 1.28 $ $Date: 2000/02/15 00:11:04 $
 
 <copyright>
 Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori Mäntysalo.
@@ -378,7 +378,9 @@ yksinkertainen tapa skaalata tämä halutulle välille <tt> MIN &lt;= f'
 Tässä toki pitää käytetyn liukulukutyypin olla riittävän tarkka.  Jos
 haluat tuloksen olevan kokonaisluku väliltä <tt/MIN...MAX/, käytä
 kaavaa <tt/tulos := int( (MAX - MIN + 1) * f) + MIN/, missä funktio
-<tt/int/ tekee liukuluvusta kokonaisluvun pyöristämällä.
+<tt/int/ tekee liukuluvusta kokonaisluvun katkaisemalla (poimimalla
+suurimman kokonaisluvun, joka ei ole suurempi kuin kyseinen
+liukuluku).
 <p>
 Mikäli satunnaislukugeneraattori palauttaa kokonaisluvun väliltä
 <tt/0...RAND_MAX/ ja haluat tulokseksi liukuluvun väliltä <tt/MIN
@@ -401,14 +403,16 @@ ja <tt/RAND_MAX/ satunnaislukugeneraattorin <tt/rand()/ tuottama
 suurin kokonaisluku (pienin on nolla).  Tämän metodin hankaluutena on
 liukulukujen käytön aiheuttama laskentaepätarkkuus.
 <p>
-Toinen tapa on seuraava: Olkoon ensin <tt/N := MAX - MIN/ ja <tt/RM :=
-RAND_MAX + 1/ (missä <tt/RAND_MAX/ on suurin luku, jonka
-satunnaislukugeneraattori tuottaa).  Jaetaan väli <tt/0..RAND_MAX/
-N:ään yhtä pitkään osaan (mikäli viimeinen osa on lyhyempi kuin muut,
-sille osuvat arvontatulokset hylätään).  Tällöin haluttu satunnaisluku
-on sen osan järjestysnumero <tt/+ MIN - 1/, jolle
-satunnaislukugeneraattorin palauttama osa osuu.  Valmis C-koodi löytyy
-Niemitalon artikkelista
+Toinen tapa on seuraava: Toinen tapa on seuraava: Olkoon ensin <tt/N
+:= MAX - MIN + 1/ ja <tt/RM := RAND_MAX + 1/ (missä <tt/RAND_MAX/ on
+suurin luku, jonka satunnaislukugeneraattori tuottaa). Jaetaan väli
+<tt/0..RAND_MAX/ <tt/N+1/:een osaan, joista <tt/N/ ensimmäistä ovat
+yhtä pitkiä. Viimeinen osa saa olla tyhjä. Viimeisestä osasta
+kannattaa tehdä lyhyt, mutta sen ei välttämättä tarvitse olla lyhyin
+mahdollinen. Sitten tuotetaan valesatunnaislukuja kunnes tulos <tt/f/
+osuu johonkin muuhun kuin viimeiseen osaan eli <tt/f < N * osan_koko/,
+ja palautetaan <tt>f / osan_koko + MIN</tt>.
+Valmis C-koodi löytyy Niemitalon artikkelista
 <tt>&lt;iznpv693fk8.fsf@stekt38.oulu.fi&gt;</tt> (<url
 id="http://www.deja.com/getdoc.xp?AN=455576976" name="Deja.com: Re:
 Satunnaislukujen generointi C++:ssa?">).
