@@ -4,7 +4,7 @@
 
 <title>Erityisesti Suomessa käytettyjä algoritmeja (FAQ)
 <author>Antti-Juhani Kaijanaho, <tt/gaia@iki.fi/
-<date>$Id: sao-faq.sgml,v 1.5 1998/06/23 13:01:08 antkaij Exp $
+<date>$Id: sao-faq.sgml,v 1.6 1998/06/25 16:30:28 antkaij Exp $
 
 <abstract>
 <bf/FAQin kokoaja ei vastaa vastausten oikeellisuudesta./
@@ -133,7 +133,7 @@ tarkistemerkistä. Niinpä se on muotoa PPKKVVCNNNT.  Kaikki nollat
 tulostetaan.
 
 Vuosisatamerkki (C) on ''-'' 1900-luvulla ja ''+'' 1800-luvulla
-syntyneillä. 2000-luvulla syntyneiden henkilötunnuksissa käytettäneen
+syntyneillä. 2000-luvulla syntyneiden henkilötunnuksissa käytetään
 isoa A-kirjainta. <em/Huomaa, että henkilötunnuksessa ei ole
 automaattisesti viivaa välissä/; kaikki ohjelmat, jotka olettavat
 henkilötunnuksen olevan muotoa 111111-1111, hajoavat 2000-luvulla.
