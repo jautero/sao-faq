@@ -5,7 +5,7 @@
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 
-<version>$Revision: 1.63 $ $Date: 2002/11/12 13:54:49 $
+<version>$Revision: 1.64 $ $Date: 2002/11/17 21:29:28 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -575,7 +575,9 @@ id="http://www.malibutelecom.com/yucca/python/">.
 id="http://www.thebestweb.com/vbfaqs/"> on.
 <p>
 Lisp-kielestäkin on <url name="FAQ-lista"
-id="http://www.cs.cmu.edu/Groups/AI/html/faqs/lang/lisp/top.html">,
+id="http://www.cs.cmu.edu/Groups/AI/html/faqs/lang/lisp/top.html"> sekä
+<url name="käyttäjäyhdistys" id="http://www.lisp.org/"> (The Association 
+of Lisp Users),
 ja Schemellä on <url id="http://www.niksula.cs.hut.fi/~candolin/scheme/"
 name="Suomessa fanisivusto">, jossa on erinomainen linkkilista.
 <p>
@@ -643,6 +645,7 @@ kiitos heille kaikille.
 <list>
 <item>Juha Antila
 <item>Jaakko Haakana
+<item>Martti Halminen 
 <item>Jonne Itkonen
 <item>Jukka Korpela
 <item>Jarno Käyhkö
