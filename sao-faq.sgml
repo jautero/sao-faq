@@ -5,7 +5,7 @@
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 
-<version>$Revision: 1.60 $ $Date: 2002/04/22 15:14:44 $
+<version>$Revision: 1.61 $ $Date: 2002/08/16 21:57:42 $
 
 <abstract>
 T‰m‰ artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -442,15 +442,16 @@ kalenterikirjastossa olevan toteutuksen pohjalta):
 <enumlist>
 
 <item>Laske, montako p‰iv‰‰ on kulunut vuoden alusta (jos annettu
-p‰iv‰ on tammikuun ensimm‰inen, vastaus on 0). Jaa vastaus seitsem‰ll‰
-ja ota osam‰‰r‰st‰ huomioon vain kokonaiset; t‰m‰ on ensimm‰inen
-arvaus viikkonumerkoksi.
+p‰iv‰ on tammikuun ensimm‰inen, vastaus on 0). Lis‰‰ t‰h‰n 0, jos 
+tammikuun 1. on maanantai, 1, jos tammikuun ensimm‰inen on tiistai jne.
+Jaa vastaus seitsem‰ll‰ ja ota osam‰‰r‰st‰ huomioon vain kokonaiset; 
+t‰m‰ on ensimm‰inen arvaus viikkonumerkoksi.
 
 <item>Jos vuosi on alkanut maanantaina, tiistaina, keskiviikkona tai
 torstaina, lis‰‰ arvaukseen yksi.
 
-<item>Jos arvaus on n‰in positiivinen, se kelpaa viikkonumeroksi;
-mutta jos arvaus on nolla, niin:
+<item>Jos tulos on v‰lill‰ 1-52, se kelpaa viikkonumeroksi 
+mutta jos tulos on nolla, niin:
 
   <list>
 
@@ -461,6 +462,20 @@ mutta jos arvaus on nolla, niin:
   <item>Muussa tapauksessa todellinen viikkonumero on 52.
 
   </list>
+
+jos tulos on 53, niin p‰‰tell‰‰n edellisen kohdan mukaisesti, onko 
+vuodessa oikeasti 53 viikkoa:
+  <list>
+
+  <item>Jos kuluva vuosi on alkanut torstaina, tai se on ollut
+  karkausvuosi ja alkanut keskiviikkona, viikkonumero on
+  todellisuudessa 53.
+
+  <item>Muussa tapauksessa kyseess‰ on seuraavan vuoden 1. viikko ja 
+  viikkonumero on 1.
+
+  </list>
+
 
 </enumlist>
 
@@ -635,6 +650,7 @@ kiitos heille kaikille.
 <item>Ville Lehtonen
 <item>Veli-Pekka Lehtosaari
 <item>Tor Lillqvist
+<item>Teemu Luoloja
 <item>Riku Meskanen
 <item>Jori M‰ntysalo
 <item>Markku Nevalainen
