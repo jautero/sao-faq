@@ -3,7 +3,7 @@
 
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.9 $ $Date: 1999/08/10 22:09:38 $
+<version>$Revision: 1.10 $ $Date: 1999/08/10 22:33:16 $
 
 <copyright>
 Copyright &copy; 1999 Antti-Juhani Kaijanaho.  Tätä kirjoitelmaa
@@ -311,6 +311,18 @@ Osaisiko joku asiantuntija kertoa tarkemmin?
 
 <chapt>Yleisiä ohjelmointiongelmia
 <p>
+<sect>Satunnaislukugeneraattori arpoo aina saman sarjan
+<p>
+On melkeinpä vale puhua satunnaisuudesta samassa yhteydessä
+ohjelmointikielten erilaisten rand-käskyjen tai -kirjastoaliohjelmien
+kanssa.  Näiden tuottama satunnaisuus on näennäistä: takana on täysin
+ennustettavissa oleva matemaattinen metodi, joka pyrkii tuottamaan
+suhteellisen satunnaisilta näyttäviä lukuja.  Yksi tämän aiheuttama
+ongelma on se, että generaattori on <em/alustettava/.  Alustustapa
+riippuu kielestä; kohtuuhyvä metodi on uudehkoissa Pascal-murteissa
+<tt/randomize/-käsky sekä C:ssä <tt/srand(time(0))/ (tässä tarvitaan
+<tt/stdlib.h/- ja <tt/time.h/-headerfileitä).
+
 <sect>Satunnaislukugeneraattori arpoo aina samaa lukua
 <p>
 On ehkä liiankin hyvin opetettu ihmisiä sanomaan ``randomize'' tai
