@@ -4,7 +4,7 @@
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori Mäntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.37 $ $Date: 2001/03/15 06:23:20 $
+<version>$Revision: 1.38 $ $Date: 2001/06/12 19:19:36 $
 
 <copyright>
 Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori Mäntysalo.
@@ -433,7 +433,7 @@ osuu johonkin muuhun kuin viimeiseen osaan eli <tt/f < N * osan_koko/,
 ja palautetaan <tt>f / osan_koko + MIN</tt>.
 Valmis C-koodi löytyy Niemitalon artikkelista
 <tt>&lt;iznpv693fk8.fsf@stekt38.oulu.fi&gt;</tt> (<url
-id="http://www.deja.com/getdoc.xp?AN=455576976" name="Deja.com: Re:
+id="http://groups.google.com/groups?as_umsgid=iznpv693fk8.fsf%40stekt38.oulu.fi" name="Google: Re:
 Satunnaislukujen generointi C++:ssa?">).
 <p>
 Edellämainituissa menetelmissä täytyy halutun välin pituuden olla
@@ -463,8 +463,8 @@ taulukosta osoittama luku on seuraava lottonumero, joka poistetaan.
 Toistetaan, kunnes kaikki seitsemän numeroa on arvottu.  Algoritmin
 C-kielinen toteutus löytyy Surakan alkuperäisestä nyysiartikkelista
 <tt>&lt;u1lbtaksryk.fsf@mustahaikara.cs.tut.fi&gt;</tt> (<url
-id="http://www.deja.com/[ST_rn=ap]/getdoc.xp?AN=531056334"
-name="Deja.com: Re: Lotto C++:lla">), jossa on pieni virhe: ohjelman
+id="http://groups.google.com/groups?as_umsgid=u1lbtaksryk.fsf%40mustahaikara.cs.tut.fi"
+name="Google: Re: Lotto C++:lla">), jossa on pieni virhe: ohjelman
 kolmanneksi viimeinen ja toiseksi viimeinen rivi pitää vaihtaa.
 
 <chapt>Muita yleisiä ohjelmointiongelmia

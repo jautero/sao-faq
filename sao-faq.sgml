@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.49 $ $Date: 2001/03/15 06:18:38 $
+<version>$Revision: 1.50 $ $Date: 2001/06/12 19:19:35 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -564,8 +564,8 @@ Jukka Korpela on koonnut <url name="Tietoa Fortran-ohjelmointikielestä Interneti
 <p>
 Microsoftin käyttöjärjestelmistä tietoa löytyy kasapäin ympäri
 verkkoa.  Parhaan tuloksen saa etsimällä kysymykseensä vastausta
-suosikkihakurobotillaan ja lisäksi <url name="DejaNewsin
-keskusteluarkistoista" id="http://www.dejanews.com/">.
+suosikkihakurobotillaan ja lisäksi <url name="Googlen
+keskusteluarkistoista" id="http://groups.google.com/">.
 MS-DOS-ohjelmoinnin kysymyksiin vastaillaan <url name="FAQ-listassa"
 id="http://www.faqs.org/faqs/msdos-programmer-faq/part1/preamble.html">.
 Windows-ohjelmointiin sopiva lähtöpaikka lienee <url
