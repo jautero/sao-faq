@@ -3,7 +3,7 @@
 
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.2 $ $Date: 1999/02/07 00:59:06 $
+<version>$Revision: 1.3 $ $Date: 1999/04/07 11:41:29 $
 
 <copyright>
 Copyright &copy; 1999 Antti-Juhani Kaijanaho.  Tätä kirjoitelmaa
@@ -87,7 +87,9 @@ alkupuolella.  Kirjoita lyhyesti mutta älä liian lyhyesti.  Pyri aina
 siihen, että kirjoituksesi sanoo jotain olennaista keskustelun
 kohteena olevasta asiasta.  Käytä paljon puhuvia otsikoita;
 mitäänsanomattomasta subject-rivistä ei ole kenellekään mitään hyötyä.
-On epäkohteliasta kysyä ryhmässä ja vaatia vastaukset sähköpostitse.
+Esimerkiksi ''Merkkijonon pituus Schemessä?'' on paljon hyödyllisempi
+otsikko kuin ''Auttakaa!''.  On epäkohteliasta kysyä ryhmässä ja
+vaatia vastaukset sähköpostitse.
 <p>
 Lisää tietoa netiketistä saa Timo Kiravuon kirjoituksesta <url
 id="http://www.nixu.fi/%7ekiravuo/etiketti/" name="News-etiketti"> ja
@@ -268,9 +270,10 @@ yliopisto yhtenä esimerkkinä).  Itseopiskelijalle C++ on luultavasti
 liian hankala ensimmäiseksi kieleksi.
 <p>
 C++-kirjallisuutta on myynnissä uskomattomia määriä.  Monetkaan kirjat
-eivät ole kovin kaksisia, ja asiavirheet eivät ole tavattomia.  En
-tiedä, mitä kirjaa suosittelisin aloittelijalle.  Onko
-asiantuntijoilla kommentteja?
+eivät ole kovin kaksisia, ja asiavirheet eivät ole tavattomia.
+Aloittelijalle hyvä kirja lienee Jesse Libertyn ''Opeta itsellesi
+C++'' (alkuteos ''Teach Yourself C++ Programming in 21 Days''), vaikka
+sekään ei ole virheetön.
 
 </taglist>
 
@@ -335,6 +338,11 @@ mielipiteitä kuuntelen mielelläni.
 <p>
 <example>
 $Log: saoa-faq.sgml,v $
+Revision 1.3  1999/04/07 11:41:29  ajk
+Lisätty esimerkki hyvästä ja huonosta otsikosta.
+
+Suosittelen nyt Jesse Libertyn kirjaa C++-opetteluun.  Kiitos, Jori!
+
 Revision 1.2  1999/02/07 00:59:06  ajk
 Tehty helpoimmat alkuperäisen postauksen herättämässä threadissa
 ehdotetut muutokset.
