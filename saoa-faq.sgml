@@ -3,7 +3,7 @@
 
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.8 $ $Date: 1999/08/10 21:21:51 $
+<version>$Revision: 1.9 $ $Date: 1999/08/10 22:09:38 $
 
 <copyright>
 Copyright &copy; 1999 Antti-Juhani Kaijanaho.  T‰t‰ kirjoitelmaa
@@ -308,6 +308,23 @@ voi k‰ytt‰‰ valmiita ohjelmakirjastoja, sinun t‰ytyy piirt‰‰ kuva itse
 ruutuun k‰ytt‰en ohjelmointikielesi grafiikkakirjastoa.
 <p>
 Osaisiko joku asiantuntija kertoa tarkemmin?
+
+<chapt>Yleisi‰ ohjelmointiongelmia
+<p>
+<sect>Satunnaislukugeneraattori arpoo aina samaa lukua
+<p>
+On ehk‰ liiankin hyvin opetettu ihmisi‰ sanomaan ``randomize'' tai
+``srand(time(0))'' (tai mik‰ se nyt mill‰kin kielell‰ onkaan), jotta
+satunnaislukugeneraattori antaisi hyv‰n tuloksen.  Nimitt‰in on helppo
+ymm‰rt‰‰ t‰m‰ v‰‰rin, loitsu lausutaan joka kerta, kun halutaan
+satunnaisluku.  <url id="ftp://ftp.jyu.fi/private/antkaij/faq/srand-virhe.c"
+name="Esimerkki virheest‰"> tuottaa ajettaessa <url
+id="http://www.iki.fi/gaia/faq/srand-virhe-esim" name="mainitun
+tuloksen">.
+<p>
+Vastaus on yksinkertainen: <strong/K‰yt‰ satunnaisluvun alustajaa
+(randomize, srand tms) vain kerran ohjelmassa/.  Yleens‰ hyv‰ paikka
+t‰lle on juuri ohjelman alussa.
 
 <chapt>Kommentteja halutaan, kiitoksia annetaan
 <p>
