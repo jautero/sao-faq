@@ -15,6 +15,8 @@ genfiles = $(faqs:=.txt) $(faqs:=.tov) $(faqs:=-html) \
 
 all : $(genfiles)
 
+html : $(faqs:=-html) 
+
 %-esim : %
 	export LANG=C ; echo "% Generoitu `date`" > $@
 	export LANG=C ; echo "% koneella `uname -a`" >> $@
@@ -53,4 +55,4 @@ publish : all
 	  $(SCP) -r $$files $(pubdir)
 	$(SCP) $(sources) $(ftpdir)
 
-.PHONY: all
+.PHONY: all html
