@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.22 $ $Date: 1999/04/17 16:25:53 $
+<version>$Revision: 1.23 $ $Date: 1999/04/17 16:39:57 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -198,8 +198,8 @@ Tilinumeron tarkiste lasketaan tilinumeron konekielisen muodon 13
 ensimmäisestä merkistä vasemmalta lukien.  Kukin numeromerkki
 kerrotaan painoarvolla 2 tai 1 siten, että oikeanpuolimmaisin
 kerrotaan painolla 2 ja vierekkäiset merkit kerrotaan eri painolla.
-Näiden tulojen summa vähennetään pienimmästä kyseistä summaa
-suuremmasta, kymmenellä jaollisesta luvusta.  Tämä erotus on
+Näiden tulojen numeromerkkien summa vähennetään pienimmästä kyseistä
+summaa suuremmasta, kymmenellä jaollisesta luvusta.  Tämä erotus on
 tilinumeron tarkiste, joka merkitään tilinumeron viimeiseksi eli
 14.&nbsp;merkiksi.
 
@@ -469,6 +469,12 @@ Seuraavassa on lueteltu tähän FAQiin äskettäin tehdyt muutokset.
 <p>
 <example>
 $Log: sao-faq.sgml,v $
+Revision 1.23  1999/04/17 16:39:57  ajk
+Korjattu tilinumeron tarkisteen laskutapa.  Kiitokset Jari Lehtoselle
+bugiraportista.
+
+Poistettu kiitoskohdasta kaikkien osoitteet.
+
 Revision 1.22  1999/04/17 16:25:53  ajk
 sfnet.viestinta.www:llä on FAQ (VUKK).
 
@@ -495,26 +501,26 @@ palautteellaan, kokemuksellaan, tiedoillaan ja ehdotuksillaan.  Suuri
 kiitos heille kaikille.
 
 <list>
-<item>Juha Autero, <email/jautero@cc.hut.fi/
-<item>Jonne Itkonen, <email/ji@math.jyu.fi/
-<item>Jukka Korpela, <email/Jukka.Korpela@hut.fi/
-<item>Jukka Lahtinen, <email/walker@clinet.fi/
-<item>Tero Lahtinen, <email/l126033@cs.tut.fi/
-<item>Sami J. Laine, <email/no.spam.lane@iki.fi/
-<item>Vesa Lappalainen, <email/vesal@math.jyu.fi/
-<item>Veli-Pekka Lehtosaari, <email/vplehto@technopark.fi/
-<item>Tor Lillqvist, <email/tml@iki.fi/
-<item>Riku Meskanen, <email/mesrik@cc.jyu.fi/
-<item>Kimmo Pyykkö, <email/kimmo@cc.hut.fi/
-<item>Juha-Heikki Ruismäki, <email/jr87641@cs.tut.fi/
-<item>Rauli Ruohonen, <email/raulir@iki.fi/
-<item>Kimmo Surakka, <email/kusti@cs.tut.fi/
-<item>Tapani Tarvainen, <email/tt@math.jyu.fi/
-<item>Mikko Vierula, <email/Mikko.Vierula@iki.fi/
+<item>Juha Autero
+<item>Jonne Itkonen
+<item>Jukka Korpela
+<item>Jukka Lahtinen
+<item>Tero Lahtinen
+<item>Sami J. Laine
+<item>Vesa Lappalainen
+<item>Jari Lehtonen
+<item>Veli-Pekka Lehtosaari
+<item>Tor Lillqvist
+<item>Riku Meskanen
+<item>Kimmo Pyykkö
+<item>Juha-Heikki Ruismäki
+<item>Rauli Ruohonen
+<item>Kimmo Surakka
+<item>Tapani Tarvainen
+<item>Mikko Vierula
 <item>Teppo Vuori
-<item>Lars Wirzenius, <email/liw@iki.fi/
+<item>Lars Wirzenius
 </list>
-
 
 </book>
 
