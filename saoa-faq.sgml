@@ -2,10 +2,10 @@
 <book>
 
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
+<author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori M‰ntysalo <email>jm58660@uta.fi
-<author>Juha Autero <email>jautero@iki.fi
-<version>$Revision: 1.39 $ $Date: 2002/01/01 22:54:31 $
+<version>$Revision: 1.40 $ $Date: 2002/01/03 01:45:44 $
 
 <copyright>
 Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori M‰ntysalo.
@@ -70,9 +70,10 @@ id="http://www.debian.org/Packages/unstable/text/debiandoc-sgml.html"
 name="Debiandoc-SGML-paketti">, joka toiminee ainakin kaikissa
 Unixeissa.
 <p>
-T‰t‰ kirjoitusta yll‰pit‰‰ Antti-Juhani Kaijanaho <email/gaia@iki.fi/.
-Kirjoituksen "min‰" on poikkeuksetta Antti-Juhani, mutta mukana on
-myˆs muidenkin kirjoittajien teksti‰.  Antti-Juhani ottaa vastaan t‰h‰n
+T‰t‰ kirjoitusta yll‰pit‰‰ Juha Autero <email/jautero@iki.fi/.
+Suurimman osan kirjoituksesta on kuitenkin tehnyt Antti-Juhani Kaijanaho,
+joten kirjoituksen "min‰" on poikkeuksetta Antti-Juhani, mutta mukana on
+myˆs muidenkin kirjoittajien teksti‰.  Juha ottaa vastaan t‰h‰n
 kirjoitelmaan liittyvi‰ kommentteja, korjauksia ja muita sellaisia.
 Kirjoitelmaan tehdyt muutokset lˆytyv‰t <url
 id="http://www.iki.fi/jautero/faq/ChangeLog" name="GNU ChangeLog"> sek‰
@@ -370,7 +371,7 @@ On ehk‰ liiankin hyvin opetettu ihmisi‰ sanomaan ``randomize'' tai
 ``srand(time(0))'' (tai mik‰ se nyt mill‰kin kielell‰ onkaan), jotta
 satunnaislukugeneraattori antaisi hyv‰n tuloksen.  Nimitt‰in on helppo
 ymm‰rt‰‰ t‰m‰ v‰‰rin, loitsu lausutaan joka kerta, kun halutaan
-satunnaisluku.  <url id="ftp://ftp.jyu.fi/private/antkaij/faq/srand-virhe.c"
+satunnaisluku.  <url id="http://www.iki.fi/jautero/faq/srand-virhe.c"
 name="Esimerkki virheest‰"> tuottaa ajettaessa <url
 id="http://www.iki.fi/jautero/faq/srand-virhe-esim" name="mainitun
 tuloksen">.
@@ -530,7 +531,7 @@ Ratkaisun avaimet ovat taulukot, listat, assosiatiiviset taulukot
 yms.. Eri ohjelmointikieliss‰ ja kirjastototeutuksissa n‰ill‰ on omat 
 nimens‰, esim. perliss‰ assosiatiivinen taulukon nimi on hash ja C++:n 
 STL:ss‰ map. N‰m‰ ovat tietorakenteita joiden avulla useiden (yleens‰) 
-samantyyppiset alkoiden k‰sittely yleens‰ tehd‰‰n. Yksinkertaisuuden 
+samantyyppisten alkoiden k‰sittely yleens‰ tehd‰‰n. Yksinkertaisuuden 
 vuoksi k‰sittelen t‰ss‰ vain yksinkertaisia taulukoita ja listoja.
 <p>
 Taulukot ja listat yleens‰ tekev‰t saman kuin edell‰ esitetty (tosin 
@@ -562,7 +563,6 @@ alkoiden m‰‰r‰ muuttuu. T‰m‰ s‰‰st‰‰ paljon aikaa ohjelmaa
 muutettaessa, on havainnollisempaa kuin useita l‰hes samanlaisia 
 rivej‰ per‰k‰kin ja toimiikin yleens‰ nopeammin.
 
-
 <chapt>Kommentteja halutaan, kiitoksia annetaan
 <p>
 Haluan kommentteja, risuja, kritiikki‰ sek‰ ehdotuksia.  Avuliaat
@@ -593,7 +593,7 @@ ollut hieman hajamielinen.
 
 <p>
 FAQ:n yll‰pit‰j‰ tarvitsee avustajia.  Jos kiinnostaa, ota yhteytt‰
-meilill‰ (<email/gaia@iki.fi/).
+meilill‰ (<email/jautero@iki.fi/).
 
 </book>
 <!-- Keep this comment at the end of the file

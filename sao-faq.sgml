@@ -2,10 +2,10 @@
 <book>
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiin
-<author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Juha Autero <email>jautero@iki.fi
+<author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 
-<version>$Revision: 1.51 $ $Date: 2002/01/01 22:54:30 $
+<version>$Revision: 1.52 $ $Date: 2002/01/03 01:45:44 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -86,7 +86,6 @@ name="HTML">-muodossa.
 <p>
 Tämä FAQ pyritään postaamaan joka kuukauden 17. päivänä uutisryhmiin
 <tt/sfnet.atk.ohjelmointi/ ja <tt/sfnet.atk.ohjelmointi.moderoitu/.
-
 
 <sect>Missä ja mitä voin kysyä?
 <p>
@@ -250,7 +249,7 @@ tarkistemerkki on 0, jakojäännöksen ollessa yksi se on 1 jne. Jos siis
 jakojäännös on 30, on tarkistemerkkinä kirjain Y.
 <p>
 Olen kirjoittanut <url name="C-kielisen ohjelman"
-id="ftp://ftp.jyu.fi/private/antkaij/faq/hetu.c">, joka tarkastaa
+id="http://www.iki.fi/jautero/faq/hetu.c">, joka tarkastaa
 henkilötunnuksen oikeellisuuden.
 
 <sect>Miten LY-tunnus muodostetaan?
@@ -594,12 +593,12 @@ luettavissa
 
 <chapt>Kommentteja halutaan
 <p>
-Tätä kirjoitelmaa ylläpitää Antti-Juhani Kaijanaho
-<email/gaia@iki.fi/.
+Tätä kirjoitelmaa ylläpitää Juha Autero.
+<email/jautero@iki.fi/.
 Korjauksia, lisäyksiä ja muuta sellaista otetaan vastaan.
 
 <p>FAQ:n ylläpitäjä tarvitsee avustajia! Jos olet kiinnostunut, ota yhteyttä 
-ylläpitäjään <email/gaia@iki.fi/.
+ylläpitäjään <email/jautero@iki.fi/.
 
 
 <chapt>Kiitokset
@@ -609,7 +608,6 @@ palautteellaan, kokemuksellaan, tiedoillaan ja ehdotuksillaan.  Suuri
 kiitos heille kaikille.
 
 <list>
-<item>Juha Autero
 <item>Jaakko Haakana
 <item>Jonne Itkonen
 <item>Jukka Korpela
