@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.29 $ $Date: 1999/08/14 20:23:47 $
+<version>$Revision: 1.30 $ $Date: 1999/08/22 10:23:33 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -240,17 +240,15 @@ henkilötunnuksen oikeellisuuden.
 
 <sect>Miten LY-tunnus muodostetaan?
 <p>
-Vastaus on pääosin Sami J. Laineen <email/no.spam.lane@iki.fi/
-käsialaa.  Tämä vastaus on ilmeisesti hieman epätarkka; voisiko joku
-tarkentaa?
+LY-tunnuksen muoto on määrätty asetuksessa liike- ja
+yhteisötunnuksesta (598/1991).  Asetuksen teksti on saatavissa myös
+verkosta <url id="http://finlex.edita.fi/" name="Editan Finlex-palvelun">
+kautta.  Seuraava kappale on melko suoraa lainausta asetustekstistä (4 §).
 <p>
-Liike- ja yhteisötunnuksen muodostavat järjestysnumero ja
-tarkistusnumero. Järjestysnumero on alussa ja se on enintään
-seitsämännumeroinen.
-<p>
-Tarkistusnumeron laskemiseksi kerrotaan oikealta vasemmalle lukien
-järjestysnumeron
-
+Liike- ja yhteisötunnuksen muodostavat järjestysnumero ja tarkistusnumero
+mainitussa järjestyksessä. Järjestysnumero on enintään
+seitsemännumeroinen.  Tarkistusnumeron laskemiseksi kerrotaan oikealta vasemmalle lukien
+järjestysnumeron 
 <list>
 <item>ensimmäinen numero luvulla 2,
 <item>toinen numero luvulla 4,
@@ -260,19 +258,15 @@ järjestysnumeron
 <item>kuudes numero luvulla 9,
 <item>seitsemäs numero luvlla 7
 </list>
-
-sekä lasketaan näin saadut tulos yhteen ja jaetaan summa
-luvulla&nbsp;11. Tarkistussnumero määräytyy jakolaskun jakojäännöksen
-perusteella seuraavasti: jos jakojäännös on nolla, on tarkistusnumero
-nolla. Jos jakojäännös on suurempi kuin yksi, on tarkistusnumero
-erotus, joka saadaan vähentämällä jakojäännös luvusta&nbsp;11. Jos
-jakojäännös on yksi, jätetään tarkistusnumeroa vastaava
-järjestysnumero käyttämättä.
+lasketaan näin saadut tulot yhteen ja jaetaan summa luvulla 11.
+Tarkistusnumero määräytyy jakolaskun jakojäännöksen perusteella
+seuraavasti: jos jakojäännös on nolla, on tarkistusnumero nolla. Jos
+jakojäännös on suurempi kuin yksi, on tarkistusnumero erotus, joka
+saadaan vähentämällä jakojäännös luvusta 11. Jos jakojäännös on yksi,
+jätetään tarkistusnumeroa vastaava järjestysnumero käyttämättä.
 <p>
-Erikoistapausta, jossa jakojäännös on yksi, selvittänee esimerkki.
-Kuvitteellisen Oy Yritys Ab:n LY-tunnus on <tt/1111111-3/. Koska
-jakojäännös on 1, järjestysnumerosta pudotetaan kolmas ykkönen pois;
-Oy Yritys Ab:n todellinen järjestysnumero on siis 111111.
+Selvennykseksi mainittakoon, että minkään oikeellisen ly-tunnuksen
+jakojäännös ei voi olla yksi.
 
 <chapt>Päiväykseen liittyviä algoritmeja
 
@@ -490,10 +484,12 @@ kiitos heille kaikille.
 <item>Sami J. Laine
 <item>Vesa Lappalainen
 <item>Jari Lehtonen
+<item>Ville Lehtonen
 <item>Veli-Pekka Lehtosaari
 <item>Tor Lillqvist
 <item>Riku Meskanen
 <item>Jori Mäntysalo
+<item>Markku Nevalainen
 <item>Kimmo Pyykkö
 <item>Juha-Heikki Ruismäki
 <item>Rauli Ruohonen
