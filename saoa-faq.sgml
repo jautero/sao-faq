@@ -4,7 +4,7 @@
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori M‰ntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.23 $ $Date: 1999/12/10 15:46:17 $
+<version>$Revision: 1.24 $ $Date: 1999/12/10 15:58:18 $
 
 <copyright>
 Copyright &copy; 1999 Antti-Juhani Kaijanaho ja Jori M‰ntysalo.  T‰t‰
@@ -369,19 +369,25 @@ kaivataan satunnaista kokonaislukua joltakin tietylt‰ v‰lilt‰.
 Jos kirjaston satunnaislukugeneraattori palauttaa liukuluvun f, jonka
 tiedet‰‰n olevan v‰lill‰ <tt>0 &lt;= f &lt; 1</tt>, on suhteellisen
 yksinkertainen tapa skaalata t‰m‰ halutulle v‰lille <tt> MIN &lt;= f'
-&lt; MAX</tt> kaavan <tt>f' := (MAX - MIN) f + MIN</tt> k‰ytt‰minen.
-T‰ss‰ toki pit‰‰ k‰ytetyn liukulukutyypin olla riitt‰v‰n tarkka.
+&lt; MAX</tt> kaavan <tt>f' := (MAX - MIN) * f + MIN</tt> k‰ytt‰minen.
+T‰ss‰ toki pit‰‰ k‰ytetyn liukulukutyypin olla riitt‰v‰n tarkka.  Jos
+haluat tuloksen olevan kokonaisluku v‰lilt‰ <tt/MIN...MAX/, k‰yt‰
+kaavaa <tt/tulos := int( (MAX - MIN + 1) * f) + MIN/, miss‰ funktio
+<tt/int/ tekee liukuluvusta kokonaisluvun pyˆrist‰m‰ll‰.
 <p>
-Mik‰li satunnaislukugeneraattori palauttaa kokonaisluvun, ongelma on
-hankalampi: mik‰ tahansa skaalaustapa saattaa tehd‰ huonoa
-satunnaislukujen satunnaisuudelle.  K‰ytetyin tapa, jakoj‰‰nnˆksen
-ottaminen, suosii satunnaisluvun alimpia bittej‰ ja (mik‰li
-generaattori on huono, kuten valitettavan usein on) saattaa jopa
-tuhota saatavien lukujen satunnaisuuden t‰ysin.  Hieman parempi tapa
-on k‰ytt‰‰ "Numerical Recipes in C" -kirjan (Press, Flannery,
-Teukolsky ja Vetterling; Cambridge University Press, 1992) ohjetta ja
-k‰yd‰ liukulukujen kautta.  T‰m‰ metodi toimii C:ll‰ kirjoitettuna
-seuraavasti:
+Mik‰li satunnaislukugeneraattori palauttaa kokonaisluvun v‰lilt‰
+<tt/0...RAND_MAX/ ja haluat tulokseksi liukuluvun v‰lilt‰ <tt/MIN
+&lt;= tulos &lt; MAX/, voit k‰ytt‰‰ kaavaa <tt>tulos := double(MAX -
+MIN) / (RAND_MAX + 1) * f + MIN</tt>.  Jos haluat tuloksen olevan
+kokonaisluku v‰lilt‰ <tt/MIN...MAX/, ongelma on hankalampi: mik‰
+tahansa skaalaustapa saattaa tehd‰ huonoa satunnaislukujen
+satunnaisuudelle.  K‰ytetyin tapa, jakoj‰‰nnˆksen ottaminen, suosii
+satunnaisluvun alimpia bittej‰ ja (mik‰li generaattori on huono, kuten
+valitettavan usein on) saattaa jopa tuhota saatavien lukujen
+satunnaisuuden t‰ysin.  Hieman parempi tapa on k‰ytt‰‰ "Numerical
+Recipes in C" -kirjan (Press, Flannery, Teukolsky ja Vetterling;
+Cambridge University Press, 1992) ohjetta ja k‰yd‰ liukulukujen
+kautta.  T‰m‰ metodi toimii C:ll‰ kirjoitettuna seuraavasti:
 <example>
    MIN + (int)((MAX - MIN + 1.0) * rand() / (RAND_MAX + 1.0))
 </example>
@@ -410,7 +416,7 @@ pit‰‰ olla <em/todella/ tarkkana: on helppoa keksi‰ surkea
 satunnaislukugeneraattori ja vaikeata keksi‰ hyv‰ sellainen.
 Satunnaiseen (!) k‰yttˆˆn sopivan C-kielisen generaattorin on
 kirjoittanut Antti Valmari, ja se on saatavissa <url
-id="http://www.cs.tut.fi/~ava/81120extra/random.cc" name="verkosta">.
+id="http://www.cs.tut.fi/~ava/algoritmit/random.cc" name="verkosta">.
 
 <sect>Lottorivin arvonta
 <p>
