@@ -5,7 +5,7 @@
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori M‰ntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.45 $ $Date: 2002/12/31 00:02:29 $
+<version>$Revision: 1.46 $ $Date: 2003/03/16 00:26:18 $
 
 <copyright>
 Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori M‰ntysalo.
@@ -574,9 +574,98 @@ riippuu suuruusluokasta.
 Jori M‰ntysalo on tehnyt sivun, jolla kerrotaan tarkemmin 
 <url id="http://www.uta.fi/~jm58660/jutut/ohjelmointi/liukuluku/mika_on.html" 
 name="mik‰ on liukuluku">. H‰non myˆs tehnyt sivun "<url 
-id="http://www.uta.fi/~jm58660/jutut/ohjelmointi/liukuluku/laskee_vaarin.html">
+id="http://www.uta.fi/~jm58660/jutut/ohjelmointi/liukuluku/laskee_vaarin.html"
 name="Tietokone laskee v‰‰rin">", jossa esitet‰‰n muutama esimerkki asiasta.
 <p>
+<sect>Ongelmia C tai C++ -kielen k‰‰nt‰misen kanssa
+<p>
+	  Seuraavassa kuvataan, miten C-k‰‰nt‰j‰ tuottaa l‰hdekoodista
+	  ohjelmatiedoston. Vaikka nykyiaikaiset kehitysymp‰ristˆt
+	  usein piilottavat k‰‰nnˆksen v‰livaiheet, toimintaperiaate
+	  on useimmissa ymp‰ristˆiss‰ sama. T‰m‰n toiminnan tunteminen
+	  saattaa usein auttaa ongelmien selvitt‰misess‰.
+<p>
+	  Myˆs C++-ohjelmat k‰‰nnet‰‰n samalla tavalla. 
+
+<sect1>Miten C-k‰‰nt‰j‰ k‰‰nt‰‰ ohjelman?
+<p>
+	    C-l‰hdekoodin k‰‰nt‰minen koostuu itseasiassa kolmesta 
+	    vaiheesta:
+	    <enumlist>
+	      <item>
+		<p><em>Esik‰‰nt‰j‰</em> k‰sittelee l‰hdekooditiedoston
+		  ennen sen k‰‰nt‰mist‰. Se sis‰llytt‰‰ l‰hdekoodiin 
+		  <tt>#include</tt>-direktiivill‰ m‰‰ritellyt
+		  tiedostot, korvaa <tt>#define</tt> -makrot niiden
+		  arvoilla ja k‰sittelee ehdolliset <tt>#ifdef</tt>
+		  -osiot. Se myˆs usein poistaa kommentit.		  
+		</p>
+	      </item>
+	      <item>
+		<p>
+		  <em>K‰‰nt‰j‰</em> lukee <em>esik‰‰nt‰j‰n</em>
+		  k‰sittelem‰n l‰hdekooditiedoston ja k‰‰nt‰‰ sen. Se luo joko
+		  luo suoraan bin‰‰rikoodisen <em>objektitiedoston</em>
+		  tai <em>symbolisen konekoodin</em>, josta tehd‰‰n
+		  <em>objektitiedosto</em> <em>assemblerin</em>
+		  avulla. Jokaisesta l‰hdekooditiedostosta tehd‰‰n oma
+		  <em>objektitiedosto</em>.
+		</p>
+	      </item>
+	      <item>
+		<p><em>Linkkeri</em> kokoaa <em>k‰‰nt‰j‰n</em>
+		  luomista <em>objektitiedostoista</em> ja
+		  <em>kirjastotiedostoista</em> ajokelpoisen ohjelman.
+		</p>
+	      </item>
+	    </enumlist>
+<p>
+	    Muutamaan asiaan kannattaa kiinnitt‰‰ huomiota. 
+	    <em>Esik‰‰nt‰j‰</em> ei ymm‰rr‰ C:n syntaksia. Sille
+	    ohjelmakoodi on pelkk‰‰ teksti‰. Rivi <tt>#include
+	    "jotain.h"</tt> vastaa t‰ysin sit‰, ett‰ sijoittaisit tuon
+	    rivin tilalle tiedoston "jotain.h" sis‰llˆn ja
+	    <tt>#define</tt> -m‰‰rittelyt vain korvaavat merkkijonoja
+	    toisilla. 
+<P>
+	    <em>K‰‰nt‰j‰</em> k‰sittelee kerrallaan vain yht‰
+	    tiedostoa. Vasta linkkeri kokoaa eri ohjelmatiedostoissa
+	    olevan koodin yhdeksi ohjelmaksi. <em>K‰‰nt‰j‰</em> ei
+	    myˆsk‰‰n k‰sittele <tt>#include</tt> -tiedostoista
+	    sis‰llytetty‰ koodia mitenk‰‰n erikoisella tavalla.
+<P>
+	    Linkkeri k‰sittelee konekoodia sis‰lt‰vi‰
+	    <tt>objektitiedostoja</tt>. Se ei tied‰ mill‰
+	    ohjelmointikielell‰ kyseinen ohjelmakoodi on kirjoitettu. 
+
+<sect1>Miksi k‰‰nt‰j‰ valittaa "unresolved symbol", vaikka
+	    ohjelmassani on kaikki vaaditut <tt>#includet</tt>?
+<P>
+	    Kuten edellisest‰ k‰vi selville <tt>#include</tt> ei ole
+	    ohje <em>C-k‰‰nt‰j‰lle</em> liitt‰‰ ohjelmaan tietty
+	    kirjasto, vaan ohje <em>esik‰‰nt‰j‰lle</em> sis‰llytt‰‰
+	    kyseisen tiedoston sis‰ltˆ kyseiseen kohtaan
+	    ohjelmakoodia. T‰m‰ tiedosto
+	    (ns. <em>header</em>-tiedosto) yleens‰ sis‰lt‰‰ kirjastoa
+	    k‰ytt‰vien ohjelmien <em>k‰‰nt‰miseen</em> tarvittavat
+	    m‰‰rittelyt. Sinun on viel‰ kerrottava
+	    <tt>linkkerille</tt> ett‰ haluat kyseisen kirjaston
+	    mukaan.
+
+<sect1>Miksi GCC ei osaa sis‰llytt‰‰ C++-kirjastoja, kun k‰‰nn‰n
+	    C++-ohjelmia?
+<P>
+	    Itseasiassa GCC:ss‰ on kaksi eri ominaisuutta
+	    helpottamassa ohjelmointia. Ensimm‰inen on se, ett‰ se
+	    tunnistaa l‰hdekooditiedoston p‰‰tteest‰ sen tyypin ja
+	    k‰ytt‰‰ oikeaa <em>k‰‰nt‰j‰‰</em>. T‰m‰ ei kuitenkaan
+	    vaikuta ohjelmien <em>linkitt‰miseen</em> mitenk‰‰n.
+<P>
+	    Toinen ominaisuus on se, ett‰ kun <em>linkkeri‰</em> 
+	    kutsutaan <tt>g++</tt>-komennon avulla, GCC
+	    automaattisesti linkitt‰‰ mukaan C++-ohjelman tarvitsemat
+	    ajonaikaiset kirjastot. K‰‰nn‰ siis C++-ohjelmat k‰ytt‰en
+	    <tt>g++</tt>-komentoa.
 
 <chapt>Kommentteja halutaan, kiitoksia annetaan
 <p>
