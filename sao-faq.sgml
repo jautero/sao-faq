@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.42 $ $Date: 2000/03/02 17:03:54 $
+<version>$Revision: 1.43 $ $Date: 2000/03/16 21:59:01 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -277,6 +277,103 @@ jätetään tarkistusnumeroa vastaava järjestysnumero käyttämättä.
 <p>
 Selvennykseksi mainittakoon, että minkään oikeellisen ly-tunnuksen
 jakojäännös ei voi olla yksi.
+
+<chapt>Euroopan yhteisvaluutta euro
+
+<sect>Miten muutan markat (tai kruunut tai ...) euroiksi ja takaisin?
+<p>
+Euron ja siihen sidottujen kansallisten valuuttojen välillä tai näiden
+kansallisten valuuttojen kesken saa tehdä muutoksia vain tiettyjen
+sääntöjen mukaisesti.  Nämä säännöt on asetettu <url name="Neuvoston
+asetuksessa (EY) numero 1103/97"
+id="http://europa.eu.int/eur-lex/fi/lif/dat/1997/fi_397R1103.html">.
+Säännöt ovat seuraavat:
+<p>
+Euron ja kansallisten eurovaluuttojen välisissä muuntokursseissa
+(jotka on esitetty myöhemmin tässä kirjoitelmassa) on kuusi
+merkitsevää numeroa, ja ne ilmaisevat yhden euron arvon kunkin
+kansallisen valuutan mukaan.  Muuntokursseja ei saa pyöristää, eikä
+niitä saa lyhentää.  Ei ole myöskään sallittua käyttää kurssin
+pyöristettyä käänteislukua, tai muuntokursseista johdettuja kahden
+kansallisen valuutan välisiä kursseja.  Muunnoksen välituloksena
+käytettävä euromääräinen rahasumma saadaan pyöristää vähintään kolmen
+desimaalin tarkkudelle.
+<p>
+Muunnokset on siis tehtävä seuraavasti:
+<list>
+<item>Euro muutetaan kansalliseksi valuutaksi kertomalla euromääräinen
+rahasumma muuntokurssilla.  Tulos pyöristetään kansallisen valuutan
+tavan mukaisesti lähimpään yksikköön, alayksikköön tai jomman kumman
+kerrannaiseen tai murto-osaan.  Esimerkiksi markkamääräinen tulos
+voidaan tilanteesta riippuen pyöristää joko penneiksi tai kymmeniksi
+penneiksi.  Näin esimerkiksi 5 euroa on 5 * 5,94573 Suomen markkaa eli
+asianmukaisesti pyöristettynä 29 markkaa ja 70 penniä.
+
+<item>Kansallinen valuutta muutetaan euroiksi jakamalla rahasumma
+muuntokurssilla.  <strong/Ei ole luvallista kertoa muuntokurssin
+käänteisluvulla/, mikäli pyöristysvirheet ovat mahdollisia.  Saatu
+rahasumma pyöristetään ylös- tai alaspäin lähimpään senttiin.
+Esimerkiksi 20 Suomen markkaa on 20 / 5,94573 euroa eli
+asianmukaisesti pyöristettynä kolme euroa ja 36 senttiä.
+
+<item>Kansallinen euroalueen valuutta muunnetaan toiseksi
+kansalliseksi euroalueen valuutaksi käymällä euron kautta.
+Euromääräinen välitulos saadaan pyöristää vähintään kolmen desimaalin
+tarkkuudelle.  Esimerkiksi 100 Suomen markkaa on 100 / 5,94573 =
+16,819 euroa ja siis 16,819 * 1,95583 Saksan markkaa eli
+asianmukaisesti pyöristettynä 32,90 Saksan markkaa.
+</list>
+
+Muita menetelmiä saadaan käyttää vain, jos ne antavat täsmälleen saman
+tuloksen kuin tässä mainitut.
+
+
+<sect>Kansallisten eurovaluuttojen ja euron väliset muuntokertoimet
+<p>
+Seuraavia muuntokertoimia tulee käyttää muunnettaessa kansalliset
+eurovaluutat euroiksi ja päinvastoin:
+<list>
+<item>
+1 EUR = 40.3399 BEF
+</item>
+<item>
+1 EUR = 1.95583 DEM
+</item>
+<item>
+1 EUR = 166.386 ESP
+</item>
+<item>
+1 EUR = 6.55957 FRF
+</item>
+<item>
+1 EUR = .787564 IEP
+</item>
+<item>
+1 EUR = 1936.27 ITL
+</item>
+<item>
+1 EUR = 40.3399 LUF
+</item>
+<item>
+1 EUR = 2.20371 NLG
+</item>
+<item>
+1 EUR = 13.7603 ATS
+</item>
+<item>
+1 EUR = 200.482 PTE
+</item>
+<item>
+1 EUR = 5.94573 FIM
+</item>
+</list>
+
+Lähde: Euroopan unionin sivu "Euro Conversion Rates"
+<url id="http://europe.eu.int/eurobirth/rates.txt" name="(txt)"> ja
+<url id="http://europe.eu.int/eurobirth/rates.html" name="(html)">.
+<p>
+Muuntokertoimet eivät riitä oikean muutoksen tekemiseksi.  Tarkat
+ohjeet on mainittu edellä.
 
 <chapt>Päiväykseen liittyviä algoritmeja
 
