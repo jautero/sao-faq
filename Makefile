@@ -11,7 +11,7 @@ SCP = scp
 sources = srand-virhe.c hetu.c
 
 genfiles = $(faqs:=.txt) $(faqs:=.tov) $(faqs:=-html) \
-	   changelog.html ChangeLog srand-virhe-esim
+	   changelog.html ChangeLog srand-virhe-esim srand-virhe
 
 all : $(genfiles)
 
