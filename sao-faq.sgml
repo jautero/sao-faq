@@ -1,0 +1,303 @@
+<!doctype linuxdoc system>
+
+<article>
+
+<title>sfnet.atk.ohjelmointi FAQ
+<author>Antti-Juhani Kaijanaho, <tt/gaia@iki.fi/
+<date>$Id: sao-faq.sgml,v 1.1 1997/07/11 19:57:17 gaia Exp $
+
+<abstract>
+Copyright &copy; 1997 Antti-Juhani Kaijanaho. Tätä dokumenttia saadaan
+levittää muuntamattomana ja lyhentämättömänä epäkaupallisin
+tarkoitusperin. Lisäksi on sallittua lainata sitä rajoittamattomasti
+ainoastaan Usenetin ja sähköpostilistojen kautta julkaistavissa
+artikkeleissa. Erityisesti sallitaan dokumentin julkaiseminen
+uudestaan julkisissa, käyttäjälle maksuttomissa Internetin palveluissa
+(mm. DejaNews ja useimpien yritysten seittisivut). Muu julkaiseminen
+ja levittäminen ilman etukäteen annettua kirjallista lupaa kielletään.
+<bf/FAQin kokoaja ei vastaa vastausten oikeellisuudesta./
+</abstract>
+
+<toc>
+
+<sect>Yleistä
+<p>
+<sect1>FAQin postaamisesta &ndash; kysymys
+<p>
+Minulta on pyydetty, että kuukausittain postattavan kokonaisen FAQin
+lisäksi postattaisiin lisäksi viikottainen pointteri FAQin
+seittiversioon. Onko tälle ehdotukselle kannatusta? Nousisko tällainen
+toiminta jopa sfnetin virallisen spämmäysrajan yli? Itse olen hieman
+skeptinen, sillä s.a.o:ssa ei ole niin paljoa liikennettä, että tälle
+olisi minusta tarvetta. Lisäksi Expires-headerilla voin yrittää
+vaikuttaa siihen, että FAQ säilyisi kaikkialla koko kuukauden.
+
+<sect1>Olemisen tarkoitus
+<p>
+Tämän dokumentin on tarkoitus vastata sellaisiin keskusteluryhmässä
+<htmlurl url="news:sfnet.atk.ohjelmointi" name=sfnet.atk.ohjelmointi>
+usein esitettyihin kysymyksiin, joihin ei ole järkevää vastata &ndash;
+tai joihin ei ole vielä vastattu &ndash; kansainvälisissä
+FAQ:eissa. Tämä tarkoittaa sitä, että tämä FAQ ei käsittele
+esimerkiksi ohjelmointikieliä eikä numeerisia menetelmiä.
+
+Usein tämän FAQin käsittelemien algoritmien käyttöönoton taustalla on
+hallinnollinen tai poliittinen päätös.
+
+<sect1>Mistä tämän FAQin saa?
+<p>
+Yleensä tähän kysymykseen vastataan: "Luet sitä nyt juuri, joten
+<em/säilytä/ hallussasi oleva kappale."
+
+Uusin versio on aina löydettävissä FAQin <url
+url="http://www.iki.fi/faq/sao-faq.html" name="seittisivulta">.
+
+Tämä dokumentti on olemassa myös <url
+url="http://www.iki.fi/faq/sao-faq.txt" name="tekstiversiona">.
+
+Myös FAQin <url url="http://www.iki.fi/faq/sao-faq.sgml" name="SGML-sorsat">
+ovat saatavilla.
+
+Kaikissa ylläolevissa osoitteissa on aina FAQin uusin julkaistu versio.
+
+Kopio tekstiversiosta pyritään postaamaan joka kuukausi uutisryhmään
+<htmlurl url="news:sfnet.atk.ohjelmointi"
+name="sfnet.atk.ohjelmointi">.
+
+<sect>Numerosarjoja ja niiden tarkistemerkkejä
+<p>
+<sect1>Miten pankkiviitenumero muodostetaan?
+<p>
+Pankkiviitenumero on vähintään kolme ja korkeintaan 20 merkkiä
+pitkä numerosarja. Sen tulisi kuitenkin olla mahdollisimman lyhyt,
+jotta näppäilyvirheet vähenisivät. Laskuttaja voi valita viitenumeron
+vapaasti viimeistä numeroa lukuunottamatta. Viitenumero suositellaan
+tulostettavaksi viiden numeron ryhmissä oikealta alkaen. Alkunollia ei
+tulosteta.
+
+Viitenumeron viimeinen numero on tarkiste. Se muodostetaan
+seuraavasti:
+
+<itemize>
+<item>Tarkistettavan viitteen numerot tarkistetta lukuunottamatta
+kerrotaan oikealta vasemmalle painoarvoilla 7, 3, 1, 7, 3, 1, ...
+<item>Tulot lasketaan yhteen ja summa vähennetään seuraavasta täydestä
+kymmenestä.
+<item>Erotus on viitenumeron tarkiste.
+</itemize>
+
+Esimerkiksi 123 45672 on oikein muodostettu viitenumero.
+
+Lähde: <em/Tilisiirto-opas 11.1.1993/ (Suomen pankkiyhdistys).
+
+Kimmo Surakka (<tt/kusti@cs.tut.fi/) on kirjoittanut tästä aiheesta
+<url url="http://www.cs.tut.fi/~kusti/viite.html" name="seittisivun">,
+josta löytyy mm. C-kielinen esimerkkifunktio.
+
+<sect1>Miten henkilötunnus muodostetaan?
+<p>
+Suomalainen henkilötunnus (aiemmin sosiaaliturvatunnus) koostuu
+syntymäajasta, vuosisatamerkistä, tunnusluvusta ja
+tarkistemerkistä. Niinpä se on muotoa PPKKVVCNNNT.  Kaikki nollat
+tulostetaan.
+
+Vuosisatamerkki (C) on "-" 1900-luvulla ja "+" 1800-luvulla
+syntyneillä. 2000-luvulla syntyneiden henkilötunnuksissa käytettäneen
+isoa A-kirjainta. <em/Huomaa, että henkilötunnuksessa ei ole
+automaattisesti viivaa välissä/; kaikki ohjelmat, jotka olettavat
+henkilötunnuksen olevan muotoa 111111-1111, hajoavat 2000-luvulla.
+
+Tunnusluku (NNN) on kolminumeroinen luku, joka on miehillä pariton ja
+naisilla parillinen. Se on yleensä pieni luku.
+
+Tarkistemerkki (T) lasketaan siten, että syntymäaika ja tunnusluku
+yhdistetään yhdeksi 9-merkkiseksi luvuksi, joka on siis muotoa
+PPKKVVNNN.  Tämä luku jaetaan 31:llä. Jakojäännöksen perusteella
+valitaan tarkistemerkiksi yksi merkeistä
+"0123456789ABCDEFHJKLMNPRSTUVWXY" siten, että jaon mennessä tasan
+tarkistemerkki on 0, jakojäännöksen ollessa yksi se on 1 jne. Jos siis
+jakojäännös on 30, on tarkistemerkkinä kirjain Y.
+
+<sect1>Miten LY-tunnus muodostetaan?
+<p>
+Vastaus on pääosin Sami J. Laineen <tt/&lt;no.spam.lane@iki.fi&gt;/
+käsialaa.
+
+Liike- ja yhteisötunnuksen muodostavat järjestysnumero ja
+tarkistusnumero. Järjestysnumero on alussa ja se on enintään
+seitsämännumeroinen.
+
+Tarkistusnumeron laskemiseksi kerrotaan oikealta vasemmalle lukien
+järjestysnumeron
+
+<itemize>
+<item>ensimmäinen numero luvulla 2,
+<item>toinen numero luvulla 4,
+<item>kolmas numero luvulla 8,
+<item>neljäs numero luvulla 5,
+<item>viides numero luvulla 10,
+<item>kuudes numero luvulla 9,
+<item>seitsemäs numero luvlla 7
+</itemize>
+
+sekä lasketaan näin saadut tulos yhteen ja jaetaan summa luvulla
+11. Tarkistussnumero määräytyy jakolaskun jakojäännöksen perusteella
+seuraavasti: jos jakojäännös on nolla, on tarkistusnumero nolla. Jos
+jakojäännös on suurempi kuin yksi, on tarkistusnumero erotus, joka
+saadaan vähentämällä jakojäännös luvusta 11. Jos jakojäännös on yksi,
+jätetään tarkistusnumeroa vastaava järjestysnumero käyttämättä.
+
+Erikoistapausta, jossa jakojäännös on yksi, selvittänee esimerkki.
+Kuvitteellisen Oy Yritys Ab:n LY-tunnus on 1111111-3. Koska
+jakojäännös on 1, järjestysnumerosta pudotetaan kolmas ykkönen pois;
+Oy Yritys Ab:n todellinen järjestysnumero on siis 111111.
+
+<sect>Päiväykseen liittyviä algoritmeja
+<p>
+<sect1>Yleistä ja pari kalenterikirjastoa<label id="date-intro">
+<p>
+Vaikka monet päiväykseen liittyistä algoritmeista ovatkin
+kansainvälisiä, käsittelen osaa niistä tässä. Koska Suomi ja
+Yhdysvallat laskevat kalenterinsa hieman eri tavoin, emme voi odottaa,
+että pääasiassa yhdysvaltalaiset faqinkokoajat osaisivat vastata
+suomalaisten kannalta oikein.
+
+Itse asiassa huomasin etsiessäni tähän dokumenttiin vastauksia, että
+osaa päiväysalgoritmeista ei ole oikeastaan ollenkaan käsitelty
+kansainvälisissä FAQ:eissa. Niissäkin, joissa näitä harvoin
+käsiteltyjä kysymyksiä on käsitelty, on kokoaja sanonut, että hänellä
+ei ole hajuakaan, onko hänen antamansa vastaus oikea.
+
+Riku Meskanen (<tt/mesrik@cc.jyu.fi/) on kirjoittanut C-kielisen
+kalenterikirjaston. Kirjasto on GPL:n alainen ja on saatavissa <url
+url="ftp://ftp.jyu.fi/private/mesrik/" name="FTP:llä"> sekä
+<tt/tar.gz/- että <tt/zip/-tiedostona.
+
+Steffen Beyer (<tt/sb@sdm.de/) on kirjoittanut Perl-modulin
+<tt/Date::DateCalc/, joka sisältää yksinkertaisia päiväykseen liittyviä
+ruutiineja. Minulla ei ole kokemuksia sen toimivuudesta. Modulin voi
+hakea CPAN-mirroreista esimerkiksi hakemistosta
+<tt>modules/by-module/Date</tt>.
+
+<sect1>Miten määritän annetun päivän viikkonumeron?
+<p>
+Tähän kysymykseen annetaan huomattavasti enemmän vääriä kuin oikeita
+vastauksia. Seuraava on yritetty varmistaa oikeaksi, mutta takuita en
+anna.
+
+Toisin kuin esimerkiksi Yhdysvallat, Suomi numeroi viikkonsa
+kansaivälisen ISO 8061 -standardin mukaisesti. Standardi otettiin
+käyttöön Suomessa vuonna 1973. Sen mukaan:
+
+<itemize>
+<item>viikon ensimmäinen päivä on maanantai; ja
+<item>vuoden ensimmäinen viikko (viikko 1) on se viikko, johon kuuluu
+vuoden ensimmäinen torstai.
+</itemize>
+
+Tästä seuraa muutama viikkonumeron laskemista vaikeuttava asia. Kaksi
+tärkeintä lienevät se, että tammikuun 1. päivä ei välttämättä kuulu
+vuoden ensimmäiseen viikkoon, ja se, että vuodessa on &ndash; vuodesta
+riippuen &ndash; joko 52 tai 53 viikkoa.
+
+<url url="http://www.pip.dknet.dk/~pip10160/calendar.html"
+name="Calendar FAQ:in"> (osa 3, kysymys 5.6) mukaan 53 viikkoa on
+kaikissa vuosissa, jotka alkavat torstaina, sekä lisäksi
+karkausvuosissa, jotka alkavat keskiviikkona. Muissa on 52 viikkoa.
+
+Niinpä kohtuullisen yksinkertainen algoritmi on seuraavanlainen
+(mukailtu <ref id="date-intro" name="edellämainitussa"> Riku Meskasen
+<tt/&lt;mesrik@cc.jyu.fi&gt;/ kalenterikirjastossa olevan toteutuksen
+pohjalta):
+
+<enum>
+
+<item>Laske, montako päivää on kulunut vuoden alusta (jos annettu
+päivä on tammikuun ensimmäinen, vastaus on 0). Jaa vastaus seitsemällä
+ja ota osamäärästä huomioon vain kokonaiset; tämä on ensimmäinen
+arvaus viikkonumerkoksi.
+
+<item>Jos vuosi on alkanut maanantaina, tiistaina, keskiviikkona tai
+torstaina, lisää arvaukseen yksi.
+
+<item>Jos arvaus on näin positiivinen, se kelpaa viikkonumeroksi;
+mutta jos arvaus on nolla, niin:
+
+  <itemize>
+
+  <item>Jos edellinen vuosi on alkanut torstaina, tai se on ollut
+  karkausvuosi ja alkanut keskiviikkona, viikkonumero on
+  todellisuudessa 53.
+
+  <item>Muussa tapauksessa todellinen viikkonumero on 52.
+
+  </itemize>
+
+</enum>
+
+Seuraavassa C-ohjelmanpätkässä oleva weekno()-funktio laskee annetulle
+päivälle (d = päivä 1 - 31, m = kuukausi 1 .. 12 ja y = vuosi)
+viikkonumeron. Se on Tapani Tarvaisen (<tt/tt@math.jyu.fi/)
+käsialaa. 
+
+<tscreen><code>
+int julian(int d, int m, int y)
+{
+  int n1, n2;
+  n1 = 12*y+m-3;
+  n2 = n1/12;
+  return (734*n1+15)/24-2*n2+n2/4-n2/100+n2/400+d+1721119;
+}
+
+int weekno(int d, int m, int y)
+{
+  int n1, n2, w;
+  n1 = julian(d, m, y);
+  n2 = 7*(n1/7)+10;
+  y = y+1;
+  while ((w = (n2-julian(1,1,y))/7) <= 0) {
+    y = y-1;
+  }
+  return w;
+}
+</code></tscreen>
+
+
+Monet ohjelmointivälineet ja käyttöjärjestelmät tarjoavat välineitä
+viikkonumeron laskemiseen. Ohjelmoijan on oltava kuitenkin tarkkana
+siitä, että hän käyttää työkaluja, jotka laskevat oikean maan
+viikkonumeroita &ndash; oikein. :-)
+
+<sect>Muita?
+<p>
+Jos sinä tunnet muita erityisesti Suomessa käytettyjä algoritmeja,
+jotka ovat yleisesti kiinnostavia ja tämän FAQin aihepiiriin
+soveltuvia, meilaa ne minulle osoitteeseen <htmlurl
+url="mailto:gaia@iki.fi" name="gaia@iki.fi">. Todettakoon, että tuohon
+osoitteeseen ei kannata lähettää etukäteen sopimatta 50 000 tavun
+kokoisia tai suurempia viestejä &ndash; ne tulevat bumerangeina
+takaisin.
+
+<sect>Kiitokset
+<p>
+Seuraavat ihmiset ovat auttaneet minua tämän version
+kokoamisessa palautteellaan, kokemuksellaan, tiedoillaan ja
+ehdotuksillaan.  Suuri kiitos heille kaikille.
+
+<itemize>
+<item>Jonne Itkonen, <tt/ji@math.jyu.fi/
+<item>Jukka Lahtinen, <tt/walker@clinet.fi/
+<item>Tero Lahtinen, <tt/l126033@cs.tut.fi/
+<item>Sami J. Laine, <tt/no.spam.lane@iki.fi/
+<item>Veli-Pekka Lehtosaari, <tt/vplehto@technopark.fi/
+<item>Tor Lillqvist, <tt/tml@iki.fi/
+<item>Riku Meskanen <tt/mesrik@cc.jyu.fi/
+<item>Kimmo Pyykkö, <tt/kimmo@cc.hut.fi/
+<item>Juha-Heikki Ruismäki, <tt/jr87641@cs.tut.fi/
+<item>Kimmo Surakka, <tt/kusti@cs.tut.fi/
+<item>Tapani Tarvainen, <tt/tt@math.jyu.fi/
+</itemize>
+
+
+</article>
+
