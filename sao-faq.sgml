@@ -4,10 +4,18 @@
 
 <title>Erityisesti Suomessa k‰ytettyj‰ algoritmeja (FAQ)
 <author>Antti-Juhani Kaijanaho, <tt/gaia@iki.fi/
-<date>$Id: sao-faq.sgml,v 1.2 1997/07/17 13:08:57 gaia Exp $
+<date>$Id: sao-faq.sgml,v 1.3 1997/08/17 13:09:31 gaia Exp $
 
 <abstract>
 <bf/FAQin kokoaja ei vastaa vastausten oikeellisuudesta./
+</abstract>
+
+<toc>
+
+<sect>Yleist‰
+<p>
+<sect1>FAQin tekij‰noikeudet
+<p>
 Copyright &copy; 1997 Antti-Juhani Kaijanaho. T‰t‰ dokumenttia saadaan
 levitt‰‰ muuntamattomana ja lyhent‰m‰ttˆm‰n‰ ep‰kaupallisin
 tarkoitusperin. Lis‰ksi on sallittua lainata sit‰ rajoittamattomasti
@@ -16,21 +24,6 @@ artikkeleissa. Erityisesti sallitaan dokumentin julkaiseminen
 uudestaan julkisissa, k‰ytt‰j‰lle maksuttomissa Internetin palveluissa
 (mm. DejaNews ja useimpien yritysten seittisivut). Muu julkaiseminen
 ja levitt‰minen ilman etuk‰teen annettua kirjallista lupaa kiellet‰‰n.
-</abstract>
-
-<toc>
-
-<sect>Yleist‰
-<p>
-<sect1>FAQin postaamisesta &ndash; kysymys
-<p>
-Minulta on pyydetty, ett‰ kuukausittain postattavan kokonaisen FAQin
-lis‰ksi postattaisiin lis‰ksi viikottainen pointteri FAQin
-seittiversioon. Onko t‰lle ehdotukselle kannatusta? Nousisko t‰llainen
-toiminta jopa sfnetin virallisen sp‰mm‰ysrajan yli? Itse olen hieman
-skeptinen, sill‰ s.a.o:ssa ei ole niin paljoa liikennett‰, ett‰ t‰lle
-olisi minusta tarvetta. Lis‰ksi Expires-headerilla voin yritt‰‰
-vaikuttaa siihen, ett‰ FAQ s‰ilyisi kaikkialla koko kuukauden.
 
 <sect1>Olemisen tarkoitus
 <p>
