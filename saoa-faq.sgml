@@ -5,7 +5,7 @@
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori Mäntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.46 $ $Date: 2003/03/16 00:26:18 $
+<version>$Revision: 1.47 $ $Date: 2003/09/16 09:13:07 $
 
 <copyright>
 Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori Mäntysalo.
@@ -562,6 +562,11 @@ taulukoissa olevia tietoalkioita, eivät muutu jos taulukossa olevien
 alkoiden määrä muuttuu. Tämä säästää paljon aikaa ohjelmaa 
 muutettaessa, on havainnollisempaa kuin useita lähes samanlaisia 
 rivejä peräkäkin ja toimiikin yleensä nopeammin.
+<p>
+<sect id="tiedostot">Miten poistan tai lisään rivejä tiedoston
+keskelle?
+<p>
+Yksinkertaisin tapa on luoda väliaikaistiedosto, kirjoittaa siihen 
 
 <sect id="liukuluvut">Liukuluvuista
 <p>
@@ -577,20 +582,49 @@ name="mikä on liukuluku">. Hänon myös tehnyt sivun "<url
 id="http://www.uta.fi/~jm58660/jutut/ohjelmointi/liukuluku/laskee_vaarin.html"
 name="Tietokone laskee väärin">", jossa esitetään muutama esimerkki asiasta.
 <p>
+<sect id="tiedostot">Miten poistan rivejä tiedostosta?
+<p>
+Tiedostojen käsittely on periaatteessa käyttöjärjestelmäriippuvaista.
+Koska kaikki nykyiset yleiset käyttöjärjestelmät käsittelevät
+tiedostoja suunnilleen samalla tavalla, eräät perusasiat pätevät
+kaikkialla. 
+<P>
+Yleensä tiedostoa käsitellään yhtenäisenä jonona tavuja., johon ei voi
+lisätä keskelle mitään tai poistaa mitään keskeltä.
+Kirjoitusoperaatiot kirjoittavat tiedostossa olevan datan päälle.
+Tiedoston kokoa voi yleensä muuttaa kirjoittamalla tiedoston loppuun
+tai katkaisemalla tiedosto tietyn kokoiseksi.
+<P>
+Niinpä yksinkertaisin algoritmi rivien poistamiseksi on seuraava:
+<enumlist>
+<item>Avaa haluttu tiedosto lukua varten.</item>
+<item>Luo väliaikaistiedosto kirjoittamista varten.</item>
+<item>Lue tiedostosta rivi</item>
+<item>Jos se ei ole poistettava rivi, kirjoita se
+väliaikaistiedostoon.</item>
+<item>Toista kohtia 3. ja 4. kunnes alkuperäinen tiedosto on luettu 
+kokonaan.</item>
+<item>Sulje molemmat tiedostot.</item>
+<item>Poista alkuperäinen tiedosto ja nimeä väliaikaistiedosto
+alkuperäiseksi.
+</item>
+<P>
+
+
 <sect>Ongelmia C tai C++ -kielen kääntämisen kanssa
 <p>
-	  Seuraavassa kuvataan, miten C-kääntäjä tuottaa lähdekoodista
-	  ohjelmatiedoston. Vaikka nykyiaikaiset kehitysympäristöt
-	  usein piilottavat käännöksen välivaiheet, toimintaperiaate
-	  on useimmissa ympäristöissä sama. Tämän toiminnan tunteminen
-	  saattaa usein auttaa ongelmien selvittämisessä.
+Seuraavassa kuvataan, miten C-kääntäjä tuottaa lähdekoodista
+ohjelmatiedoston. Vaikka nykyiaikaiset kehitysympäristöt usein
+piilottavat käännöksen välivaiheet, toimintaperiaate on useimmissa
+ympäristöissä sama. Tämän toiminnan tunteminen saattaa usein auttaa
+ongelmien selvittämisessä.
 <p>
-	  Myös C++-ohjelmat käännetään samalla tavalla. 
+Myös C++-ohjelmat käännetään samalla tavalla.
 
 <sect1>Miten C-kääntäjä kääntää ohjelman?
 <p>
-	    C-lähdekoodin kääntäminen koostuu itseasiassa kolmesta 
-	    vaiheesta:
+C-lähdekoodin kääntäminen koostuu itseasiassa kolmesta 
+vaiheesta:
 	    <enumlist>
 	      <item>
 		<p><em>Esikääntäjä</em> käsittelee lähdekooditiedoston
