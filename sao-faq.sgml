@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.20 $ $Date: 1999/02/21 14:32:59 $
+<version>$Revision: 1.21 $ $Date: 1999/04/12 10:08:24 $
 
 <abstract>
 T‰m‰ artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -126,14 +126,13 @@ kuin viesti p‰‰see edes ryhm‰‰n.
 
 <chapt>Numerosarjoja ja niiden tarkistemerkkej‰
 <p>
-Numerosarjojen tarkisteista on olemassa t‰t‰ FAQia kattavampi esitys.
-Sen on kirjoittanut Teppo Vuori.  Kirjoitelma on tekij‰ns‰ luvalla
-julkaistu <url name="t‰m‰n FAQin oheistekstin‰ WWW:ss‰"
-id="http://www.iki.fi/gaia/faq/tarkmerk.html">.  Pankkeihin liittyvi‰
-tunnusnumeroita koskevat vastaukset perustuvat <url
-id="http://www.pankkiyhdistys.fi/" name="Suomen pankkiyhdistyksen">
-julkaisuun Tilisiirto-opas 1.12.1998 <url name="(saatavana verkosta
-PDF-muodossa)"
+Numerosarjojen tarkisteista on olemassa t‰t‰ FAQia kattavampi esitys
+<url name="Tarkistusmerkkien laskentamekanismeja"
+id="http://www.mbnet.fi/%7Ethales/tarkmerk.htm">.  Sen on kirjoittanut
+Teppo Vuori.  Pankkeihin liittyvi‰ tunnusnumeroita koskevat vastaukset
+perustuvat <url id="http://www.pankkiyhdistys.fi/" name="Suomen
+pankkiyhdistyksen"> julkaisuun Tilisiirto-opas 1.12.1998 <url
+name="(saatavana verkosta PDF-muodossa)"
 id="http://www.pankkiyhdistys.fi/tiedostot/pdf/tilisiirto98.pdf">.
 
 <sect>Miten pankkiviitenumero muodostetaan?
@@ -468,6 +467,9 @@ Seuraavassa on lueteltu t‰h‰n FAQiin ‰skett‰in tehdyt muutokset.
 <p>
 <example>
 $Log: sao-faq.sgml,v $
+Revision 1.21  1999/04/12 10:08:24  ajk
+Teppo Vuoren kirjoitus on muuttanut.
+
 Revision 1.20  1999/02/21 14:32:59  ajk
 Poistettiin huomautus Debiandoc-SGML:n suomen kielen hallinnasta.
 
