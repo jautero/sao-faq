@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.40 $ $Date: 2000/03/02 16:56:15 $
+<version>$Revision: 1.41 $ $Date: 2000/03/02 16:59:27 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -475,8 +475,10 @@ id="http://www.erlenstar.demon.co.uk/unix/faq_toc.html">
 
 <chapt>Kommentteja halutaan
 <p>
-Kommentteja, korjauksia, lisäyksiä ja muuta sellaista otetaan vastaan
-osoitteessa <email/gaia@iki.fi/.
+Tätä kirjoitelmaa ylläpitävät Antti-Juhani Kaijanaho
+<email/gaia@iki.fi/ ja Jori Mäntysalo <email/jm58660@uta.fi/.
+Korjauksia, lisäyksiä ja muuta sellaista otetaan vastaan.
+
 
 <chapt>Kiitokset
 <p>
@@ -498,7 +500,6 @@ kiitos heille kaikille.
 <item>Veli-Pekka Lehtosaari
 <item>Tor Lillqvist
 <item>Riku Meskanen
-<item>Jori Mäntysalo
 <item>Markku Nevalainen
 <item>Kimmo Pyykkö
 <item>Juha-Heikki Ruismäki
