@@ -3,7 +3,14 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.9 $ $Date: 1998/12/23 13:42:13 $
+<version>$Revision: 1.10 $ $Date: 1999/01/03 21:30:34 $
+
+<abstract>
+Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
+esitettyihin kysymyksiin.  Keskityn pääasiassa Suomen
+erityiskysymyksiin mutta käsittelen muitakin aiheita tarpeen mukaan.
+Artikkeliin äskettäin tehdyt muutokset on mainittu artikkelin lopussa.
+</abstract>
 
 <copyright>
 Copyright &copy; 1997, 1998 Antti-Juhani Kaijanaho.  Tätä kirjoitelmaa
@@ -79,7 +86,9 @@ ohjelmointiin vaan ei valmiiden ohjelmien käyttöön liittyvä
 keskustelu: algoritmit, ohjelmointikielet, työkalut, ohjelmien
 suunnittelu, määrittely, testaus&nbsp;jne."  Ryhmä on moderoitu,
 toimitettu, joten ohjelmointiin liittymättömät viestit eivät pääse
-ryhmään.
+ryhmään.  Viestit hyväksytään ryhmään ryhmän <url
+id="http://www.iki.fi/gaia/saom/saannot.html" name="sääntöjen">
+perusteella.
 <p>
 Uutisryhmä <tt/sfnet.atk.ohjelmointi/ on yllämainitun moderoidun
 ryhmän edeltäjä, eikä sitä ole syytä käyttää.
@@ -127,7 +136,9 @@ kymmenestä.
 
 Esimerkiksi <tt/123 45672/ on oikein muodostettu viitenumero.
 <p>
-Lähde: <em/Tilisiirto-opas 11.1.1993/ (Suomen pankkiyhdistys).
+Lähde: <url name="Tilisiirto-opas 1.12.1998"
+id="http://www.pankkiyhdistys.fi/tiedostot/pdf/tilisiirto98.pdf">
+(Suomen pankkiyhdistys).
 <p>
 Kimmo Surakka <email/kusti@cs.tut.fi/ on kirjoittanut tästä aiheesta
 <url id="http://www.cs.tut.fi/~kusti/viite.html" name="seittisivun">,
@@ -382,10 +393,24 @@ id="http://www.faqs.org/faqs/macintosh/programming-faq/">.
 Unix-ohjelmoinnistakin on <url name="FAQ-lista"
 id="http://www.erlenstar.demon.co.uk/unix/faq_toc.html">
 
-<chapt>Kommentteja?
+<chapt>Kiitos!  Ja äskettäin tehdyt muutokset.
 <p>
 Kommentteja, korjauksia, lisäyksiä ja muuta sellaista otetaan vastaan
 osoitteessa <email/gaia@iki.fi/.
+<p>
+Seuraavassa on lueteltu tähän FAQiin äskettäin tehdyt muutokset.
+<p>
+<example>
+$Log: sao-faq.sgml,v $
+Revision 1.10  1999/01/03 21:30:34  ajk
+Mainitaan moderoidun ryhmän säännöt.
+
+Viitenumero-osuus perustuu nyt uusimpaan Tilisiirto-oppaaseen.  Tuohon
+oppaaseen on nyt linkki tästä artikkelista.
+
+Muutosten kirjaaminen aloitettu.
+
+</example>
 
 <chapt>Kiitokset
 <p>
