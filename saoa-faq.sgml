@@ -4,7 +4,7 @@
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori Mäntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.28 $ $Date: 2000/02/15 00:11:04 $
+<version>$Revision: 1.29 $ $Date: 2000/02/25 09:18:34 $
 
 <copyright>
 Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori Mäntysalo.
@@ -98,9 +98,16 @@ alkupuolella.  Kirjoita lyhyesti mutta älä liian lyhyesti.  Pyri aina
 siihen, että kirjoituksesi sanoo jotain olennaista keskustelun
 kohteena olevasta asiasta.  Käytä paljon puhuvia otsikoita;
 mitäänsanomattomasta subject-rivistä ei ole kenellekään mitään hyötyä.
-Esimerkiksi ''Merkkijonon pituus Schemessä?'' on paljon hyödyllisempi
+Esimerkiksi ''Scheme: Merkkijonon pituus'' on paljon hyödyllisempi
 otsikko kuin ''Auttakaa!''.  On epäkohteliasta kysyä ryhmässä ja
 vaatia vastaukset sähköpostitse.
+<p>
+Muista aina kertoa mitä ohjelmointikieltä käytät. (Esimerkiksi C,
+C++ ja Java eivät välttämättä eroa toisistaan lainkaan
+pienessä esimerkkikoodissa.) Kerro myös ympäristö ja kääntäjä.
+Esimerkiksi C-kielessä ei ole mitään standardin mukaista tapaa
+tyhjentää ruutu, vaan vastaus on erilainen Borland C++ Builderilla
+konsoliohjelmia tehtäessä ja Linuxin gcc-kääntäjällä.
 <p>
 Lisää tietoa netiketistä saa Timo Kiravuon kirjoituksesta <url
 id="http://www.nixu.fi/%7ekiravuo/etiketti/" name="News-etiketti"> ja
