@@ -2,11 +2,12 @@
 
 <article>
 
-<title>sfnet.atk.ohjelmointi FAQ
+<title>Erityisesti Suomessa käytettyjä algoritmeja (FAQ)
 <author>Antti-Juhani Kaijanaho, <tt/gaia@iki.fi/
-<date>$Id: sao-faq.sgml,v 1.1 1997/07/11 19:57:17 gaia Exp $
+<date>$Id: sao-faq.sgml,v 1.2 1997/07/17 13:08:57 gaia Exp $
 
 <abstract>
+<bf/FAQin kokoaja ei vastaa vastausten oikeellisuudesta./
 Copyright &copy; 1997 Antti-Juhani Kaijanaho. Tätä dokumenttia saadaan
 levittää muuntamattomana ja lyhentämättömänä epäkaupallisin
 tarkoitusperin. Lisäksi on sallittua lainata sitä rajoittamattomasti
@@ -15,7 +16,6 @@ artikkeleissa. Erityisesti sallitaan dokumentin julkaiseminen
 uudestaan julkisissa, käyttäjälle maksuttomissa Internetin palveluissa
 (mm. DejaNews ja useimpien yritysten seittisivut). Muu julkaiseminen
 ja levittäminen ilman etukäteen annettua kirjallista lupaa kielletään.
-<bf/FAQin kokoaja ei vastaa vastausten oikeellisuudesta./
 </abstract>
 
 <toc>
@@ -50,18 +50,20 @@ Yleensä tähän kysymykseen vastataan: "Luet sitä nyt juuri, joten
 <em/säilytä/ hallussasi oleva kappale."
 
 Uusin versio on aina löydettävissä FAQin <url
-url="http://www.iki.fi/faq/sao-faq.html" name="seittisivulta">.
+url="http://www.iki.fi/gaia/faq/sao-faq.html" name="seittisivulta">.
 
-Tämä dokumentti on olemassa myös <url
-url="http://www.iki.fi/faq/sao-faq.txt" name="tekstiversiona">.
+Tämä dokumentti on olemassa myös tekstiversiona (<url
+url="http://www.iki.fi/gaia/faq/sao-faq.txt" name="ilman korostuksia">
+ja <url url="http://www.iki.fi/gaia/faq/sao-faq.text"
+name="korostuksineen">).
 
-Myös FAQin <url url="http://www.iki.fi/faq/sao-faq.sgml" name="SGML-sorsat">
-ovat saatavilla.
+Myös FAQin <url url="http://www.iki.fi/gaia/faq/sao-faq.sgml"
+name="SGML-sorsat"> ovat saatavilla.
 
 Kaikissa ylläolevissa osoitteissa on aina FAQin uusin julkaistu versio.
 
-Kopio tekstiversiosta pyritään postaamaan joka kuukausi uutisryhmään
-<htmlurl url="news:sfnet.atk.ohjelmointi"
+Kopio tekstiversiosta pyritään postaamaan joka kuukauden 17. päivänä
+uutisryhmään <htmlurl url="news:sfnet.atk.ohjelmointi"
 name="sfnet.atk.ohjelmointi">.
 
 <sect>Numerosarjoja ja niiden tarkistemerkkejä
@@ -154,7 +156,7 @@ Oy Yritys Ab:n todellinen järjestysnumero on siis 111111.
 
 <sect>Päiväykseen liittyviä algoritmeja
 <p>
-<sect1>Yleistä ja pari kalenterikirjastoa<label id="date-intro">
+<sect1>Yleistä ja pari kalenterikirjastoa
 <p>
 Vaikka monet päiväykseen liittyistä algoritmeista ovatkin
 kansainvälisiä, käsittelen osaa niistä tässä. Koska Suomi ja
@@ -206,7 +208,7 @@ kaikissa vuosissa, jotka alkavat torstaina, sekä lisäksi
 karkausvuosissa, jotka alkavat keskiviikkona. Muissa on 52 viikkoa.
 
 Niinpä kohtuullisen yksinkertainen algoritmi on seuraavanlainen
-(mukailtu <ref id="date-intro" name="edellämainitussa"> Riku Meskasen
+(mukailtu edellämainitussa Riku Meskasen
 <tt/&lt;mesrik@cc.jyu.fi&gt;/ kalenterikirjastossa olevan toteutuksen
 pohjalta):
 
@@ -291,7 +293,7 @@ ehdotuksillaan.  Suuri kiitos heille kaikille.
 <item>Sami J. Laine, <tt/no.spam.lane@iki.fi/
 <item>Veli-Pekka Lehtosaari, <tt/vplehto@technopark.fi/
 <item>Tor Lillqvist, <tt/tml@iki.fi/
-<item>Riku Meskanen <tt/mesrik@cc.jyu.fi/
+<item>Riku Meskanen, <tt/mesrik@cc.jyu.fi/
 <item>Kimmo Pyykkö, <tt/kimmo@cc.hut.fi/
 <item>Juha-Heikki Ruismäki, <tt/jr87641@cs.tut.fi/
 <item>Kimmo Surakka, <tt/kusti@cs.tut.fi/
