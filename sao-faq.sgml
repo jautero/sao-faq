@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.44 $ $Date: 2000/07/19 08:08:55 $
+<version>$Revision: 1.45 $ $Date: 2000/08/23 09:40:08 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -538,6 +538,10 @@ id="http://www.faqs.org/faqs/pascal/borland-minifaq/"> kauttta.
 Perl-materiaalia on <url name="The Perl Instituten seittisivulla"
 id="http://www.perl.org">.  Lisäksi on saatavilla
 <url name="Perl-FAQ" id="http://www.faqs.org/faqs/perl-faq/part0/">.
+Jukka Korpela on tehnyt itse materiaalia ja kerännyt linkkejä
+Perl-kielestä sekä
+<url name="suomeksi" id="http://www.hut.fi/u/jkorpela/perl/"> että
+<url name="englanniksi" id="http://www.hut.fi/u/jkorpela/perl/linkit.html">.
 <p>
 Python-kielen <url name="seittisivusto" id="http://www.python.org/">
 on olemassa.
