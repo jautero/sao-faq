@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.25 $ $Date: 1999/05/19 12:22:14 $
+<version>$Revision: 1.26 $ $Date: 1999/07/19 16:25:28 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -416,7 +416,8 @@ Bjarne Stroustrupin kehittämään C++-kieleen liittyvää materiaalia
 löytyy kasapäin keksijän itsensä kokoaman <url name="seittisivun"
 id="http://www.research.att.com/~bs/C++.html"> kautta.  Erityisesti
 mainittakoon <url name="C++-FAQ"
-id="http://www.utu.fi/~sisasa/oasis/cppfaq/">.
+id="http://www.utu.fi/~sisasa/oasis/cppfaq/"> sekä <url name="SGI:n Standard Template
+Library -materiaali" id="http://www.sgi.com/Technology/STL/">.
 <p>
 Java-kielestä on olemassa <url name="FAQ-lista"
 id="http://java.sun.com/people/linden/index.html">.  Muutakin Java-materiaalia on
@@ -472,6 +473,9 @@ Seuraavassa on lueteltu tähän FAQiin äskettäin tehdyt muutokset.
 <p>
 <example>
 $Log: sao-faq.sgml,v $
+Revision 1.26  1999/07/19 16:25:28  ajk
+Mainitaan SGI:n STL-dokut.
+
 Revision 1.25  1999/05/19 12:22:14  ajk
 Mainitaan ly-tunnuksen ongelmasta.
 
@@ -525,6 +529,7 @@ kiitos heille kaikille.
 <item>Veli-Pekka Lehtosaari
 <item>Tor Lillqvist
 <item>Riku Meskanen
+<item>Jori Mäntysalo
 <item>Kimmo Pyykkö
 <item>Juha-Heikki Ruismäki
 <item>Rauli Ruohonen
