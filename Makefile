@@ -1,6 +1,10 @@
 
 faqs = sao-faq saoa-faq
 
+#pubdir = antkaij@itu.st.jyu.fi:www/faq
+pubdir = ~/public_html/faq
+SCP = scp
+
 genfiles = $(faqs:=.txt) $(faqs:=.tov) $(faqs:=-html) \
 	   changelog.html ChangeLog
 
@@ -27,5 +31,13 @@ clean :
 
 realclean : clean
 	rm *~
+
+publish : all
+	set -e ; files="" ; for p in sgml txt tov ; \
+	   do \
+	     files="$$files sao-faq.$$p" ; \
+	     files="$$files saoa-faq.$$p" ; \
+	   done ; \
+	  $(SCP) -r ChangeLog sao-faq.html saoa-faq.html $$files $(pubdir)
 
 .PHONY: all
