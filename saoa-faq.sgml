@@ -4,7 +4,7 @@
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori Mäntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.21 $ $Date: 1999/12/10 03:05:35 $
+<version>$Revision: 1.22 $ $Date: 1999/12/10 15:43:09 $
 
 <copyright>
 Copyright &copy; 1999 Antti-Juhani Kaijanaho ja Jori Mäntysalo.  Tätä
@@ -381,7 +381,7 @@ Teukolsky ja Vetterling; Cambridge University Press, 1992) ohjetta ja
 käydä liukulukujen kautta.  Tämä metodi toimii C:llä kirjoitettuna
 seuraavasti:
 <example>
-   MIN + (int) (((double) MAX) * rand() / (RAND_MAX + (double) MIN))
+   MIN + (int)((MAX - MIN + 1.0) * rand() / (RAND_MAX + 1.0))
 </example>
 missä <tt>MAX</tt> ja <tt>MIN</tt> ovat halutun luvun ylä- ja alaraja,
 ja <tt/RAND_MAX/ satunnaislukugeneraattorin <tt/rand()/ tuottama
