@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.32 $ $Date: 1999/08/27 22:48:26 $
+<version>$Revision: 1.33 $ $Date: 1999/08/27 23:04:44 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -424,7 +424,7 @@ id="http://www.utu.fi/~sisasa/oasis/cppfaq/"> sekä <url name="SGI:n Standard Tem
 Library -materiaali" id="http://www.sgi.com/Technology/STL/">.
 <p>
 Java-kielestä on olemassa <url name="FAQ-lista"
-id="http://java.sun.com/people/linden/index.html">.  Muutakin Java-materiaalia on
+id="http://www.afu.com/intro.html">.  Muutakin Java-materiaalia on
 <url name="seitissä" id="http://www.afu.com/">.
 <p>
 Pascal-kielen Borland-murteisiin (poislukien Delphi) liittyviä
