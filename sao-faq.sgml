@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.35 $ $Date: 1999/12/09 11:46:15 $
+<version>$Revision: 1.36 $ $Date: 1999/12/10 03:33:38 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -239,7 +239,7 @@ tarkistemerkki on 0, jakojäännöksen ollessa yksi se on 1 jne. Jos siis
 jakojäännös on 30, on tarkistemerkkinä kirjain Y.
 <p>
 Olen kirjoittanut <url name="C-kielisen ohjelman"
-id="ftp://ftp.jyu.fi/private/antkaij/hetu.c">, joka tarkastaa
+id="ftp://ftp.jyu.fi/private/antkaij/faq/hetu.c">, joka tarkastaa
 henkilötunnuksen oikeellisuuden.
 
 <sect>Miten LY-tunnus muodostetaan?
