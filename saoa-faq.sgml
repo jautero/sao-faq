@@ -4,7 +4,7 @@
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori M‰ntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.17 $ $Date: 1999/10/15 21:10:29 $
+<version>$Revision: 1.18 $ $Date: 1999/12/09 22:28:15 $
 
 <copyright>
 Copyright &copy; 1999 Antti-Juhani Kaijanaho ja Jori M‰ntysalo.  T‰t‰
@@ -324,7 +324,7 @@ ruutuun k‰ytt‰en ohjelmointikielesi grafiikkakirjastoa.
 Edell‰ mainittu Laaman tie peliohjelmointiin sis‰lt‰‰ joitakin ohjeita.
 
 
-<chapt>Yleisi‰ ohjelmointiongelmia
+<chapt>Satunnaislukuongelmia
 <p>
 <sect>Satunnaislukugeneraattori arpoo aina saman sarjan
 <p>
@@ -352,6 +352,69 @@ tuloksen">.
 Vastaus on yksinkertainen: <strong/K‰yt‰ satunnaisluvun alustajaa
 (randomize, srand tms) vain kerran ohjelmassa/.  Yleens‰ hyv‰ paikka
 t‰lle on juuri ohjelman alussa.
+
+<sect>Miten saan satunnaisen kokonaisluvun v‰lilt‰ 42..512?
+<p>
+<strong>VAROITUS: T‰ss‰ annettu vastaus voi olla v‰‰r‰.  Keskustele
+oman satunnaisuuden asiantuntijasi kanssa ennen kuin k‰yt‰t t‰ss‰
+annettuja ohjeita.</strong>
+<p>
+Tyypillinen standardikirjastossa oleva satunnaislukugeneraattori
+palauttaa joko kokonaisluvun joltakin ennalta m‰‰r‰tylt‰ v‰lilt‰
+taikka sitten liukuluvun nollan ja ykkˆsen v‰list‰.  Yleens‰ kuitenkin
+kaivataan satunnaista kokonaislukua joltakin tietylt‰ v‰lilt‰.
+<p>
+Jos kirjaston satunnaislukugeneraattori palauttaa liukuluvun f, jonka
+tiedet‰‰n olevan v‰lill‰ <tt>0 &lt;= f &lt; 1</tt>, on suhteellisen
+yksinkertainen tapa skaalata t‰m‰ halutulle v‰lille <tt> MIN &lt;= f'
+&lt; MAX</tt> kaavan <tt>f' := (MAX - MIN) f + MIN</tt> k‰ytt‰minen.
+T‰ss‰ toki pit‰‰ k‰ytetyn liukulukutyypin olla riitt‰v‰n tarkka.
+<p>
+Mik‰li satunnaislukugeneraattori palauttaa kokonaisluvun, ongelma on
+hankalampi: mik‰ tahansa skaalaustapa saattaa tehd‰ huonoa
+satunnaislukujen satunnaisuudelle.  K‰ytetyin tapa, jakoj‰‰nnˆksen
+ottaminen, suosii satunnaisluvun alimpia bittej‰ ja (mik‰li
+generaattori on huono, kuten valitettavan usein on) saattaa jopa
+tuhota saatavien lukujen satunnaisuuden t‰ysin.  Hieman parempi tapa
+on k‰ytt‰‰ "Numerical Recipes in C" -kirjan (Press, Flannery,
+Teukolsky ja Vetterling; Cambridge University Press, 1992) ohjetta ja
+k‰yd‰ liukulukujen kautta.  T‰m‰ metodi toimii C:ll‰ kirjoitettuna
+seuraavasti:
+<example>
+   1 + (int) (MAX * rand() / (RAND_MAX + MIN))
+</example>
+miss‰ <tt>MAX</tt> ja <tt>MIN</tt> ovat halutun luvun yl‰- ja alaraja,
+ja <tt/RAND_MAX/ satunnaislukugeneraattorin <tt/rand()/ tuottama
+suurin kokonaisluku (pienin on nolla).  T‰m‰n metodin hankaluutena on
+liukulukujen k‰ytˆn aiheuttama laskentaep‰tarkkuus.
+<p>
+Viel‰ yksi tapa on k‰ytt‰‰ omaa satunnaislukugeneraattoria.  T‰ss‰
+pit‰‰ olla <em/todella/ tarkkana: on helppoa keksi‰ surkea
+satunnaislukugeneraattori ja vaikeata keksi‰ hyv‰ sellainen.
+Satunnaiseen (!) k‰yttˆˆn sopivan C-kielisen generaattorin on
+kirjoittanut Antti Valmari, ja se on saatavissa <url
+id="http://www.cs.tut.fi/~ava/81120extra/random.cc" name="verkosta">.
+
+<sect>Lottorivin arvonta
+<p>
+Lottorivi‰ arvottaessa olennaista on, ett‰ samaa lukua ei arvota kahta
+kertaa.  T‰t‰ <em/ei/ pid‰ toteuttaa pit‰m‰ll‰ kirjaa jo arvotuista
+luvuista: t‰m‰ menetelm‰ voi pahimmassa tapauksessa juuttua
+umpiluuppiin.
+<p>
+Hyv‰ ja yksinkertainen lottorivin arvonta-algoritmi on t‰ss‰
+(kiitokset Kimmo Surakalle): Kootaan taulukkoon kaikki 39 lukua,
+joista arvonta suoritetaan.  Arvotaan ensimm‰inen luku hakemalla
+satunnaisluku v‰lilt‰ 1..39 ja katsotaan, mik‰ luku t‰m‰n numeron
+osoittamassa kohdassa on: se on ensimm‰inen lottonumero.  Poistetaan
+t‰m‰ numero taulukosta, ja arvotaan luku v‰lilt‰ 1..38, jonka
+taulukosta osoittama luku on seuraava lottonumero, joka poistetaan.
+Toistetaan, kunnes kaikki seitsem‰n numeroa on arvottu.  Algoritmin
+C-kielinen toteutus lˆytyy Surakan alkuper‰isest‰ nyysiartikkelista
+<tt>&lt;u1lbtaksryk.fsf@mustahaikara.cs.tut.fi&gt;</tt> (<url
+id="http://www.deja.com/[ST_rn=ap]/getdoc.xp?AN=531056334"
+name="Deja.com: Re: Lotto C++:lla">), jossa on pieni virhe: ohjelman
+kolmanneksi viimeinen ja toiseksi viimeinen rivi pit‰‰ vaihtaa.
 
 <chapt>Kommentteja halutaan, kiitoksia annetaan
 <p>
