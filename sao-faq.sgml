@@ -5,7 +5,7 @@
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 
-<version>$Revision: 1.66 $ $Date: 2002/12/31 00:02:29 $
+<version>$Revision: 1.67 $ $Date: 2004/09/25 18:59:10 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -46,7 +46,7 @@ viedä oikeuteen.
 <sect>Olemisen tarkoitus
 <p>
 Tämän dokumentin on tarkoitus vastata sellaisiin keskusteluryhmissä
-<tt/sfnet.atk.ohjelmointi/ ja <tt/sfnet.atk.ohjelmointi.moderoitu/
+<tt/sfnet.atk.ohjelmointi/ 
 usein esitettyihin kysymyksiin, joihin ei ole järkevää vastata tai
 joihin ei ole vielä vastattu kansainvälisissä FAQ:eissa. Tämä
 tarkoittaa sitä, että tämä FAQ ei juurikaan käsittele esimerkiksi
@@ -88,32 +88,25 @@ id="http://www.iki.fi/jautero/faq/ChangeLog" name="GNU ChangeLog"> sekä
 <url id="http://www.iki.fi/jautero/faq/changelog.html"
 name="HTML">-muodossa.
 <p>
-Tämä FAQ pyritään postaamaan joka kuukauden 17. päivänä uutisryhmiin
-<tt/sfnet.atk.ohjelmointi/ ja <tt/sfnet.atk.ohjelmointi.moderoitu/.
+Tämä FAQ pyritään postaamaan joka kuukauden 17. päivänä uutisryhmään
+<tt/sfnet.atk.ohjelmointi/.
 
 <sect>Missä ja mitä voin kysyä?
 <p>
 Ennenkuin kysyt, tarkista, onko kysymykseesi vastattu tässä
 kirjoitelmassa.
 <p>
-Uutisryhmä <tt><url id="http://www.iki.fi/gaia/saom/"
-name="sfnet.atk.ohjelmointi.moderoitu"></tt> on tarkoitettu
+Uutisryhmä <tt/sfnet.atk.ohjelmointi/ on tarkoitettu
 tietokoneen ohjelmoinnin yhteydessä esiin nousseiden aiheiden
 käsittelyyn.  Virallisen kuvauksen mukaan ryhmään sopii "kaikenlainen
 ohjelmointiin vaan ei valmiiden ohjelmien käyttöön liittyvä
 keskustelu: algoritmit, ohjelmointikielet, työkalut, ohjelmien
-suunnittelu, määrittely, testaus&nbsp;jne."  Ryhmä on moderoitu,
-toimitettu, joten ohjelmointiin liittymättömät viestit eivät pääse
-ryhmään.  Viestit hyväksytään ryhmään ryhmän <url
-id="http://www.iki.fi/gaia/saom/saannot.html" name="sääntöjen">
-perusteella.  Moderaattorit tavoittaa osoitteesta
-<email/saom-board@cc.jyu.fi/.  Tähän osoitteeseen voi lähettää
-politiikkavalitukset, kysymykset ja ehdotukset.  Ryhmään tarkotettuja
-viestejä sinne ei pidä lähettää (ne voi lähettää suoraan ryhmään tai
-osoitteeseen <email/saom@cc.jyu.fi/).
+suunnittelu, määrittely, testaus&nbsp;jne."  
 <p>
-Uutisryhmä <tt/sfnet.atk.ohjelmointi/ on yllämainitun moderoidun
-ryhmän edeltäjä, eikä sitä ole syytä käyttää.
+Uutisryhmä <tt/sfnet.atk.ohjelmointi.moderoitu/ on yllämainitun ryhmän
+moderoitu versio, joka poistettiin moderointisoftan lakattua
+	  toimimasta
+eikä sitä ole enää syytä käyttää.
 <p>
 Keväällä&nbsp;1998 perustettiin uutisryhmä
 <tt/sfnet.atk.ohjelmointi.alkeet/.  Ryhmän virallinen kuvaus kertoo,
@@ -142,9 +135,7 @@ olennaisia.  Kerro myös omat ajatuksesi; mainitse jotain siitä, mitä
 olet (tuloksettomasti) jo kokeillut; kerro myös, miksi esität
 kysymyksesi.  Näin varmistat sen, että ryhmän muut lukijat pääsevät
 ongelmaasi nopeasti kiinni, ja saat heti alusta alkaen hyödyllisiä
-vastauksia.  Tällä on erityistä merkitystä moderoidussa ryhmässä,
-jossa moderaattorien tulee kyetä tunnistamaan viestisi meriitit ennen
-kuin viesti pääsee edes ryhmään.
+vastauksia.  
 
 <chapt>Numerosarjoja ja niiden tarkistemerkkejä
 <p>
@@ -255,6 +246,10 @@ jakojäännös on 30, on tarkistemerkkinä kirjain Y.
 Olen kirjoittanut <url name="C-kielisen ohjelman"
 id="http://www.iki.fi/jautero/faq/hetu.c">, joka tarkastaa
 henkilötunnuksen oikeellisuuden.
+<p>
+<url name="Lars Wirzenius" id="http://www.iki.fi/liw/"> on
+kirjoittanut <url name="Python-skriptin" id="http://liw.iki.fi/liw/download/tee-hetu.py">, joka generoi
+henkilötunnuksia annetuista päivämääristä.
 
 <sect>Miten LY-tunnus muodostetaan?
 <p>
