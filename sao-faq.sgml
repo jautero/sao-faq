@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.18 $ $Date: 1999/02/07 17:36:11 $
+<version>$Revision: 1.19 $ $Date: 1999/02/21 14:26:24 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -227,6 +227,10 @@ valitaan tarkistemerkiksi yksi merkeistä
 <tt/0123456789ABCDEFHJKLMNPRSTUVWXY/ siten, että jaon mennessä tasan
 tarkistemerkki on 0, jakojäännöksen ollessa yksi se on 1 jne. Jos siis
 jakojäännös on 30, on tarkistemerkkinä kirjain Y.
+<p>
+Olen kirjoittanut <url name="C-kielisen ohjelman"
+id="ftp://ftp.jyu.fi/private/antkaij/hetu.c">, joka tarkastaa
+henkilötunnuksen oikeellisuuden.
 
 <sect>Miten LY-tunnus muodostetaan?
 <p>
@@ -465,16 +469,10 @@ Seuraavassa on lueteltu tähän FAQiin äskettäin tehdyt muutokset.
 <p>
 <example>
 $Log: sao-faq.sgml,v $
-Revision 1.18  1999/02/07 17:36:11  ajk
-Korjattu typo sekä ISO 8601:n numero.
+Revision 1.19  1999/02/21 14:26:24  ajk
+Mainitaan hetuntarkistusohjelma.
 
-Revision 1.17  1999/01/31 12:09:48  ajk
-Tilinumeroesimerkin typo korjattu.
-
-Revision 1.16  1999/01/17 22:32:56  ajk
-Linit tarkistettiin.  Java-FAQ on muuttanut.
-
-Vanhat muutoskirjaukset siirrettiin arkistoon.
+Vanhat muutoskirjaukset siirretty arkistoon.
 
 </example>
 <p>
