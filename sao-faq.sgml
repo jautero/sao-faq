@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.43 $ $Date: 2000/03/16 21:59:01 $
+<version>$Revision: 1.44 $ $Date: 2000/07/19 08:08:55 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -462,7 +462,7 @@ mutta jos arvaus on nolla, niin:
 
 Seuraavassa C-ohjelmanpätkässä oleva weekno()-funktio laskee annetulle
 päivälle (d = päivä 1 - 31, m = kuukausi 1 .. 12 ja y = vuosi)
-viikkonumeron. Se on Tapani Tarvaisen <email/tt@math.jyu.fi/
+viikkonumeron. Se on Tapani Tarvaisen <email/tapani@iki.fi/
 käsialaa. 
 <p>
 <example>
