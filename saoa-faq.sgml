@@ -3,7 +3,7 @@
 
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.3 $ $Date: 1999/04/07 11:41:29 $
+<version>$Revision: 1.4 $ $Date: 1999/04/07 11:56:47 $
 
 <copyright>
 Copyright &copy; 1999 Antti-Juhani Kaijanaho.  T‰t‰ kirjoitelmaa
@@ -52,8 +52,8 @@ T‰m‰ kirjoitelma postataan kerran kuukaudessa uutisryhm‰‰n
 <tt/sfnet.atk.ohjelmointi.alkeet/.  Uusin julkaistu versio on myˆs
 saatavilla seitist‰ seuraavissa muodoissa: <url
 id="http://www.iki.fi/gaia/faq/saoa-faq.html" name="HTML">, <url
-id="http://www.iki.fi/gaia/faq/saoa-faq.text" name="tavallinen
-teksti">, <url id="http://www.iki.fi/gaia/faq/saoa-faq.textov"
+id="http://www.iki.fi/gaia/faq/saoa-faq.txt" name="tavallinen
+teksti">, <url id="http://www.iki.fi/gaia/faq/saoa-faq.tov"
 name="teksti korostuksin"> ja <url
 id="http://www.iki.fi/gaia/faq/saoa-faq.sgml" name="SGML/Debiandoc">.
 Viimeksimainitun k‰sittelemiseen tarvitaan <url
@@ -338,6 +338,9 @@ mielipiteit‰ kuuntelen mielell‰ni.
 <p>
 <example>
 $Log: saoa-faq.sgml,v $
+Revision 1.4  1999/04/07 11:56:47  ajk
+P‰ivitetty muiden tekstiformaattiversioiden tiedostonimet.
+
 Revision 1.3  1999/04/07 11:41:29  ajk
 Lis‰tty esimerkki hyv‰st‰ ja huonosta otsikosta.
 
