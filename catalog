@@ -1,0 +1,9 @@
+-- 
+## ======================================================================
+## /etc/sgml/debiandoc.cat : SGML centralized catalog
+## ======================================================================
+## Please use update-catalog(8) to modify this file.
+## ======================================================================
+--
+CATALOG /usr/share/sgml/debiandoc/dtd/sgml/1.0/catalog
+CATALOG /usr/share/sgml/debiandoc/entities/catalog

@@ -7,6 +7,8 @@ faqs = sao-faq saoa-faq
 pubdir=jautero@kosh.hut.fi:public_html/faq
 ftpdir=jautero@kosh.hut.fi:public_html/faq
 SCP = scp
+TAR = tar
+tarball = faq.tar.gz
 
 sources = srand-virhe.c hetu.c
 
@@ -44,7 +46,7 @@ clean :
 realclean : clean
 	rm *~
 
-publish : all
+publish : all sources
 	set -e ; files="" ; for p in sgml txt tov ; \
 	   do \
 	     files="$$files sao-faq.$$p" ; \
@@ -53,6 +55,18 @@ publish : all
 	  files="$$files ChangeLog changelog.html sao-faq.html saoa-faq.html" ; \
 	  files="$$files srand-virhe-esim" ; \
 	  $(SCP) -r $$files $(pubdir)
+
+tarball : all
+	set -e ; files="" ; for p in sgml txt tov ; \
+	   do \
+	     files="$$files sao-faq.$$p" ; \
+	     files="$$files saoa-faq.$$p" ; \
+	   done ; \
+	  files="$$files ChangeLog changelog.html sao-faq.html saoa-faq.html" ; \
+	  files="$$files srand-virhe-esim" ; \
+	  $(TAR) cvzf $(tarball) $$files
+
+sources : all
 	$(SCP) $(sources) $(ftpdir)
 
 .PHONY: all html
