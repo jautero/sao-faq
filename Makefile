@@ -1,8 +1,8 @@
 
 faqs = sao-faq saoa-faq
 
-#pubdir = antkaij@itu.st.jyu.fi:www/faq
-pubdir = ~/public_html/faq
+pubdir = antkaij@itu.st.jyu.fi:www/faq
+#pubdir = ~/public_html/faq
 SCP = scp
 
 genfiles = $(faqs:=.txt) $(faqs:=.tov) $(faqs:=-html) \
