@@ -3,7 +3,7 @@
 
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.11 $ $Date: 1999/08/10 22:39:47 $
+<version>$Revision: 1.12 $ $Date: 1999/08/27 23:14:42 $
 
 <copyright>
 Copyright &copy; 1999 Antti-Juhani Kaijanaho.  Tätä kirjoitelmaa
@@ -120,11 +120,13 @@ Toinen hyvä nyrkkisääntö on se, että mikäli kysyjä ei itse tiedä,
 mistä päin nettiä tai kirjallisuutta lähtisi etsimään vastausta,
 kysymys on mahdollisesti alkeista.
 <p>
-<strong/HTML-kieleen liittyvät kysymykset eivät kuulu mihinkään
+<em/HTML-kieleen liittyvät kysymykset eivät kuulu mihinkään
 ohjelmointiryhmään,/ sillä HTML ei ole ohjelmointikieli.  Esitä ne
 mielummin WWW-kysymyksille varatussa ryhmässä
 <tt/sfnet.viestinta.www/, kun olet ensin tarkistanut, ettei
-kysymykseesi ole vastattu englanninkielisessä <url
+kysymykseesi ole vastattu <url
+id="http://www.snowman.sgic.fi/ssl/svwww-vukk/"
+name="ryhmän VUKK:ssa"> tai englanninkielisessä <url
 id="http://www.stack.nl/htmlhelp/faq/wdgfaq.htm" name="FAQ:ssa">.
 <p>
 Ennen kysymyksen lähettämistä uutisryhmään tarkista, ettei
