@@ -1,4 +1,6 @@
 
+CC = gcc -Wall -ansi -pedantic
+
 faqs = sao-faq saoa-faq
 
 pubdir = antkaij@itu.st.jyu.fi:www/faq
@@ -6,9 +8,16 @@ pubdir = antkaij@itu.st.jyu.fi:www/faq
 SCP = scp
 
 genfiles = $(faqs:=.txt) $(faqs:=.tov) $(faqs:=-html) \
-	   changelog.html ChangeLog
+	   changelog.html ChangeLog srand-virhe-esim
+
+sources = srand-virhe.c
 
 all : $(genfiles)
+
+%-esim : %
+	export LANG=C ; echo "% Generoitu `date`" > $@
+	export LANG=C ; echo "% koneella `uname -a`" >> $@
+	PATH=$$PATH:. $< >> $@
 
 %.txt: %.sgml
 	debiandoc2text -l fi_FI $<
