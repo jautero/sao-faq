@@ -1,9 +1,9 @@
 
 faqs = sao-faq saoa-faq
 
-genfiles =  $(faqs:=.txt) $(faqs:=.tov) $(faqs:=-html)
+genfiles =  $(faqs:=.txt) $(faqs:=.tov) $(faqs:=-html) changelog.html
 
-all : $(genfiles) changelog.html
+all : $(genfiles)
 
 %.txt: %.sgml
 	debiandoc2text -l fi_FI $<
