@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.11 $ $Date: 1999/01/03 21:37:21 $
+<version>$Revision: 1.12 $ $Date: 1999/01/03 21:45:07 $
 
 <abstract>
 T‰m‰ artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -13,7 +13,7 @@ Artikkeliin ‰skett‰in tehdyt muutokset on mainittu artikkelin lopussa.
 </abstract>
 
 <copyright>
-Copyright &copy; 1997, 1998 Antti-Juhani Kaijanaho.  T‰t‰ kirjoitelmaa
+Copyright &copy; 1997-1999 Antti-Juhani Kaijanaho.  T‰t‰ kirjoitelmaa
 saadaan levitt‰‰ ja muuttaa vapaasti, sill‰ ehdolla, ett‰ muutosten
 tekij‰ ja p‰iv‰ys ilmoitetaan muutetuissa versioissa selke‰sti.
 <p>
@@ -402,6 +402,9 @@ Seuraavassa on lueteltu t‰h‰n FAQiin ‰skett‰in tehdyt muutokset.
 <p>
 <example>
 $Log: sao-faq.sgml,v $
+Revision 1.12  1999/01/03 21:45:07  ajk
+Viimeisin julkaisuvuosi on 1999; tekij‰noikeushuomautus p‰ivitetty.
+
 Revision 1.11  1999/01/03 21:37:21  ajk
 P‰ivitetty kiitokset.
 
