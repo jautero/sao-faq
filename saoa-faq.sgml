@@ -3,7 +3,7 @@
 
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.10 $ $Date: 1999/08/10 22:33:16 $
+<version>$Revision: 1.11 $ $Date: 1999/08/10 22:39:47 $
 
 <copyright>
 Copyright &copy; 1999 Antti-Juhani Kaijanaho.  T‰t‰ kirjoitelmaa
@@ -307,7 +307,8 @@ olla valmiita keinoja kuvan laittamiseen.  Mik‰li n‰in ei ole, etk‰
 voi k‰ytt‰‰ valmiita ohjelmakirjastoja, sinun t‰ytyy piirt‰‰ kuva itse
 ruutuun k‰ytt‰en ohjelmointikielesi grafiikkakirjastoa.
 <p>
-Osaisiko joku asiantuntija kertoa tarkemmin?
+Edell‰ mainittu Laaman tie peliohjelmointiin sis‰lt‰‰ joitakin ohjeita.
+
 
 <chapt>Yleisi‰ ohjelmointiongelmia
 <p>
@@ -354,6 +355,7 @@ mainitsen aakkosj‰rjestyksess‰:
 <item>Jukka Korpela
 <item>Vesa Lappalainen
 <item>Jori M‰ntysalo
+<item>Mika Rantanen
 <item>Antti Valmari
 </list>
 
