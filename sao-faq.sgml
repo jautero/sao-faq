@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.37 $ $Date: 1999/12/16 09:41:17 $
+<version>$Revision: 1.38 $ $Date: 1999/12/22 15:22:07 $
 
 <abstract>
 T‰m‰ artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -17,7 +17,9 @@ saadaan levitt‰‰ ja muuttaa vapaasti, sill‰ ehdolla, ett‰ muutosten
 tekij‰ ja p‰iv‰ys ilmoitetaan muutetuissa versioissa selke‰sti.
 <p>
 Toivon, ett‰ kaikissa viittauksissa t‰h‰n artikkeliin mainitaan sen
-<url id="http://www.iki.fi/gaia/faq/sao-faq.html" name="ikiosoite">.
+ikiosoite
+<url id="http://www.iki.fi/gaia/faq/sao-faq.html"
+name="http://www.iki.fi/gaia/faq/sao-faq.html"> .
 Viittauksissa ei tule k‰ytt‰‰ muita osoitteita, sill‰ vain mainitun
 osoitteen toimiminen taataan.
 <p>
