@@ -4,7 +4,7 @@
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori Mäntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.24 $ $Date: 1999/12/10 15:58:18 $
+<version>$Revision: 1.25 $ $Date: 1999/12/22 15:43:52 $
 
 <copyright>
 Copyright &copy; 1999 Antti-Juhani Kaijanaho ja Jori Mäntysalo.  Tätä
@@ -15,7 +15,9 @@ johdannaisteoksista tehdyissä teoskappaleissa, jollei kukin sitä
 omalta osaltaan erikseen kiellä.
 <p>
 Toivomme, että kaikissa viittauksissa tähän artikkeliin mainitaan sen
-<url id="http://www.iki.fi/gaia/faq/saoa-faq.html" name="ikiosoite">.
+ikiosoite
+<url id="http://www.iki.fi/gaia/faq/saoa-faq.html"
+name="http://www.iki.fi/gaia/faq/saoa-faq.html"> .
 Viittauksissa ei tule käyttää muita osoitteita, sillä vain mainitun
 osoitteen toimiminen taataan.
 <p>
@@ -276,7 +278,6 @@ name="pascal sopii ohjelmoinnin opiskeluun" id="http://www.uta.fi/%7Ejm58660/jut
 Seitistä löytyy  <url
 name="pascal-opas" id="http://www.tuug.utu.fi/%7ef/pascal/">.
 
-
 <tag>C++<item>C++ on kulttikieli, siitä ei pääse yli eikä ympäri.  Se
 perustuu toiseen kulttikieleen nimeltä C, joka kehitettiin
 1970-luvulla konekielen korvaajaksi
@@ -292,6 +293,10 @@ eivät ole kovin kaksisia, ja asiavirheet eivät ole tavattomia.
 Aloittelijalle hyvä kirja lienee Jesse Libertyn ''Opeta itsellesi
 C++'' (alkuteos ''Teach Yourself C++ Programming in 21 Days''), vaikka
 sekään ei ole virheetön.
+<p>
+Netistä löytyy myös <url name="Hassun hassu C++ -opas"
+id="http://cppopas.cjb.net/">, joka kevyestä kirjoitustyylistään
+huolimatta sisältää painavaa asiaa.
 
 </taglist>
 
@@ -454,7 +459,6 @@ mainitsen aakkosjärjestyksessä:
 <item>Paul Keinänen
 <item>Jukka Korpela
 <item>Vesa Lappalainen
-<item>Jori Mäntysalo
 <item>Kalle Olavi Niemitalo
 <item>Mika Rantanen
 <item>Jukka Suomela
