@@ -6,7 +6,7 @@ faqs = sao-faq saoa-faq
 pubdir = antkaij@verso.st.jyu.fi:www/faq
 #pubdir = ~/public_html/faq
 ftpdir = antkaij@ftp.jyu.fi:/opt/ftp/private/antkaij/faq
-SCP = scp
+SCP = scp -v
 
 sources = srand-virhe.c hetu.c
 
