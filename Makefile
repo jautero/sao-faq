@@ -49,6 +49,7 @@ publish : all
 	     files="$$files saoa-faq.$$p" ; \
 	   done ; \
 	  files="$$files ChangeLog changelog.html sao-faq.html saoa-faq.html" ; \
+	  files="$$files srand-virhe-esim" ; \
 	  $(SCP) -r $$files $(pubdir)
 	$(SCP) $(sources) $(ftpdir)
 
