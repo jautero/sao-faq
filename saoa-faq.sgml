@@ -3,7 +3,7 @@
 
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.12 $ $Date: 1999/08/27 23:14:42 $
+<version>$Revision: 1.13 $ $Date: 1999/09/10 18:21:50 $
 
 <copyright>
 Copyright &copy; 1999 Antti-Juhani Kaijanaho.  Tätä kirjoitelmaa
@@ -263,7 +263,8 @@ Windows-ohjelmoijien laajassa suosiossa.  Ihmiselle, joka aikoo
 opetella vain yhden kielen ja joka käyttää DOSia tai Windowsia, Turbo
 Pascal ja Delphi ovat oikein hyviä ohjelmointikieliä.
 <p>
-Onko asiantuntijoilla kirjallisuusvinkkejä?
+Seitistä löytyy <url
+name="pascal-opas" id="http://www.tuug.utu.fi/%7ef/pascal/">.
 
 <tag>C++<item>C++ on kulttikieli, siitä ei pääse yli eikä ympäri.  Se
 perustuu toiseen kulttikieleen nimeltä C, joka kehitettiin
