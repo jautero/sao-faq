@@ -3,13 +3,12 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.26 $ $Date: 1999/07/19 16:25:28 $
+<version>$Revision: 1.27 $ $Date: 1999/08/05 21:08:16 $
 
 <abstract>
 T‰m‰ artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
 esitettyihin kysymyksiin.  Keskityn p‰‰asiassa Suomen
 erityiskysymyksiin mutta k‰sittelen muitakin aiheita tarpeen mukaan.
-Artikkeliin ‰skett‰in tehdyt muutokset on mainittu artikkelin lopussa.
 </abstract>
 
 <copyright>
@@ -464,52 +463,10 @@ id="http://www.faqs.org/faqs/macintosh/programming-faq/">.
 Unix-ohjelmoinnistakin on <url name="FAQ-lista"
 id="http://www.erlenstar.demon.co.uk/unix/faq_toc.html">
 
-<chapt>Kommentteja halutaan ja muutoksia on tehty
+<chapt>Kommentteja halutaan
 <p>
 Kommentteja, korjauksia, lis‰yksi‰ ja muuta sellaista otetaan vastaan
 osoitteessa <email/gaia@iki.fi/.
-<p>
-Seuraavassa on lueteltu t‰h‰n FAQiin ‰skett‰in tehdyt muutokset.
-<p>
-<example>
-$Log: sao-faq.sgml,v $
-Revision 1.26  1999/07/19 16:25:28  ajk
-Mainitaan SGI:n STL-dokut.
-
-Revision 1.25  1999/05/19 12:22:14  ajk
-Mainitaan ly-tunnuksen ongelmasta.
-
-Mainitaan Haskell-kielen seittisivusto.
-
-Revision 1.24  1999/04/17 16:53:48  ajk
-FAQ:n tiedostonnimiss‰:
- .text -> .txt
- .textov -> .tov
-
-Revision 1.23  1999/04/17 16:39:57  ajk
-Korjattu tilinumeron tarkisteen laskutapa.  Kiitokset Jari Lehtoselle
-bugiraportista.
-
-Poistettu kiitoskohdasta kaikkien osoitteet.
-
-Revision 1.22  1999/04/17 16:25:53  ajk
-sfnet.viestinta.www:ll‰ on FAQ (VUKK).
-
-Revision 1.21  1999/04/12 10:08:24  ajk
-Teppo Vuoren kirjoitus on muuttanut.
-
-Revision 1.20  1999/02/21 14:32:59  ajk
-Poistettiin huomautus Debiandoc-SGML:n suomen kielen hallinnasta.
-
-Revision 1.19  1999/02/21 14:26:24  ajk
-Mainitaan hetuntarkistusohjelma.
-
-Vanhat muutoskirjaukset siirretty arkistoon.
-
-</example>
-<p>
-Vanhat muutoskirjaukset <url name="ovat saatavissa"
-id="http://www.iki.fi/gaia/faq/sao-faq-changes.txt">.
 
 <chapt>Kiitokset
 <p>
