@@ -3,7 +3,7 @@ CC = gcc -Wall -ansi -pedantic
 
 faqs = sao-faq saoa-faq
 
-pubdir = antkaij@itu.st.jyu.fi:www/faq
+pubdir = antkaij@jane.it.jyu.fi:www/fixurl/faq
 #pubdir = ~/public_html/faq
 ftpdir = antkaij@ftp.jyu.fi:/opt/ftp/private/antkaij/faq
 SCP = scp
