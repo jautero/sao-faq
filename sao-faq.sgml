@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.21 $ $Date: 1999/04/12 10:08:24 $
+<version>$Revision: 1.22 $ $Date: 1999/04/17 16:25:53 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -110,7 +110,9 @@ id="http://www.iki.fi/gaia/faq/saoa-faq.html">.
 ohjelmointiryhmään,/ sillä HTML ei ole ohjelmointikieli.  Esitä ne
 mielummin WWW-kysymyksille varatussa ryhmässä
 <tt/sfnet.viestinta.www/, kun olet ensin tarkistanut, ettei
-kysymykseesi ole vastattu englanninkielisessä <url
+kysymykseesi ole vastattu <url
+id="http://www.snowman.sgic.fi/lehtori/svwww-faq/book1.html"
+name="ryhmän VUKK:ssa"> tai englanninkielisessä <url
 id="http://www.stack.nl/htmlhelp/faq/wdgfaq.htm" name="FAQ:ssa">.
 <p>
 Esittäessäsi kysymyksen muista kertoa kaikki olennainen!  Älä jätä
@@ -467,6 +469,9 @@ Seuraavassa on lueteltu tähän FAQiin äskettäin tehdyt muutokset.
 <p>
 <example>
 $Log: sao-faq.sgml,v $
+Revision 1.22  1999/04/17 16:25:53  ajk
+sfnet.viestinta.www:llä on FAQ (VUKK).
+
 Revision 1.21  1999/04/12 10:08:24  ajk
 Teppo Vuoren kirjoitus on muuttanut.
 
