@@ -4,7 +4,7 @@
 
 <title>Tietokoneohjelmoinnista usein esitettyjä kysymyksiä vastauksineen
 <author>Antti-Juhani Kaijanaho, <tt/gaia@iki.fi/
-<date>$Id: sao-faq.sgml,v 1.7 1998/08/16 19:47:50 antkaij Exp $
+<date>$Id: sao-faq.sgml,v 1.8 1998/10/17 23:19:00 antkaij Exp $
 
 <abstract>
 <bf/FAQin kokoaja ei vastaa vastausten oikeellisuudesta./
@@ -16,14 +16,9 @@
 <p>
 <sect1>FAQin tekijänoikeudet
 <p>
-Copyright &copy; 1997, 1998 Antti-Juhani Kaijanaho. Tätä dokumenttia
-saadaan levittää muuntamattomana ja lyhentämättömänä epäkaupallisin
-tarkoitusperin. Lisäksi on sallittua lainata sitä rajoittamattomasti
-ainoastaan Usenetin ja sähköpostilistojen kautta julkaistavissa
-artikkeleissa. Erityisesti sallitaan dokumentin julkaiseminen
-uudestaan julkisissa, käyttäjälle maksuttomissa Internetin palveluissa
-(mm. DejaNews ja useimpien yritysten seittisivut). Muu julkaiseminen
-ja levittäminen ilman etukäteen annettua kirjallista lupaa kielletään.
+Copyright &copy; 1997, 1998 Antti-Juhani Kaijanaho.  Tätä kirjoitelmaa
+saadaan levittää ja muuttaa vapaasti, sillä ehdolla, että muutosten
+tekijä ja päiväys ilmoitetaan muutetuissa versioissa selkeästi.
 
 Toivon, että kaikissa viittauksissa tähän artikkeliin mainitaan sen
 <url url="http://www.iki.fi/gaia/faq/sao-faq.html" name="ikiosoite">.
@@ -32,8 +27,9 @@ osoitteen toimiminen taataan.
 
 <sect1>Olemisen tarkoitus
 <p>
-Tämän dokumentin on tarkoitus vastata sellaisiin keskusteluryhmässä
-<htmlurl url="news:sfnet.atk.ohjelmointi" name=sfnet.atk.ohjelmointi>
+Tämän dokumentin on tarkoitus vastata sellaisiin keskusteluryhmissä
+<htmlurl url="news:sfnet.atk.ohjelmointi" name=sfnet.atk.ohjelmointi> ja
+<htmlurl url="news:sfnet.atk.ohjelmointi.alkeet" name=sfnet.atk.ohjelmointi.alkeet>
 usein esitettyihin kysymyksiin, joihin ei ole järkevää vastata &ndash;
 tai joihin ei ole vielä vastattu &ndash; kansainvälisissä
 FAQ:eissa. Tämä tarkoittaa sitä, että tämä FAQ ei juurikaan käsittele
@@ -63,10 +59,10 @@ name="SGML-sorsat"> ovat saatavilla.
 
 Kaikissa ylläolevissa osoitteissa on aina FAQin uusin julkaistu versio.
 
-Muistutus tämän FAQin olemassaolosta ja osoitteesta pyritään
-postaamaan joka kuukauden 17. päivänä uutisryhmiin <htmlurl
-url="news:sfnet.atk.ohjelmointi" name="sfnet.atk.ohjelmointi"> ja
-<htmlurl url="news:sfnet.atk.ohjelmointi.alkeet"
+Tämä FAQ pyritään postaamaan joka kuukauden 17. päivänä uutisryhmiin
+<htmlurl url="news:sfnet.atk.ohjelmointi"
+name="sfnet.atk.ohjelmointi"> ja <htmlurl
+url="news:sfnet.atk.ohjelmointi.alkeet"
 name="sfnet.atk.ohjelmointi.alkeet">.
 
 <sect>Missä ja mitä voin kysyä?
@@ -87,17 +83,25 @@ url="news:sfnet.atk.ohjelmointi.alkeet"
 name="sfnet.atk.ohjelmointi.alkeet">.  Ryhmän virallinen kuvaus
 kertoo, että se ''on tarkoitettu ohjelmointia aloitteleville tai
 sellaisille, jotka tutustuvat itselleen uuteen ohjelmoinnin
-osa-alueeseen''.
+osa-alueeseen''.  Hyvä nyrkkisääntö on, että jos jotain kysymystä
+käsitellään hyvin osa-alueen perusoppikirjoissa, se kuuluu
+alkeet-ryhmään.
 
 <em/HTML-kieleen liittyvät kysymykset eivät kuulu kumpaankaan
-ohjelmointiryhmään./ Esitä ne mielummin WWW-kysymyksille varatussa
-ryhmässä <htmlurl url="news:sfnet.viestinta.www"
-name="sfnet.viestinta.www">, kun olet ensin tarkistanut, ettei
-kysymykseesi ole vastattu englanninkielisessä <url
-url="http://www.stack.nl/htmlhelp/faq/wdgfaq.htm" name="FAQ:ssa">.
+ohjelmointiryhmään,/ sillä HTML ei ole ohjelmointikieli.  Esitä ne
+mielummin WWW-kysymyksille varatussa ryhmässä <htmlurl
+url="news:sfnet.viestinta.www" name="sfnet.viestinta.www">, kun olet
+ensin tarkistanut, ettei kysymykseesi ole vastattu englanninkielisessä
+<url url="http://www.stack.nl/htmlhelp/faq/wdgfaq.htm"
+name="FAQ:ssa">.
 
 <sect>Numerosarjoja ja niiden tarkistemerkkejä
 <p>
+Numerosarjojen tarkisteista on olemassa tätä FAQqia kattavampi esitys.
+Sen on kirjoittanut Teppo Vuori.  Kirjoitelma on tekijänsä luvalla
+julkaistu <url name="tämän FAQin oheistekstinä WWW:ssä"
+url="http://www.iki.fi/gaia/faq/tarkmerk.html">.
+
 <sect1>Miten pankkiviitenumero muodostetaan?
 <p>
 Pankkiviitenumero on vähintään neljä ja korkeintaan 20 merkkiä pitkä
@@ -304,9 +308,12 @@ viikkonumeroita &ndash; oikein. :-)
 <sect>Muuta luettavaa
 <p>
 Tämän artikkelin sisälmys on tarkoituksella rajattu ahtaasti, sillä
-maailmalla on runsaasti hyvää &ndash; ja toki myös asiantuntematonta &ndash;
-materiaalia, joka vastaa useimpiin kysymyksiin.  Tässä annetaan
-vihjeitä hyviksi aloituspaikoiksi.
+maailmalla on runsaasti hyvää &ndash; ja toki myös asiantuntematonta
+&ndash; materiaalia, joka vastaa useimpiin kysymyksiin.  Tässä
+annetaan vihjeitä hyviksi aloituspaikoiksi.  Lisää - itse asiassa
+aivan liikaa - vastauksia ohjemoinnista usein esitettyihin kysymyksiin
+löytyy <url name="FAQ-arkistosta" url="http://www.faqs.org/faqs/">.
+Katsele erityisesti <tt/comp/-hierarkian FAQeja.
 
 <sect1>Kirjallisuutta
 <p>
@@ -349,7 +356,9 @@ on olemassa.
 url="http://home.sol.no/~jansh/vb/default.htm"> on.
 
 Lisp-kielestäkin on <url name="FAQ-lista"
-url="http://www.cs.cmu.edu/Groups/AI/html/faqs/lang/lisp/top.html">
+url="http://www.cs.cmu.edu/Groups/AI/html/faqs/lang/lisp/top.html">,
+ja Schemellä on <url url="http://www.niksula.cs.hut.fi/~candolin/scheme/"
+name="Suomessa fanisivut">, jossa on erinomainen linkkilista.
 
 Jukka Korpela on koonnut <url name="linkkejä"
 url="http://www.hut.fi/u/jkorpela/fortran.html">
@@ -378,9 +387,9 @@ osoitteessa <htmlurl url="mailto:gaia@iki.fi" name="gaia@iki.fi">.
 
 <sect>Kiitokset
 <p>
-Seuraavat ihmiset ovat auttaneet minua tämän version
-kokoamisessa palautteellaan, kokemuksellaan, tiedoillaan ja
-ehdotuksillaan.  Suuri kiitos heille kaikille.
+Seuraavat ihmiset ovat auttaneet minua tämän kirjoitelman kokoamisessa
+palautteellaan, kokemuksellaan, tiedoillaan ja ehdotuksillaan.  Suuri
+kiitos heille kaikille.
 
 <itemize>
 <item>Jonne Itkonen, <tt/ji@math.jyu.fi/
@@ -394,8 +403,10 @@ ehdotuksillaan.  Suuri kiitos heille kaikille.
 <item>Riku Meskanen, <tt/mesrik@cc.jyu.fi/
 <item>Kimmo Pyykkö, <tt/kimmo@cc.hut.fi/
 <item>Juha-Heikki Ruismäki, <tt/jr87641@cs.tut.fi/
+<item>Rauli Ruohonen, <tt/raulir@iki.fi/
 <item>Kimmo Surakka, <tt/kusti@cs.tut.fi/
 <item>Tapani Tarvainen, <tt/tt@math.jyu.fi/
+<item>Teppo Vuori
 <item>Lars Wirzenius, <tt/liw@iki.fi/
 </itemize>
 
