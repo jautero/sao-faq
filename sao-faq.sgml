@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.17 $ $Date: 1999/01/31 12:09:48 $
+<version>$Revision: 1.18 $ $Date: 1999/02/07 17:36:11 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -297,7 +297,10 @@ vastauksia. Seuraava on yritetty varmistaa oikeaksi, mutta takuita en
 anna.
 <p>
 Toisin kuin esimerkiksi Yhdysvallat, Suomi numeroi viikkonsa
-kansaivälisen ISO 8061 -standardin mukaisesti. Standardi otettiin
+kansainvälisen ISO 8601 -standardin mukaisesti.  Lisää yleistä tietoa
+tästä standardista saa Jukka Korpelan kirjoittamasta jutusta <url
+name="ISO 8601, the date and time representation standard"
+id="http://www.hut.fi/u/jkorpela/iso8601.html">. Standardi otettiin
 käyttöön Suomessa vuonna 1973. Sen mukaan:
 
 <list>
@@ -393,7 +396,8 @@ Vesa Lappalainen on koonnut <url name="seittisivulleen"
 id="http://wekotin.math.jyu.fi/~vesal/kurssit/kirjallisuutta.html">
 arvioita ohjelmointiin yleensä ja erityisesti graafisiin
 käyttöliittymiin, olio-ohjelmointiin, C++-kieleen ja Delphiin
-liittyvistä kirjoista.
+liittyvistä kirjoista.  Tuolla sivulla on myös linkkejä Lappalaisen
+kirja-arvosteluihin.
 
 <sect>Ohjelmointikielet
 <p>
@@ -461,6 +465,9 @@ Seuraavassa on lueteltu tähän FAQiin äskettäin tehdyt muutokset.
 <p>
 <example>
 $Log: sao-faq.sgml,v $
+Revision 1.18  1999/02/07 17:36:11  ajk
+Korjattu typo sekä ISO 8601:n numero.
+
 Revision 1.17  1999/01/31 12:09:48  ajk
 Tilinumeroesimerkin typo korjattu.
 
