@@ -1,7 +1,8 @@
 
 faqs = sao-faq saoa-faq
 
-genfiles =  $(faqs:=.txt) $(faqs:=.tov) $(faqs:=-html) changelog.html
+genfiles = $(faqs:=.txt) $(faqs:=.tov) $(faqs:=-html) \
+	   changelog.html ChangeLog
 
 all : $(genfiles)
 
@@ -15,8 +16,11 @@ all : $(genfiles)
 	debiandoc2html -l fi_FI $<
 	touch $@
 
-changelog.html : $(faqs:=.sgml)
+changelog.html : $(faqs:=.sgml) Makefile
 	cvs2html -O $@
+
+ChangeLog : $(faqs:=.sgml) Makefile names
+	cvs2cl -U names
 
 clean :
 	rm -rf $(genfiles) $(faqs:=.html)
