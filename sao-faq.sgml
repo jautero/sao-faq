@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.15 $ $Date: 1999/01/17 22:02:08 $
+<version>$Revision: 1.16 $ $Date: 1999/01/17 22:32:56 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -410,7 +410,7 @@ mainittakoon <url name="C++-FAQ"
 id="http://www.utu.fi/~sisasa/oasis/cppfaq/">.
 <p>
 Java-kielestä on olemassa <url name="FAQ-lista"
-id="http://www.afu.com/javafaq.html">.  Muutakin Java-materiaalia on
+id="http://java.sun.com/people/linden/index.html">.  Muutakin Java-materiaalia on
 <url name="seitissä" id="http://www.afu.com/">.
 <p>
 Pascal-kielen Borland-murteisiin (poislukien Delphi) liittyviä
@@ -461,34 +461,15 @@ Seuraavassa on lueteltu tähän FAQiin äskettäin tehdyt muutokset.
 <p>
 <example>
 $Log: sao-faq.sgml,v $
-Revision 1.15  1999/01/17 22:02:08  ajk
-Mainitaan alkeet-ryhmän FAQ.
+Revision 1.16  1999/01/17 22:32:56  ajk
+Linit tarkistettiin.  Java-FAQ on muuttanut.
 
-Revision 1.14  1999/01/17 21:53:27  ajk
-Mainitaan saomin moderaattorien osoite.
-
-Annetaan hieman ohjeita hyvän kysymyksen esittämiseen.
-
-Revision 1.13  1999/01/04 20:31:18  ajk
-.alkeiden toimenkuvaa tarkennettu.
-
-Lisätty pankkitilinumeron kuvaus.
-
-Revision 1.12  1999/01/03 21:45:07  ajk
-Viimeisin julkaisuvuosi on 1999; tekijänoikeushuomautus päivitetty.
-
-Revision 1.11  1999/01/03 21:37:21  ajk
-Päivitetty kiitokset.
-
-Revision 1.10  1999/01/03 21:30:34  ajk
-Mainitaan moderoidun ryhmän säännöt.
-
-Viitenumero-osuus perustuu nyt uusimpaan Tilisiirto-oppaaseen.  Tuohon
-oppaaseen on nyt linkki tästä artikkelista.
-
-Muutosten kirjaaminen aloitettu.
+Vanhat muutoskirjaukset siirrettiin arkistoon.
 
 </example>
+<p>
+Vanhat muutoskirjaukset <url name="ovat saatavissa"
+id="http://www.iki.fi/gaia/faq/sao-faq-changes.txt">.
 
 <chapt>Kiitokset
 <p>
