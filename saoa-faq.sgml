@@ -5,7 +5,7 @@
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori M‰ntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.48 $ $Date: 2003/09/16 21:39:26 $
+<version>$Revision: 1.49 $ $Date: 2004/09/29 06:20:02 $
 
 <copyright>
 Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori M‰ntysalo.
@@ -617,13 +617,12 @@ seuraavalla tavalla:
 <item>kirjoita se v‰liaikaistiedostoon.</item>
 <item>Toista kohtia 3. ja 4. kunnes ollaan kohdassa, johon haluat
 uuden rivin lis‰t‰.</item>
-<item>Lis‰‰ uusi rivi (tai uudet rivit).
+<item>Lis‰‰ uusi rivi (tai uudet rivit).</item>
 <item>Kirjoita loput alkuper‰isest‰ tiedostosta uuteen tiedostoon
-samalla tavalla kuin kohdissa 3-5..
+samalla tavalla kuin kohdissa 3-5.</item>
 <item>Sulje molemmat tiedostot.</item>
 <item>Poista alkuper‰inen tiedosto ja nime‰ v‰liaikaistiedosto
-alkuper‰iseksi.
-</item>
+alkuper‰iseksi.</item>
 </enumlist>
 Tiedoston alkuun lis‰t‰‰n rivej‰ hypp‰‰m‰ll‰ kohtien 3-5 yli ja
 jatkamalla kohdasta 6 eteenp‰in.
