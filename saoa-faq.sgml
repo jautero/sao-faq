@@ -4,10 +4,12 @@
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori M‰ntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.33 $ $Date: 2000/05/09 19:39:27 $
+<version>$Revision: 1.34 $ $Date: 2000/06/02 15:30:54 $
 
 <copyright>
 Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori M‰ntysalo.
+Copyright &copy; 2000 Jani Miettinen (kohta <ref id="taulukot">)
+<p>
 T‰t‰ kirjoitelmaa saadaan levitt‰‰ ja muuttaa vapaasti sill‰ ehdolla,
 ett‰ muutosten tekij‰ ja p‰iv‰ys ilmoitetaan muutetuissa versioissa
 selke‰sti.  Kirjoitelman tekij‰t (mukaanlukien kaikki mahdollisten
@@ -347,7 +349,6 @@ ruutuun k‰ytt‰en ohjelmointikielesi grafiikkakirjastoa.
 <p>
 Edell‰ mainittu Laaman tie peliohjelmointiin sis‰lt‰‰ joitakin ohjeita.
 
-
 <chapt>Satunnaislukuongelmia
 <p>
 <sect>Satunnaislukugeneraattori arpoo aina saman sarjan
@@ -467,6 +468,100 @@ id="http://www.deja.com/[ST_rn=ap]/getdoc.xp?AN=531056334"
 name="Deja.com: Re: Lotto C++:lla">), jossa on pieni virhe: ohjelman
 kolmanneksi viimeinen ja toiseksi viimeinen rivi pit‰‰ vaihtaa.
 
+<chapt>Muita yleisi‰ ohjelmointiongelmia
+<p>
+<sect id="taulukot">Taulukot eli Kuinka tehd‰ muuttujia lennossa
+<p>
+Ennen pitk‰‰ tˆrm‰t‰‰n tilanteeseen, jossa halutaan k‰sitell‰ useita
+samantyyppisi‰ tietoalkioita - kuvia n‰ytˆll‰, lukum‰‰ri‰ listassa,
+sarakkeita tiedostosta luettavasta tietueesta yms. - yhten‰
+kokonaisuutena. Usein p‰‰dyt‰‰n ratkaisuun jossa tietoalkiot nimet‰‰n
+tyyliin <tt>kuva1</tt>, <tt>kuva2</tt>, <tt>kuva3</tt>, ja n‰it‰
+k‰sitell‰‰n yksitellen.  Esim:
+<example>
+	tyhjenna_kuva( kuva1 )
+	tyhjenna_kuva( kuva2 )
+	tyhjenna_kuva( kuva3 )
+</example>
+<p>
+Ratkaisu on sin‰ll‰‰n t‰ysin toimiva. Kun esim. n‰ytˆlle lis‰t‰‰n uusi 
+kuva, niin ohjelmaan lis‰t‰‰n uuden kuvan k‰sittely kaikkiin kohtiin 
+joissa sit‰ tarvitaan. Se onkin t‰m‰n ratkaisun suurin ongelma. Jos 
+kuvia lis‰t‰‰n, ennen pitk‰‰ ohjelmakoodi on t‰ynn‰ identtisi‰ 
+ohjelmarivej‰, joissa vain k‰sitelt‰v‰ tietoalkio vaihtuu. Viel‰ 
+ik‰v‰mp‰‰ on se, ett‰ joskus (useammin kuin haluaisikaan) t‰m‰ lis‰ys 
+unohtuu ja ohjelma ei en‰‰ toimi niin kuin pit‰isi. Toinen ongelma on 
+se, ett‰ k‰sitelt‰vien tietoalkioiden m‰‰r‰ on tiedett‰v‰ ohjelman 
+kirjoitusvaiheessa.
+<p>
+Monen mielest‰ luonolliselta tuntuva ratkaisu usean samanlaisen ja 
+l‰hes samannimisen tietoalkion k‰sittelyyn olisi k‰sitell‰ tietoalkion 
+nime‰ kuin merkkijonoa ja korvata nimen lopussa oleva numeroarvo, 
+tietoalkion j‰rjestysnumero, arvolla joka lasketaan ohjelman 
+suorituksen yhteydess‰. N‰in saadun nimen perusteella haettaisiin 
+sitten kukin tietoalkio ohjelman suoritusvaiheessa erikseen, ja sit‰ 
+k‰sitelt‰isiin kuten aikaisemminkin. Esim:
+<example>
+	for i in 1 upto kuvien_lukumaara
+      loop
+        tyhjenna_kuva( kuva + i )
+      endloop
+</example>
+<p>
+T‰ss‰ kuitenkin sekoitetaan monta asiaa kesken‰‰n. Tietoalkioiden
+nimien perusteella toki lˆydet‰‰n haluttu tietoalkio, mutta t‰m‰n
+toimenpiteen tekee k‰‰nt‰j‰ tai tulkki _ennen_ tuollaisen
+suorittamista joten senkin on tiedett‰v‰ etuk‰teen mink‰ niminen
+tietoalkio t‰llˆin on kyseess‰. Yleens‰ ohjelman suoritusvaiheessa
+t‰t‰ nime‰ ei ole en‰‰ oikeastaan olemassa, ja siin‰ miss‰ ohjelman
+l‰hdekoodissa on nimi, suoritettavassa ohjelmassa se on korvattu
+tiedolla siit‰, mist‰ vastaava tietoalkio lˆytyy. K‰‰nt‰j‰n tai tulkin
+kannalta nimet <tt>kuva1</tt> ja <tt>kuva2</tt> ovat t‰ysin erillisi‰
+nimi‰, eik‰ niill‰ ole yhtenev‰st‰ alkuosasta huolimatta mit‰‰n
+tekemist‰ toistensa kanssa. Aluksi t‰m‰ voin tuntua keinotekoiselta
+rajoitukselta, ja joissakin ohjelmointikieliss‰ nimien luominen ja
+niit‰ vastaavien tietoalkioiden hakeminen lennossa onnistuukin.  T‰m‰
+rajoitus muissa kieliss‰ on kuitenkin perustelua mm.  suoritusnopeuden
+takia, ja koska sen kiert‰minen onnistuu turvallisestikin, sen
+poistaminen ei ole mielek‰st‰.
+<p>
+Ratkaisun avaimet ovat taulukot, listat, assosiatiiviset taulukot 
+yms.. Eri ohjelmointikieliss‰ ja kirjastototeutuksissa n‰ill‰ on omat 
+nimens‰, esim. perliss‰ assosiatiivinen taulukon nimi on hash ja C++:n 
+STL:ss‰ map. N‰m‰ ovat tietorakenteita joiden avulla useiden (yleens‰) 
+samantyyppiset alkoiden k‰sittely yleens‰ tehd‰‰n. Yksinkertaisuuden 
+vuoksi k‰sittelen t‰ss‰ vain yksinkertaisia taulukoita ja listoja.
+<p>
+Taulukot ja listat yleens‰ tekev‰t saman kuin edell‰ esitetty (tosin 
+toimimaton) esimerkki j‰rjestysnumeron laskemisesta, toimintatapa on 
+vain hiukan erilainen. Taulukoissa tietoalkiot ovat jonossa ja kukin 
+niist‰ saadaan k‰sitelt‰v‰ksi kertomalla mist‰ taulukosta ja kuinka 
+mones alkio on kyseess‰. Esim:
+<example>
+	for i in 1 upto kuvien_lukumaara
+	loop
+	  tyhjenna_kuva( kuvat[i] )
+	endloop
+</example>
+<p>
+T‰ss‰ esimerkiss‰ "kuvat" on taulukko jossa kaikki k‰sitelt‰v‰t kuvat
+ovat jonossa. <tt>Kuvat[1]</tt> tarkoittaa ensimm‰ist‰ kuvaa t‰ss‰
+taulukossa, <tt>kuvat[2]</tt> toista kuvaa; haluttu numeroarvo voidaan
+korvata ohjelman suoritusvaiheessa laskettavalla arvolla ja taulukosta
+voidaan hakea kyseinen kuva.
+<p>
+Taulukot tai listat mahdollistavat myˆs k‰sitelt‰vien alkioiden m‰‰r‰n 
+kertomisen ohjelman suoritusaikana. Eri ohjelmointikieliss‰ n‰m‰ on 
+toteutettu eri tavoin, esim. C:ss‰ l‰hinn‰ taulukkoa vastaavan 
+tietorakenteen koko on tiedett‰v‰ kun se luodaan kun taas C++:n 
+STL:ss‰ olevaan list:iin voi lis‰t‰ alkioita miss‰ vaiheessa tahansa. 
+Hyvin tehdyt jo olemassaolevat toteutukset, jotka k‰sittelev‰t 
+taulukoissa olevia tietoalkioita, eiv‰t muutu jos taulukossa olevien 
+alkoiden m‰‰r‰ muuttuu. T‰m‰ s‰‰st‰‰ paljon aikaa ohjelmaa 
+muutettaessa, on havainnollisempaa kuin useita l‰hes samanlaisia 
+rivej‰ per‰k‰kin ja toimiikin yleens‰ nopeammin.
+
+
 <chapt>Kommentteja halutaan, kiitoksia annetaan
 <p>
 Haluan kommentteja, risuja, kritiikki‰ sek‰ ehdotuksia.  Avuliaat
@@ -483,6 +578,7 @@ mainitsen aakkosj‰rjestyksess‰:
 <item>Paul Kein‰nen
 <item>Jukka Korpela
 <item>Vesa Lappalainen
+<item>Jani Miettinen
 <item>Kalle Olavi Niemitalo
 <item>Mika Rantanen
 <item>Jukka Suomela
