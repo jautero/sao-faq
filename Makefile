@@ -5,12 +5,13 @@ faqs = sao-faq saoa-faq
 
 pubdir = antkaij@itu.st.jyu.fi:www/faq
 #pubdir = ~/public_html/faq
+ftpdir = antkaij@ftp.jyu.fi:/opt/ftp/private/antkaij/faq
 SCP = scp
+
+sources = srand-virhe.c
 
 genfiles = $(faqs:=.txt) $(faqs:=.tov) $(faqs:=-html) \
 	   changelog.html ChangeLog srand-virhe-esim
-
-sources = srand-virhe.c
 
 all : $(genfiles)
 
@@ -49,5 +50,6 @@ publish : all
 	   done ; \
 	  files="$$files ChangeLog changelog.html sao-faq.html saoa-faq.html" ; \
 	  $(SCP) -r $$files $(pubdir)
+	$(SCP) $(sources) $(ftpdir)
 
 .PHONY: all
