@@ -23,3 +23,5 @@ clean :
 
 realclean : clean
 	rm *~
+
+.PHONY: all
