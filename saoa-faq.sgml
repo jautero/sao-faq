@@ -3,7 +3,7 @@
 
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.6 $ $Date: 1999/08/05 21:11:40 $
+<version>$Revision: 1.7 $ $Date: 1999/08/06 21:45:37 $
 
 <copyright>
 Copyright &copy; 1999 Antti-Juhani Kaijanaho.  Tätä kirjoitelmaa
@@ -61,8 +61,12 @@ id="http://www.debian.org/Packages/unstable/text/debiandoc-sgml.html"
 name="Debiandoc-SGML-paketti">, joka toiminee ainakin kaikissa
 Unixeissa.
 <p>
-Tähän kirjoitelmaan liittyviä kommentteja, korjauksia ja muita sellaisia
-otetaan vastaan osoitteessa <email/gaia@iki.fi/.
+Tähän kirjoitelmaan liittyviä kommentteja, korjauksia ja muita
+sellaisia otetaan vastaan osoitteessa <email/gaia@iki.fi/.
+Kirjoitelmaan tehdyt muutokset löytyvät <url
+id="http://www.iki.fi/gaia/faq/ChangeLog" name="GNU ChangeLog"> sekä
+<url id="http://www.iki.fi/gaia/faq/changelog.html"
+name="HTML">-muodossa.
 
 <sect>Sananen hyvästä käytöksestä uutisryhmissä
 <p>
