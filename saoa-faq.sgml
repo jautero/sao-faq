@@ -4,7 +4,7 @@
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori M‰ntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.32 $ $Date: 2000/04/21 08:23:25 $
+<version>$Revision: 1.33 $ $Date: 2000/05/09 19:39:27 $
 
 <copyright>
 Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori M‰ntysalo.
@@ -254,6 +254,11 @@ id="http://www.cbl.leeds.ac.uk/%7Etamsin/prologtutorial/"> ja suomeksi
 <url
 name="Keskener‰isi‰ harjoituksia Prolog-ohjelmointikieleen tutustumiseksi"
 id="http://www.ling.helsinki.fi/courses/ctl170/1998/">.
+<p>
+Heikki Kantola on suositellut seuraavia Prolog-kirjoja:
+W.F. Clocksin, C.S. Mellish: ''Programming in Prolog'',
+L. Sterling, E. Shapiro: ''The Art of Prolog'' ja
+F. Pereira, S. Shieber: ''Prolog and Natural-Language Analysis''.
 
 <tag>Java<item>Java on eri asia kuin seittisivuilla varsin usein
 n‰ht‰v‰ Javascript.  Java on hyvin uusi mutta lupaavalta n‰ytt‰v‰
@@ -474,6 +479,7 @@ kokoamisessa.  Erityisesti haluan kiitt‰‰ seuraavia ihmisi‰, jotka
 mainitsen aakkosj‰rjestyksess‰:
 
 <list>
+<item>Heikki Kantola
 <item>Paul Kein‰nen
 <item>Jukka Korpela
 <item>Vesa Lappalainen
