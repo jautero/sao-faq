@@ -5,7 +5,7 @@
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 
-<version>$Revision: 1.56 $ $Date: 2002/02/16 15:48:31 $
+<version>$Revision: 1.57 $ $Date: 2002/02/21 13:14:23 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -208,7 +208,7 @@ että 14 numeroa täyttyy.
 
 Esimerkiksi tilinumerot <tt/123456-785/ ja <tt/12345600000785/
 merkitsevät samaa tiliä, ja tilinumerot <tt/432456-781/ ja
-<tt/432456700000081/ merkitsevät samaa tiliä.
+<tt/43245670000081/ merkitsevät samaa tiliä.
 <p>
 Tilinumeron tarkiste lasketaan tilinumeron konekielisen muodon 13
 ensimmäisestä merkistä vasemmalta lukien.  Kukin numeromerkki
@@ -645,6 +645,8 @@ kiitos heille kaikille.
 <item>Teppo Vuori
 <item>Lars Wirzenius
 <item>Juha Antila
+<item>Miika Åsten
+<item>Jarno Käyhkö
 </list>
 
 
