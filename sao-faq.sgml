@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.45 $ $Date: 2000/08/23 09:40:08 $
+<version>$Revision: 1.46 $ $Date: 2000/11/28 09:41:53 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -544,7 +544,9 @@ Perl-kielestä sekä
 <url name="englanniksi" id="http://www.hut.fi/u/jkorpela/perl/linkit.html">.
 <p>
 Python-kielen <url name="seittisivusto" id="http://www.python.org/">
-on olemassa.
+on olemassa. Jukka Korpela on koonnut
+<url name="Perustietoa Python-ohjelmointikielestä suomeksi"
+id="http://www.hut.fi/u/jkorpela/python/">.
 <p>
 <url name="Visual Basic FAQ"
 id="http://home.sol.no/~jansh/vb/default.htm"> on.
@@ -577,6 +579,15 @@ id="http://www.faqs.org/faqs/macintosh/programming-faq/">.
 <p>
 Unix-ohjelmoinnistakin on <url name="FAQ-lista"
 id="http://www.erlenstar.demon.co.uk/unix/faq_toc.html">
+
+<sect>Standardit ja muut normit
+<p>Standardeista, normeista ja "teollisuusstandardeista" yleisesti
+kertoo Jukka Korpelan kirjoitus <url name="Standardi, mikä se on?"
+id="http://www.hut.fi/u/jkorpela/stand.html">.
+
+<p>Suomen aakkostamista käsittelee SFS-standardi 4600. Asiasta on
+luettavissa
+<url name="lehdistötiedote" id="http://www.sfs.fi/standard/20000619.html">.
 
 <chapt>Kommentteja halutaan
 <p>
