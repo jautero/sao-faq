@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.36 $ $Date: 1999/12/10 03:33:38 $
+<version>$Revision: 1.37 $ $Date: 1999/12/16 09:41:17 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -323,7 +323,7 @@ tärkeintä lienevät se, että tammikuun 1. päivä ei välttämättä kuulu
 vuoden ensimmäiseen viikkoon, ja se, että vuodessa on vuodesta
 riippuen joko 52 tai 53 viikkoa.
 <p>
-<url id="http://www.pip.dknet.dk/~pip10160/calendar.html"
+<url id="http://www.tondering.dk/claus/calendar.html"
 name="Calendar FAQ:in"> (osa 3, kysymys 5.6) mukaan 53 viikkoa on
 kaikissa vuosissa, jotka alkavat torstaina, sekä lisäksi
 karkausvuosissa, jotka alkavat keskiviikkona. Muissa on 52 viikkoa.
