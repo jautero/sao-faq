@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.48 $ $Date: 2001/02/08 09:54:02 $
+<version>$Revision: 1.49 $ $Date: 2001/03/15 06:18:38 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -412,7 +412,7 @@ Toisin kuin esimerkiksi Yhdysvallat, Suomi numeroi viikkonsa
 kansainvälisen ISO 8601 -standardin mukaisesti.  Lisää yleistä tietoa
 tästä standardista saa Jukka Korpelan kirjoittamasta jutusta <url
 name="ISO 8601, the date and time representation standard"
-id="http://www.hut.fi/u/jkorpela/iso8601.html">. Standardi otettiin
+id="http://www.malibutelecom.com/yucca/iso8601.html">. Standardi otettiin
 käyttöön Suomessa vuonna 1973. Sen mukaan:
 
 <list>
@@ -516,8 +516,8 @@ kirja-arvosteluihin.
 Tärkein verkosta saatavissaa oleva C-ohjelmointikieleen liittyvä
 kirjoitus on <url name="C-FAQ"
 id="http://www.eskimo.com/~scs/C-faq/top.html">.  Jukka Korpela on
-myös koonnut <url name="hyödyllistä tietoa C-kielestä"
-id="http://www.hut.fi/u/jkorpela/Cinfo.html">.
+myös koonnut <url name="Tietoa C-ohjelmointikielestä (ja C++:sta) Internetissä"
+id="http://www.malibutelecom.com/yucca/Cinfo.html">.
 <p>
 Bjarne Stroustrupin kehittämään C++-kieleen liittyvää materiaalia
 löytyy kasapäin keksijän itsensä kokoaman <url name="seittisivun"
@@ -540,13 +540,13 @@ id="http://www.perl.org">.  Lisäksi on saatavilla
 <url name="Perl-FAQ" id="http://www.faqs.org/faqs/perl-faq/part0/">.
 Jukka Korpela on tehnyt itse materiaalia ja kerännyt linkkejä
 Perl-kielestä sekä
-<url name="suomeksi" id="http://www.hut.fi/u/jkorpela/perl/"> että
-<url name="englanniksi" id="http://www.hut.fi/u/jkorpela/perl/linkit.html">.
+<url name="suomeksi" id="http://www.malibutelecom.com/yucca/perl/linkit.html"> että
+<url name="englanniksi" id="http://www.malibutelecom.com/yucca/perl/">.
 <p>
 Python-kielen <url name="seittisivusto" id="http://www.python.org/">
 on olemassa. Jukka Korpela on koonnut
 <url name="Perustietoa Python-ohjelmointikielestä suomeksi"
-id="http://www.hut.fi/u/jkorpela/python/">.
+id="http://www.malibutelecom.com/yucca/python/">.
 <p>
 <url name="Visual Basic FAQ"
 id="http://home.sol.no/~jansh/vb/default.htm"> on.
@@ -558,9 +558,7 @@ name="Suomessa fanisivusto">, jossa on erinomainen linkkilista.
 <p>
 Haskell-kielellä on <url name="seittisivusto" id="http://www.haskell.org/">.
 <p>
-Jukka Korpela on koonnut <url name="linkkejä"
-id="http://www.hut.fi/u/jkorpela/fortran.html">
-Fortran-kielimateriaaliin.
+Jukka Korpela on koonnut <url name="Tietoa Fortran-ohjelmointikielestä Internetissä" id="http://www.malibutelecom.com/yucca/Fortran.html">.
 
 <sect>Käyttöjärjestelmät
 <p>
@@ -583,7 +581,7 @@ id="http://www.erlenstar.demon.co.uk/unix/faq_toc.html">
 <sect>Standardit ja muut normit
 <p>Standardeista, normeista ja "teollisuusstandardeista" yleisesti
 kertoo Jukka Korpelan kirjoitus <url name="Standardi, mikä se on?"
-id="http://www.hut.fi/u/jkorpela/stand.html">.
+id="http://www.malibutelecom.com/yucca/stand.html">.
 
 <p>Suomen aakkostamista käsittelee SFS-standardi 4600. Asiasta on
 luettavissa
@@ -594,6 +592,9 @@ luettavissa
 Tätä kirjoitelmaa ylläpitää Antti-Juhani Kaijanaho
 <email/gaia@iki.fi/.
 Korjauksia, lisäyksiä ja muuta sellaista otetaan vastaan.
+
+<p>FAQ:n ylläpitäjä tarvitsee avustajia! Jos olet kiinnostunut, ota yhteyttä 
+ylläpitäjään <email/gaia@iki.fi/.
 
 
 <chapt>Kiitokset
