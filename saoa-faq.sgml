@@ -5,7 +5,7 @@
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori M‰ntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.40 $ $Date: 2002/01/03 01:45:44 $
+<version>$Revision: 1.41 $ $Date: 2002/02/20 08:12:11 $
 
 <copyright>
 Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori M‰ntysalo.
@@ -562,6 +562,21 @@ taulukoissa olevia tietoalkioita, eiv‰t muutu jos taulukossa olevien
 alkoiden m‰‰r‰ muuttuu. T‰m‰ s‰‰st‰‰ paljon aikaa ohjelmaa 
 muutettaessa, on havainnollisempaa kuin useita l‰hes samanlaisia 
 rivej‰ per‰k‰kin ja toimiikin yleens‰ nopeammin.
+
+<sect id="liukuluvut">Liukuluvuista
+<p>
+Ohjelmointikielet k‰ytt‰v‰t reaalilukujen esitt‰miseen yleens‰ liukulukuja.
+Liukuluvilla ei voida esitt‰‰ reaalilukuja tarkasti, mist‰ usein seuraa
+yll‰tt‰vi‰ ongelmia. Esimerkiksi liukuluvilla laskettaessa monet normaalit
+laskus‰‰nnˆt eiv‰t v‰ltt‰m‰tt‰ p‰de, koska esitett‰v‰n luvun tarkkuus
+riippuu suuruusluokasta.  
+
+Jori M‰ntysalo on tehnyt sivun, jolla kerrotaan tarkemmin 
+<url id="http://www.uta.fi/~jm58660/jutut/ohjelmointi/liukuluku/mika_on.html" 
+name="mik‰ on liukuluku">. H‰non myˆs tehnyt sivun "<url 
+id="http://www.uta.fi/~jm58660/jutut/ohjelmointi/liukuluku/laskee_vaarin.html">
+name="Tietokone laskee v‰‰rin">", jossa esitet‰‰n muutama esimerkki asiasta.
+<p>
 
 <chapt>Kommentteja halutaan, kiitoksia annetaan
 <p>
