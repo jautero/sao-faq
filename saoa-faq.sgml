@@ -4,7 +4,7 @@
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori Mäntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.30 $ $Date: 2000/03/02 17:04:03 $
+<version>$Revision: 1.31 $ $Date: 2000/04/11 13:40:31 $
 
 <copyright>
 Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori Mäntysalo.
@@ -303,7 +303,7 @@ C++'' (alkuteos ''Teach Yourself C++ Programming in 21 Days''), vaikka
 sekään ei ole virheetön.
 <p>
 Netistä löytyy myös <url name="Hassun hassu C++ -opas"
-id="http://cppopas.cjb.net/">, joka kevyestä kirjoitustyylistään
+id="http://www.cppopas.cjb.net">, joka kevyestä kirjoitustyylistään
 huolimatta sisältää painavaa asiaa.
 
 </taglist>
