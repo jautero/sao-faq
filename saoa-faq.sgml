@@ -3,7 +3,7 @@
 
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.4 $ $Date: 1999/04/07 11:56:47 $
+<version>$Revision: 1.5 $ $Date: 1999/04/07 18:10:13 $
 
 <copyright>
 Copyright &copy; 1999 Antti-Juhani Kaijanaho.  T‰t‰ kirjoitelmaa
@@ -255,7 +255,7 @@ kunnostautunut Turbo Pascal ja Delphi-murteillaan niin, ett‰ n‰m‰
 Pascaliin perustuvat ohjelmointikielet ovat DOS- ja
 Windows-ohjelmoijien laajassa suosiossa.  Ihmiselle, joka aikoo
 opetella vain yhden kielen ja joka k‰ytt‰‰ DOSia tai Windowsia, Turbo
-Pascal ja Delphi ovat ihanteellisia ohjelmointikieli‰.
+Pascal ja Delphi ovat oikein hyvi‰ ohjelmointikieli‰.
 <p>
 Onko asiantuntijoilla kirjallisuusvinkkej‰?
 
@@ -318,6 +318,7 @@ mainitsen aakkosj‰rjestyksess‰:
 
 <list>
 <item>Paul Kein‰nen
+<item>Jukka Korpela
 <item>Vesa Lappalainen
 <item>Jori M‰ntysalo
 <item>Antti Valmari
@@ -338,6 +339,9 @@ mielipiteit‰ kuuntelen mielell‰ni.
 <p>
 <example>
 $Log: saoa-faq.sgml,v $
+Revision 1.5  1999/04/07 18:10:13  ajk
+Lievennetty Borland-Pascalien suositeltavuusastetta hieman.
+
 Revision 1.4  1999/04/07 11:56:47  ajk
 P‰ivitetty muiden tekstiformaattiversioiden tiedostonimet.
 
