@@ -3,7 +3,7 @@
 
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.1 $ $Date: 1999/01/05 23:22:05 $
+<version>$Revision: 1.2 $ $Date: 1999/02/07 00:59:06 $
 
 <copyright>
 Copyright &copy; 1999 Antti-Juhani Kaijanaho.  Tätä kirjoitelmaa
@@ -59,8 +59,7 @@ id="http://www.iki.fi/gaia/faq/saoa-faq.sgml" name="SGML/Debiandoc">.
 Viimeksimainitun käsittelemiseen tarvitaan <url
 id="http://www.debian.org/Packages/unstable/text/debiandoc-sgml.html"
 name="Debiandoc-SGML-paketti">, joka toiminee ainakin kaikissa
-Unixeissa.  Versiosta 1.1.11 alkaen se tuottaa myös suomenkielisiä
-tuloksia.
+Unixeissa.
 <p>
 Tähän kirjoitelmaan liittyviä kommentteja, korjauksia ja muita sellaisia
 otetaan vastaan osoitteessa <email/gaia@iki.fi/.
@@ -86,8 +85,9 @@ todennäköisesti tunne.  Jos kirjoituksessasi esitetään kysymys, johon
 halutaan vastaus, esitä kysymys selkeästi ja mielellään kirjoituksesi
 alkupuolella.  Kirjoita lyhyesti mutta älä liian lyhyesti.  Pyri aina
 siihen, että kirjoituksesi sanoo jotain olennaista keskustelun
-kohteena olevasta asiasta.  On epäkohteliasta kysyä ryhmässä ja vaatia
-vastaukset sähköpostitse.
+kohteena olevasta asiasta.  Käytä paljon puhuvia otsikoita;
+mitäänsanomattomasta subject-rivistä ei ole kenellekään mitään hyötyä.
+On epäkohteliasta kysyä ryhmässä ja vaatia vastaukset sähköpostitse.
 <p>
 Lisää tietoa netiketistä saa Timo Kiravuon kirjoituksesta <url
 id="http://www.nixu.fi/%7ekiravuo/etiketti/" name="News-etiketti"> ja
@@ -149,6 +149,20 @@ oppiminen, ja suurin osa nykyisin käytössä olevista
 ohjelmointikielistä kyllä mahdollistavat tämän.  Mikäli opettelijalla
 ei kuitenkaan ole näin voimakasta kunnianhimoa, kielen valinnalla on
 suurempi merkitys.
+<p>
+Sanoin äsken, että tosissaan ohjelmointia harrastava ihminen joutuu
+opettelemaan ennemmin tai myöhemmin kaikki yleisessä käytössä olevat
+kielet.  Tätä ei pidä pelästyä: yleensä ensimmäinen kieli on kaikista
+vaikein, sillä sitä opetellessa joutuu samalla oppimaan myös
+<em/ohjelmoimaan/ - ja ohjelmointihan on kaikkea muuta kuin kielen
+yksityiskohtien osaamista.  Annanpa esimerkin itsestäni.  Ensimmäisen
+kieleni opettelin joskus 1990-luvun alkussa.  Minulla kesti kauan,
+ennen kuin opin tekemään sillä jotain hyödyllistä.  Viime syksynä
+opettelin Python-kielen muutamassa päivässä samalle tasolle, jonne
+pääseminen ensimmäisellä kielelläni kesti vuosia; python taisi olla
+minulle viides kieli, jonka opettelin kunnolla.  Voin vain toistaa
+itseäni ja sanoa: kielet helpponevat sitä mukaa kun ohjelmointikokemus
+karttuu.
 <p>
 Väitän, että BASIC-kieli sellaisena kuin se esiintyy 1980-luvulla
 yleisesti käytetyissä kotitietokoneissa (esim. Commodore 64, Sinclair
@@ -266,7 +280,8 @@ Mikäli et tunne kumpaakaan kieltä ennestään ja sinulla on mahdollisuus
 valita, opettele ensin C++.  Näin et joudu oppimaan eräitä pahoja
 tapoja, jotka C:ssä tarvitaan kielen suppeuden vuoksi; jos joskus
 joudut tekemään C-ohjelmia, nämä kiertoreitit on opittavissa varsin
-helposti C++-taustalla.
+helposti C++-taustalla.  Asiaa käsittelee myös <url name="C++-FAQ"
+id="http://www.utu.fi/~sisasa/oasis/cppfaq/">, kysymys 26.2.
 
 <chapt>Peliohjelmoinnista
 <p>
@@ -286,6 +301,49 @@ voi käyttää valmiita ohjelmakirjastoja, sinun täytyy piirtää kuva itse
 ruutuun käyttäen ohjelmointikielesi grafiikkakirjastoa.
 <p>
 Osaisiko joku asiantuntija kertoa tarkemmin?
+
+<chapt>Kommentteja halutaan, kiitoksia annetaan, muutoksia on tehty
+<p>
+Haluan kommentteja, risuja, kritiikkiä sekä ehdotuksia.  Avuliaat
+palkitaan ikuisella kunnialla - sillä, että saa nimensä alla olevaan
+luetteloon.  Niin, ja avulias saa itselleen hyvän mielen, mikä
+tärkeintä!
+<p>
+Haluan kiittää kaikkia, jotka ovat auttaneet minua tämän kirjoitelman
+kokoamisessa.  Erityisesti haluan kiittää seuraavia ihmisiä, jotka
+mainitsen aakkosjärjestyksessä:
+
+<list>
+<item>Paul Keinänen
+<item>Vesa Lappalainen
+<item>Jori Mäntysalo
+<item>Antti Valmari
+</list>
+
+Mikäli mielestäsi sinun pitäisi olla mainittu tuossa listassa, olet
+luultavasti oikeassa; pistä minulle meiliä, olen todennäköisesti vain
+ollut hieman hajamielinen.
+<p>
+Tämä kirjoitus on vielä varsin kesken.  Aion kirjoittaa jotain ainakin
+perusalgoritmeista (lajittelumenetelmät on klassinen aihe, jota aion
+käsitellä).  Aion myös tarkentaa ohjelmointikielen valintaohjeitani.
+Jos voit auttaa, auta.  En luultavasti ota vastaan valmista tekstiä
+(haluan säilyttää kirjoitelmassa oman tyylini) mutta tietoja ja
+mielipiteitä kuuntelen mielelläni.
+
+<sect>Muutokset
+<p>
+<example>
+$Log: saoa-faq.sgml,v $
+Revision 1.2  1999/02/07 00:59:06  ajk
+Tehty helpoimmat alkuperäisen postauksen herättämässä threadissa
+ehdotetut muutokset.
+
+Kirjoitettu kiitoskappale.
+
+Muutosten kirjaaminen aloitettu.
+
+</example>
 
 </book>
 <!-- Keep this comment at the end of the file
