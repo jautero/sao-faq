@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.34 $ $Date: 1999/10/22 20:54:51 $
+<version>$Revision: 1.35 $ $Date: 1999/12/09 11:46:15 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -402,7 +402,7 @@ erityisesti <tt/comp/-hierarkian FAQeja.
 <sect>Kirjallisuutta
 <p>
 Vesa Lappalainen on koonnut <url name="seittisivulleen"
-id="http://wekotin.math.jyu.fi/~vesal/kurssit/kirjallisuutta.html">
+id="http://www.mit.jyu.fi/vesal/kurssit/kirjallisuutta.html">
 arvioita ohjelmointiin yleensä ja erityisesti graafisiin
 käyttöliittymiin, olio-ohjelmointiin, C++-kieleen ja Delphiin
 liittyvistä kirjoista.  Tuolla sivulla on myös linkkejä Lappalaisen
