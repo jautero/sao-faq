@@ -5,7 +5,7 @@ faqs = sao-faq saoa-faq
 
 #pubdir = ~/public_html/faq
 pubdir=jautero@kosh.hut.fi:public_html/faq
-#ftpdir = antkaij@ftp.jyu.fi:/opt/ftp/private/antkaij/faq
+ftpdir=jautero@kosh.hut.fi:public_html/faq
 SCP = scp
 
 sources = srand-virhe.c hetu.c
@@ -53,6 +53,6 @@ publish : all
 	  files="$$files ChangeLog changelog.html sao-faq.html saoa-faq.html" ; \
 	  files="$$files srand-virhe-esim" ; \
 	  $(SCP) -r $$files $(pubdir)
-#	$(SCP) $(sources) $(ftpdir)
+	$(SCP) $(sources) $(ftpdir)
 
 .PHONY: all html

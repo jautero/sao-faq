@@ -5,7 +5,7 @@
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 
-<version>$Revision: 1.52 $ $Date: 2002/01/03 01:45:44 $
+<version>$Revision: 1.53 $ $Date: 2002/01/09 09:17:32 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -402,7 +402,7 @@ name="FTP:llä"> sekä <tt/tar.gz/- että <tt/zip/-tiedostona.
 <p>
 Steffen Beyer <email/sb@sdm.de/ on kirjoittanut Perl-modulin
 <tt/Date::DateCalc/, joka sisältää yksinkertaisia päiväykseen
-liittyviä ruutiineja. Minulla ei ole kokemuksia sen
+liittyviä rutiineja. Minulla ei ole kokemuksia sen
 toimivuudesta. Modulin voi hakea CPAN-mirroreista esimerkiksi
 hakemistosta <tt>modules/by-module/Date</tt>.
 
@@ -630,7 +630,9 @@ kiitos heille kaikille.
 <item>Mikko Vierula
 <item>Teppo Vuori
 <item>Lars Wirzenius
+<item>Juha Antila
 </list>
+
 
 </book>
 
