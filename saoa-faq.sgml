@@ -5,7 +5,7 @@
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori Mäntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.41 $ $Date: 2002/02/20 08:12:11 $
+<version>$Revision: 1.42 $ $Date: 2002/03/07 22:53:56 $
 
 <copyright>
 Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori Mäntysalo.
@@ -338,7 +338,7 @@ id="http://www.utu.fi/~sisasa/oasis/cppfaq/">, kysymys 26.2.
 <p>
 Opettele ohjelmoinnin alkeet käyttäen jotain edellä esiteltyä kieltä.
 Sitten tutustu esimerkiksi kirjoitukseen <url
-id="http://www.mbnet.fi/%7Ejokke/laama211.zip" name="Laaman tie
+id="http://www.hut.fi/~jjpihlaj/data/laama211.zip" name="Laaman tie
 peliohjelmointiin">, joka olettaa C-kielen hallinnan sekä siedettävän
 laskutaidon.
 
