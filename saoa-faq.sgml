@@ -1,0 +1,305 @@
+<!doctype debiandoc public "-//DebianDoc//DTD DebianDoc//EN">
+<book>
+
+<title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
+<author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
+<version>$Revision: 1.1 $ $Date: 1999/01/05 23:22:05 $
+
+<copyright>
+Copyright &copy; 1999 Antti-Juhani Kaijanaho.  Tätä kirjoitelmaa
+saadaan levittää ja muuttaa vapaasti sillä ehdolla, että muutosten
+tekijä ja päiväys ilmoitetaan muutetuissa versioissa selkeästi.
+Kirjoitelman tekijä on mainittava kirjoitelmasta ja sen
+johdannaisteoksista tehdyissä teoskappaleissa, jollei tämä sitä
+erikseen kiellä.
+<p>
+Toivon, että kaikissa viittauksissa tähän artikkeliin mainitaan sen
+<url id="http://www.iki.fi/gaia/faq/saoa-faq.html" name="ikiosoite">.
+Viittauksissa ei tule käyttää muita osoitteita, sillä vain mainitun
+osoitteen toimiminen taataan.
+<p>
+<strong/Kirjoitelman tekijä ei vastaa kirjoitelmassa annetun tiedon
+oikeellisuudesta./ Kirjoitelman on tarkoitus olla mahdollisimman
+luotettava ja puolueeton tietolähde, totta kai, mutta koska sitä
+kirjoitetaan lähinnä harrastuksen vuoksi, ei siitä voida ottaa
+sellaista vastuuta, joka voisi joskus viedä kirjoittajan käräjille.
+</copyright>
+
+<toc>
+
+<chapt>Yleisiä asioita
+<p>
+<sect>Tästä kirjoitelmasta
+<p>
+Tämä kirjoitus on niin sanottu FAQ.  Tämä kirjainlyhenne tulee
+englanninkielen sanoista "Frequently Asked Questions", 'usein
+esitettyjä kysymyksiä'.  Niinpä tämä kirjoitelma pyrkiikin
+<em/vastaamaan usein esitettyihin kysymyksiin/, sellaisiin, jotka
+pidemmän päälle toistuessaan alkavat kyllästyttää keskusteluareenan
+vakiosallistujia.
+<p>
+Tämä kirjoitelma on keskusteluryhmän <tt/sfnet.atk.ohjelmointi.alkeet/
+FAQ.  Vaikka tuo ryhmä onkin varsin nuori, perustettu loppukeväästä
+1998, on siellä ehditty jo kaluta muutama aihe kyllästymiseen asti.
+Siksi tämä kirjoitelma on olemassa: jotta ryhmän uudet lukijat
+saisivat vastauksen polttaviin kysymyksiinsä, joista ryhmän vanhat
+parrat eivät jaksa enää keskustella.  Lienee hyvä mainita, että se,
+että jotakin asiaa käsitellään tässä kirjoituksessa, ei tarkoita, että
+se olisi jotenkin erityisen tärkeää tai toisaalta jotenkin tarpeetonta
+asiaa.
+<p>
+Tämä kirjoitelma postataan kerran kuukaudessa uutisryhmään
+<tt/sfnet.atk.ohjelmointi.alkeet/.  Uusin julkaistu versio on myös
+saatavilla seitistä seuraavissa muodoissa: <url
+id="http://www.iki.fi/gaia/faq/saoa-faq.html" name="HTML">, <url
+id="http://www.iki.fi/gaia/faq/saoa-faq.text" name="tavallinen
+teksti">, <url id="http://www.iki.fi/gaia/faq/saoa-faq.textov"
+name="teksti korostuksin"> ja <url
+id="http://www.iki.fi/gaia/faq/saoa-faq.sgml" name="SGML/Debiandoc">.
+Viimeksimainitun käsittelemiseen tarvitaan <url
+id="http://www.debian.org/Packages/unstable/text/debiandoc-sgml.html"
+name="Debiandoc-SGML-paketti">, joka toiminee ainakin kaikissa
+Unixeissa.  Versiosta 1.1.11 alkaen se tuottaa myös suomenkielisiä
+tuloksia.
+<p>
+Tähän kirjoitelmaan liittyviä kommentteja, korjauksia ja muita sellaisia
+otetaan vastaan osoitteessa <email/gaia@iki.fi/.
+
+<sect>Sananen hyvästä käytöksestä uutisryhmissä
+<p>
+Uutisryhmät ovat kokonaisuutena vanha keskusteluareena, itse asiassa
+paljon vanhempi kuin useimmat verkon käyttäjät tulevat ajatelleeksi.
+Tiedossani ei ole tarkkaa tietoa siitä, koska uutisryhmiä levittävien
+palvelimien verkko Usenet syntyi, mutta se on ollut olemassa nyt jo
+ainakin 15 vuotta.  Osa nykyisistäkin keskustelijoista olivat paikalla
+jo silloin, maailmankaikkeuden hämärinä alkuhetkinä.  Näin vanhalle
+areenalle on aikojen saatossa syntynyt oma hyvän käytöksen normisto,
+jota aloittelevankin kirjoittajan on syytä noudattaa jos ei halua
+saada verkossa <em/peelon/ eli idiootin mainetta.  Tämä netti-etiketti
+eli <em/netiketti/ ei ole kovinkaan monimutkainen, ja terveellä
+järjellä pärjää hyvin.
+<p>
+Tärkeintä on se, että kirjoittaessasi uutisryhmään ilmaiset itseäsi
+selkeästi.  Tässä muutamia nyrkkisääntöjä: Kirjoita yleiskieltä ja
+vältä sellaista erityissanastoa, jota ryhmän lukijakunta ei
+todennäköisesti tunne.  Jos kirjoituksessasi esitetään kysymys, johon
+halutaan vastaus, esitä kysymys selkeästi ja mielellään kirjoituksesi
+alkupuolella.  Kirjoita lyhyesti mutta älä liian lyhyesti.  Pyri aina
+siihen, että kirjoituksesi sanoo jotain olennaista keskustelun
+kohteena olevasta asiasta.  On epäkohteliasta kysyä ryhmässä ja vaatia
+vastaukset sähköpostitse.
+<p>
+Lisää tietoa netiketistä saa Timo Kiravuon kirjoituksesta <url
+id="http://www.nixu.fi/%7ekiravuo/etiketti/" name="News-etiketti"> ja
+Jukka Korpelan kirjoituksesta <url
+id="http://www.hut.fi/%7ejkorpela/nyysit/" name="Nyysiopas">.
+Kumpikin ovat suositeltavaa luettavaa kaikille uutisryhmiä
+seuraaville.
+
+
+<sect>Ohjelmoinnin alkeet -uutisryhmästä
+<p>
+Uutisryhmän <tt/sfnet.atk.ohjelmointi.alkeet/ virallisen kuvauksen
+mukaan se "on tarkoitettu ohjelmointia aloitteleville tai sellaisille,
+jotka tutustuvat itselleen uuteen ohjelmoinnin osa-alueeseen".
+Ryhmässä käsitellään siis erilaisia alkuunpääsemisen ongelmia.
+Muunlaisia ohjelmointiongelmia varten on olemassa ryhmä <url
+id="http://www.iki.fi/gaia/saom/"
+name="sfnet.atk.ohjelmointi.moderoitu">.  Hyvä nyrkkisääntö on, että
+mikäli kysyjä on ohjelmoinut alle vuoden verran, on alkeet-ryhmä
+todennäköisesti oikea valinta.  Toiseen suuntaan ohje ei päde, sillä
+kokeneempikin ohjelmoija saattaa joskus törmätä alkeisongelmiin,
+varsinkin tutustuessaan uuteen ohjelmointikieleen tai -metodiin.
+Toinen hyvä nyrkkisääntö on se, että mikäli kysyjä ei itse tiedä,
+mistä päin nettiä tai kirjallisuutta lähtisi etsimään vastausta,
+kysymys on mahdollisesti alkeista.
+<p>
+<strong/HTML-kieleen liittyvät kysymykset eivät kuulu mihinkään
+ohjelmointiryhmään,/ sillä HTML ei ole ohjelmointikieli.  Esitä ne
+mielummin WWW-kysymyksille varatussa ryhmässä
+<tt/sfnet.viestinta.www/, kun olet ensin tarkistanut, ettei
+kysymykseesi ole vastattu englanninkielisessä <url
+id="http://www.stack.nl/htmlhelp/faq/wdgfaq.htm" name="FAQ:ssa">.
+<p>
+Ennen kysymyksen lähettämistä uutisryhmään tarkista, ettei
+kysymykseesi ole vastattu tässä kirjoituksessa tai <url
+id="http://www.iki.fi/gaia/faq/sao-faq.html" name="moderoidun
+ohjelmointiryhmän FAQ:ssa">.
+
+<chapt>Ohjelmoinnin opettelemisesta
+<p>
+<sect>Ensimmäinen ohjelmointikieli
+<p>
+Kysymys siitä, millä ohjelmointikielellä kannattaisi aloittaa
+ohjemoinnin opettelu, on oikeastaan mielipideasia; jokaisella on oma
+mielipiteensä siitä.  Esitän tässä oman näkemykseni, ja pyydän muita
+kokeneita ohjelmoijia - ja erityisesti ohjelmoinnin opettajia -
+kirjoittamaan oman mielipiteensä ja lähettämään sen minulle, jotta
+voisin esittää tässä kirjoitelmassa mahdollisimman monipuolisen
+vastauksen kysymykseen.
+<p>
+Ensimmäisen ohjelmointikielen valinnalla ei yleensä ole maata
+järisyttävää merkitystä, mikäli opettelija aikoo käydä opintien
+loppuun asti eli ruveta ammattimaiseksi tai vakavasti harrastavaksi
+ohjelmoijaksi.  Tällainen ihminen nimittäin kyllä ennemmin tai
+myöhemmin joutuu opettelemaan suurimman osan yleisessä käytössä
+olevista ohjelmointikielistä.  Tärkeintä ohjelmoinnin opettelemisessa
+on tällaisen ihmisen kannalta ajattelutapojen ja ongelmanratkaisun
+oppiminen, ja suurin osa nykyisin käytössä olevista
+ohjelmointikielistä kyllä mahdollistavat tämän.  Mikäli opettelijalla
+ei kuitenkaan ole näin voimakasta kunnianhimoa, kielen valinnalla on
+suurempi merkitys.
+<p>
+Väitän, että BASIC-kieli sellaisena kuin se esiintyy 1980-luvulla
+yleisesti käytetyissä kotitietokoneissa (esim. Commodore 64, Sinclair
+Spectrum ja varhaiset IBM PC -yhteensopivat tietokoneet), <em/on
+täysin sopimaton aloittelevalle ohjelmoijalle./ Kielestä puuttuvat
+nimittäin kaikki hyvää ohjelmointityyliä tukevat ominaisuudet, ja
+tämän mikrobasictaustan omaava ohjelmoija joutuu ennemmin tai
+myöhemmin opettelemaan pois tämän kielen tuomista pahoista tavoista,
+mikä ei ole ollenkaan helppo homma.  Vastaava ongelma on kaikilla
+konekielillä.  Nykyisin käytössä olevat BASIC-murteet ovat jo
+käyttökelpoisempia.
+<p>
+Hyviä aloituskieliä ovat Scheme, Python, Prolog, Java, Pascal ja C++.
+Muitakin kelpo kieliä on.  Käsittelen nyt kutakin nimeltä
+mainitsemaani kieltä erikseen.
+<p>
+<taglist>
+
+<tag>Scheme<item>Scheme on 1970-luvulta peräisin oleva kieli, jota
+käytetään nykyisin varsin paljon korkeakouluissa ja yliopistoissa
+ensimmäisenä opetuskielenä - esimerkiksi Teknillisen korkeakoulun
+pääaineopiskelijoilla Scheme on pakollinen ensimmäinen
+ohjelmointikieli.  Kielessä on hyvin vähän opeteltavia yksityiskohtia,
+ja siksipä Schemeä käytettäessä päästään nopeasti käsiksi tärkeämpiin
+asioihin.  Scheme kuuluu epäpuhtaiden funktionaalisten kielten
+luokkaan, minkä vuoksi joillakin on sitä kohtaan turhia
+ennakkoluuloja.  Mikäli minua pyydettäisiin suosittelemaan
+ohjelmoinnista tosissaan kiinnostuneelle aloittelijalle jotain kieltä
+ensimmäiseksi ohjelmointikieleksi, suosittelisin Schemeä.
+<p>
+Scheme-materiaalia on verkossa varsin paljon, lähinnä englanniksi.
+Hyviä aloituspaikkoja ovat <url id="http://www.schemers.org/"
+name="Schemers.org"> ja suomalainen vaan ei suomenkielinen <url
+id="http://www.niksula.cs.hut.fi/%7Ecandolin/scheme/"
+name="Schememonster's friends">.  Schemeä käyttäviä, aloittelevalle
+ohjelmoijalle sopivia kirjoja on myös, lähinnä englanniksi.
+
+<tag>Python<item>Python on Schemeä huomattavasti nuorempi
+ohjelmointikieli.  Pythonin kielioppi on johdonmukainen ja sisältää
+vähän opeteltavia yksityiskohtia.  Kieli tarjoaa runsaasti valmiita
+työkaluja monien käytännön ohjelmointiongelmien ratkaisemiseen
+nopeasti ja vähällä kirjoittamisella.  Tämän vuoksi se sopii hyvin
+sellaiselle aloittelevalle ohjelmoijalle, joka haluaa saada nopeasti
+hyvin toimivia ohjelmia aikaiseksi.  Pythonin pahin ongelma on se,
+ettei siitä ole olemassa kunnollista kirjallista materiaalia
+aloittelevan ohjelmoijan käyttöön.
+<p>
+Kaikki olennainen Pythonista on luettavissa kielen <url
+name="seittisivustolta" id="http://www.python.org/">.
+
+<tag>Prolog<item>Prolog on varsin omintakeinen ohjelmointikieli.  Se
+perustuu muodolliseen logiikkaan ja päättelysääntöihin: kun Prologille
+kerrotaan, että Matti on Maijan poika, Mikko on Matin poika ja pojan
+poika on pojanpoika, niin Prolog osaa vastata kysymykseen "Onko Mikko
+Maijan pojanpoika?" oikein.  Prolog poikkeaa muista kielistä siinä,
+että vain Prologissa tämä ongelma voidaan esittää suurin piirtein yhtä
+yksinkertaisesti kuin suomen kielessä.  Prolog on hyvä kieli
+sellaiselle, jota kiinnostavat älylliset pelit ja kielelliset
+ongelmat.
+<p>
+Osaisiko joku antaa hyviä URLeja Prolog-materiaaliin tai mainita
+joitakin hyviä, aloittelijoille sopivia Prolog-kirjoja?
+
+<tag>Java<item>Java on eri asia kuin seittisivuilla varsin usein
+nähtävä Javascript.  Java on hyvin uusi mutta lupaavalta näyttävä
+ohjelmointikieli, joka on sukulaistaan C++:aa huomattavasti
+ystävällisempi käyttäjäänsä kohtaan.  Kielen soveltuvuudesta
+aloittelijalle kertoo jotain se, että Helsingin yliopiston
+Tietojenkäsittelytieteen laitos käyttää Javaa ensimmäisenä
+opetuskielenään.
+<p>
+Helsingin yliopistossa aloitteleville ohjelmoijille pidettävää
+Java-kurssia luennoiva Arto Wikla on kirjoittanut kurssin
+luentomateriaalin pohjalta kelpo kirjan (Arto Wikla: Ohjelmoinnin
+perusteet Java-kielellä, OtaDATA 1998), joka sopii aloittavalle
+ohjelmoijalle.  Yksityiseen käyttöön on saatavilla kirjan kanssa
+samaan materiaaliin perustuva <url name="seittisivusto"
+id="http://www.cs.helsinki.fi/%7Ewikla/JohdOhj/">, jota Wikla käyttää
+Java-kurssinsa kurssimateriaalina ja joka siksi soveltuu hyvin
+aloittelevan ohjelmoijan luettavaksi.
+
+<tag>Pascal<item>Pascal on kehitettiin 1970-luvulla opetuskieleksi.
+Sitä käytettiinkin paljon opetuksessa pitkälle 1990-luvulle asti.
+Alkuperäisessä ja standardoidussa muodossaan kieli on kuitenkin aivan
+liian rajoittunut eikä sillä voi tehdä mitään todellisia ohjelmia.
+Sittemmin erityisesti entinen Borland, nykyinen Inprise on
+kunnostautunut Turbo Pascal ja Delphi-murteillaan niin, että nämä
+Pascaliin perustuvat ohjelmointikielet ovat DOS- ja
+Windows-ohjelmoijien laajassa suosiossa.  Ihmiselle, joka aikoo
+opetella vain yhden kielen ja joka käyttää DOSia tai Windowsia, Turbo
+Pascal ja Delphi ovat ihanteellisia ohjelmointikieliä.
+<p>
+Onko asiantuntijoilla kirjallisuusvinkkejä?
+
+<tag>C++<item>C++ on kulttikieli, siitä ei pääse yli eikä ympäri.  Se
+perustuu toiseen kulttikieleen nimeltä C, joka kehitettiin
+1970-luvulla konekielen korvaajaksi
+käyttöjärjestelmäohjelmointikäyttöön.  C++ on järkyttävän iso kieli,
+ja sen kaikkien yksityiskohtien muistaminen on käytännössä mahdotonta.
+Kaikesta huolimatta sekä C:tä että C++:aa opetetaan aloitteleville
+ohjelmoijille monissa yliopistoissa ja korkeakouluissa (Jyväskylän
+yliopisto yhtenä esimerkkinä).  Itseopiskelijalle C++ on luultavasti
+liian hankala ensimmäiseksi kieleksi.
+<p>
+C++-kirjallisuutta on myynnissä uskomattomia määriä.  Monetkaan kirjat
+eivät ole kovin kaksisia, ja asiavirheet eivät ole tavattomia.  En
+tiedä, mitä kirjaa suosittelisin aloittelijalle.  Onko
+asiantuntijoilla kommentteja?
+
+</taglist>
+
+<sect>Kumpi opetella ensin: C vai C++?
+<p>
+Mikäli et tunne kumpaakaan kieltä ennestään ja sinulla on mahdollisuus
+valita, opettele ensin C++.  Näin et joudu oppimaan eräitä pahoja
+tapoja, jotka C:ssä tarvitaan kielen suppeuden vuoksi; jos joskus
+joudut tekemään C-ohjelmia, nämä kiertoreitit on opittavissa varsin
+helposti C++-taustalla.
+
+<chapt>Peliohjelmoinnista
+<p>
+<sect>Haluan oppia tekemään pelin.  Miten aloitan?
+<p>
+Opettele ohjelmoinnin alkeet käyttäen jotain edellä esiteltyä kieltä.
+Sitten tutustu esimerkiksi kirjoitukseen <url
+id="http://www.mbnet.fi/%7Ejokke/laama211.zip" name="Laaman tie
+peliohjelmointiin">, joka olettaa C-kielen hallinnan sekä siedettävän
+laskutaidon.
+
+<sect>Kuinka laitan peliini kuvan?
+<p>
+Tämä riippuu monesta asiasta.  Käyttämässäsi ohjelmointikielessä voi
+olla valmiita keinoja kuvan laittamiseen.  Mikäli näin ei ole, etkä
+voi käyttää valmiita ohjelmakirjastoja, sinun täytyy piirtää kuva itse
+ruutuun käyttäen ohjelmointikielesi grafiikkakirjastoa.
+<p>
+Osaisiko joku asiantuntija kertoa tarkemmin?
+
+</book>
+<!-- Keep this comment at the end of the file
+Local variables:
+mode: sgml
+sgml-omittag:t
+sgml-shorttag:t
+sgml-minimize-attributes:nil
+sgml-always-quote-attributes:t
+sgml-indent-step:2
+sgml-indent-data:t
+sgml-parent-document:nil
+sgml-exposed-tags:nil
+sgml-local-catalogs:("/usr/lib/sgml/catalog")
+sgml-local-ecat-files:nil
+End:
+-->
