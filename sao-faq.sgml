@@ -5,7 +5,7 @@
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 
-<version>$Revision: 1.54 $ $Date: 2002/02/11 22:57:53 $
+<version>$Revision: 1.55 $ $Date: 2002/02/11 23:01:55 $
 
 <abstract>
 T‰m‰ artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -597,7 +597,7 @@ id="http://www.cs.tut.fi/~jkorpela/abc.html">.
 <url name="CEN" id="http://www.cenorm.be/default.htm"> 
 on julkaissut er‰it‰ ep‰virallisiksi mutta merkitt‰viksi normeiksi 
 luonnehdittavissa olevia sopimuksia, ns. 
-<url name="CWA:ita (CEN Wotkshop Agreement)"
+<url name="CWA:ita (CEN Workshop Agreement)"
 id="http://www.cenorm.be/isss/CWAs/cwalist.htm">.  
 Niiss‰ mm. k‰sitell‰‰n sit‰, miten erilaiset kieli- ja
 kulttuuririippuvuudet tulisi ottaa huomioon tietokoneohjelmien
