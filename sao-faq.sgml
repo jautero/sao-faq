@@ -5,7 +5,7 @@
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 
-<version>$Revision: 1.53 $ $Date: 2002/01/09 09:17:32 $
+<version>$Revision: 1.54 $ $Date: 2002/02/11 22:57:53 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -164,7 +164,7 @@ tulosteta.
 <p>
 Viitenumeron viimeinen numero on tarkiste. Se muodostetaan
 seuraavasti:
-
+&amp;
 <list>
 <item>Tarkistettavan viitteen numerot tarkistetta lukuunottamatta
 kerrotaan oikealta vasemmalle painoarvoilla 7, 3, 1, 7, 3, 1, ...
@@ -222,8 +222,8 @@ tilinumeron tarkiste, joka merkitään tilinumeron viimeiseksi eli
 <sect>Miten henkilötunnus muodostetaan?
 <p>
 Suomalaisen henkilötunnuksen muoto on määrätty väestötietoasetuksen 2
-pykälässä (<url id="http://www.edita.fi/sk/" name="Suomen
-säädöskokoelman"> numero 886/1993, muutettu 84/1997).
+pykälässä (<url id="http://www.finlex.fi/" name="Finlex-säädöskokoelman"> 
+numero 886/1993 muutettu 84/1997).
 <p>
 Henkilötunnus
 (aiemmin sosiaaliturvatunnus) koostuu syntymäajasta,
@@ -256,7 +256,7 @@ henkilötunnuksen oikeellisuuden.
 <p>
 LY-tunnuksen muoto on määrätty asetuksessa liike- ja
 yhteisötunnuksesta (598/1991).  Asetuksen teksti on saatavissa myös
-verkosta <url id="http://finlex.edita.fi/" name="Editan Finlex-palvelun">
+verkosta <url id="http://www.finlex.fi/" name="Finlex-säädöskokoelman">
 kautta.  Seuraava kappale on melko suoraa lainausta asetustekstistä (4 §).
 <p>
 Liike- ja yhteisötunnuksen muodostavat järjestysnumero ja tarkistusnumero
@@ -590,6 +590,20 @@ id="http://www.malibutelecom.com/yucca/stand.html">.
 <p>Suomen aakkostamista käsittelee SFS-standardi 4600. Asiasta on
 luettavissa
 <url name="lehdistötiedote" id="http://www.sfs.fi/standard/20000619.html">.
+Jukka Korpela on kirjoittanut seittisivun <url name="aakkostuksesta Suomessa"
+id="http://www.cs.tut.fi/~jkorpela/abc.html">.
+
+<p>Euroopan standardointijärjestö 
+<url name="CEN" id="http://www.cenorm.be/default.htm"> 
+on julkaissut eräitä epävirallisiksi mutta merkittäviksi normeiksi 
+luonnehdittavissa olevia sopimuksia, ns. 
+<url name="CWA:ita (CEN Wotkshop Agreement)"
+id="http://www.cenorm.be/isss/CWAs/cwalist.htm">.  
+Niissä mm. käsitellään sitä, miten erilaiset kieli- ja
+kulttuuririippuvuudet tulisi ottaa huomioon tietokoneohjelmien
+suunnittelussa sekä mikä on yleiseurooppalaisiin yhteyksiin sopiva
+käytäntö päiväysten, rahamäärien yms. esittämiseen eli
+ns. pan-European locale.
 
 <chapt>Kommentteja halutaan
 <p>
