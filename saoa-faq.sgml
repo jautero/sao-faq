@@ -4,7 +4,7 @@
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori M‰ntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.18 $ $Date: 1999/12/09 22:28:15 $
+<version>$Revision: 1.19 $ $Date: 1999/12/10 02:57:45 $
 
 <copyright>
 Copyright &copy; 1999 Antti-Juhani Kaijanaho ja Jori M‰ntysalo.  T‰t‰
@@ -388,6 +388,21 @@ ja <tt/RAND_MAX/ satunnaislukugeneraattorin <tt/rand()/ tuottama
 suurin kokonaisluku (pienin on nolla).  T‰m‰n metodin hankaluutena on
 liukulukujen k‰ytˆn aiheuttama laskentaep‰tarkkuus.
 <p>
+Toinen tapa (kiitokset Kalle Olavi Niemitalolle) on seuraava: Olkoon
+ensin <tt/N := MAX - MIN/ ja <tt/RM := RAND_MAX + 1/ (miss‰
+<tt/RAND_MAX/ on suurin luku, jonka satunnaislukugeneraattori
+tuottaa).  Jaetaan v‰li <tt/0..RAND_MAX/ N:‰‰n yht‰ pitk‰‰n osaan
+(mik‰li viimeinen osa on lyhyempi kuin muut, sille osuvat
+arvontatulokset hyl‰t‰‰n).  T‰llˆin haluttu satunnaisluku on sen osan
+j‰rjestysnumero <tt/+ MIN - 1/, jolle satunnaislukugeneraattorin
+palauttama osa osuu.  Valmis C-koodi lˆytyy Niemitalon artikkelista
+<tt>&lt;iznpv693fk8.fsf@stekt38.oulu.fi&gt;</tt> (<url
+id="http://www.deja.com/getdoc.xp?AN=455576976" name="Deja.com: Re:
+Satunnaislukujen generointi C++:ssa?">).
+<p>
+Edell‰mainituissa menetelmiss‰ t‰ytyy halutun v‰lin pituuden olla
+enint‰‰n <tt/RAND_MAX/.
+<p>
 Viel‰ yksi tapa on k‰ytt‰‰ omaa satunnaislukugeneraattoria.  T‰ss‰
 pit‰‰ olla <em/todella/ tarkkana: on helppoa keksi‰ surkea
 satunnaislukugeneraattori ja vaikeata keksi‰ hyv‰ sellainen.
@@ -398,9 +413,9 @@ id="http://www.cs.tut.fi/~ava/81120extra/random.cc" name="verkosta">.
 <sect>Lottorivin arvonta
 <p>
 Lottorivi‰ arvottaessa olennaista on, ett‰ samaa lukua ei arvota kahta
-kertaa.  T‰t‰ <em/ei/ pid‰ toteuttaa pit‰m‰ll‰ kirjaa jo arvotuista
-luvuista: t‰m‰ menetelm‰ voi pahimmassa tapauksessa juuttua
-umpiluuppiin.
+kertaa.  T‰t‰ <em/ei/ pid‰ toteuttaa arpomalla joka kierroksella luku
+v‰lilt‰ 1..39 ja hylk‰‰m‰ll‰ jo arvotut numerot.  Tuo nimitt‰in voi
+johtaa umpiluuppiin.
 <p>
 Hyv‰ ja yksinkertainen lottorivin arvonta-algoritmi on t‰ss‰
 (kiitokset Kimmo Surakalle): Kootaan taulukkoon kaikki 39 lukua,
@@ -432,7 +447,10 @@ mainitsen aakkosj‰rjestyksess‰:
 <item>Jukka Korpela
 <item>Vesa Lappalainen
 <item>Jori M‰ntysalo
+<item>Kalle Olavi Niemitalo
 <item>Mika Rantanen
+<item>Jukka Suomela
+<item>Kimmo Surakka
 <item>Antti Valmari
 </list>
 
