@@ -5,7 +5,7 @@
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori M‰ntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.42 $ $Date: 2002/03/07 22:53:56 $
+<version>$Revision: 1.43 $ $Date: 2002/04/22 15:14:44 $
 
 <copyright>
 Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori M‰ntysalo.
@@ -144,7 +144,7 @@ ohjelmointiryhm‰‰n,/ sill‰ HTML ei ole ohjelmointikieli.  Esit‰ ne
 mielummin WWW-kysymyksille varatussa ryhm‰ss‰
 <tt/sfnet.viestinta.www/, kun olet ensin tarkistanut, ettei
 kysymykseesi ole vastattu <url
-id="http://www.snowman.sgic.fi/ssl/svwww-vukk/"
+id="http://www.heikniemi.net/svwww-vukk/"
 name="ryhm‰n VUKK:ssa"> tai englanninkielisess‰ <url
 id="http://www.stack.nl/htmlhelp/faq/wdgfaq.htm" name="FAQ:ssa">.
 <p>
