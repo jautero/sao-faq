@@ -4,7 +4,7 @@
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori Mäntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.15 $ $Date: 1999/10/06 20:19:24 $
+<version>$Revision: 1.16 $ $Date: 1999/10/15 17:50:56 $
 
 <copyright>
 Copyright &copy; 1999 Antti-Juhani Kaijanaho ja Jori Mäntysalo.  Tätä
@@ -267,9 +267,15 @@ Pascaliin perustuvat ohjelmointikielet ovat DOS- ja
 Windows-ohjelmoijien laajassa suosiossa.  Ihmiselle, joka aikoo
 opetella vain yhden kielen ja joka käyttää DOSia tai Windowsia, Turbo
 Pascal ja Delphi ovat oikein hyviä ohjelmointikieliä.
+
 <p>
-Seitistä löytyy <url
+Jori Mäntysalo on kirjoittanut perusteluja sille miksi <url
+name="pascal sopii ohjelmoinnin opiskeluun." id="http://www.uta.fi/%7Ejm58660/jutut/ohjelmointi/pascal.html">.
+
+<p>
+Seitistä löytyy  <url
 name="pascal-opas" id="http://www.tuug.utu.fi/%7ef/pascal/">.
+
 
 <tag>C++<item>C++ on kulttikieli, siitä ei pääse yli eikä ympäri.  Se
 perustuu toiseen kulttikieleen nimeltä C, joka kehitettiin
