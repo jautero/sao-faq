@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.41 $ $Date: 2000/03/02 16:59:27 $
+<version>$Revision: 1.42 $ $Date: 2000/03/02 17:03:54 $
 
 <abstract>
 T‰m‰ artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -13,8 +13,12 @@ erityiskysymyksiin mutta k‰sittelen muitakin aiheita tarpeen mukaan.
 
 <copyright>
 Copyright &copy; 1997-2000 Antti-Juhani Kaijanaho.  T‰t‰ kirjoitelmaa
-saadaan levitt‰‰ ja muuttaa vapaasti, sill‰ ehdolla, ett‰ muutosten
+saadaan levitt‰‰ ja muuttaa vapaasti sill‰ ehdolla, ett‰ muutosten
 tekij‰ ja p‰iv‰ys ilmoitetaan muutetuissa versioissa selke‰sti.
+Kirjoitelman tekij‰t (mukaanlukien kaikki mahdollisten muutosten
+tekij‰t) on mainittava kirjoitelmasta ja sen johdannaisteoksista
+tehdyiss‰ teoskappaleissa, jollei kukin sit‰ omalta osaltaan erikseen
+kiell‰.
 <p>
 Toivon, ett‰ kaikissa viittauksissa t‰h‰n artikkeliin mainitaan sen
 ikiosoite
