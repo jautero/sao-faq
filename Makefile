@@ -6,7 +6,7 @@ faqs = sao-faq saoa-faq
 #pubdir = ~/public_html/faq
 pubdir=jautero@kosh.hut.fi:public_html/faq
 ftpdir=jautero@kosh.hut.fi:public_html/faq
-SCP = scp
+SCP = rsync -e ssh
 TAR = tar
 tarball = faq.tar.gz
 
