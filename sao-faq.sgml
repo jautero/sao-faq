@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.10 $ $Date: 1999/01/03 21:30:34 $
+<version>$Revision: 1.11 $ $Date: 1999/01/03 21:37:21 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -393,7 +393,7 @@ id="http://www.faqs.org/faqs/macintosh/programming-faq/">.
 Unix-ohjelmoinnistakin on <url name="FAQ-lista"
 id="http://www.erlenstar.demon.co.uk/unix/faq_toc.html">
 
-<chapt>Kiitos!  Ja äskettäin tehdyt muutokset.
+<chapt>Kommentteja halutaan ja muutoksia on tehty
 <p>
 Kommentteja, korjauksia, lisäyksiä ja muuta sellaista otetaan vastaan
 osoitteessa <email/gaia@iki.fi/.
@@ -402,6 +402,9 @@ Seuraavassa on lueteltu tähän FAQiin äskettäin tehdyt muutokset.
 <p>
 <example>
 $Log: sao-faq.sgml,v $
+Revision 1.11  1999/01/03 21:37:21  ajk
+Päivitetty kiitokset.
+
 Revision 1.10  1999/01/03 21:30:34  ajk
 Mainitaan moderoidun ryhmän säännöt.
 
@@ -433,6 +436,7 @@ kiitos heille kaikille.
 <item>Rauli Ruohonen, <email/raulir@iki.fi/
 <item>Kimmo Surakka, <email/kusti@cs.tut.fi/
 <item>Tapani Tarvainen, <email/tt@math.jyu.fi/
+<item>Mikko Vierula, <email/Mikko.Vierula@iki.fi/
 <item>Teppo Vuori
 <item>Lars Wirzenius, <email/liw@iki.fi/
 </list>
