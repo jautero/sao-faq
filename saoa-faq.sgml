@@ -4,7 +4,7 @@
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori Mäntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.25 $ $Date: 1999/12/22 15:43:52 $
+<version>$Revision: 1.26 $ $Date: 2000/02/11 17:57:06 $
 
 <copyright>
 Copyright &copy; 1999 Antti-Juhani Kaijanaho ja Jori Mäntysalo.  Tätä
@@ -172,7 +172,7 @@ vaikein, sillä sitä opetellessa joutuu samalla oppimaan myös
 <em/ohjelmoimaan/ - ja ohjelmointihan on kaikkea muuta kuin kielen
 yksityiskohtien osaamista.  Annanpa esimerkin itsestäni.  Ensimmäisen
 kieleni opettelin joskus 1990-luvun alkussa.  Minulla kesti kauan,
-ennen kuin opin tekemään sillä jotain hyödyllistä.  Viime syksynä
+ennen kuin opin tekemään sillä jotain hyödyllistä.  Syksyllä 1998
 opettelin Python-kielen muutamassa päivässä samalle tasolle, jonne
 pääseminen ensimmäisellä kielelläni kesti vuosia; python taisi olla
 minulle viides kieli, jonka opettelin kunnolla.  Voin vain toistaa
