@@ -38,6 +38,7 @@ publish : all
 	     files="$$files sao-faq.$$p" ; \
 	     files="$$files saoa-faq.$$p" ; \
 	   done ; \
-	  $(SCP) -r ChangeLog sao-faq.html saoa-faq.html $$files $(pubdir)
+	files="$$files ChangeLog changelog.html sao-faq.html saoa-faq.html"
+	$(SCP) -r $$files $(pubdir)
 
 .PHONY: all
