@@ -5,7 +5,7 @@
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 
-<version>$Revision: 1.55 $ $Date: 2002/02/11 23:01:55 $
+<version>$Revision: 1.56 $ $Date: 2002/02/16 15:48:31 $
 
 <abstract>
 T‰m‰ artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -155,12 +155,12 @@ id="http://www.pankkiyhdistys.fi/tiedostot/pdf/tilisiirto98.pdf">.
 
 <sect>Miten pankkiviitenumero muodostetaan?
 <p>
-Pankkiviitenumero on v‰hint‰‰n nelj‰ ja korkeintaan 20 merkki‰ pitk‰
-numerosarja. Sen tulisi kuitenkin olla mahdollisimman lyhyt, jotta
-n‰pp‰ilyvirheet v‰henisiv‰t. Laskuttaja voi valita viitenumeron
-vapaasti viimeist‰ numeroa lukuunottamatta. Viitenumero suositellaan
-tulostettavaksi viiden numeron ryhmiss‰ oikealta alkaen. Alkunollia ei
-tulosteta.
+Pankkiviitenumero korkeintaan 20 merkki‰ pitk‰ numerosarja. Sen tulisi
+kuitenkin olla mahdollisimman lyhyt, jotta n‰pp‰ilyvirheet
+v‰henisiv‰t. Mielell‰‰n kuitenkin v‰hint‰‰n 4 merkki‰.  Laskuttaja voi
+valita viitenumeron vapaasti viimeist‰ numeroa
+lukuunottamatta. Viitenumero suositellaan tulostettavaksi viiden
+numeron ryhmiss‰ oikealta alkaen. Alkunollia ei tulosteta.
 <p>
 Viitenumeron viimeinen numero on tarkiste. Se muodostetaan
 seuraavasti:
