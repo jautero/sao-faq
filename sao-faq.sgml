@@ -3,7 +3,9 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.50 $ $Date: 2001/06/12 19:19:35 $
+<author>Juha Autero <email>jautero@iki.fi
+
+<version>$Revision: 1.51 $ $Date: 2002/01/01 22:54:30 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -12,7 +14,10 @@ erityiskysymyksiin mutta käsittelen muitakin aiheita tarpeen mukaan.
 </abstract>
 
 <copyright>
-Copyright &copy; 1997-2000 Antti-Juhani Kaijanaho.  Tätä kirjoitelmaa
+Copyright &copy; 1997-2000 Antti-Juhani Kaijanaho.  
+Copyright &copy; 2002 Juha Autero
+<p>
+Tätä kirjoitelmaa
 saadaan levittää ja muuttaa vapaasti sillä ehdolla, että muutosten
 tekijä ja päiväys ilmoitetaan muutetuissa versioissa selkeästi.
 Kirjoitelman tekijät (mukaanlukien kaikki mahdollisten muutosten
@@ -22,8 +27,8 @@ kiellä.
 <p>
 Toivon, että kaikissa viittauksissa tähän artikkeliin mainitaan sen
 ikiosoite
-<url id="http://www.iki.fi/gaia/faq/sao-faq.html"
-name="http://www.iki.fi/gaia/faq/sao-faq.html"> .
+<url id="http://www.iki.fi/jautero/faq/sao-faq.html"
+name="http://www.iki.fi/jautero/faq/sao-faq.html"> .
 Viittauksissa ei tule käyttää muita osoitteita, sillä vain mainitun
 osoitteen toimiminen taataan.
 <p>
@@ -58,14 +63,14 @@ Yleensä tähän kysymykseen vastataan: "Luet sitä nyt juuri, joten
 <em/säilytä/ hallussasi oleva kappale."
 <p>
 Uusin versio on aina löydettävissä FAQin <url
-id="http://www.iki.fi/gaia/faq/sao-faq.html" name="seittisivulta">.
+id="http://www.iki.fi/jautero/faq/sao-faq.html" name="seittisivulta">.
 <p>
 Tämä dokumentti on olemassa myös tekstiversiona (<url
-id="http://www.iki.fi/gaia/faq/sao-faq.txt" name="ilman korostuksia">
-ja <url id="http://www.iki.fi/gaia/faq/sao-faq.tov"
+id="http://www.iki.fi/jautero/faq/sao-faq.txt" name="ilman korostuksia">
+ja <url id="http://www.iki.fi/jautero/faq/sao-faq.tov"
 name="korostuksineen">).
 <p>
-Myös FAQin <url id="http://www.iki.fi/gaia/faq/sao-faq.sgml"
+Myös FAQin <url id="http://www.iki.fi/jautero/faq/sao-faq.sgml"
 name="SGML-sorsat"> ovat saatavilla.  Tarvitset niiden käsittelemiseen
 uudehkon <url
 id="http://www.debian.org/Packages/unstable/text/debiandoc-sgml.html"
@@ -75,8 +80,8 @@ Unixeissa.
 Kaikissa ylläolevissa osoitteissa on aina FAQin uusin julkaistu versio.
 <p>
 Kirjoitelmaan tehdyt muutokset löytyvät <url
-id="http://www.iki.fi/gaia/faq/ChangeLog" name="GNU ChangeLog"> sekä
-<url id="http://www.iki.fi/gaia/faq/changelog.html"
+id="http://www.iki.fi/jautero/faq/ChangeLog" name="GNU ChangeLog"> sekä
+<url id="http://www.iki.fi/jautero/faq/changelog.html"
 name="HTML">-muodossa.
 <p>
 Tämä FAQ pyritään postaamaan joka kuukauden 17. päivänä uutisryhmiin
@@ -116,7 +121,7 @@ osa-alueen perusoppikirjoissa, se kuuluu alkeet-ryhmään.  Toisaalta
 se, että vuosia ohjelmoinut ihminen ei kohtuullisella vaivalla löydä
 ratkaisua ongelmaansa, on kohtuullisen hyvä merkki siitä, että kysymys
 ei ole alkeista.  Alkeet-ryhmällä on <url name="oma FAQ"
-id="http://www.iki.fi/gaia/faq/saoa-faq.html">.
+id="http://www.iki.fi/jautero/faq/saoa-faq.html">.
 <p>
 <em/HTML-kieleen liittyvät kysymykset eivät kuulu mihinkään
 ohjelmointiryhmään,/ sillä HTML ei ole ohjelmointikieli.  Esitä ne

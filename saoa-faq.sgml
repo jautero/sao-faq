@@ -4,11 +4,13 @@
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori M‰ntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.38 $ $Date: 2001/06/12 19:19:36 $
+<author>Juha Autero <email>jautero@iki.fi
+<version>$Revision: 1.39 $ $Date: 2002/01/01 22:54:31 $
 
 <copyright>
 Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori M‰ntysalo.
 Copyright &copy; 2000 Jani Miettinen (kohta <ref id="taulukot">)
+Copyright &copy; 2002 Juha Autero
 <p>
 T‰t‰ kirjoitelmaa saadaan levitt‰‰ ja muuttaa vapaasti sill‰ ehdolla,
 ett‰ muutosten tekij‰ ja p‰iv‰ys ilmoitetaan muutetuissa versioissa
@@ -19,8 +21,8 @@ omalta osaltaan erikseen kiell‰.
 <p>
 Toivomme, ett‰ kaikissa viittauksissa t‰h‰n artikkeliin mainitaan sen
 ikiosoite
-<url id="http://www.iki.fi/gaia/faq/saoa-faq.html"
-name="http://www.iki.fi/gaia/faq/saoa-faq.html"> .
+<url id="http://www.iki.fi/jautero/faq/saoa-faq.html"
+name="http://www.iki.fi/jautero/faq/saoa-faq.html"> .
 Viittauksissa ei tule k‰ytt‰‰ muita osoitteita, sill‰ vain mainitun
 osoitteen toimiminen taataan.
 <p>
@@ -58,11 +60,11 @@ asiaa.
 T‰m‰ kirjoitelma postataan kerran kuukaudessa uutisryhm‰‰n
 <tt/sfnet.atk.ohjelmointi.alkeet/.  Uusin julkaistu versio on myˆs
 saatavilla seitist‰ seuraavissa muodoissa: <url
-id="http://www.iki.fi/gaia/faq/saoa-faq.html" name="HTML">, <url
-id="http://www.iki.fi/gaia/faq/saoa-faq.txt" name="tavallinen
-teksti">, <url id="http://www.iki.fi/gaia/faq/saoa-faq.tov"
+id="http://www.iki.fi/jautero/faq/saoa-faq.html" name="HTML">, <url
+id="http://www.iki.fi/jautero/faq/saoa-faq.txt" name="tavallinen
+teksti">, <url id="http://www.iki.fi/jautero/faq/saoa-faq.tov"
 name="teksti korostuksin"> ja <url
-id="http://www.iki.fi/gaia/faq/saoa-faq.sgml" name="SGML/Debiandoc">.
+id="http://www.iki.fi/jautero/faq/saoa-faq.sgml" name="SGML/Debiandoc">.
 Viimeksimainitun k‰sittelemiseen tarvitaan <url
 id="http://www.debian.org/Packages/unstable/text/debiandoc-sgml.html"
 name="Debiandoc-SGML-paketti">, joka toiminee ainakin kaikissa
@@ -73,8 +75,8 @@ Kirjoituksen "min‰" on poikkeuksetta Antti-Juhani, mutta mukana on
 myˆs muidenkin kirjoittajien teksti‰.  Antti-Juhani ottaa vastaan t‰h‰n
 kirjoitelmaan liittyvi‰ kommentteja, korjauksia ja muita sellaisia.
 Kirjoitelmaan tehdyt muutokset lˆytyv‰t <url
-id="http://www.iki.fi/gaia/faq/ChangeLog" name="GNU ChangeLog"> sek‰
-<url id="http://www.iki.fi/gaia/faq/changelog.html"
+id="http://www.iki.fi/jautero/faq/ChangeLog" name="GNU ChangeLog"> sek‰
+<url id="http://www.iki.fi/jautero/faq/changelog.html"
 name="HTML">-muodossa.
 
 <sect>Sananen hyv‰st‰ k‰ytˆksest‰ uutisryhmiss‰
@@ -147,7 +149,7 @@ id="http://www.stack.nl/htmlhelp/faq/wdgfaq.htm" name="FAQ:ssa">.
 <p>
 Ennen kysymyksen l‰hett‰mist‰ uutisryhm‰‰n tarkista, ettei
 kysymykseesi ole vastattu t‰ss‰ kirjoituksessa tai <url
-id="http://www.iki.fi/gaia/faq/sao-faq.html" name="moderoidun
+id="http://www.iki.fi/jautero/faq/sao-faq.html" name="moderoidun
 ohjelmointiryhm‰n FAQ:ssa">.
 
 <chapt>Ohjelmoinnin opettelemisesta
@@ -370,7 +372,7 @@ satunnaislukugeneraattori antaisi hyv‰n tuloksen.  Nimitt‰in on helppo
 ymm‰rt‰‰ t‰m‰ v‰‰rin, loitsu lausutaan joka kerta, kun halutaan
 satunnaisluku.  <url id="ftp://ftp.jyu.fi/private/antkaij/faq/srand-virhe.c"
 name="Esimerkki virheest‰"> tuottaa ajettaessa <url
-id="http://www.iki.fi/gaia/faq/srand-virhe-esim" name="mainitun
+id="http://www.iki.fi/jautero/faq/srand-virhe-esim" name="mainitun
 tuloksen">.
 <p>
 P‰‰s‰‰ntˆ on yksinkertainen: <strong/K‰yt‰ satunnaisluvun alustajaa
