@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.27 $ $Date: 1999/08/05 21:08:16 $
+<version>$Revision: 1.28 $ $Date: 1999/08/06 21:48:24 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -68,8 +68,14 @@ Unixeissa.
 <p>
 Kaikissa ylläolevissa osoitteissa on aina FAQin uusin julkaistu versio.
 <p>
+Kirjoitelmaan tehdyt muutokset löytyvät <url
+id="http://www.iki.fi/gaia/faq/ChangeLog" name="GNU ChangeLog"> sekä
+<url id="http://www.iki.fi/gaia/faq/changelog.html"
+name="HTML">-muodossa.
+<p>
 Tämä FAQ pyritään postaamaan joka kuukauden 17. päivänä uutisryhmiin
 <tt/sfnet.atk.ohjelmointi/ ja <tt/sfnet.atk.ohjelmointi.moderoitu/.
+
 
 <sect>Missä ja mitä voin kysyä?
 <p>
