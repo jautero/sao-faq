@@ -4,7 +4,7 @@
 
 <title>Erityisesti Suomessa käytettyjä algoritmeja (FAQ)
 <author>Antti-Juhani Kaijanaho, <tt/gaia@iki.fi/
-<date>$Id: sao-faq.sgml,v 1.4 1998/06/23 12:51:39 antkaij Exp $
+<date>$Id: sao-faq.sgml,v 1.5 1998/06/23 13:01:08 antkaij Exp $
 
 <abstract>
 <bf/FAQin kokoaja ei vastaa vastausten oikeellisuudesta./
@@ -16,8 +16,8 @@
 <p>
 <sect1>FAQin tekijänoikeudet
 <p>
-Copyright &copy; 1997 Antti-Juhani Kaijanaho. Tätä dokumenttia saadaan
-levittää muuntamattomana ja lyhentämättömänä epäkaupallisin
+Copyright &copy; 1997, 1998 Antti-Juhani Kaijanaho. Tätä dokumenttia
+saadaan levittää muuntamattomana ja lyhentämättömänä epäkaupallisin
 tarkoitusperin. Lisäksi on sallittua lainata sitä rajoittamattomasti
 ainoastaan Usenetin ja sähköpostilistojen kautta julkaistavissa
 artikkeleissa. Erityisesti sallitaan dokumentin julkaiseminen
