@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.24 $ $Date: 1999/04/17 16:53:48 $
+<version>$Revision: 1.25 $ $Date: 1999/05/19 12:22:14 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -235,7 +235,8 @@ henkilötunnuksen oikeellisuuden.
 <sect>Miten LY-tunnus muodostetaan?
 <p>
 Vastaus on pääosin Sami J. Laineen <email/no.spam.lane@iki.fi/
-käsialaa.
+käsialaa.  Tämä vastaus on ilmeisesti hieman epätarkka; voisiko joku
+tarkentaa?
 <p>
 Liike- ja yhteisötunnuksen muodostavat järjestysnumero ja
 tarkistusnumero. Järjestysnumero on alussa ja se on enintään
@@ -440,6 +441,8 @@ id="http://www.cs.cmu.edu/Groups/AI/html/faqs/lang/lisp/top.html">,
 ja Schemellä on <url id="http://www.niksula.cs.hut.fi/~candolin/scheme/"
 name="Suomessa fanisivusto">, jossa on erinomainen linkkilista.
 <p>
+Haskell-kielellä on <url name="seittisivusto" id="http://www.haskell.org/">.
+<p>
 Jukka Korpela on koonnut <url name="linkkejä"
 id="http://www.hut.fi/u/jkorpela/fortran.html">
 Fortran-kielimateriaaliin.
@@ -469,6 +472,11 @@ Seuraavassa on lueteltu tähän FAQiin äskettäin tehdyt muutokset.
 <p>
 <example>
 $Log: sao-faq.sgml,v $
+Revision 1.25  1999/05/19 12:22:14  ajk
+Mainitaan ly-tunnuksen ongelmasta.
+
+Mainitaan Haskell-kielen seittisivusto.
+
 Revision 1.24  1999/04/17 16:53:48  ajk
 FAQ:n tiedostonnimissä:
  .text -> .txt
