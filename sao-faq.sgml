@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.30 $ $Date: 1999/08/22 10:23:33 $
+<version>$Revision: 1.31 $ $Date: 1999/08/22 18:10:45 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -211,17 +211,21 @@ tilinumeron tarkiste, joka merkitään tilinumeron viimeiseksi eli
 
 <sect>Miten henkilötunnus muodostetaan?
 <p>
-Suomalainen henkilötunnus (aiemmin sosiaaliturvatunnus) koostuu
-syntymäajasta, vuosisatamerkistä, tunnusluvusta ja
-tarkistemerkistä. Niinpä se on muotoa PPKKVVCNNNT.  Kaikki nollat
-tulostetaan.
+Suomalaisen henkilötunnuksen muoto on määrätty väestötietoasetuksen 2
+pykälässä (<url id="http://www.edita.fi/sk/" name="Suomen
+säädöskokoelman"> numero 886/1993, muutettu 84/1997).
+<p>
+Henkilötunnus
+(aiemmin sosiaaliturvatunnus) koostuu syntymäajasta,
+vuosisatamerkistä, tunnusluvusta ja tarkistemerkistä. Niinpä se on
+muotoa PPKKVVCNNNT.  Kaikki nollat tulostetaan.
 <p>
 Vuosisatamerkki (C) on <tt/-/ 1900-luvulla ja <tt/+/ 1800-luvulla
-syntyneillä. 2000-luvulla syntyneiden henkilötunnuksissa käytetään
-isoa A-kirjainta. <em/Huomaa, että henkilötunnuksessa ei ole
-automaattisesti viivaa välissä/; kaikki ohjelmat, jotka olettavat
-henkilötunnuksen olevan muotoa <tt/111111-1111/, hajoavat
-2000-luvulla.
+syntyneillä. 2000-luvulla (tarkkaan ottaen 1.1.2000 ja sen jälkeen)
+syntyneiden henkilötunnuksissa käytetään isoa A-kirjainta. <em/Huomaa,
+että henkilötunnuksessa ei ole automaattisesti viivaa välissä/; kaikki
+ohjelmat, jotka olettavat henkilötunnuksen olevan muotoa
+<tt/111111-1111/, hajoavat 2000-luvulla.
 <p>
 Tunnusluku (NNN) on kolminumeroinen luku, joka on miehillä pariton ja
 naisilla parillinen. Tunnusluku on harvoin kovin suuri.
