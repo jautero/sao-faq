@@ -5,7 +5,7 @@
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 
-<version>$Revision: 1.65 $ $Date: 2002/11/28 04:04:11 $
+<version>$Revision: 1.66 $ $Date: 2002/12/31 00:02:29 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -545,10 +545,10 @@ id="http://www.malibutelecom.com/yucca/Cinfo.html">.
 Bjarne Stroustrupin kehittämään C++-kieleen liittyvää materiaalia
 löytyy kasapäin keksijän itsensä kokoaman <url name="seittisivun"
 id="http://www.research.att.com/~bs/C++.html"> kautta.  Erityisesti
-mainittakoon <url name="C++-FAQ"
+mainittakoon <url name="C++-FAQ Lite"
 id="http://www.parashift.com/c++-faq-lite/"> sekä <url
-name="SGI:n Standard Template Library -materiaali"
-id="http://www.sgi.com/Technology/STL/">.
+name="SGI:n Standard Template Library Programmer's Guide"
+id="http://www.sgi.com/tech/stl/">.
 <p>
 Java-kielestä on olemassa <url name="FAQ-lista"
 id="http://www.afu.com/intro.html">.  Muutakin Java-materiaalia on
@@ -648,6 +648,7 @@ kiitos heille kaikille.
 <item>Martti Halminen 
 <item>Jonne Itkonen
 <item>Jukka Korpela
+<item>Jouko Koski
 <item>Jarno Käyhkö
 <item>Jani Lahti
 <item>Jukka Lahtinen

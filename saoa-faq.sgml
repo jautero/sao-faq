@@ -5,7 +5,7 @@
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori Mäntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.44 $ $Date: 2002/11/12 13:54:49 $
+<version>$Revision: 1.45 $ $Date: 2002/12/31 00:02:29 $
 
 <copyright>
 Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori Mäntysalo.
@@ -317,8 +317,8 @@ Aloittelijalle hyvä kirja lienee Jesse Libertyn ''Opeta itsellesi
 C++'' (alkuteos ''Teach Yourself C++ Programming in 21 Days''), vaikka
 sekään ei ole virheetön.
 <p>
-Netistä löytyy myös <url name="Hassun hassu C++ -opas"
-id="http://www.cppopas.cjb.net">, joka kevyestä kirjoitustyylistään
+Netistä löytyy myös <url name="C++-opas"
+id="http://www.nic.funet.fi/c++opas">, joka kevyestä kirjoitustyylistään
 huolimatta sisältää painavaa asiaa.
 
 </taglist>
@@ -329,8 +329,8 @@ Mikäli et tunne kumpaakaan kieltä ennestään ja sinulla on mahdollisuus
 valita, opettele ensin C++.  Näin et joudu oppimaan eräitä pahoja
 tapoja, jotka C:ssä tarvitaan kielen suppeuden vuoksi; jos joskus
 joudut tekemään C-ohjelmia, nämä kiertoreitit on opittavissa varsin
-helposti C++-taustalla.  Asiaa käsittelee myös <url name="C++-FAQ"
-id="http://www.utu.fi/~sisasa/oasis/cppfaq/">, kysymys 26.2.
+helposti C++-taustalla.  Asiaa käsittelee myös <url name="C++-FAQ Lite"
+id="http://www.parashift.com/c++-faq-lite/">, kysymys 28.2.
 
 <chapt>Peliohjelmoinnista
 <p>
@@ -593,6 +593,7 @@ mainitsen aakkosjärjestyksessä:
 <item>Heikki Kantola
 <item>Paul Keinänen
 <item>Jukka Korpela
+<item>Jouko Koski
 <item>Vesa Lappalainen
 <item>Jani Miettinen
 <item>Kalle Olavi Niemitalo
