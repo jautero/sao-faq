@@ -8,6 +8,9 @@
    standardisyötevirtaan, ja ohjelman paluuarvo kertoo onnistumisesta
    vain silloin, kun kaikki annnetut henkilötunnukset ovat OK.
 
+   Henkilötunnuksen tarkistusmerkin oletetaan olevan joko suuraakkonen
+   tai numero.
+
    Ohjelma on pyritty kirjoittamaan ISO-standardin mukaisella C:llä.
    Ohjelman teossa on pyritty välttämään oletuksia käytössä olevasta
    ympäristöstä (esim. merkistöasiat), joten ohjelman pitäisi olla
@@ -16,9 +19,13 @@
    OHJELMAN TEKIJÄ EI OTA OHJELMAN TOIMINNAN OIKEELLISUUDESTA
    MINKÄÄNLAISTA VASTUUTA.
 
-   Muutokset:
-         1999-02-21 gaia@iki.fi: paivays_ok
-            Korjattu off by one -virhe taulukon indeksoinnissa.
+   Muutokset tiedoston lopussa.
+
+   Tämä ohjelma on osa sfnet.atk.ohjelmointi.moderoitu-uutisryhmän FAQ:a.
+   Sen uusin versio on saatavissa FAQ:n seittisivun 
+         <URL: http://www.iki.fi/gaia/faq/sao-faq.html >
+   kautta.  Ohjelma voi löytyä myös osoitteesta
+         <URL: ftp://ftp.jyu.fi/private/antkaij/faq/hetu.c >
 
 */
 
@@ -170,3 +177,16 @@ main (int argc, char * argv [])
 
   return rv;
 }
+
+
+/*
+         $Log: hetu.c,v $
+         Revision 1.2  1999/12/10 03:32:11  ajk
+         Mainitaan oletus, että tarkistemerkki ei ole pienaakkonen.  Mainitaan
+         ohjelman suhde sao-faq:iin ja sen URL.
+
+
+         1999-02-21 gaia@iki.fi: paivays_ok
+            Korjattu off by one -virhe taulukon indeksoinnissa.
+
+*/
