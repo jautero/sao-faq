@@ -3,26 +3,28 @@
 
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.13 $ $Date: 1999/09/10 18:21:50 $
+<author>Jori M‰ntysalo <email>jm58660@uta.fi
+<version>$Revision: 1.14 $ $Date: 1999/10/06 20:15:19 $
 
 <copyright>
-Copyright &copy; 1999 Antti-Juhani Kaijanaho.  T‰t‰ kirjoitelmaa
-saadaan levitt‰‰ ja muuttaa vapaasti sill‰ ehdolla, ett‰ muutosten
-tekij‰ ja p‰iv‰ys ilmoitetaan muutetuissa versioissa selke‰sti.
-Kirjoitelman tekij‰ on mainittava kirjoitelmasta ja sen
-johdannaisteoksista tehdyiss‰ teoskappaleissa, jollei t‰m‰ sit‰
-erikseen kiell‰.
+Copyright &copy; 1999 Antti-Juhani Kaijanahot ja Jori M‰ntysalo.  T‰t‰
+kirjoitelmaa saadaan levitt‰‰ ja muuttaa vapaasti sill‰ ehdolla, ett‰
+muutosten tekij‰ ja p‰iv‰ys ilmoitetaan muutetuissa versioissa
+selke‰sti.  Kirjoitelman tekij‰t on mainittava kirjoitelmasta ja sen
+johdannaisteoksista tehdyiss‰ teoskappaleissa, jollei kukin sit‰
+omalta osaltaan erikseen kiell‰.
 <p>
-Toivon, ett‰ kaikissa viittauksissa t‰h‰n artikkeliin mainitaan sen
+Toivomme, ett‰ kaikissa viittauksissa t‰h‰n artikkeliin mainitaan sen
 <url id="http://www.iki.fi/gaia/faq/saoa-faq.html" name="ikiosoite">.
 Viittauksissa ei tule k‰ytt‰‰ muita osoitteita, sill‰ vain mainitun
 osoitteen toimiminen taataan.
 <p>
-<strong/Kirjoitelman tekij‰ ei vastaa kirjoitelmassa annetun tiedon
-oikeellisuudesta./ Kirjoitelman on tarkoitus olla mahdollisimman
-luotettava ja puolueeton tietol‰hde, totta kai, mutta koska sit‰
-kirjoitetaan l‰hinn‰ harrastuksen vuoksi, ei siit‰ voida ottaa
-sellaista vastuuta, joka voisi joskus vied‰ kirjoittajan k‰r‰jille.
+<strong/Kirjoitelman tekij‰t eiv‰t vastaa kirjoitelmassa annetun
+tiedon oikeellisuudesta./ Kirjoitelman on tarkoitus olla
+mahdollisimman luotettava ja puolueeton tietol‰hde, totta kai, mutta
+koska sit‰ kirjoitetaan l‰hinn‰ harrastuksen vuoksi, ei siit‰ voida
+ottaa sellaista vastuuta, joka voisi joskus vied‰ kirjoittajat
+k‰r‰jille.
 </copyright>
 
 <toc>
@@ -61,9 +63,12 @@ id="http://www.debian.org/Packages/unstable/text/debiandoc-sgml.html"
 name="Debiandoc-SGML-paketti">, joka toiminee ainakin kaikissa
 Unixeissa.
 <p>
-T‰h‰n kirjoitelmaan liittyvi‰ kommentteja, korjauksia ja muita
-sellaisia otetaan vastaan osoitteessa <email/gaia@iki.fi/.
-Kirjoitelmaan tehdyt muutokset lˆytyv‰t <url
+T‰t‰ kirjoitusta yll‰pit‰v‰t Antti-Juhani Kaijanaho
+<email/gaia@iki.fi/ ja Jori M‰ntysalo <email/jm58660@uta.fi/.
+Kirjoituksen "min‰" on poikkeuksetta Antti-Juhani, mutta mukana on
+myˆs Jorin teksti‰.  Molemmat ottavat vastaan t‰h‰n kirjoitelmaan
+liittyvi‰ kommentteja, korjauksia ja muita sellaisia.  Kirjoitelmaan
+tehdyt muutokset lˆytyv‰t <url
 id="http://www.iki.fi/gaia/faq/ChangeLog" name="GNU ChangeLog"> sek‰
 <url id="http://www.iki.fi/gaia/faq/changelog.html"
 name="HTML">-muodossa.
@@ -140,8 +145,8 @@ ohjelmointiryhm‰n FAQ:ssa">.
 <p>
 Kysymys siit‰, mill‰ ohjelmointikielell‰ kannattaisi aloittaa
 ohjemoinnin opettelu, on oikeastaan mielipideasia; jokaisella on oma
-mielipiteens‰ siit‰.  Esit‰n t‰ss‰ oman n‰kemykseni, ja pyyd‰n muita
-kokeneita ohjelmoijia - ja erityisesti ohjelmoinnin opettajia -
+mielipiteens‰ siit‰.  Esit‰n (AJK) t‰ss‰ oman n‰kemykseni, ja pyyd‰n
+muita kokeneita ohjelmoijia - ja erityisesti ohjelmoinnin opettajia -
 kirjoittamaan oman mielipiteens‰ ja l‰hett‰m‰‰n sen minulle, jotta
 voisin esitt‰‰ t‰ss‰ kirjoitelmassa mahdollisimman monipuolisen
 vastauksen kysymykseen.
