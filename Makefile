@@ -8,7 +8,7 @@ pubdir = antkaij@itu.st.jyu.fi:www/faq
 ftpdir = antkaij@ftp.jyu.fi:/opt/ftp/private/antkaij/faq
 SCP = scp
 
-sources = srand-virhe.c
+sources = srand-virhe.c hetu.c
 
 genfiles = $(faqs:=.txt) $(faqs:=.tov) $(faqs:=-html) \
 	   changelog.html ChangeLog srand-virhe-esim
