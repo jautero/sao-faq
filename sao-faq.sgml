@@ -5,7 +5,7 @@
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 
-<version>$Revision: 1.57 $ $Date: 2002/02/21 13:14:23 $
+<version>$Revision: 1.58 $ $Date: 2002/03/07 23:10:58 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -622,9 +622,11 @@ palautteellaan, kokemuksellaan, tiedoillaan ja ehdotuksillaan.  Suuri
 kiitos heille kaikille.
 
 <list>
+<item>Juha Antila
 <item>Jaakko Haakana
 <item>Jonne Itkonen
 <item>Jukka Korpela
+<item>Jarno Käyhkö
 <item>Jukka Lahtinen
 <item>Tero Lahtinen
 <item>Sami J. Laine
@@ -644,9 +646,7 @@ kiitos heille kaikille.
 <item>Mikko Vierula
 <item>Teppo Vuori
 <item>Lars Wirzenius
-<item>Juha Antila
 <item>Miika Åsten
-<item>Jarno Käyhkö
 </list>
 
 
