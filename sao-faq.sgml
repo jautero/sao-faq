@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.16 $ $Date: 1999/01/17 22:32:56 $
+<version>$Revision: 1.17 $ $Date: 1999/01/31 12:09:48 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -191,8 +191,8 @@ että 14 numeroa täyttyy.
 </list>
 
 Esimerkiksi tilinumerot <tt/123456-785/ ja <tt/12345600000785/
-merkitsevät samaa tiliä, ja tilinumerot <tt/43256-781/ ja
-<tt/43256700000081/ merkitsevät samaa tiliä.
+merkitsevät samaa tiliä, ja tilinumerot <tt/432456-781/ ja
+<tt/432456700000081/ merkitsevät samaa tiliä.
 <p>
 Tilinumeron tarkiste lasketaan tilinumeron konekielisen muodon 13
 ensimmäisestä merkistä vasemmalta lukien.  Kukin numeromerkki
@@ -461,6 +461,9 @@ Seuraavassa on lueteltu tähän FAQiin äskettäin tehdyt muutokset.
 <p>
 <example>
 $Log: sao-faq.sgml,v $
+Revision 1.17  1999/01/31 12:09:48  ajk
+Tilinumeroesimerkin typo korjattu.
+
 Revision 1.16  1999/01/17 22:32:56  ajk
 Linit tarkistettiin.  Java-FAQ on muuttanut.
 
@@ -478,6 +481,7 @@ palautteellaan, kokemuksellaan, tiedoillaan ja ehdotuksillaan.  Suuri
 kiitos heille kaikille.
 
 <list>
+<item>Juha Autero, <email/jautero@cc.hut.fi/
 <item>Jonne Itkonen, <email/ji@math.jyu.fi/
 <item>Jukka Korpela, <email/Jukka.Korpela@hut.fi/
 <item>Jukka Lahtinen, <email/walker@clinet.fi/
