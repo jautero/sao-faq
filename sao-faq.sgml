@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.28 $ $Date: 1999/08/06 21:48:24 $
+<version>$Revision: 1.29 $ $Date: 1999/08/14 20:23:47 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -95,7 +95,8 @@ id="http://www.iki.fi/gaia/saom/saannot.html" name="sääntöjen">
 perusteella.  Moderaattorit tavoittaa osoitteesta
 <email/saom-board@cc.jyu.fi/.  Tähän osoitteeseen voi lähettää
 politiikkavalitukset, kysymykset ja ehdotukset.  Ryhmään tarkotettuja
-viestejä sinne ei pidä lähettää.
+viestejä sinne ei pidä lähettää (ne voi lähettää suoraan ryhmään tai
+osoitteeseen <email/saom@cc.jyu.fi/).
 <p>
 Uutisryhmä <tt/sfnet.atk.ohjelmointi/ on yllämainitun moderoidun
 ryhmän edeltäjä, eikä sitä ole syytä käyttää.
