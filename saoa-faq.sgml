@@ -4,7 +4,7 @@
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori Mäntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.34 $ $Date: 2000/06/02 15:30:54 $
+<version>$Revision: 1.35 $ $Date: 2001/01/09 20:21:54 $
 
 <copyright>
 Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori Mäntysalo.
@@ -68,12 +68,11 @@ id="http://www.debian.org/Packages/unstable/text/debiandoc-sgml.html"
 name="Debiandoc-SGML-paketti">, joka toiminee ainakin kaikissa
 Unixeissa.
 <p>
-Tätä kirjoitusta ylläpitävät Antti-Juhani Kaijanaho
-<email/gaia@iki.fi/ ja Jori Mäntysalo <email/jm58660@uta.fi/.
+Tätä kirjoitusta ylläpitää Antti-Juhani Kaijanaho <email/gaia@iki.fi/.
 Kirjoituksen "minä" on poikkeuksetta Antti-Juhani, mutta mukana on
-myös Jorin tekstiä.  Molemmat ottavat vastaan tähän kirjoitelmaan
-liittyviä kommentteja, korjauksia ja muita sellaisia.  Kirjoitelmaan
-tehdyt muutokset löytyvät <url
+myös muidenkin kirjoittajien tekstiä.  Antti-Juhani ottaa vastaan tähän
+kirjoitelmaan liittyviä kommentteja, korjauksia ja muita sellaisia.
+Kirjoitelmaan tehdyt muutokset löytyvät <url
 id="http://www.iki.fi/gaia/faq/ChangeLog" name="GNU ChangeLog"> sekä
 <url id="http://www.iki.fi/gaia/faq/changelog.html"
 name="HTML">-muodossa.

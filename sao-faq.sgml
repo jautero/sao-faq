@@ -3,7 +3,7 @@
 
 <title>Vastauksia tietokoneohjelmoinnista usein esitettyihin kysymyksiiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<version>$Revision: 1.46 $ $Date: 2000/11/28 09:41:53 $
+<version>$Revision: 1.47 $ $Date: 2001/01/09 20:21:53 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -591,8 +591,8 @@ luettavissa
 
 <chapt>Kommentteja halutaan
 <p>
-Tätä kirjoitelmaa ylläpitävät Antti-Juhani Kaijanaho
-<email/gaia@iki.fi/ ja Jori Mäntysalo <email/jm58660@uta.fi/.
+Tätä kirjoitelmaa ylläpitää Antti-Juhani Kaijanaho
+<email/gaia@iki.fi/.
 Korjauksia, lisäyksiä ja muuta sellaista otetaan vastaan.
 
 
@@ -616,6 +616,7 @@ kiitos heille kaikille.
 <item>Veli-Pekka Lehtosaari
 <item>Tor Lillqvist
 <item>Riku Meskanen
+<item>Jori Mäntysalo
 <item>Markku Nevalainen
 <item>Kimmo Pyykkö
 <item>Juha-Heikki Ruismäki
