@@ -4,7 +4,7 @@
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 <author>Jori Mäntysalo <email>jm58660@uta.fi
-<version>$Revision: 1.31 $ $Date: 2000/04/11 13:40:31 $
+<version>$Revision: 1.32 $ $Date: 2000/04/21 08:23:25 $
 
 <copyright>
 Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori Mäntysalo.
@@ -246,8 +246,14 @@ yksinkertaisesti kuin suomen kielessä.  Prolog on hyvä kieli
 sellaiselle, jota kiinnostavat älylliset pelit ja kielelliset
 ongelmat.
 <p>
-Osaisiko joku antaa hyviä URLeja Prolog-materiaaliin tai mainita
-joitakin hyviä, aloittelijoille sopivia Prolog-kirjoja?
+Prolog-materiaalia on netissä, mm. <url
+name="Prolog Programming A First Course"
+id="http://www.cbl.leeds.ac.uk/%7Epaul/prologbook/">, <url
+name="A Short Tutorial on Prolog"
+id="http://www.cbl.leeds.ac.uk/%7Etamsin/prologtutorial/"> ja suomeksi
+<url
+name="Keskeneräisiä harjoituksia Prolog-ohjelmointikieleen tutustumiseksi"
+id="http://www.ling.helsinki.fi/courses/ctl170/1998/">.
 
 <tag>Java<item>Java on eri asia kuin seittisivuilla varsin usein
 nähtävä Javascript.  Java on hyvin uusi mutta lupaavalta näyttävä
@@ -263,7 +269,7 @@ luentomateriaalin pohjalta kelpo kirjan (Arto Wikla: Ohjelmoinnin
 perusteet Java-kielellä, OtaDATA 1998), joka sopii aloittavalle
 ohjelmoijalle.  Yksityiseen käyttöön on saatavilla kirjan kanssa
 samaan materiaaliin perustuva <url name="seittisivusto"
-id="http://www.cs.helsinki.fi/%7Ewikla/JohdOhj/">, jota Wikla käyttää
+id="http://www.cs.Helsinki.FI/%7Ewikla/JohdOhj/JaOh/">, jota Wikla käyttää
 Java-kurssinsa kurssimateriaalina ja joka siksi soveltuu hyvin
 aloittelevan ohjelmoijan luettavaksi.
 
