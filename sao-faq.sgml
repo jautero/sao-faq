@@ -5,7 +5,7 @@
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
 
-<version>$Revision: 1.58 $ $Date: 2002/03/07 23:10:58 $
+<version>$Revision: 1.59 $ $Date: 2002/03/19 23:56:34 $
 
 <abstract>
 Tämä artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
@@ -553,7 +553,7 @@ on olemassa. Jukka Korpela on koonnut
 id="http://www.malibutelecom.com/yucca/python/">.
 <p>
 <url name="Visual Basic FAQ"
-id="http://home.sol.no/~jansh/vb/default.htm"> on.
+id="http://www.thebestweb.com/vbfaqs/"> on.
 <p>
 Lisp-kielestäkin on <url name="FAQ-lista"
 id="http://www.cs.cmu.edu/Groups/AI/html/faqs/lang/lisp/top.html">,
