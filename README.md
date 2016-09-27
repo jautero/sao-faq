@@ -1,6 +1,10 @@
 # sao-faq
 sfnet.atk.ohjelmointi ja sfnet.atk.ohjelmointi.alkeet uutisryhmien usein kysyttyjä kysymyksiä
 
+Dokumentit löytyvät tiedostoista
+* [`sao-faq.md`](sao-faq.md)
+* [`saoa-faq.md`](saoa-faq.md)
+
 FAQt on alunperin kirjoitettu _DebianDoc_ _SGML_ -kuvauskielellä, joka on alunperin kehitetty
 [Debian](https://www.debian.org/) -projektin [dokumentointia](https://www.debian.org/doc/ddp) varten.
 Nykyään kyseinen projekti on siirtynyt käyttämään _Docbook_ _XML_:ää, joten katsoin tarpeelliseksi
