@@ -8,141 +8,141 @@
 <version>$Revision: 1.67 $ $Date: 2004/09/25 18:59:10 $
 
 <abstract>
-T‰m‰ artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
-esitettyihin kysymyksiin.  Keskityn p‰‰asiassa Suomen
-erityiskysymyksiin mutta k‰sittelen muitakin aiheita tarpeen mukaan.
+T√§m√§ artikkeli vastaa joihinkin useimmin tietokoneohjelmoinnista
+esitettyihin kysymyksiin.  Keskityn p√§√§asiassa Suomen
+erityiskysymyksiin mutta k√§sittelen muitakin aiheita tarpeen mukaan.
 </abstract>
 
 <copyright>
 Copyright &copy; 1997-2000 Antti-Juhani Kaijanaho.  
 Copyright &copy; 2002 Juha Autero
 <p>
-T‰t‰ kirjoitelmaa
-saadaan levitt‰‰ ja muuttaa vapaasti sill‰ ehdolla, ett‰ muutosten
-tekij‰ ja p‰iv‰ys ilmoitetaan muutetuissa versioissa selke‰sti.
-Kirjoitelman tekij‰t (mukaanlukien kaikki mahdollisten muutosten
-tekij‰t) on mainittava kirjoitelmasta ja sen johdannaisteoksista
-tehdyiss‰ teoskappaleissa, jollei kukin sit‰ omalta osaltaan erikseen
-kiell‰.
+T√§t√§ kirjoitelmaa
+saadaan levitt√§√§ ja muuttaa vapaasti sill√§ ehdolla, ett√§ muutosten
+tekij√§ ja p√§iv√§ys ilmoitetaan muutetuissa versioissa selke√§sti.
+Kirjoitelman tekij√§t (mukaanlukien kaikki mahdollisten muutosten
+tekij√§t) on mainittava kirjoitelmasta ja sen johdannaisteoksista
+tehdyiss√§ teoskappaleissa, jollei kukin sit√§ omalta osaltaan erikseen
+kiell√§.
 <p>
-Toivon, ett‰ kaikissa viittauksissa t‰h‰n artikkeliin mainitaan sen
+Toivon, ett√§ kaikissa viittauksissa t√§h√§n artikkeliin mainitaan sen
 ikiosoite
 <url id="http://www.iki.fi/jautero/faq/sao-faq.html"
 name="http://www.iki.fi/jautero/faq/sao-faq.html"> .
-Viittauksissa ei tule k‰ytt‰‰ muita osoitteita, sill‰ vain mainitun
+Viittauksissa ei tule k√§ytt√§√§ muita osoitteita, sill√§ vain mainitun
 osoitteen toimiminen taataan.
 <p>
 <strong/FAQin kokoaja ei vastaa vastausten oikeellisuudesta./ FAQin on
-tarkoitus olla mahdollisimman luotettava ja puolueeton tietol‰hde,
-totta kai, mutta koska sit‰ kirjoitetaan l‰hinn‰ harrastuksen vuoksi,
-ei sen kokoaja voi ottaa siit‰ sellaista vastuuta, joka voisi joskus
-vied‰ oikeuteen.
+tarkoitus olla mahdollisimman luotettava ja puolueeton tietol√§hde,
+totta kai, mutta koska sit√§ kirjoitetaan l√§hinn√§ harrastuksen vuoksi,
+ei sen kokoaja voi ottaa siit√§ sellaista vastuuta, joka voisi joskus
+vied√§ oikeuteen.
 </copyright>
 
 <toc>
 
-<chapt>Yleist‰
+<chapt>Yleist√§
 
 <sect>Olemisen tarkoitus
 <p>
-T‰m‰n dokumentin on tarkoitus vastata sellaisiin keskusteluryhmiss‰
+T√§m√§n dokumentin on tarkoitus vastata sellaisiin keskusteluryhmiss√§
 <tt/sfnet.atk.ohjelmointi/ 
-usein esitettyihin kysymyksiin, joihin ei ole j‰rkev‰‰ vastata tai
-joihin ei ole viel‰ vastattu kansainv‰lisiss‰ FAQ:eissa. T‰m‰
-tarkoittaa sit‰, ett‰ t‰m‰ FAQ ei juurikaan k‰sittele esimerkiksi
-ohjelmointikieli‰ eik‰ numeerisia menetelmi‰.  T‰ss‰ artikkelissa
-k‰sitell‰‰n myˆs hieman ryhmiss‰ noudatettavia k‰ytt‰ytymiss‰‰ntˆj‰.
+usein esitettyihin kysymyksiin, joihin ei ole j√§rkev√§√§ vastata tai
+joihin ei ole viel√§ vastattu kansainv√§lisiss√§ FAQ:eissa. T√§m√§
+tarkoittaa sit√§, ett√§ t√§m√§ FAQ ei juurikaan k√§sittele esimerkiksi
+ohjelmointikieli√§ eik√§ numeerisia menetelmi√§.  T√§ss√§ artikkelissa
+k√§sitell√§√§n my√∂s hieman ryhmiss√§ noudatettavia k√§ytt√§ytymiss√§√§nt√∂j√§.
 <p>
-Ohjelmoinnin ja ohjelmointikielten alkeita k‰sitell‰‰n ryhm‰n
+Ohjelmoinnin ja ohjelmointikielten alkeita k√§sitell√§√§n ryhm√§n
 <tt/sfnet.atk.ohjelmointi.alkeet/ 
 <url id="http://www.iki.fi/jautero/faq/saoa-faq.html" name="FAQ:ssa">
 <p>
-Edell‰ esitettyjen rajausten vuoksi t‰m‰ FAQ k‰sittelee l‰hinn‰
-sellaisia algoritmeja, joiden k‰yttˆˆnoton taustalla on hallinnollinen
-tai poliittinen p‰‰tˆs.
+Edell√§ esitettyjen rajausten vuoksi t√§m√§ FAQ k√§sittelee l√§hinn√§
+sellaisia algoritmeja, joiden k√§ytt√∂√∂noton taustalla on hallinnollinen
+tai poliittinen p√§√§t√∂s.
 
-<sect>Mist‰ t‰m‰n FAQin saa?
+<sect>Mist√§ t√§m√§n FAQin saa?
 <p>
-Yleens‰ t‰h‰n kysymykseen vastataan: "Luet sit‰ nyt juuri, joten
-<em/s‰ilyt‰/ hallussasi oleva kappale."
+Yleens√§ t√§h√§n kysymykseen vastataan: "Luet sit√§ nyt juuri, joten
+<em/s√§ilyt√§/ hallussasi oleva kappale."
 <p>
-Uusin versio on aina lˆydett‰viss‰ FAQin <url
+Uusin versio on aina l√∂ydett√§viss√§ FAQin <url
 id="http://www.iki.fi/jautero/faq/sao-faq.html" name="seittisivulta">.
 <p>
-T‰m‰ dokumentti on olemassa myˆs tekstiversiona (<url
+T√§m√§ dokumentti on olemassa my√∂s tekstiversiona (<url
 id="http://www.iki.fi/jautero/faq/sao-faq.txt" name="ilman korostuksia">
 ja <url id="http://www.iki.fi/jautero/faq/sao-faq.tov"
 name="korostuksineen">).
 <p>
-Myˆs FAQin <url id="http://www.iki.fi/jautero/faq/sao-faq.sgml"
-name="SGML-sorsat"> ovat saatavilla.  Tarvitset niiden k‰sittelemiseen
+My√∂s FAQin <url id="http://www.iki.fi/jautero/faq/sao-faq.sgml"
+name="SGML-sorsat"> ovat saatavilla.  Tarvitset niiden k√§sittelemiseen
 uudehkon <url
 id="http://www.debian.org/Packages/unstable/text/debiandoc-sgml.html"
 name="Debiandoc-SGML-paketin">, joka toiminee ainakin kaikissa
 Unixeissa.
 <p>
-Kaikissa yll‰olevissa osoitteissa on aina FAQin uusin julkaistu versio.
+Kaikissa yll√§olevissa osoitteissa on aina FAQin uusin julkaistu versio.
 <p>
-Kirjoitelmaan tehdyt muutokset lˆytyv‰t <url
-id="http://www.iki.fi/jautero/faq/ChangeLog" name="GNU ChangeLog"> sek‰
+Kirjoitelmaan tehdyt muutokset l√∂ytyv√§t <url
+id="http://www.iki.fi/jautero/faq/ChangeLog" name="GNU ChangeLog"> sek√§
 <url id="http://www.iki.fi/jautero/faq/changelog.html"
 name="HTML">-muodossa.
 <p>
-T‰m‰ FAQ pyrit‰‰n postaamaan joka kuukauden 17. p‰iv‰n‰ uutisryhm‰‰n
+T√§m√§ FAQ pyrit√§√§n postaamaan joka kuukauden 17. p√§iv√§n√§ uutisryhm√§√§n
 <tt/sfnet.atk.ohjelmointi/.
 
-<sect>Miss‰ ja mit‰ voin kysy‰?
+<sect>Miss√§ ja mit√§ voin kysy√§?
 <p>
-Ennenkuin kysyt, tarkista, onko kysymykseesi vastattu t‰ss‰
+Ennenkuin kysyt, tarkista, onko kysymykseesi vastattu t√§ss√§
 kirjoitelmassa.
 <p>
-Uutisryhm‰ <tt/sfnet.atk.ohjelmointi/ on tarkoitettu
-tietokoneen ohjelmoinnin yhteydess‰ esiin nousseiden aiheiden
-k‰sittelyyn.  Virallisen kuvauksen mukaan ryhm‰‰n sopii "kaikenlainen
-ohjelmointiin vaan ei valmiiden ohjelmien k‰yttˆˆn liittyv‰
-keskustelu: algoritmit, ohjelmointikielet, tyˆkalut, ohjelmien
-suunnittelu, m‰‰rittely, testaus&nbsp;jne."  
+Uutisryhm√§ <tt/sfnet.atk.ohjelmointi/ on tarkoitettu
+tietokoneen ohjelmoinnin yhteydess√§ esiin nousseiden aiheiden
+k√§sittelyyn.  Virallisen kuvauksen mukaan ryhm√§√§n sopii "kaikenlainen
+ohjelmointiin vaan ei valmiiden ohjelmien k√§ytt√∂√∂n liittyv√§
+keskustelu: algoritmit, ohjelmointikielet, ty√∂kalut, ohjelmien
+suunnittelu, m√§√§rittely, testaus&nbsp;jne."  
 <p>
-Uutisryhm‰ <tt/sfnet.atk.ohjelmointi.moderoitu/ on yll‰mainitun ryhm‰n
+Uutisryhm√§ <tt/sfnet.atk.ohjelmointi.moderoitu/ on yll√§mainitun ryhm√§n
 moderoitu versio, joka poistettiin moderointisoftan lakattua
 	  toimimasta
-eik‰ sit‰ ole en‰‰ syyt‰ k‰ytt‰‰.
+eik√§ sit√§ ole en√§√§ syyt√§ k√§ytt√§√§.
 <p>
-Kev‰‰ll‰&nbsp;1998 perustettiin uutisryhm‰
-<tt/sfnet.atk.ohjelmointi.alkeet/.  Ryhm‰n virallinen kuvaus kertoo,
-ett‰ se "on tarkoitettu ohjelmointia aloitteleville tai sellaisille,
-jotka tutustuvat itselleen uuteen ohjelmoinnin osa-alueeseen".  Hyv‰
-nyrkkis‰‰ntˆ on, ett‰ jos jotain kysymyst‰ k‰sitell‰‰n hyvin
-osa-alueen perusoppikirjoissa, se kuuluu alkeet-ryhm‰‰n.  Toisaalta
-se, ett‰ vuosia ohjelmoinut ihminen ei kohtuullisella vaivalla lˆyd‰
-ratkaisua ongelmaansa, on kohtuullisen hyv‰ merkki siit‰, ett‰ kysymys
-ei ole alkeista.  Alkeet-ryhm‰ll‰ on <url name="oma FAQ"
+Kev√§√§ll√§&nbsp;1998 perustettiin uutisryhm√§
+<tt/sfnet.atk.ohjelmointi.alkeet/.  Ryhm√§n virallinen kuvaus kertoo,
+ett√§ se "on tarkoitettu ohjelmointia aloitteleville tai sellaisille,
+jotka tutustuvat itselleen uuteen ohjelmoinnin osa-alueeseen".  Hyv√§
+nyrkkis√§√§nt√∂ on, ett√§ jos jotain kysymyst√§ k√§sitell√§√§n hyvin
+osa-alueen perusoppikirjoissa, se kuuluu alkeet-ryhm√§√§n.  Toisaalta
+se, ett√§ vuosia ohjelmoinut ihminen ei kohtuullisella vaivalla l√∂yd√§
+ratkaisua ongelmaansa, on kohtuullisen hyv√§ merkki siit√§, ett√§ kysymys
+ei ole alkeista.  Alkeet-ryhm√§ll√§ on <url name="oma FAQ"
 id="http://www.iki.fi/jautero/faq/saoa-faq.html">.
 <p>
-<em/HTML-kieleen liittyv‰t kysymykset eiv‰t kuulu mihink‰‰n
-ohjelmointiryhm‰‰n,/ sill‰ HTML ei ole ohjelmointikieli.  Esit‰ ne
-mielummin WWW-kysymyksille varatussa ryhm‰ss‰
+<em/HTML-kieleen liittyv√§t kysymykset eiv√§t kuulu mihink√§√§n
+ohjelmointiryhm√§√§n,/ sill√§ HTML ei ole ohjelmointikieli.  Esit√§ ne
+mielummin WWW-kysymyksille varatussa ryhm√§ss√§
 <tt/sfnet.viestinta.www/, kun olet ensin tarkistanut, ettei
 kysymykseesi ole vastattu <url
 id="http://www.heikniemi.net/svwww-vukk/"
-name="ryhm‰n VUKK:ssa"> tai englanninkielisess‰ <url
+name="ryhm√§n VUKK:ssa"> tai englanninkielisess√§ <url
 id="http://www.stack.nl/htmlhelp/faq/wdgfaq.htm" name="FAQ:ssa">.
 <p>
-Esitt‰ess‰si kysymyksen muista kertoa kaikki olennainen!  ƒl‰ j‰t‰
-mainitsematta k‰yttˆj‰rjestelm‰‰, ohjelmointikielt‰ ‰l‰k‰ kielen
-tulkkia tai k‰‰nt‰j‰‰, paitsi jos olet varma, etteiv‰t ne ole
-olennaisia.  Kerro myˆs omat ajatuksesi; mainitse jotain siit‰, mit‰
-olet (tuloksettomasti) jo kokeillut; kerro myˆs, miksi esit‰t
-kysymyksesi.  N‰in varmistat sen, ett‰ ryhm‰n muut lukijat p‰‰sev‰t
-ongelmaasi nopeasti kiinni, ja saat heti alusta alkaen hyˆdyllisi‰
+Esitt√§ess√§si kysymyksen muista kertoa kaikki olennainen!  √Ñl√§ j√§t√§
+mainitsematta k√§ytt√∂j√§rjestelm√§√§, ohjelmointikielt√§ √§l√§k√§ kielen
+tulkkia tai k√§√§nt√§j√§√§, paitsi jos olet varma, etteiv√§t ne ole
+olennaisia.  Kerro my√∂s omat ajatuksesi; mainitse jotain siit√§, mit√§
+olet (tuloksettomasti) jo kokeillut; kerro my√∂s, miksi esit√§t
+kysymyksesi.  N√§in varmistat sen, ett√§ ryhm√§n muut lukijat p√§√§sev√§t
+ongelmaasi nopeasti kiinni, ja saat heti alusta alkaen hy√∂dyllisi√§
 vastauksia.  
 
-<chapt>Numerosarjoja ja niiden tarkistemerkkej‰
+<chapt>Numerosarjoja ja niiden tarkistemerkkej√§
 <p>
-Numerosarjojen tarkisteista on olemassa t‰t‰ FAQia kattavampi esitys
+Numerosarjojen tarkisteista on olemassa t√§t√§ FAQia kattavampi esitys
 <url name="Tarkistusmerkkien laskentamekanismeja"
 id="http://www.mbnet.fi/%7Ethales/tarkmerk.htm">.  Sen on kirjoittanut
-Teppo Vuori.  Pankkeihin liittyvi‰ tunnusnumeroita koskevat vastaukset
+Teppo Vuori.  Pankkeihin liittyvi√§ tunnusnumeroita koskevat vastaukset
 perustuvat <url id="http://www.pankkiyhdistys.fi/" name="Suomen
 pankkiyhdistyksen"> julkaisuun Tilisiirto-opas 1.12.1998 <url
 name="(saatavana verkosta PDF-muodossa)"
@@ -150,12 +150,12 @@ id="http://www.pankkiyhdistys.fi/sisalto/upload/pdf/tsopas.pdf">.
 
 <sect>Miten pankkiviitenumero muodostetaan?
 <p>
-Pankkiviitenumero korkeintaan 20 merkki‰ pitk‰ numerosarja. Sen tulisi
-kuitenkin olla mahdollisimman lyhyt, jotta n‰pp‰ilyvirheet
-v‰henisiv‰t. Mielell‰‰n kuitenkin v‰hint‰‰n 4 merkki‰.  Laskuttaja voi
-valita viitenumeron vapaasti viimeist‰ numeroa
+Pankkiviitenumero korkeintaan 20 merkki√§ pitk√§ numerosarja. Sen tulisi
+kuitenkin olla mahdollisimman lyhyt, jotta n√§pp√§ilyvirheet
+v√§henisiv√§t. Mielell√§√§n kuitenkin v√§hint√§√§n 4 merkki√§.  Laskuttaja voi
+valita viitenumeron vapaasti viimeist√§ numeroa
 lukuunottamatta. Viitenumero suositellaan tulostettavaksi viiden
-numeron ryhmiss‰ oikealta alkaen. Alkunollia ei tulosteta.
+numeron ryhmiss√§ oikealta alkaen. Alkunollia ei tulosteta.
 <p>
 Viitenumeron viimeinen numero on tarkiste. Se muodostetaan
 seuraavasti:
@@ -163,178 +163,178 @@ seuraavasti:
 <list>
 <item>Tarkistettavan viitteen numerot tarkistetta lukuunottamatta
 kerrotaan oikealta vasemmalle painoarvoilla 7, 3, 1, 7, 3, 1, ...
-<item>Tulot lasketaan yhteen ja summa v‰hennet‰‰n seuraavasta t‰ydest‰
-kymmenest‰.
+<item>Tulot lasketaan yhteen ja summa v√§hennet√§√§n seuraavasta t√§ydest√§
+kymmenest√§.
 <item>Erotus on viitenumeron tarkiste.
 </list>
 
 Esimerkiksi <tt/123 45672/ on oikein muodostettu viitenumero.
 <p>
-Kimmo Surakka <email/kusti@cs.tut.fi/ on kirjoittanut t‰st‰ aiheesta
+Kimmo Surakka <email/kusti@cs.tut.fi/ on kirjoittanut t√§st√§ aiheesta
 <url id="http://www.cs.tut.fi/~kusti/viite.html" name="seittisivun">,
-josta lˆytyy mm. C-kielinen esimerkkifunktio.
+josta l√∂ytyy mm. C-kielinen esimerkkifunktio.
 
 <sect>Miten rakentuu pankkitilinumero?
 <p>
-Suomalaisten pankkien tilinumerot rakentuvat t‰ll‰ hetkell‰ (tammikuu
-1999) seuraavasti.  Tilinumero on korkeintaan 14 merkki‰ pitk‰ ja
-koostuu pelk‰st‰‰n numeromerkeist‰.  Kun tilinumero on tarkoitettu
-ihmisten luettavaksi, se kirjoitetaan kahdessa osassa, joiden v‰liss‰
-on yhdysviiva.  Ensimm‰inen osa on aina kuusi merkki‰ pitk‰, ja toisen
-osan pituus vaihtelee v‰lill‰ kahdesta kahdeksaan merkki‰.
-Tilinumeron kaksi ensimm‰ist‰ merkki‰ ilmaisevat tili‰ hallinnoivan
-pankin tai pankkiryhm‰n.  Tilinumeron viimeinen merkki on tarkiste.
+Suomalaisten pankkien tilinumerot rakentuvat t√§ll√§ hetkell√§ (tammikuu
+1999) seuraavasti.  Tilinumero on korkeintaan 14 merkki√§ pitk√§ ja
+koostuu pelk√§st√§√§n numeromerkeist√§.  Kun tilinumero on tarkoitettu
+ihmisten luettavaksi, se kirjoitetaan kahdessa osassa, joiden v√§liss√§
+on yhdysviiva.  Ensimm√§inen osa on aina kuusi merkki√§ pitk√§, ja toisen
+osan pituus vaihtelee v√§lill√§ kahdesta kahdeksaan merkki√§.
+Tilinumeron kaksi ensimm√§ist√§ merkki√§ ilmaisevat tili√§ hallinnoivan
+pankin tai pankkiryhm√§n.  Tilinumeron viimeinen merkki on tarkiste.
 <p>
 Tilinumeron konekielinen muoto, eli se muoto, jota ihmisten ei ole
-tarkoitus lukea, muodostetaan selv‰kielisest‰ muodosta seuraavasti.
+tarkoitus lukea, muodostetaan selv√§kielisest√§ muodosta seuraavasti.
 
 <list>
 
-<item>Mik‰li tilinumero alkaa <tt/1/, <tt/2/, <tt/31/, <tt/32/,
-<tt/33/, <tt/34/, <tt/35/, <tt/6/ tai <tt/8/, tilinumero t‰ydennet‰‰n
-vasemmalta lukien kuuden numeron j‰lkeen siten, ett‰ 14 numeroa
-t‰yttyy.
+<item>Mik√§li tilinumero alkaa <tt/1/, <tt/2/, <tt/31/, <tt/32/,
+<tt/33/, <tt/34/, <tt/35/, <tt/6/ tai <tt/8/, tilinumero t√§ydennet√§√§n
+vasemmalta lukien kuuden numeron j√§lkeen siten, ett√§ 14 numeroa
+t√§yttyy.
 
-<item>Mik‰li tilinumero alkaa <tt/4/ tai <tt/5/, tilinumero
-t‰ydennet‰‰n vasemmalta lukien seitsem‰nnen numeron j‰lkeen siten,
-ett‰ 14 numeroa t‰yttyy.
+<item>Mik√§li tilinumero alkaa <tt/4/ tai <tt/5/, tilinumero
+t√§ydennet√§√§n vasemmalta lukien seitsem√§nnen numeron j√§lkeen siten,
+ett√§ 14 numeroa t√§yttyy.
 
 </list>
 
 Esimerkiksi tilinumerot <tt/123456-785/ ja <tt/12345600000785/
-merkitsev‰t samaa tili‰, ja tilinumerot <tt/432456-781/ ja
-<tt/43245670000081/ merkitsev‰t samaa tili‰.
+merkitsev√§t samaa tili√§, ja tilinumerot <tt/432456-781/ ja
+<tt/43245670000081/ merkitsev√§t samaa tili√§.
 <p>
 Tilinumeron tarkiste lasketaan tilinumeron konekielisen muodon 13
-ensimm‰isest‰ merkist‰ vasemmalta lukien.  Kukin numeromerkki
-kerrotaan painoarvolla 2 tai 1 siten, ett‰ oikeanpuolimmaisin
-kerrotaan painolla 2 ja vierekk‰iset merkit kerrotaan eri painolla.
-N‰iden tulojen numeromerkkien summa v‰hennet‰‰n pienimm‰st‰ kyseist‰
-summaa suuremmasta, kymmenell‰ jaollisesta luvusta.  T‰m‰ erotus on
-tilinumeron tarkiste, joka merkit‰‰n tilinumeron viimeiseksi eli
+ensimm√§isest√§ merkist√§ vasemmalta lukien.  Kukin numeromerkki
+kerrotaan painoarvolla 2 tai 1 siten, ett√§ oikeanpuolimmaisin
+kerrotaan painolla 2 ja vierekk√§iset merkit kerrotaan eri painolla.
+N√§iden tulojen numeromerkkien summa v√§hennet√§√§n pienimm√§st√§ kyseist√§
+summaa suuremmasta, kymmenell√§ jaollisesta luvusta.  T√§m√§ erotus on
+tilinumeron tarkiste, joka merkit√§√§n tilinumeron viimeiseksi eli
 14.&nbsp;merkiksi.
 
-<sect>Miten henkilˆtunnus muodostetaan?
+<sect>Miten henkil√∂tunnus muodostetaan?
 <p>
-Suomalaisen henkilˆtunnuksen muoto on m‰‰r‰tty v‰estˆtietoasetuksen 2
-pyk‰l‰ss‰ (<url id="http://www.finlex.fi/" name="Finlex-s‰‰dˆskokoelman"> 
+Suomalaisen henkil√∂tunnuksen muoto on m√§√§r√§tty v√§est√∂tietoasetuksen 2
+pyk√§l√§ss√§ (<url id="http://www.finlex.fi/" name="Finlex-s√§√§d√∂skokoelman"> 
 numero 886/1993 muutettu 84/1997).
 <p>
-Henkilˆtunnus
-(aiemmin sosiaaliturvatunnus) koostuu syntym‰ajasta,
-vuosisatamerkist‰, tunnusluvusta ja tarkistemerkist‰. Niinp‰ se on
+Henkil√∂tunnus
+(aiemmin sosiaaliturvatunnus) koostuu syntym√§ajasta,
+vuosisatamerkist√§, tunnusluvusta ja tarkistemerkist√§. Niinp√§ se on
 muotoa PPKKVVCNNNT.  Kaikki nollat tulostetaan.
 <p>
 Vuosisatamerkki (C) on <tt/-/ 1900-luvulla ja <tt/+/ 1800-luvulla
-syntyneill‰. 2000-luvulla (tarkkaan ottaen 1.1.2000 ja sen j‰lkeen)
-syntyneiden henkilˆtunnuksissa k‰ytet‰‰n isoa A-kirjainta. <em/Huomaa,
-ett‰ henkilˆtunnuksessa ei ole automaattisesti viivaa v‰liss‰/; kaikki
-ohjelmat, jotka olettavat henkilˆtunnuksen olevan muotoa
+syntyneill√§. 2000-luvulla (tarkkaan ottaen 1.1.2000 ja sen j√§lkeen)
+syntyneiden henkil√∂tunnuksissa k√§ytet√§√§n isoa A-kirjainta. <em/Huomaa,
+ett√§ henkil√∂tunnuksessa ei ole automaattisesti viivaa v√§liss√§/; kaikki
+ohjelmat, jotka olettavat henkil√∂tunnuksen olevan muotoa
 <tt/111111-1111/, hajoavat 2000-luvulla.
 <p>
-Tunnusluku (NNN) on kolminumeroinen luku, joka on miehill‰ pariton ja
+Tunnusluku (NNN) on kolminumeroinen luku, joka on miehill√§ pariton ja
 naisilla parillinen. Tunnusluku on harvoin kovin suuri.
 <p>
-Tarkistemerkki (T) lasketaan siten, ett‰ syntym‰aika ja tunnusluku
-yhdistet‰‰n yhdeksi 9-merkkiseksi luvuksi, joka on siis muotoa
-PPKKVVNNN.  T‰m‰ luku jaetaan 31:ll‰. Jakoj‰‰nnˆksen perusteella
-valitaan tarkistemerkiksi yksi merkeist‰
-<tt/0123456789ABCDEFHJKLMNPRSTUVWXY/ siten, ett‰ jaon menness‰ tasan
-tarkistemerkki on 0, jakoj‰‰nnˆksen ollessa yksi se on 1 jne. Jos siis
-jakoj‰‰nnˆs on 30, on tarkistemerkkin‰ kirjain Y.
+Tarkistemerkki (T) lasketaan siten, ett√§ syntym√§aika ja tunnusluku
+yhdistet√§√§n yhdeksi 9-merkkiseksi luvuksi, joka on siis muotoa
+PPKKVVNNN.  T√§m√§ luku jaetaan 31:ll√§. Jakoj√§√§nn√∂ksen perusteella
+valitaan tarkistemerkiksi yksi merkeist√§
+<tt/0123456789ABCDEFHJKLMNPRSTUVWXY/ siten, ett√§ jaon menness√§ tasan
+tarkistemerkki on 0, jakoj√§√§nn√∂ksen ollessa yksi se on 1 jne. Jos siis
+jakoj√§√§nn√∂s on 30, on tarkistemerkkin√§ kirjain Y.
 <p>
 Olen kirjoittanut <url name="C-kielisen ohjelman"
 id="http://www.iki.fi/jautero/faq/hetu.c">, joka tarkastaa
-henkilˆtunnuksen oikeellisuuden.
+henkil√∂tunnuksen oikeellisuuden.
 <p>
 <url name="Lars Wirzenius" id="http://www.iki.fi/liw/"> on
 kirjoittanut <url name="Python-skriptin" id="http://liw.iki.fi/liw/download/tee-hetu.py">, joka generoi
-henkilˆtunnuksia annetuista p‰iv‰m‰‰rist‰.
+henkil√∂tunnuksia annetuista p√§iv√§m√§√§rist√§.
 
 <sect>Miten LY-tunnus muodostetaan?
 <p>
-LY-tunnuksen muoto on m‰‰r‰tty asetuksessa liike- ja
-yhteisˆtunnuksesta (598/1991).  Asetuksen teksti on saatavissa myˆs
-verkosta <url id="http://www.finlex.fi/" name="Finlex-s‰‰dˆskokoelman">
-kautta.  Seuraava kappale on melko suoraa lainausta asetustekstist‰ (4 ß).
+LY-tunnuksen muoto on m√§√§r√§tty asetuksessa liike- ja
+yhteis√∂tunnuksesta (598/1991).  Asetuksen teksti on saatavissa my√∂s
+verkosta <url id="http://www.finlex.fi/" name="Finlex-s√§√§d√∂skokoelman">
+kautta.  Seuraava kappale on melko suoraa lainausta asetustekstist√§ (4 ¬ß).
 <p>
-Liike- ja yhteisˆtunnuksen muodostavat j‰rjestysnumero ja tarkistusnumero
-mainitussa j‰rjestyksess‰. J‰rjestysnumero on enint‰‰n
-seitsem‰nnumeroinen.  Tarkistusnumeron laskemiseksi kerrotaan oikealta vasemmalle lukien
-j‰rjestysnumeron 
+Liike- ja yhteis√∂tunnuksen muodostavat j√§rjestysnumero ja tarkistusnumero
+mainitussa j√§rjestyksess√§. J√§rjestysnumero on enint√§√§n
+seitsem√§nnumeroinen.  Tarkistusnumeron laskemiseksi kerrotaan oikealta vasemmalle lukien
+j√§rjestysnumeron 
 <list>
-<item>ensimm‰inen numero luvulla 2,
+<item>ensimm√§inen numero luvulla 2,
 <item>toinen numero luvulla 4,
 <item>kolmas numero luvulla 8,
-<item>nelj‰s numero luvulla 5,
+<item>nelj√§s numero luvulla 5,
 <item>viides numero luvulla 10,
 <item>kuudes numero luvulla 9,
-<item>seitsem‰s numero luvlla 7
+<item>seitsem√§s numero luvlla 7
 </list>
-lasketaan n‰in saadut tulot yhteen ja jaetaan summa luvulla 11.
-Tarkistusnumero m‰‰r‰ytyy jakolaskun jakoj‰‰nnˆksen perusteella
-seuraavasti: jos jakoj‰‰nnˆs on nolla, on tarkistusnumero nolla. Jos
-jakoj‰‰nnˆs on suurempi kuin yksi, on tarkistusnumero erotus, joka
-saadaan v‰hent‰m‰ll‰ jakoj‰‰nnˆs luvusta 11. Jos jakoj‰‰nnˆs on yksi,
-j‰tet‰‰n tarkistusnumeroa vastaava j‰rjestysnumero k‰ytt‰m‰tt‰.
+lasketaan n√§in saadut tulot yhteen ja jaetaan summa luvulla 11.
+Tarkistusnumero m√§√§r√§ytyy jakolaskun jakoj√§√§nn√∂ksen perusteella
+seuraavasti: jos jakoj√§√§nn√∂s on nolla, on tarkistusnumero nolla. Jos
+jakoj√§√§nn√∂s on suurempi kuin yksi, on tarkistusnumero erotus, joka
+saadaan v√§hent√§m√§ll√§ jakoj√§√§nn√∂s luvusta 11. Jos jakoj√§√§nn√∂s on yksi,
+j√§tet√§√§n tarkistusnumeroa vastaava j√§rjestysnumero k√§ytt√§m√§tt√§.
 <p>
-Selvennykseksi mainittakoon, ett‰ mink‰‰n oikeellisen ly-tunnuksen
-jakoj‰‰nnˆs ei voi olla yksi.
+Selvennykseksi mainittakoon, ett√§ mink√§√§n oikeellisen ly-tunnuksen
+jakoj√§√§nn√∂s ei voi olla yksi.
 
 <chapt>Euroopan yhteisvaluutta euro
 
 <sect>Miten muutan markat (tai kruunut tai ...) euroiksi ja takaisin?
 <p>
-Euron ja siihen sidottujen kansallisten valuuttojen v‰lill‰ tai n‰iden
-kansallisten valuuttojen kesken saa tehd‰ muutoksia vain tiettyjen
-s‰‰ntˆjen mukaisesti.  N‰m‰ s‰‰nnˆt on asetettu <url name="Neuvoston
+Euron ja siihen sidottujen kansallisten valuuttojen v√§lill√§ tai n√§iden
+kansallisten valuuttojen kesken saa tehd√§ muutoksia vain tiettyjen
+s√§√§nt√∂jen mukaisesti.  N√§m√§ s√§√§nn√∂t on asetettu <url name="Neuvoston
 asetuksessa (EY) numero 1103/97"
 id="http://europa.eu.int/eur-lex/fi/lif/dat/1997/fi_397R1103.html">.
-S‰‰nnˆt ovat seuraavat:
+S√§√§nn√∂t ovat seuraavat:
 <p>
-Euron ja kansallisten eurovaluuttojen v‰lisiss‰ muuntokursseissa
-(jotka on esitetty myˆhemmin t‰ss‰ kirjoitelmassa) on kuusi
-merkitsev‰‰ numeroa, ja ne ilmaisevat yhden euron arvon kunkin
-kansallisen valuutan mukaan.  Muuntokursseja ei saa pyˆrist‰‰, eik‰
-niit‰ saa lyhent‰‰.  Ei ole myˆsk‰‰n sallittua k‰ytt‰‰ kurssin
-pyˆristetty‰ k‰‰nteislukua, tai muuntokursseista johdettuja kahden
-kansallisen valuutan v‰lisi‰ kursseja.  Muunnoksen v‰lituloksena
-k‰ytett‰v‰ eurom‰‰r‰inen rahasumma saadaan pyˆrist‰‰ v‰hint‰‰n kolmen
+Euron ja kansallisten eurovaluuttojen v√§lisiss√§ muuntokursseissa
+(jotka on esitetty my√∂hemmin t√§ss√§ kirjoitelmassa) on kuusi
+merkitsev√§√§ numeroa, ja ne ilmaisevat yhden euron arvon kunkin
+kansallisen valuutan mukaan.  Muuntokursseja ei saa py√∂rist√§√§, eik√§
+niit√§ saa lyhent√§√§.  Ei ole my√∂sk√§√§n sallittua k√§ytt√§√§ kurssin
+py√∂ristetty√§ k√§√§nteislukua, tai muuntokursseista johdettuja kahden
+kansallisen valuutan v√§lisi√§ kursseja.  Muunnoksen v√§lituloksena
+k√§ytett√§v√§ eurom√§√§r√§inen rahasumma saadaan py√∂rist√§√§ v√§hint√§√§n kolmen
 desimaalin tarkkudelle.
 <p>
-Muunnokset on siis teht‰v‰ seuraavasti:
+Muunnokset on siis teht√§v√§ seuraavasti:
 <list>
-<item>Euro muutetaan kansalliseksi valuutaksi kertomalla eurom‰‰r‰inen
-rahasumma muuntokurssilla.  Tulos pyˆristet‰‰n kansallisen valuutan
-tavan mukaisesti l‰himp‰‰n yksikkˆˆn, alayksikkˆˆn tai jomman kumman
-kerrannaiseen tai murto-osaan.  Esimerkiksi markkam‰‰r‰inen tulos
-voidaan tilanteesta riippuen pyˆrist‰‰ joko penneiksi tai kymmeniksi
-penneiksi.  N‰in esimerkiksi 5 euroa on 5 * 5,94573 Suomen markkaa eli
-asianmukaisesti pyˆristettyn‰ 29 markkaa ja 70 penni‰.
+<item>Euro muutetaan kansalliseksi valuutaksi kertomalla eurom√§√§r√§inen
+rahasumma muuntokurssilla.  Tulos py√∂ristet√§√§n kansallisen valuutan
+tavan mukaisesti l√§himp√§√§n yksikk√∂√∂n, alayksikk√∂√∂n tai jomman kumman
+kerrannaiseen tai murto-osaan.  Esimerkiksi markkam√§√§r√§inen tulos
+voidaan tilanteesta riippuen py√∂rist√§√§ joko penneiksi tai kymmeniksi
+penneiksi.  N√§in esimerkiksi 5 euroa on 5 * 5,94573 Suomen markkaa eli
+asianmukaisesti py√∂ristettyn√§ 29 markkaa ja 70 penni√§.
 
 <item>Kansallinen valuutta muutetaan euroiksi jakamalla rahasumma
 muuntokurssilla.  <strong/Ei ole luvallista kertoa muuntokurssin
-k‰‰nteisluvulla/, mik‰li pyˆristysvirheet ovat mahdollisia.  Saatu
-rahasumma pyˆristet‰‰n ylˆs- tai alasp‰in l‰himp‰‰n senttiin.
+k√§√§nteisluvulla/, mik√§li py√∂ristysvirheet ovat mahdollisia.  Saatu
+rahasumma py√∂ristet√§√§n yl√∂s- tai alasp√§in l√§himp√§√§n senttiin.
 Esimerkiksi 20 Suomen markkaa on 20 / 5,94573 euroa eli
-asianmukaisesti pyˆristettyn‰ kolme euroa ja 36 sentti‰.
+asianmukaisesti py√∂ristettyn√§ kolme euroa ja 36 sentti√§.
 
 <item>Kansallinen euroalueen valuutta muunnetaan toiseksi
-kansalliseksi euroalueen valuutaksi k‰ym‰ll‰ euron kautta.
-Eurom‰‰r‰inen v‰litulos saadaan pyˆrist‰‰ v‰hint‰‰n kolmen desimaalin
+kansalliseksi euroalueen valuutaksi k√§ym√§ll√§ euron kautta.
+Eurom√§√§r√§inen v√§litulos saadaan py√∂rist√§√§ v√§hint√§√§n kolmen desimaalin
 tarkkuudelle.  Esimerkiksi 100 Suomen markkaa on 100 / 5,94573 =
 16,819 euroa ja siis 16,819 * 1,95583 Saksan markkaa eli
-asianmukaisesti pyˆristettyn‰ 32,90 Saksan markkaa.
+asianmukaisesti py√∂ristettyn√§ 32,90 Saksan markkaa.
 </list>
 
-Muita menetelmi‰ saadaan k‰ytt‰‰ vain, jos ne antavat t‰sm‰lleen saman
-tuloksen kuin t‰ss‰ mainitut.
+Muita menetelmi√§ saadaan k√§ytt√§√§ vain, jos ne antavat t√§sm√§lleen saman
+tuloksen kuin t√§ss√§ mainitut.
 
 
-<sect>Kansallisten eurovaluuttojen ja euron v‰liset muuntokertoimet
+<sect>Kansallisten eurovaluuttojen ja euron v√§liset muuntokertoimet
 <p>
-Seuraavia muuntokertoimia tulee k‰ytt‰‰ muunnettaessa kansalliset
-eurovaluutat euroiksi ja p‰invastoin:
+Seuraavia muuntokertoimia tulee k√§ytt√§√§ muunnettaessa kansalliset
+eurovaluutat euroiksi ja p√§invastoin:
 <list>
 <item>
 1 EUR = 40.3399 BEF
@@ -371,85 +371,85 @@ eurovaluutat euroiksi ja p‰invastoin:
 </item>
 </list>
 
-L‰hde: Euroopan unionin sivu "Euro Conversion Rates"
+L√§hde: Euroopan unionin sivu "Euro Conversion Rates"
 <url id="http://europe.eu.int/eurobirth/rates.txt" name="(txt)"> ja
 <url id="http://europe.eu.int/eurobirth/rates.html" name="(html)">.
 <p>
-Muuntokertoimet eiv‰t riit‰ oikean muutoksen tekemiseksi.  Tarkat
-ohjeet on mainittu edell‰.
+Muuntokertoimet eiv√§t riit√§ oikean muutoksen tekemiseksi.  Tarkat
+ohjeet on mainittu edell√§.
 
-<chapt>P‰iv‰ykseen liittyvi‰ algoritmeja
+<chapt>P√§iv√§ykseen liittyvi√§ algoritmeja
 
-<sect>Yleist‰ ja pari kalenterikirjastoa
+<sect>Yleist√§ ja pari kalenterikirjastoa
 <p>
-Vaikka monet p‰iv‰ykseen liittyist‰ algoritmeista ovatkin
-kansainv‰lisi‰, k‰sittelen osaa niist‰ t‰ss‰. Koska Suomi ja
+Vaikka monet p√§iv√§ykseen liittyist√§ algoritmeista ovatkin
+kansainv√§lisi√§, k√§sittelen osaa niist√§ t√§ss√§. Koska Suomi ja
 Yhdysvallat laskevat kalenterinsa hieman eri tavoin, emme voi odottaa,
-ett‰ p‰‰asiassa yhdysvaltalaiset faqinkokoajat osaisivat vastata
+ett√§ p√§√§asiassa yhdysvaltalaiset faqinkokoajat osaisivat vastata
 suomalaisten kannalta oikein.
 <p>
-Itse asiassa huomasin etsiess‰ni t‰h‰n dokumenttiin vastauksia, ett‰
-osaa p‰iv‰ysalgoritmeista ei ole oikeastaan ollenkaan k‰sitelty
-kansainv‰lisiss‰ FAQ:eissa. Niiss‰kin, joissa n‰it‰ harvoin
-k‰siteltyj‰ kysymyksi‰ on k‰sitelty, on kokoaja sanonut, ett‰ h‰nell‰
-ei ole hajuakaan, onko h‰nen antamansa vastaus oikea.
+Itse asiassa huomasin etsiess√§ni t√§h√§n dokumenttiin vastauksia, ett√§
+osaa p√§iv√§ysalgoritmeista ei ole oikeastaan ollenkaan k√§sitelty
+kansainv√§lisiss√§ FAQ:eissa. Niiss√§kin, joissa n√§it√§ harvoin
+k√§siteltyj√§ kysymyksi√§ on k√§sitelty, on kokoaja sanonut, ett√§ h√§nell√§
+ei ole hajuakaan, onko h√§nen antamansa vastaus oikea.
 <p>
 Riku Meskanen <email/mesrik@cc.jyu.fi/ on kirjoittanut C-kielisen
 kalenterikirjaston. Kirjasto on GNU General Public Licensen alainen ja
 on saatavissa <url id="ftp://ftp.jyu.fi/private/mesrik/"
-name="FTP:ll‰"> sek‰ <tt/tar.gz/- ett‰ <tt/zip/-tiedostona.
+name="FTP:ll√§"> sek√§ <tt/tar.gz/- ett√§ <tt/zip/-tiedostona.
 <p>
 Steffen Beyer <email/sb@sdm.de/ on kirjoittanut Perl-modulin
-<tt/Date::DateCalc/, joka sis‰lt‰‰ yksinkertaisia p‰iv‰ykseen
-liittyvi‰ rutiineja. Minulla ei ole kokemuksia sen
+<tt/Date::DateCalc/, joka sis√§lt√§√§ yksinkertaisia p√§iv√§ykseen
+liittyvi√§ rutiineja. Minulla ei ole kokemuksia sen
 toimivuudesta. Modulin voi hakea CPAN-mirroreista esimerkiksi
 hakemistosta <tt>modules/by-module/Date</tt>.
 
-<sect>Miten m‰‰rit‰n annetun p‰iv‰n viikkonumeron?
+<sect>Miten m√§√§rit√§n annetun p√§iv√§n viikkonumeron?
 <p>
-T‰h‰n kysymykseen annetaan huomattavasti enemm‰n v‰‰ri‰ kuin oikeita
+T√§h√§n kysymykseen annetaan huomattavasti enemm√§n v√§√§ri√§ kuin oikeita
 vastauksia. Seuraava on yritetty varmistaa oikeaksi, mutta takuita en
 anna.
 <p>
 Toisin kuin esimerkiksi Yhdysvallat, Suomi numeroi viikkonsa
-kansainv‰lisen ISO 8601 -standardin mukaisesti.  Lis‰‰ yleist‰ tietoa
-t‰st‰ standardista saa Jukka Korpelan kirjoittamasta jutusta <url
+kansainv√§lisen ISO 8601 -standardin mukaisesti.  Lis√§√§ yleist√§ tietoa
+t√§st√§ standardista saa Jukka Korpelan kirjoittamasta jutusta <url
 name="ISO 8601, the date and time representation standard"
 id="http://www.malibutelecom.com/yucca/iso8601.html">. Standardi otettiin
-k‰yttˆˆn Suomessa vuonna 1973. Sen mukaan:
+k√§ytt√∂√∂n Suomessa vuonna 1973. Sen mukaan:
 
 <list>
-<item>viikon ensimm‰inen p‰iv‰ on maanantai; ja
-<item>vuoden ensimm‰inen viikko (viikko 1) on se viikko, johon kuuluu
-vuoden ensimm‰inen torstai.
+<item>viikon ensimm√§inen p√§iv√§ on maanantai; ja
+<item>vuoden ensimm√§inen viikko (viikko 1) on se viikko, johon kuuluu
+vuoden ensimm√§inen torstai.
 </list>
 
-T‰st‰ seuraa muutama viikkonumeron laskemista vaikeuttava asia. Kaksi
-t‰rkeint‰ lienev‰t se, ett‰ tammikuun 1. p‰iv‰ ei v‰ltt‰m‰tt‰ kuulu
-vuoden ensimm‰iseen viikkoon, ja se, ett‰ vuodessa on vuodesta
+T√§st√§ seuraa muutama viikkonumeron laskemista vaikeuttava asia. Kaksi
+t√§rkeint√§ lienev√§t se, ett√§ tammikuun 1. p√§iv√§ ei v√§ltt√§m√§tt√§ kuulu
+vuoden ensimm√§iseen viikkoon, ja se, ett√§ vuodessa on vuodesta
 riippuen joko 52 tai 53 viikkoa.
 <p>
 <url id="http://www.tondering.dk/claus/calendar.html"
 name="Calendar FAQ:in"> (osa 3, kysymys 5.6) mukaan 53 viikkoa on
-kaikissa vuosissa, jotka alkavat torstaina, sek‰ lis‰ksi
+kaikissa vuosissa, jotka alkavat torstaina, sek√§ lis√§ksi
 karkausvuosissa, jotka alkavat keskiviikkona. Muissa on 52 viikkoa.
 <p>
-Niinp‰ kohtuullisen yksinkertainen algoritmi on seuraavanlainen
-(mukailtu edell‰mainitussa Riku Meskasen <email/mesrik@cc.jyu.fi/
+Niinp√§ kohtuullisen yksinkertainen algoritmi on seuraavanlainen
+(mukailtu edell√§mainitussa Riku Meskasen <email/mesrik@cc.jyu.fi/
 kalenterikirjastossa olevan toteutuksen pohjalta):
 
 <enumlist>
 
-<item>Laske, montako p‰iv‰‰ on kulunut vuoden alusta (jos annettu
-p‰iv‰ on tammikuun ensimm‰inen, vastaus on 0). Lis‰‰ t‰h‰n 0, jos 
-tammikuun 1. on maanantai, 1, jos tammikuun ensimm‰inen on tiistai jne.
-Jaa vastaus seitsem‰ll‰ ja ota osam‰‰r‰st‰ huomioon vain kokonaiset; 
-t‰m‰ on ensimm‰inen arvaus viikkonumerkoksi.
+<item>Laske, montako p√§iv√§√§ on kulunut vuoden alusta (jos annettu
+p√§iv√§ on tammikuun ensimm√§inen, vastaus on 0). Lis√§√§ t√§h√§n 0, jos 
+tammikuun 1. on maanantai, 1, jos tammikuun ensimm√§inen on tiistai jne.
+Jaa vastaus seitsem√§ll√§ ja ota osam√§√§r√§st√§ huomioon vain kokonaiset; 
+t√§m√§ on ensimm√§inen arvaus viikkonumerkoksi.
 
 <item>Jos vuosi on alkanut maanantaina, tiistaina, keskiviikkona tai
-torstaina, lis‰‰ arvaukseen yksi.
+torstaina, lis√§√§ arvaukseen yksi.
 
-<item>Jos tulos on v‰lill‰ 1-52, se kelpaa viikkonumeroksi 
+<item>Jos tulos on v√§lill√§ 1-52, se kelpaa viikkonumeroksi 
 mutta jos tulos on nolla, niin:
 
   <list>
@@ -462,7 +462,7 @@ mutta jos tulos on nolla, niin:
 
   </list>
 
-jos tulos on 53, niin p‰‰tell‰‰n edellisen kohdan mukaisesti, onko 
+jos tulos on 53, niin p√§√§tell√§√§n edellisen kohdan mukaisesti, onko 
 vuodessa oikeasti 53 viikkoa:
   <list>
 
@@ -470,7 +470,7 @@ vuodessa oikeasti 53 viikkoa:
   karkausvuosi ja alkanut keskiviikkona, viikkonumero on
   todellisuudessa 53.
 
-  <item>Muussa tapauksessa kyseess‰ on seuraavan vuoden 1. viikko ja 
+  <item>Muussa tapauksessa kyseess√§ on seuraavan vuoden 1. viikko ja 
   viikkonumero on 1.
 
   </list>
@@ -478,10 +478,10 @@ vuodessa oikeasti 53 viikkoa:
 
 </enumlist>
 
-Seuraavassa C-ohjelmanp‰tk‰ss‰ oleva weekno()-funktio laskee annetulle
-p‰iv‰lle (d = p‰iv‰ 1 - 31, m = kuukausi 1 .. 12 ja y = vuosi)
+Seuraavassa C-ohjelmanp√§tk√§ss√§ oleva weekno()-funktio laskee annetulle
+p√§iv√§lle (d = p√§iv√§ 1 - 31, m = kuukausi 1 .. 12 ja y = vuosi)
 viikkonumeron. Se on Tapani Tarvaisen <email/tapani@iki.fi/
-k‰sialaa. 
+k√§sialaa. 
 <p>
 <example>
 int julian(int d, int m, int y)
@@ -505,17 +505,17 @@ int weekno(int d, int m, int y)
 }
 </example>
 <p>
-Monet ohjelmointiv‰lineet ja k‰yttˆj‰rjestelm‰t tarjoavat v‰lineit‰
+Monet ohjelmointiv√§lineet ja k√§ytt√∂j√§rjestelm√§t tarjoavat v√§lineit√§
 viikkonumeron laskemiseen. Ohjelmoijan on oltava kuitenkin tarkkana
-siit‰, ett‰ h‰n k‰ytt‰‰ tyˆkaluja, jotka laskevat oikean maan
+siit√§, ett√§ h√§n k√§ytt√§√§ ty√∂kaluja, jotka laskevat oikean maan
 viikkonumeroita - oikein. <tt/:-)/
 
 <chapt>Muuta luettavaa
 <p>
-T‰m‰n artikkelin sis‰lmys on tarkoituksella rajattu ahtaasti, sill‰
-maailmalla on runsaasti hyv‰‰ (ja toki myˆs asiantuntematonta)
-materiaalia, joka vastaa useimpiin kysymyksiin.  T‰ss‰ annetaan
-vihjeit‰ hyviksi aloituspaikoiksi.  Lis‰‰, itse asiassa aivan liikaa
+T√§m√§n artikkelin sis√§lmys on tarkoituksella rajattu ahtaasti, sill√§
+maailmalla on runsaasti hyv√§√§ (ja toki my√∂s asiantuntematonta)
+materiaalia, joka vastaa useimpiin kysymyksiin.  T√§ss√§ annetaan
+vihjeit√§ hyviksi aloituspaikoiksi.  Lis√§√§, itse asiassa aivan liikaa
 vastauksia ohjemoinnista usein esitettyihin kysymyksiin on <url
 name="FAQ-arkistossa" id="http://www.faqs.org/faqs/">.  Katsele
 erityisesti <tt/comp/-hierarkian FAQeja.
@@ -524,71 +524,71 @@ erityisesti <tt/comp/-hierarkian FAQeja.
 <p>
 Vesa Lappalainen on koonnut <url name="seittisivulleen"
 id="http://www.mit.jyu.fi/vesal/kurssit/kirjallisuutta.html">
-arvioita ohjelmointiin yleens‰ ja erityisesti graafisiin
-k‰yttˆliittymiin, olio-ohjelmointiin, C++-kieleen ja Delphiin
-liittyvist‰ kirjoista.  Tuolla sivulla on myˆs linkkej‰ Lappalaisen
+arvioita ohjelmointiin yleens√§ ja erityisesti graafisiin
+k√§ytt√∂liittymiin, olio-ohjelmointiin, C++-kieleen ja Delphiin
+liittyvist√§ kirjoista.  Tuolla sivulla on my√∂s linkkej√§ Lappalaisen
 kirja-arvosteluihin.
 
 <sect>Ohjelmointikielet
 <p>
-T‰rkein verkosta saatavissaa oleva C-ohjelmointikieleen liittyv‰
+T√§rkein verkosta saatavissaa oleva C-ohjelmointikieleen liittyv√§
 kirjoitus on <url name="C-FAQ"
 id="http://www.eskimo.com/~scs/C-faq/top.html">.  Jukka Korpela on
-myˆs koonnut <url name="Tietoa C-ohjelmointikielest‰ (ja C++:sta) Internetiss‰"
+my√∂s koonnut <url name="Tietoa C-ohjelmointikielest√§ (ja C++:sta) Internetiss√§"
 id="http://www.malibutelecom.com/yucca/Cinfo.html">.
 <p>
-Bjarne Stroustrupin kehitt‰m‰‰n C++-kieleen liittyv‰‰ materiaalia
-lˆytyy kasap‰in keksij‰n itsens‰ kokoaman <url name="seittisivun"
+Bjarne Stroustrupin kehitt√§m√§√§n C++-kieleen liittyv√§√§ materiaalia
+l√∂ytyy kasap√§in keksij√§n itsens√§ kokoaman <url name="seittisivun"
 id="http://www.research.att.com/~bs/C++.html"> kautta.  Erityisesti
 mainittakoon <url name="C++-FAQ Lite"
-id="http://www.parashift.com/c++-faq-lite/"> sek‰ <url
+id="http://www.parashift.com/c++-faq-lite/"> sek√§ <url
 name="SGI:n Standard Template Library Programmer's Guide"
 id="http://www.sgi.com/tech/stl/">.
 <p>
-Java-kielest‰ on olemassa <url name="FAQ-lista"
+Java-kielest√§ on olemassa <url name="FAQ-lista"
 id="http://www.afu.com/intro.html">.  Muutakin Java-materiaalia on
-<url name="seitiss‰" id="http://www.afu.com/">.
+<url name="seitiss√§" id="http://www.afu.com/">.
 <p>
-Pascal-kielen Borland-murteisiin (poislukien Delphi) liittyvi‰
-tekstej‰ lˆytyy <url name="mini-FAQ:n"
+Pascal-kielen Borland-murteisiin (poislukien Delphi) liittyvi√§
+tekstej√§ l√∂ytyy <url name="mini-FAQ:n"
 id="http://www.faqs.org/faqs/pascal/borland-minifaq/"> kauttta.
 <p>
 Perl-materiaalia on <url name="The Perl Instituten seittisivulla"
-id="http://www.perl.org">.  Lis‰ksi on saatavilla
+id="http://www.perl.org">.  Lis√§ksi on saatavilla
 <url name="Perl-FAQ" id="http://www.faqs.org/faqs/perl-faq/part0/">.
-Jukka Korpela on tehnyt itse materiaalia ja ker‰nnyt linkkej‰
-Perl-kielest‰ sek‰
-<url name="suomeksi" id="http://www.malibutelecom.com/yucca/perl/linkit.html"> ett‰
+Jukka Korpela on tehnyt itse materiaalia ja ker√§nnyt linkkej√§
+Perl-kielest√§ sek√§
+<url name="suomeksi" id="http://www.malibutelecom.com/yucca/perl/linkit.html"> ett√§
 <url name="englanniksi" id="http://www.malibutelecom.com/yucca/perl/">.
 <p>
 Python-kielen <url name="seittisivusto" id="http://www.python.org/">
 on olemassa. Jukka Korpela on koonnut
-<url name="Perustietoa Python-ohjelmointikielest‰ suomeksi"
+<url name="Perustietoa Python-ohjelmointikielest√§ suomeksi"
 id="http://www.malibutelecom.com/yucca/python/">.
 <p>
 <url name="Visual Basic FAQ"
 id="http://www.thebestweb.com/vbfaqs/"> on.
 <p>
-Lisp-kielest‰kin on <url name="FAQ-lista"
-id="http://www.cs.cmu.edu/Groups/AI/html/faqs/lang/lisp/top.html"> sek‰
-<url name="k‰ytt‰j‰yhdistys" id="http://www.lisp.org/"> (The Association 
+Lisp-kielest√§kin on <url name="FAQ-lista"
+id="http://www.cs.cmu.edu/Groups/AI/html/faqs/lang/lisp/top.html"> sek√§
+<url name="k√§ytt√§j√§yhdistys" id="http://www.lisp.org/"> (The Association 
 of Lisp Users),
-ja Schemell‰ on <url id="http://www.niksula.cs.hut.fi/~candolin/scheme/"
+ja Schemell√§ on <url id="http://www.niksula.cs.hut.fi/~candolin/scheme/"
 name="Suomessa fanisivusto">, jossa on erinomainen linkkilista.
 <p>
-Haskell-kielell‰ on <url name="seittisivusto" id="http://www.haskell.org/">.
+Haskell-kielell√§ on <url name="seittisivusto" id="http://www.haskell.org/">.
 <p>
-Jukka Korpela on koonnut <url name="Tietoa Fortran-ohjelmointikielest‰ Internetiss‰" id="http://www.malibutelecom.com/yucca/Fortran.html">.
+Jukka Korpela on koonnut <url name="Tietoa Fortran-ohjelmointikielest√§ Internetiss√§" id="http://www.malibutelecom.com/yucca/Fortran.html">.
 
-<sect>K‰yttˆj‰rjestelm‰t
+<sect>K√§ytt√∂j√§rjestelm√§t
 <p>
-Microsoftin k‰yttˆj‰rjestelmist‰ tietoa lˆytyy kasap‰in ymp‰ri
-verkkoa.  Parhaan tuloksen saa etsim‰ll‰ kysymykseens‰ vastausta
-suosikkihakurobotillaan ja lis‰ksi <url name="Googlen
+Microsoftin k√§ytt√∂j√§rjestelmist√§ tietoa l√∂ytyy kasap√§in ymp√§ri
+verkkoa.  Parhaan tuloksen saa etsim√§ll√§ kysymykseens√§ vastausta
+suosikkihakurobotillaan ja lis√§ksi <url name="Googlen
 keskusteluarkistoista" id="http://groups.google.com/">.
 MS-DOS-ohjelmoinnin kysymyksiin vastaillaan <url name="FAQ-listassa"
 id="http://www.faqs.org/faqs/msdos-programmer-faq/part1/preamble.html">.
-Windows-ohjelmointiin sopiva l‰htˆpaikka lienee <url
+Windows-ohjelmointiin sopiva l√§ht√∂paikka lienee <url
 id="http://msdn.microsoft.com" name="Microsoftin oma
 ohjelmointiportaali">.
 <p>
@@ -600,40 +600,40 @@ id="http://www.erlenstar.demon.co.uk/unix/faq_toc.html">
 
 <sect>Standardit ja muut normit
 <p>Standardeista, normeista ja "teollisuusstandardeista" yleisesti
-kertoo Jukka Korpelan kirjoitus <url name="Standardi, mik‰ se on?"
+kertoo Jukka Korpelan kirjoitus <url name="Standardi, mik√§ se on?"
 id="http://www.malibutelecom.com/yucca/stand.html">.
 
-<p>Suomen aakkostamista k‰sittelee SFS-standardi 4600. Asiasta on
+<p>Suomen aakkostamista k√§sittelee SFS-standardi 4600. Asiasta on
 luettavissa
-<url name="lehdistˆtiedote" id="http://www.sfs.fi/standard/20000619.html">.
+<url name="lehdist√∂tiedote" id="http://www.sfs.fi/standard/20000619.html">.
 Jukka Korpela on kirjoittanut seittisivun <url name="aakkostuksesta Suomessa"
 id="http://www.cs.tut.fi/~jkorpela/abc.html">.
 
-<p>Euroopan standardointij‰rjestˆ 
+<p>Euroopan standardointij√§rjest√∂ 
 <url name="CEN" id="http://www.cenorm.be/default.htm"> 
-on julkaissut er‰it‰ ep‰virallisiksi mutta merkitt‰viksi normeiksi 
+on julkaissut er√§it√§ ep√§virallisiksi mutta merkitt√§viksi normeiksi 
 luonnehdittavissa olevia sopimuksia, ns. 
 <url name="CWA:ita (CEN Workshop Agreement)"
 id="http://www.cenorm.be/isss/CWAs/cwalist.htm">.  
-Niiss‰ mm. k‰sitell‰‰n sit‰, miten erilaiset kieli- ja
+Niiss√§ mm. k√§sitell√§√§n sit√§, miten erilaiset kieli- ja
 kulttuuririippuvuudet tulisi ottaa huomioon tietokoneohjelmien
-suunnittelussa sek‰ mik‰ on yleiseurooppalaisiin yhteyksiin sopiva
-k‰yt‰ntˆ p‰iv‰ysten, raham‰‰rien yms. esitt‰miseen eli
+suunnittelussa sek√§ mik√§ on yleiseurooppalaisiin yhteyksiin sopiva
+k√§yt√§nt√∂ p√§iv√§ysten, raham√§√§rien yms. esitt√§miseen eli
 ns. pan-European locale.
 
 <chapt>Kommentteja halutaan
 <p>
-T‰t‰ kirjoitelmaa yll‰pit‰‰ Juha Autero.
+T√§t√§ kirjoitelmaa yll√§pit√§√§ Juha Autero.
 <email/jautero@iki.fi/.
-Korjauksia, lis‰yksi‰ ja muuta sellaista otetaan vastaan.
+Korjauksia, lis√§yksi√§ ja muuta sellaista otetaan vastaan.
 
-<p>FAQ:n yll‰pit‰j‰ tarvitsee avustajia! Jos olet kiinnostunut, ota yhteytt‰ 
-yll‰pit‰j‰‰n <email/jautero@iki.fi/.
+<p>FAQ:n yll√§pit√§j√§ tarvitsee avustajia! Jos olet kiinnostunut, ota yhteytt√§ 
+yll√§pit√§j√§√§n <email/jautero@iki.fi/.
 
 
 <chapt>Kiitokset
 <p>
-Seuraavat ihmiset ovat auttaneet minua t‰m‰n kirjoitelman kokoamisessa
+Seuraavat ihmiset ovat auttaneet minua t√§m√§n kirjoitelman kokoamisessa
 palautteellaan, kokemuksellaan, tiedoillaan ja ehdotuksillaan.  Suuri
 kiitos heille kaikille.
 
@@ -644,7 +644,7 @@ kiitos heille kaikille.
 <item>Jonne Itkonen
 <item>Jukka Korpela
 <item>Jouko Koski
-<item>Jarno K‰yhkˆ
+<item>Jarno K√§yhk√∂
 <item>Jani Lahti
 <item>Jukka Lahtinen
 <item>Tero Lahtinen
@@ -656,17 +656,17 @@ kiitos heille kaikille.
 <item>Tor Lillqvist
 <item>Teemu Luojola
 <item>Riku Meskanen
-<item>Jori M‰ntysalo
+<item>Jori M√§ntysalo
 <item>Markku Nevalainen
-<item>Kimmo Pyykkˆ
-<item>Juha-Heikki Ruism‰ki
+<item>Kimmo Pyykk√∂
+<item>Juha-Heikki Ruism√§ki
 <item>Rauli Ruohonen
 <item>Kimmo Surakka
 <item>Tapani Tarvainen
 <item>Mikko Vierula
 <item>Teppo Vuori
 <item>Lars Wirzenius
-<item>Miika ≈sten
+<item>Miika √Östen
 </list>
 
 

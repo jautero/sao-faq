@@ -4,259 +4,259 @@
 <title>Ohjelmoinnin alkeet: Vastauksia usein esitettyihin kysymyksiin
 <author>Juha Autero <email>jautero@iki.fi
 <author>Antti-Juhani Kaijanaho <email>gaia@iki.fi
-<author>Jori M‰ntysalo <email>jm58660@uta.fi
+<author>Jori M√§ntysalo <email>jm58660@uta.fi
 <version>$Revision: 1.49 $ $Date: 2004/09/29 06:20:02 $
 
 <copyright>
-Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori M‰ntysalo.
+Copyright &copy; 1999, 2000 Antti-Juhani Kaijanaho ja Jori M√§ntysalo.
 Copyright &copy; 2000 Jani Miettinen (<ref id="taulukot">)
 Copyright &copy; 2002 Juha Autero
 <p>
-T‰t‰ kirjoitelmaa saadaan levitt‰‰ ja muuttaa vapaasti sill‰ ehdolla,
-ett‰ muutosten tekij‰ ja p‰iv‰ys ilmoitetaan muutetuissa versioissa
-selke‰sti.  Kirjoitelman tekij‰t (mukaanlukien kaikki mahdollisten
-muutosten tekij‰t) on mainittava kirjoitelmasta ja sen
-johdannaisteoksista tehdyiss‰ teoskappaleissa, jollei kukin sit‰
-omalta osaltaan erikseen kiell‰.
+T√§t√§ kirjoitelmaa saadaan levitt√§√§ ja muuttaa vapaasti sill√§ ehdolla,
+ett√§ muutosten tekij√§ ja p√§iv√§ys ilmoitetaan muutetuissa versioissa
+selke√§sti.  Kirjoitelman tekij√§t (mukaanlukien kaikki mahdollisten
+muutosten tekij√§t) on mainittava kirjoitelmasta ja sen
+johdannaisteoksista tehdyiss√§ teoskappaleissa, jollei kukin sit√§
+omalta osaltaan erikseen kiell√§.
 <p>
-Toivomme, ett‰ kaikissa viittauksissa t‰h‰n artikkeliin mainitaan sen
+Toivomme, ett√§ kaikissa viittauksissa t√§h√§n artikkeliin mainitaan sen
 ikiosoite
 <url id="http://www.iki.fi/jautero/faq/saoa-faq.html"
 name="http://www.iki.fi/jautero/faq/saoa-faq.html"> .
-Viittauksissa ei tule k‰ytt‰‰ muita osoitteita, sill‰ vain mainitun
+Viittauksissa ei tule k√§ytt√§√§ muita osoitteita, sill√§ vain mainitun
 osoitteen toimiminen taataan.
 <p>
-<strong/Kirjoitelman tekij‰t eiv‰t vastaa kirjoitelmassa annetun
+<strong/Kirjoitelman tekij√§t eiv√§t vastaa kirjoitelmassa annetun
 tiedon oikeellisuudesta./ Kirjoitelman on tarkoitus olla
-mahdollisimman luotettava ja puolueeton tietol‰hde, totta kai, mutta
-koska sit‰ kirjoitetaan l‰hinn‰ harrastuksen vuoksi, ei siit‰ voida
-ottaa sellaista vastuuta, joka voisi joskus vied‰ kirjoittajat
-k‰r‰jille.
+mahdollisimman luotettava ja puolueeton tietol√§hde, totta kai, mutta
+koska sit√§ kirjoitetaan l√§hinn√§ harrastuksen vuoksi, ei siit√§ voida
+ottaa sellaista vastuuta, joka voisi joskus vied√§ kirjoittajat
+k√§r√§jille.
 </copyright>
 
 <toc>
 
-<chapt>Yleisi‰ asioita
+<chapt>Yleisi√§ asioita
 <p>
-<sect>T‰st‰ kirjoitelmasta
+<sect>T√§st√§ kirjoitelmasta
 <p>
-T‰m‰ kirjoitus on niin sanottu FAQ.  T‰m‰ kirjainlyhenne tulee
+T√§m√§ kirjoitus on niin sanottu FAQ.  T√§m√§ kirjainlyhenne tulee
 englanninkielen sanoista "Frequently Asked Questions", 'usein
-esitettyj‰ kysymyksi‰'.  Niinp‰ t‰m‰ kirjoitelma pyrkiikin
+esitettyj√§ kysymyksi√§'.  Niinp√§ t√§m√§ kirjoitelma pyrkiikin
 <em/vastaamaan usein esitettyihin kysymyksiin/, sellaisiin, jotka
-pidemm‰n p‰‰lle toistuessaan alkavat kyll‰stytt‰‰ keskusteluareenan
+pidemm√§n p√§√§lle toistuessaan alkavat kyll√§stytt√§√§ keskusteluareenan
 vakiosallistujia.
 <p>
-T‰m‰ kirjoitelma on keskusteluryhm‰n <tt/sfnet.atk.ohjelmointi.alkeet/
-FAQ.  Vaikka tuo ryhm‰ onkin varsin nuori, perustettu loppukev‰‰st‰
-1998, on siell‰ ehditty jo kaluta muutama aihe kyll‰stymiseen asti.
-Siksi t‰m‰ kirjoitelma on olemassa: jotta ryhm‰n uudet lukijat
-saisivat vastauksen polttaviin kysymyksiins‰, joista ryhm‰n vanhat
-parrat eiv‰t jaksa en‰‰ keskustella.  Lienee hyv‰ mainita, ett‰ se,
-ett‰ jotakin asiaa k‰sitell‰‰n t‰ss‰ kirjoituksessa, ei tarkoita, ett‰
-se olisi jotenkin erityisen t‰rke‰‰ tai toisaalta jotenkin tarpeetonta
+T√§m√§ kirjoitelma on keskusteluryhm√§n <tt/sfnet.atk.ohjelmointi.alkeet/
+FAQ.  Vaikka tuo ryhm√§ onkin varsin nuori, perustettu loppukev√§√§st√§
+1998, on siell√§ ehditty jo kaluta muutama aihe kyll√§stymiseen asti.
+Siksi t√§m√§ kirjoitelma on olemassa: jotta ryhm√§n uudet lukijat
+saisivat vastauksen polttaviin kysymyksiins√§, joista ryhm√§n vanhat
+parrat eiv√§t jaksa en√§√§ keskustella.  Lienee hyv√§ mainita, ett√§ se,
+ett√§ jotakin asiaa k√§sitell√§√§n t√§ss√§ kirjoituksessa, ei tarkoita, ett√§
+se olisi jotenkin erityisen t√§rke√§√§ tai toisaalta jotenkin tarpeetonta
 asiaa.
 <p>
-T‰m‰ kirjoitelma postataan kerran kuukaudessa uutisryhm‰‰n
-<tt/sfnet.atk.ohjelmointi.alkeet/.  Uusin julkaistu versio on myˆs
-saatavilla seitist‰ seuraavissa muodoissa: <url
+T√§m√§ kirjoitelma postataan kerran kuukaudessa uutisryhm√§√§n
+<tt/sfnet.atk.ohjelmointi.alkeet/.  Uusin julkaistu versio on my√∂s
+saatavilla seitist√§ seuraavissa muodoissa: <url
 id="http://www.iki.fi/jautero/faq/saoa-faq.html" name="HTML">, <url
 id="http://www.iki.fi/jautero/faq/saoa-faq.txt" name="tavallinen
 teksti">, <url id="http://www.iki.fi/jautero/faq/saoa-faq.tov"
 name="teksti korostuksin"> ja <url
 id="http://www.iki.fi/jautero/faq/saoa-faq.sgml" name="SGML/Debiandoc">.
-Viimeksimainitun k‰sittelemiseen tarvitaan <url
+Viimeksimainitun k√§sittelemiseen tarvitaan <url
 id="http://www.debian.org/Packages/unstable/text/debiandoc-sgml.html"
 name="Debiandoc-SGML-paketti">, joka toiminee ainakin kaikissa
 Unixeissa.
 <p>
-T‰t‰ kirjoitusta yll‰pit‰‰ Juha Autero <email/jautero@iki.fi/.
+T√§t√§ kirjoitusta yll√§pit√§√§ Juha Autero <email/jautero@iki.fi/.
 Suurimman osan kirjoituksesta on kuitenkin tehnyt Antti-Juhani Kaijanaho,
-joten kirjoituksen "min‰" on poikkeuksetta Antti-Juhani, mutta mukana on
-myˆs muidenkin kirjoittajien teksti‰.  Juha ottaa vastaan t‰h‰n
-kirjoitelmaan liittyvi‰ kommentteja, korjauksia ja muita sellaisia.
-Kirjoitelmaan tehdyt muutokset lˆytyv‰t <url
-id="http://www.iki.fi/jautero/faq/ChangeLog" name="GNU ChangeLog"> sek‰
+joten kirjoituksen "min√§" on poikkeuksetta Antti-Juhani, mutta mukana on
+my√∂s muidenkin kirjoittajien teksti√§.  Juha ottaa vastaan t√§h√§n
+kirjoitelmaan liittyvi√§ kommentteja, korjauksia ja muita sellaisia.
+Kirjoitelmaan tehdyt muutokset l√∂ytyv√§t <url
+id="http://www.iki.fi/jautero/faq/ChangeLog" name="GNU ChangeLog"> sek√§
 <url id="http://www.iki.fi/jautero/faq/changelog.html"
 name="HTML">-muodossa.
 
-<sect>Sananen hyv‰st‰ k‰ytˆksest‰ uutisryhmiss‰
+<sect>Sananen hyv√§st√§ k√§yt√∂ksest√§ uutisryhmiss√§
 <p>
-Uutisryhm‰t ovat kokonaisuutena vanha keskusteluareena, itse asiassa
-paljon vanhempi kuin useimmat verkon k‰ytt‰j‰t tulevat ajatelleeksi.
-Tiedossani ei ole tarkkaa tietoa siit‰, koska uutisryhmi‰ levitt‰vien
+Uutisryhm√§t ovat kokonaisuutena vanha keskusteluareena, itse asiassa
+paljon vanhempi kuin useimmat verkon k√§ytt√§j√§t tulevat ajatelleeksi.
+Tiedossani ei ole tarkkaa tietoa siit√§, koska uutisryhmi√§ levitt√§vien
 palvelimien verkko Usenet syntyi, mutta se on ollut olemassa nyt jo
-ainakin 15 vuotta.  Osa nykyisist‰kin keskustelijoista olivat paikalla
-jo silloin, maailmankaikkeuden h‰m‰rin‰ alkuhetkin‰.  N‰in vanhalle
-areenalle on aikojen saatossa syntynyt oma hyv‰n k‰ytˆksen normisto,
-jota aloittelevankin kirjoittajan on syyt‰ noudattaa jos ei halua
-saada verkossa <em/peelon/ eli idiootin mainetta.  T‰m‰ netti-etiketti
-eli <em/netiketti/ ei ole kovinkaan monimutkainen, ja terveell‰
-j‰rjell‰ p‰rj‰‰ hyvin.
+ainakin 15 vuotta.  Osa nykyisist√§kin keskustelijoista olivat paikalla
+jo silloin, maailmankaikkeuden h√§m√§rin√§ alkuhetkin√§.  N√§in vanhalle
+areenalle on aikojen saatossa syntynyt oma hyv√§n k√§yt√∂ksen normisto,
+jota aloittelevankin kirjoittajan on syyt√§ noudattaa jos ei halua
+saada verkossa <em/peelon/ eli idiootin mainetta.  T√§m√§ netti-etiketti
+eli <em/netiketti/ ei ole kovinkaan monimutkainen, ja terveell√§
+j√§rjell√§ p√§rj√§√§ hyvin.
 <p>
-T‰rkeint‰ on se, ett‰ kirjoittaessasi uutisryhm‰‰n ilmaiset itse‰si
-selke‰sti.  T‰ss‰ muutamia nyrkkis‰‰ntˆj‰: Kirjoita yleiskielt‰ ja
-v‰lt‰ sellaista erityissanastoa, jota ryhm‰n lukijakunta ei
-todenn‰kˆisesti tunne.  Jos kirjoituksessasi esitet‰‰n kysymys, johon
-halutaan vastaus, esit‰ kysymys selke‰sti ja mielell‰‰n kirjoituksesi
-alkupuolella.  Kirjoita lyhyesti mutta ‰l‰ liian lyhyesti.  Pyri aina
-siihen, ett‰ kirjoituksesi sanoo jotain olennaista keskustelun
-kohteena olevasta asiasta.  K‰yt‰ paljon puhuvia otsikoita;
-mit‰‰nsanomattomasta subject-rivist‰ ei ole kenellek‰‰n mit‰‰n hyˆty‰.
-Esimerkiksi ''Scheme: Merkkijonon pituus'' on paljon hyˆdyllisempi
-otsikko kuin ''Auttakaa!''.  On ep‰kohteliasta kysy‰ ryhm‰ss‰ ja
-vaatia vastaukset s‰hkˆpostitse.
+T√§rkeint√§ on se, ett√§ kirjoittaessasi uutisryhm√§√§n ilmaiset itse√§si
+selke√§sti.  T√§ss√§ muutamia nyrkkis√§√§nt√∂j√§: Kirjoita yleiskielt√§ ja
+v√§lt√§ sellaista erityissanastoa, jota ryhm√§n lukijakunta ei
+todenn√§k√∂isesti tunne.  Jos kirjoituksessasi esitet√§√§n kysymys, johon
+halutaan vastaus, esit√§ kysymys selke√§sti ja mielell√§√§n kirjoituksesi
+alkupuolella.  Kirjoita lyhyesti mutta √§l√§ liian lyhyesti.  Pyri aina
+siihen, ett√§ kirjoituksesi sanoo jotain olennaista keskustelun
+kohteena olevasta asiasta.  K√§yt√§ paljon puhuvia otsikoita;
+mit√§√§nsanomattomasta subject-rivist√§ ei ole kenellek√§√§n mit√§√§n hy√∂ty√§.
+Esimerkiksi ''Scheme: Merkkijonon pituus'' on paljon hy√∂dyllisempi
+otsikko kuin ''Auttakaa!''.  On ep√§kohteliasta kysy√§ ryhm√§ss√§ ja
+vaatia vastaukset s√§hk√∂postitse.
 <p>
-Muista aina kertoa mit‰ ohjelmointikielt‰ k‰yt‰t. (Esimerkiksi C,
-C++ ja Java eiv‰t v‰ltt‰m‰tt‰ eroa toisistaan lainkaan
-pieness‰ esimerkkikoodissa.) Kerro myˆs ymp‰ristˆ ja k‰‰nt‰j‰.
-Esimerkiksi C-kieless‰ ei ole mit‰‰n standardin mukaista tapaa
-tyhjent‰‰ ruutu, vaan vastaus on erilainen Borland C++ Builderilla
-konsoliohjelmia teht‰ess‰ ja Linuxin gcc-k‰‰nt‰j‰ll‰.
+Muista aina kertoa mit√§ ohjelmointikielt√§ k√§yt√§t. (Esimerkiksi C,
+C++ ja Java eiv√§t v√§ltt√§m√§tt√§ eroa toisistaan lainkaan
+pieness√§ esimerkkikoodissa.) Kerro my√∂s ymp√§rist√∂ ja k√§√§nt√§j√§.
+Esimerkiksi C-kieless√§ ei ole mit√§√§n standardin mukaista tapaa
+tyhjent√§√§ ruutu, vaan vastaus on erilainen Borland C++ Builderilla
+konsoliohjelmia teht√§ess√§ ja Linuxin gcc-k√§√§nt√§j√§ll√§.
 <p>
-Lis‰‰ tietoa netiketist‰ saa Timo Kiravuon kirjoituksesta <url
+Lis√§√§ tietoa netiketist√§ saa Timo Kiravuon kirjoituksesta <url
 id="http://www.nixu.fi/%7ekiravuo/etiketti/" name="News-etiketti"> ja
 Jukka Korpelan kirjoituksesta <url
 id="http://www.malibutelecom.com/yucca/nyysit/index.html" name="Nyysiopas">.
-Kumpikin ovat suositeltavaa luettavaa kaikille uutisryhmi‰
+Kumpikin ovat suositeltavaa luettavaa kaikille uutisryhmi√§
 seuraaville.
 
 
-<sect>Ohjelmoinnin alkeet -uutisryhm‰st‰
+<sect>Ohjelmoinnin alkeet -uutisryhm√§st√§
 <p>
-Uutisryhm‰n <tt/sfnet.atk.ohjelmointi.alkeet/ virallisen kuvauksen
+Uutisryhm√§n <tt/sfnet.atk.ohjelmointi.alkeet/ virallisen kuvauksen
 mukaan se "on tarkoitettu ohjelmointia aloitteleville tai sellaisille,
 jotka tutustuvat itselleen uuteen ohjelmoinnin osa-alueeseen".
-Ryhm‰ss‰ k‰sitell‰‰n siis erilaisia alkuunp‰‰semisen ongelmia.
-Muunlaisia ohjelmointiongelmia varten on olemassa ryhm‰ <url
+Ryhm√§ss√§ k√§sitell√§√§n siis erilaisia alkuunp√§√§semisen ongelmia.
+Muunlaisia ohjelmointiongelmia varten on olemassa ryhm√§ <url
 id="http://www.iki.fi/gaia/saom/"
-name="sfnet.atk.ohjelmointi.moderoitu">.  Hyv‰ nyrkkis‰‰ntˆ on, ett‰
-mik‰li kysyj‰ on ohjelmoinut alle vuoden verran, on alkeet-ryhm‰
-todenn‰kˆisesti oikea valinta.  Toiseen suuntaan ohje ei p‰de, sill‰
-kokeneempikin ohjelmoija saattaa joskus tˆrm‰t‰ alkeisongelmiin,
+name="sfnet.atk.ohjelmointi.moderoitu">.  Hyv√§ nyrkkis√§√§nt√∂ on, ett√§
+mik√§li kysyj√§ on ohjelmoinut alle vuoden verran, on alkeet-ryhm√§
+todenn√§k√∂isesti oikea valinta.  Toiseen suuntaan ohje ei p√§de, sill√§
+kokeneempikin ohjelmoija saattaa joskus t√∂rm√§t√§ alkeisongelmiin,
 varsinkin tutustuessaan uuteen ohjelmointikieleen tai -metodiin.
-Toinen hyv‰ nyrkkis‰‰ntˆ on se, ett‰ mik‰li kysyj‰ ei itse tied‰,
-mist‰ p‰in netti‰ tai kirjallisuutta l‰htisi etsim‰‰n vastausta,
+Toinen hyv√§ nyrkkis√§√§nt√∂ on se, ett√§ mik√§li kysyj√§ ei itse tied√§,
+mist√§ p√§in netti√§ tai kirjallisuutta l√§htisi etsim√§√§n vastausta,
 kysymys on mahdollisesti alkeista.
 <p>
-<em/HTML-kieleen liittyv‰t kysymykset eiv‰t kuulu mihink‰‰n
-ohjelmointiryhm‰‰n,/ sill‰ HTML ei ole ohjelmointikieli.  Esit‰ ne
-mielummin WWW-kysymyksille varatussa ryhm‰ss‰
+<em/HTML-kieleen liittyv√§t kysymykset eiv√§t kuulu mihink√§√§n
+ohjelmointiryhm√§√§n,/ sill√§ HTML ei ole ohjelmointikieli.  Esit√§ ne
+mielummin WWW-kysymyksille varatussa ryhm√§ss√§
 <tt/sfnet.viestinta.www/, kun olet ensin tarkistanut, ettei
 kysymykseesi ole vastattu <url
 id="http://www.heikniemi.net/svwww-vukk/"
-name="ryhm‰n VUKK:ssa"> tai englanninkielisess‰ <url
+name="ryhm√§n VUKK:ssa"> tai englanninkielisess√§ <url
 id="http://www.stack.nl/htmlhelp/faq/wdgfaq.htm" name="FAQ:ssa">.
 <p>
-Ennen kysymyksen l‰hett‰mist‰ uutisryhm‰‰n tarkista, ettei
-kysymykseesi ole vastattu t‰ss‰ kirjoituksessa tai <url
+Ennen kysymyksen l√§hett√§mist√§ uutisryhm√§√§n tarkista, ettei
+kysymykseesi ole vastattu t√§ss√§ kirjoituksessa tai <url
 id="http://www.iki.fi/jautero/faq/sao-faq.html" name="moderoidun
-ohjelmointiryhm‰n FAQ:ssa">.
+ohjelmointiryhm√§n FAQ:ssa">.
 
 <chapt>Ohjelmoinnin opettelemisesta
 <p>
-<sect>Ensimm‰inen ohjelmointikieli
+<sect>Ensimm√§inen ohjelmointikieli
 <p>
-Kysymys siit‰, mill‰ ohjelmointikielell‰ kannattaisi aloittaa
+Kysymys siit√§, mill√§ ohjelmointikielell√§ kannattaisi aloittaa
 ohjemoinnin opettelu, on oikeastaan mielipideasia; jokaisella on oma
-mielipiteens‰ siit‰.  Esit‰n (AJK) t‰ss‰ oman n‰kemykseni, ja pyyd‰n
+mielipiteens√§ siit√§.  Esit√§n (AJK) t√§ss√§ oman n√§kemykseni, ja pyyd√§n
 muita kokeneita ohjelmoijia - ja erityisesti ohjelmoinnin opettajia -
-kirjoittamaan oman mielipiteens‰ ja l‰hett‰m‰‰n sen minulle, jotta
-voisin esitt‰‰ t‰ss‰ kirjoitelmassa mahdollisimman monipuolisen
+kirjoittamaan oman mielipiteens√§ ja l√§hett√§m√§√§n sen minulle, jotta
+voisin esitt√§√§ t√§ss√§ kirjoitelmassa mahdollisimman monipuolisen
 vastauksen kysymykseen.
 <p>
-Ensimm‰isen ohjelmointikielen valinnalla ei yleens‰ ole maata
-j‰risytt‰v‰‰ merkityst‰, mik‰li opettelija aikoo k‰yd‰ opintien
+Ensimm√§isen ohjelmointikielen valinnalla ei yleens√§ ole maata
+j√§risytt√§v√§√§ merkityst√§, mik√§li opettelija aikoo k√§yd√§ opintien
 loppuun asti eli ruveta ammattimaiseksi tai vakavasti harrastavaksi
-ohjelmoijaksi.  T‰llainen ihminen nimitt‰in kyll‰ ennemmin tai
-myˆhemmin joutuu opettelemaan suurimman osan yleisess‰ k‰ytˆss‰
-olevista ohjelmointikielist‰.  T‰rkeint‰ ohjelmoinnin opettelemisessa
-on t‰llaisen ihmisen kannalta ajattelutapojen ja ongelmanratkaisun
-oppiminen, ja suurin osa nykyisin k‰ytˆss‰ olevista
-ohjelmointikielist‰ kyll‰ mahdollistavat t‰m‰n.  Mik‰li opettelijalla
-ei kuitenkaan ole n‰in voimakasta kunnianhimoa, kielen valinnalla on
+ohjelmoijaksi.  T√§llainen ihminen nimitt√§in kyll√§ ennemmin tai
+my√∂hemmin joutuu opettelemaan suurimman osan yleisess√§ k√§yt√∂ss√§
+olevista ohjelmointikielist√§.  T√§rkeint√§ ohjelmoinnin opettelemisessa
+on t√§llaisen ihmisen kannalta ajattelutapojen ja ongelmanratkaisun
+oppiminen, ja suurin osa nykyisin k√§yt√∂ss√§ olevista
+ohjelmointikielist√§ kyll√§ mahdollistavat t√§m√§n.  Mik√§li opettelijalla
+ei kuitenkaan ole n√§in voimakasta kunnianhimoa, kielen valinnalla on
 suurempi merkitys.
 <p>
-Sanoin ‰sken, ett‰ tosissaan ohjelmointia harrastava ihminen joutuu
-opettelemaan ennemmin tai myˆhemmin kaikki yleisess‰ k‰ytˆss‰ olevat
-kielet.  T‰t‰ ei pid‰ pel‰sty‰: yleens‰ ensimm‰inen kieli on kaikista
-vaikein, sill‰ sit‰ opetellessa joutuu samalla oppimaan myˆs
+Sanoin √§sken, ett√§ tosissaan ohjelmointia harrastava ihminen joutuu
+opettelemaan ennemmin tai my√∂hemmin kaikki yleisess√§ k√§yt√∂ss√§ olevat
+kielet.  T√§t√§ ei pid√§ pel√§sty√§: yleens√§ ensimm√§inen kieli on kaikista
+vaikein, sill√§ sit√§ opetellessa joutuu samalla oppimaan my√∂s
 <em/ohjelmoimaan/ - ja ohjelmointihan on kaikkea muuta kuin kielen
-yksityiskohtien osaamista.  Annanpa esimerkin itsest‰ni.  Ensimm‰isen
+yksityiskohtien osaamista.  Annanpa esimerkin itsest√§ni.  Ensimm√§isen
 kieleni opettelin joskus 1990-luvun alkussa.  Minulla kesti kauan,
-ennen kuin opin tekem‰‰n sill‰ jotain hyˆdyllist‰.  Syksyll‰ 1998
-opettelin Python-kielen muutamassa p‰iv‰ss‰ samalle tasolle, jonne
-p‰‰seminen ensimm‰isell‰ kielell‰ni kesti vuosia; python taisi olla
+ennen kuin opin tekem√§√§n sill√§ jotain hy√∂dyllist√§.  Syksyll√§ 1998
+opettelin Python-kielen muutamassa p√§iv√§ss√§ samalle tasolle, jonne
+p√§√§seminen ensimm√§isell√§ kielell√§ni kesti vuosia; python taisi olla
 minulle viides kieli, jonka opettelin kunnolla.  Voin vain toistaa
-itse‰ni ja sanoa: kielet helpponevat sit‰ mukaa kun ohjelmointikokemus
+itse√§ni ja sanoa: kielet helpponevat sit√§ mukaa kun ohjelmointikokemus
 karttuu.
 <p>
-V‰it‰n, ett‰ BASIC-kieli sellaisena kuin se esiintyy 1980-luvulla
-yleisesti k‰ytetyiss‰ kotitietokoneissa (esim. Commodore 64, Sinclair
+V√§it√§n, ett√§ BASIC-kieli sellaisena kuin se esiintyy 1980-luvulla
+yleisesti k√§ytetyiss√§ kotitietokoneissa (esim. Commodore 64, Sinclair
 Spectrum ja varhaiset IBM PC -yhteensopivat tietokoneet), <em/on
-t‰ysin sopimaton aloittelevalle ohjelmoijalle./ Kielest‰ puuttuvat
-nimitt‰in kaikki hyv‰‰ ohjelmointityyli‰ tukevat ominaisuudet, ja
-t‰m‰n mikrobasictaustan omaava ohjelmoija joutuu ennemmin tai
-myˆhemmin opettelemaan pois t‰m‰n kielen tuomista pahoista tavoista,
-mik‰ ei ole ollenkaan helppo homma.  Vastaava ongelma on kaikilla
-konekielill‰.  Nykyisin k‰ytˆss‰ olevat BASIC-murteet ovat jo
-k‰yttˆkelpoisempia.
+t√§ysin sopimaton aloittelevalle ohjelmoijalle./ Kielest√§ puuttuvat
+nimitt√§in kaikki hyv√§√§ ohjelmointityyli√§ tukevat ominaisuudet, ja
+t√§m√§n mikrobasictaustan omaava ohjelmoija joutuu ennemmin tai
+my√∂hemmin opettelemaan pois t√§m√§n kielen tuomista pahoista tavoista,
+mik√§ ei ole ollenkaan helppo homma.  Vastaava ongelma on kaikilla
+konekielill√§.  Nykyisin k√§yt√∂ss√§ olevat BASIC-murteet ovat jo
+k√§ytt√∂kelpoisempia.
 <p>
-Hyvi‰ aloituskieli‰ ovat Scheme, Python, Prolog, Java, Pascal ja C++.
-Muitakin kelpo kieli‰ on.  K‰sittelen nyt kutakin nimelt‰
-mainitsemaani kielt‰ erikseen.
+Hyvi√§ aloituskieli√§ ovat Scheme, Python, Prolog, Java, Pascal ja C++.
+Muitakin kelpo kieli√§ on.  K√§sittelen nyt kutakin nimelt√§
+mainitsemaani kielt√§ erikseen.
 <p>
 <taglist>
 
-<tag>Scheme<item>Scheme on 1970-luvulta per‰isin oleva kieli, jota
-k‰ytet‰‰n nykyisin varsin paljon korkeakouluissa ja yliopistoissa
-ensimm‰isen‰ opetuskielen‰ - esimerkiksi Teknillisen korkeakoulun
-p‰‰aineopiskelijoilla Scheme on pakollinen ensimm‰inen
-ohjelmointikieli.  Kieless‰ on hyvin v‰h‰n opeteltavia yksityiskohtia,
-ja siksip‰ Scheme‰ k‰ytett‰ess‰ p‰‰st‰‰n nopeasti k‰siksi t‰rke‰mpiin
-asioihin.  Scheme kuuluu ep‰puhtaiden funktionaalisten kielten
-luokkaan, mink‰ vuoksi joillakin on sit‰ kohtaan turhia
-ennakkoluuloja.  Mik‰li minua pyydett‰isiin suosittelemaan
-ohjelmoinnista tosissaan kiinnostuneelle aloittelijalle jotain kielt‰
-ensimm‰iseksi ohjelmointikieleksi, suosittelisin Scheme‰.
+<tag>Scheme<item>Scheme on 1970-luvulta per√§isin oleva kieli, jota
+k√§ytet√§√§n nykyisin varsin paljon korkeakouluissa ja yliopistoissa
+ensimm√§isen√§ opetuskielen√§ - esimerkiksi Teknillisen korkeakoulun
+p√§√§aineopiskelijoilla Scheme on pakollinen ensimm√§inen
+ohjelmointikieli.  Kieless√§ on hyvin v√§h√§n opeteltavia yksityiskohtia,
+ja siksip√§ Scheme√§ k√§ytett√§ess√§ p√§√§st√§√§n nopeasti k√§siksi t√§rke√§mpiin
+asioihin.  Scheme kuuluu ep√§puhtaiden funktionaalisten kielten
+luokkaan, mink√§ vuoksi joillakin on sit√§ kohtaan turhia
+ennakkoluuloja.  Mik√§li minua pyydett√§isiin suosittelemaan
+ohjelmoinnista tosissaan kiinnostuneelle aloittelijalle jotain kielt√§
+ensimm√§iseksi ohjelmointikieleksi, suosittelisin Scheme√§.
 <p>
-Scheme-materiaalia on verkossa varsin paljon, l‰hinn‰ englanniksi.
-Hyvi‰ aloituspaikkoja ovat <url id="http://www.schemers.org/"
+Scheme-materiaalia on verkossa varsin paljon, l√§hinn√§ englanniksi.
+Hyvi√§ aloituspaikkoja ovat <url id="http://www.schemers.org/"
 name="Schemers.org"> ja suomalainen vaan ei suomenkielinen <url
 id="http://www.niksula.cs.hut.fi/%7Ecandolin/scheme/"
-name="Schememonster's friends">.  Scheme‰ k‰ytt‰vi‰, aloittelevalle
-ohjelmoijalle sopivia kirjoja on myˆs, l‰hinn‰ englanniksi.
+name="Schememonster's friends">.  Scheme√§ k√§ytt√§vi√§, aloittelevalle
+ohjelmoijalle sopivia kirjoja on my√∂s, l√§hinn√§ englanniksi.
 
-<tag>Python<item>Python on Scheme‰ huomattavasti nuorempi
-ohjelmointikieli.  Pythonin kielioppi on johdonmukainen ja sis‰lt‰‰
-v‰h‰n opeteltavia yksityiskohtia.  Kieli tarjoaa runsaasti valmiita
-tyˆkaluja monien k‰yt‰nnˆn ohjelmointiongelmien ratkaisemiseen
-nopeasti ja v‰h‰ll‰ kirjoittamisella.  T‰m‰n vuoksi se sopii hyvin
+<tag>Python<item>Python on Scheme√§ huomattavasti nuorempi
+ohjelmointikieli.  Pythonin kielioppi on johdonmukainen ja sis√§lt√§√§
+v√§h√§n opeteltavia yksityiskohtia.  Kieli tarjoaa runsaasti valmiita
+ty√∂kaluja monien k√§yt√§nn√∂n ohjelmointiongelmien ratkaisemiseen
+nopeasti ja v√§h√§ll√§ kirjoittamisella.  T√§m√§n vuoksi se sopii hyvin
 sellaiselle aloittelevalle ohjelmoijalle, joka haluaa saada nopeasti
 hyvin toimivia ohjelmia aikaiseksi.  Pythonin pahin ongelma on se,
-ettei siit‰ ole olemassa kunnollista kirjallista materiaalia
-aloittelevan ohjelmoijan k‰yttˆˆn.
+ettei siit√§ ole olemassa kunnollista kirjallista materiaalia
+aloittelevan ohjelmoijan k√§ytt√∂√∂n.
 <p>
 Kaikki olennainen Pythonista on luettavissa kielen <url
 name="seittisivustolta" id="http://www.python.org/">.
 
 <tag>Prolog<item>Prolog on varsin omintakeinen ohjelmointikieli.  Se
-perustuu muodolliseen logiikkaan ja p‰‰ttelys‰‰ntˆihin: kun Prologille
-kerrotaan, ett‰ Matti on Maijan poika, Mikko on Matin poika ja pojan
+perustuu muodolliseen logiikkaan ja p√§√§ttelys√§√§nt√∂ihin: kun Prologille
+kerrotaan, ett√§ Matti on Maijan poika, Mikko on Matin poika ja pojan
 poika on pojanpoika, niin Prolog osaa vastata kysymykseen "Onko Mikko
-Maijan pojanpoika?" oikein.  Prolog poikkeaa muista kielist‰ siin‰,
-ett‰ vain Prologissa t‰m‰ ongelma voidaan esitt‰‰ suurin piirtein yht‰
-yksinkertaisesti kuin suomen kieless‰.  Prolog on hyv‰ kieli
-sellaiselle, jota kiinnostavat ‰lylliset pelit ja kielelliset
+Maijan pojanpoika?" oikein.  Prolog poikkeaa muista kielist√§ siin√§,
+ett√§ vain Prologissa t√§m√§ ongelma voidaan esitt√§√§ suurin piirtein yht√§
+yksinkertaisesti kuin suomen kieless√§.  Prolog on hyv√§ kieli
+sellaiselle, jota kiinnostavat √§lylliset pelit ja kielelliset
 ongelmat.
 <p>
-Prolog-materiaalia on netiss‰, mm. <url
+Prolog-materiaalia on netiss√§, mm. <url
 name="Prolog Programming A First Course"
 id="http://www.cbl.leeds.ac.uk/%7Epaul/prologbook/">, <url
 name="A Short Tutorial on Prolog"
 id="http://www.cbl.leeds.ac.uk/%7Etamsin/prologtutorial/"> ja suomeksi
 <url
-name="Keskener‰isi‰ harjoituksia Prolog-ohjelmointikieleen tutustumiseksi"
+name="Keskener√§isi√§ harjoituksia Prolog-ohjelmointikieleen tutustumiseksi"
 id="http://www.ling.helsinki.fi/courses/ctl170/1998/">.
 <p>
 Heikki Kantola on suositellut seuraavia Prolog-kirjoja:
@@ -265,244 +265,244 @@ L. Sterling, E. Shapiro: ''The Art of Prolog'' ja
 F. Pereira, S. Shieber: ''Prolog and Natural-Language Analysis''.
 
 <tag>Java<item>Java on eri asia kuin seittisivuilla varsin usein
-n‰ht‰v‰ Javascript.  Java on hyvin uusi mutta lupaavalta n‰ytt‰v‰
+n√§ht√§v√§ Javascript.  Java on hyvin uusi mutta lupaavalta n√§ytt√§v√§
 ohjelmointikieli, joka on sukulaistaan C++:aa huomattavasti
-yst‰v‰llisempi k‰ytt‰j‰‰ns‰ kohtaan.  Kielen soveltuvuudesta
-aloittelijalle kertoo jotain se, ett‰ Helsingin yliopiston
-Tietojenk‰sittelytieteen laitos k‰ytt‰‰ Javaa ensimm‰isen‰
-opetuskielen‰‰n.
+yst√§v√§llisempi k√§ytt√§j√§√§ns√§ kohtaan.  Kielen soveltuvuudesta
+aloittelijalle kertoo jotain se, ett√§ Helsingin yliopiston
+Tietojenk√§sittelytieteen laitos k√§ytt√§√§ Javaa ensimm√§isen√§
+opetuskielen√§√§n.
 <p>
-Helsingin yliopistossa aloitteleville ohjelmoijille pidett‰v‰‰
+Helsingin yliopistossa aloitteleville ohjelmoijille pidett√§v√§√§
 Java-kurssia luennoiva Arto Wikla on kirjoittanut kurssin
 luentomateriaalin pohjalta kelpo kirjan (Arto Wikla: Ohjelmoinnin
-perusteet Java-kielell‰, OtaDATA 1998), joka sopii aloittavalle
-ohjelmoijalle.  Yksityiseen k‰yttˆˆn on saatavilla kirjan kanssa
+perusteet Java-kielell√§, OtaDATA 1998), joka sopii aloittavalle
+ohjelmoijalle.  Yksityiseen k√§ytt√∂√∂n on saatavilla kirjan kanssa
 samaan materiaaliin perustuva <url name="seittisivusto"
-id="http://www.cs.Helsinki.FI/%7Ewikla/JohdOhj/JaOh/">, jota Wikla k‰ytt‰‰
+id="http://www.cs.Helsinki.FI/%7Ewikla/JohdOhj/JaOh/">, jota Wikla k√§ytt√§√§
 Java-kurssinsa kurssimateriaalina ja joka siksi soveltuu hyvin
 aloittelevan ohjelmoijan luettavaksi.
 
 <tag>Pascal<item>Pascal on kehitettiin 1970-luvulla opetuskieleksi.
-Sit‰ k‰ytettiinkin paljon opetuksessa pitk‰lle 1990-luvulle asti.
-Alkuper‰isess‰ ja standardoidussa muodossaan kieli on kuitenkin aivan
-liian rajoittunut eik‰ sill‰ voi tehd‰ mit‰‰n todellisia ohjelmia.
+Sit√§ k√§ytettiinkin paljon opetuksessa pitk√§lle 1990-luvulle asti.
+Alkuper√§isess√§ ja standardoidussa muodossaan kieli on kuitenkin aivan
+liian rajoittunut eik√§ sill√§ voi tehd√§ mit√§√§n todellisia ohjelmia.
 Sittemmin erityisesti entinen Borland, nykyinen Inprise on
-kunnostautunut Turbo Pascal ja Delphi-murteillaan niin, ett‰ n‰m‰
+kunnostautunut Turbo Pascal ja Delphi-murteillaan niin, ett√§ n√§m√§
 Pascaliin perustuvat ohjelmointikielet ovat DOS- ja
 Windows-ohjelmoijien laajassa suosiossa.  Ihmiselle, joka aikoo
-opetella vain yhden kielen ja joka k‰ytt‰‰ DOSia tai Windowsia, Turbo
-Pascal ja Delphi ovat oikein hyvi‰ ohjelmointikieli‰.
+opetella vain yhden kielen ja joka k√§ytt√§√§ DOSia tai Windowsia, Turbo
+Pascal ja Delphi ovat oikein hyvi√§ ohjelmointikieli√§.
 
 <p>
-Jori M‰ntysalo on kirjoittanut perusteluja sille miksi <url
+Jori M√§ntysalo on kirjoittanut perusteluja sille miksi <url
 name="pascal sopii ohjelmoinnin opiskeluun" id="http://www.uta.fi/%7Ejm58660/jutut/ohjelmointi/pascal.html">.
 
 <p>
-Seitist‰ lˆytyy  <url
+Seitist√§ l√∂ytyy  <url
 name="pascal-opas" id="http://www.tuug.utu.fi/%7ef/pascal/">.
 
-<tag>C++<item>C++ on kulttikieli, siit‰ ei p‰‰se yli eik‰ ymp‰ri.  Se
-perustuu toiseen kulttikieleen nimelt‰ C, joka kehitettiin
+<tag>C++<item>C++ on kulttikieli, siit√§ ei p√§√§se yli eik√§ ymp√§ri.  Se
+perustuu toiseen kulttikieleen nimelt√§ C, joka kehitettiin
 1970-luvulla konekielen korvaajaksi
-k‰yttˆj‰rjestelm‰ohjelmointik‰yttˆˆn.  C++ on j‰rkytt‰v‰n iso kieli,
-ja sen kaikkien yksityiskohtien muistaminen on k‰yt‰nnˆss‰ mahdotonta.
-Kaikesta huolimatta sek‰ C:t‰ ett‰ C++:aa opetetaan aloitteleville
-ohjelmoijille monissa yliopistoissa ja korkeakouluissa (Jyv‰skyl‰n
-yliopisto yhten‰ esimerkkin‰).  Itseopiskelijalle C++ on luultavasti
-liian hankala ensimm‰iseksi kieleksi.
+k√§ytt√∂j√§rjestelm√§ohjelmointik√§ytt√∂√∂n.  C++ on j√§rkytt√§v√§n iso kieli,
+ja sen kaikkien yksityiskohtien muistaminen on k√§yt√§nn√∂ss√§ mahdotonta.
+Kaikesta huolimatta sek√§ C:t√§ ett√§ C++:aa opetetaan aloitteleville
+ohjelmoijille monissa yliopistoissa ja korkeakouluissa (Jyv√§skyl√§n
+yliopisto yhten√§ esimerkkin√§).  Itseopiskelijalle C++ on luultavasti
+liian hankala ensimm√§iseksi kieleksi.
 <p>
-C++-kirjallisuutta on myynniss‰ uskomattomia m‰‰ri‰.  Monetkaan kirjat
-eiv‰t ole kovin kaksisia, ja asiavirheet eiv‰t ole tavattomia.
-Aloittelijalle hyv‰ kirja lienee Jesse Libertyn ''Opeta itsellesi
+C++-kirjallisuutta on myynniss√§ uskomattomia m√§√§ri√§.  Monetkaan kirjat
+eiv√§t ole kovin kaksisia, ja asiavirheet eiv√§t ole tavattomia.
+Aloittelijalle hyv√§ kirja lienee Jesse Libertyn ''Opeta itsellesi
 C++'' (alkuteos ''Teach Yourself C++ Programming in 21 Days''), vaikka
-sek‰‰n ei ole virheetˆn.
+sek√§√§n ei ole virheet√∂n.
 <p>
-Netist‰ lˆytyy myˆs <url name="C++-opas"
-id="http://www.nic.funet.fi/c++opas">, joka kevyest‰ kirjoitustyylist‰‰n
-huolimatta sis‰lt‰‰ painavaa asiaa.
+Netist√§ l√∂ytyy my√∂s <url name="C++-opas"
+id="http://www.nic.funet.fi/c++opas">, joka kevyest√§ kirjoitustyylist√§√§n
+huolimatta sis√§lt√§√§ painavaa asiaa.
 
 </taglist>
 
 <sect>Kumpi opetella ensin: C vai C++?
 <p>
-Mik‰li et tunne kumpaakaan kielt‰ ennest‰‰n ja sinulla on mahdollisuus
-valita, opettele ensin C++.  N‰in et joudu oppimaan er‰it‰ pahoja
-tapoja, jotka C:ss‰ tarvitaan kielen suppeuden vuoksi; jos joskus
-joudut tekem‰‰n C-ohjelmia, n‰m‰ kiertoreitit on opittavissa varsin
-helposti C++-taustalla.  Asiaa k‰sittelee myˆs <url name="C++-FAQ Lite"
+Mik√§li et tunne kumpaakaan kielt√§ ennest√§√§n ja sinulla on mahdollisuus
+valita, opettele ensin C++.  N√§in et joudu oppimaan er√§it√§ pahoja
+tapoja, jotka C:ss√§ tarvitaan kielen suppeuden vuoksi; jos joskus
+joudut tekem√§√§n C-ohjelmia, n√§m√§ kiertoreitit on opittavissa varsin
+helposti C++-taustalla.  Asiaa k√§sittelee my√∂s <url name="C++-FAQ Lite"
 id="http://www.parashift.com/c++-faq-lite/">, kysymys 28.2.
 
 <chapt>Peliohjelmoinnista
 <p>
-<sect>Haluan oppia tekem‰‰n pelin.  Miten aloitan?
+<sect>Haluan oppia tekem√§√§n pelin.  Miten aloitan?
 <p>
-Opettele ohjelmoinnin alkeet k‰ytt‰en jotain edell‰ esitelty‰ kielt‰.
+Opettele ohjelmoinnin alkeet k√§ytt√§en jotain edell√§ esitelty√§ kielt√§.
 Sitten tutustu esimerkiksi kirjoitukseen <url
 id="http://www.hut.fi/~jjpihlaj/data/laama211.zip" name="Laaman tie
-peliohjelmointiin">, joka olettaa C-kielen hallinnan sek‰ siedett‰v‰n
+peliohjelmointiin">, joka olettaa C-kielen hallinnan sek√§ siedett√§v√§n
 laskutaidon.
 
 <sect>Kuinka laitan peliini kuvan?
 <p>
-T‰m‰ riippuu monesta asiasta.  K‰ytt‰m‰ss‰si ohjelmointikieless‰ voi
-olla valmiita keinoja kuvan laittamiseen.  Mik‰li n‰in ei ole, etk‰
-voi k‰ytt‰‰ valmiita ohjelmakirjastoja, sinun t‰ytyy piirt‰‰ kuva itse
-ruutuun k‰ytt‰en ohjelmointikielesi grafiikkakirjastoa.
+T√§m√§ riippuu monesta asiasta.  K√§ytt√§m√§ss√§si ohjelmointikieless√§ voi
+olla valmiita keinoja kuvan laittamiseen.  Mik√§li n√§in ei ole, etk√§
+voi k√§ytt√§√§ valmiita ohjelmakirjastoja, sinun t√§ytyy piirt√§√§ kuva itse
+ruutuun k√§ytt√§en ohjelmointikielesi grafiikkakirjastoa.
 <p>
-Edell‰ mainittu Laaman tie peliohjelmointiin sis‰lt‰‰ joitakin ohjeita.
+Edell√§ mainittu Laaman tie peliohjelmointiin sis√§lt√§√§ joitakin ohjeita.
 
 <chapt>Satunnaislukuongelmia
 <p>
 <sect>Satunnaislukugeneraattori arpoo aina saman sarjan
 <p>
-On melkeinp‰ vale puhua satunnaisuudesta samassa yhteydess‰
-ohjelmointikielten erilaisten rand-k‰skyjen tai -kirjastoaliohjelmien
-kanssa.  N‰iden tuottama satunnaisuus on n‰enn‰ist‰: takana on t‰ysin
+On melkeinp√§ vale puhua satunnaisuudesta samassa yhteydess√§
+ohjelmointikielten erilaisten rand-k√§skyjen tai -kirjastoaliohjelmien
+kanssa.  N√§iden tuottama satunnaisuus on n√§enn√§ist√§: takana on t√§ysin
 toistettavissa oleva matemaattinen metodi, joka pyrkii tuottamaan
-suhteellisen satunnaisilta n‰ytt‰vi‰ lukuja.  Yksi t‰m‰n aiheuttama
-ongelma on se, ett‰ generaattori on <em/alustettava/.  Alustustapa
-riippuu kielest‰; kohtuuhyv‰ metodi on uudehkoissa Pascal-murteissa
-<tt/randomize/-k‰sky sek‰ C:ss‰ <tt/srand(time(0))/ (t‰ss‰ tarvitaan
-<tt/stdlib.h/- ja <tt/time.h/-headerfileit‰).
+suhteellisen satunnaisilta n√§ytt√§vi√§ lukuja.  Yksi t√§m√§n aiheuttama
+ongelma on se, ett√§ generaattori on <em/alustettava/.  Alustustapa
+riippuu kielest√§; kohtuuhyv√§ metodi on uudehkoissa Pascal-murteissa
+<tt/randomize/-k√§sky sek√§ C:ss√§ <tt/srand(time(0))/ (t√§ss√§ tarvitaan
+<tt/stdlib.h/- ja <tt/time.h/-headerfileit√§).
 
 <sect>Satunnaislukugeneraattori arpoo aina samaa lukua
 <p>
-On ehk‰ liiankin hyvin opetettu ihmisi‰ sanomaan ``randomize'' tai
-``srand(time(0))'' (tai mik‰ se nyt mill‰kin kielell‰ onkaan), jotta
-satunnaislukugeneraattori antaisi hyv‰n tuloksen.  Nimitt‰in on helppo
-ymm‰rt‰‰ t‰m‰ v‰‰rin, loitsu lausutaan joka kerta, kun halutaan
+On ehk√§ liiankin hyvin opetettu ihmisi√§ sanomaan ``randomize'' tai
+``srand(time(0))'' (tai mik√§ se nyt mill√§kin kielell√§ onkaan), jotta
+satunnaislukugeneraattori antaisi hyv√§n tuloksen.  Nimitt√§in on helppo
+ymm√§rt√§√§ t√§m√§ v√§√§rin, loitsu lausutaan joka kerta, kun halutaan
 satunnaisluku.  <url id="http://www.iki.fi/jautero/faq/srand-virhe.c"
-name="Esimerkki virheest‰"> tuottaa ajettaessa <url
+name="Esimerkki virheest√§"> tuottaa ajettaessa <url
 id="http://www.iki.fi/jautero/faq/srand-virhe-esim" name="mainitun
 tuloksen">.
 <p>
-P‰‰s‰‰ntˆ on yksinkertainen: <strong/K‰yt‰ satunnaisluvun alustajaa
-(randomize, srand tms) vain kerran ohjelmassa/.  Yleens‰ hyv‰ paikka
-t‰lle on juuri ohjelman alussa.  K‰yt‰ alustajaa useita kertoja vain,
-jos ymm‰rr‰t sek‰ ohjelmointitekniikan ett‰ tilastomatematiikan
-kannalta, mit‰ olet tekem‰ss‰.
+P√§√§s√§√§nt√∂ on yksinkertainen: <strong/K√§yt√§ satunnaisluvun alustajaa
+(randomize, srand tms) vain kerran ohjelmassa/.  Yleens√§ hyv√§ paikka
+t√§lle on juuri ohjelman alussa.  K√§yt√§ alustajaa useita kertoja vain,
+jos ymm√§rr√§t sek√§ ohjelmointitekniikan ett√§ tilastomatematiikan
+kannalta, mit√§ olet tekem√§ss√§.
 
-<sect>Miten saan satunnaisen kokonaisluvun v‰lilt‰ 42..512?
+<sect>Miten saan satunnaisen kokonaisluvun v√§lilt√§ 42..512?
 <p>
-<strong>VAROITUS: T‰ss‰ annettu vastaus voi olla v‰‰r‰.  Keskustele
-oman satunnaisuuden asiantuntijasi kanssa ennen kuin k‰yt‰t t‰ss‰
+<strong>VAROITUS: T√§ss√§ annettu vastaus voi olla v√§√§r√§.  Keskustele
+oman satunnaisuuden asiantuntijasi kanssa ennen kuin k√§yt√§t t√§ss√§
 annettuja ohjeita.</strong>
 <p>
 Tyypillinen standardikirjastossa oleva satunnaislukugeneraattori
-palauttaa joko kokonaisluvun joltakin ennalta m‰‰r‰tylt‰ v‰lilt‰
-taikka sitten liukuluvun nollan ja ykkˆsen v‰list‰.  Yleens‰ kuitenkin
-kaivataan satunnaista kokonaislukua joltakin tietylt‰ v‰lilt‰.
+palauttaa joko kokonaisluvun joltakin ennalta m√§√§r√§tylt√§ v√§lilt√§
+taikka sitten liukuluvun nollan ja ykk√∂sen v√§list√§.  Yleens√§ kuitenkin
+kaivataan satunnaista kokonaislukua joltakin tietylt√§ v√§lilt√§.
 <p>
 Jos kirjaston satunnaislukugeneraattori palauttaa liukuluvun f, jonka
-tiedet‰‰n olevan v‰lill‰ <tt>0 &lt;= f &lt; 1</tt>, on suhteellisen
-yksinkertainen tapa skaalata t‰m‰ halutulle v‰lille <tt> MIN &lt;= f'
-&lt; MAX</tt> kaavan <tt>f' := (MAX - MIN) * f + MIN</tt> k‰ytt‰minen.
-T‰ss‰ toki pit‰‰ k‰ytetyn liukulukutyypin olla riitt‰v‰n tarkka.  Jos
-haluat tuloksen olevan kokonaisluku v‰lilt‰ <tt/MIN...MAX/, k‰yt‰
-kaavaa <tt/tulos := int( (MAX - MIN + 1) * f) + MIN/, miss‰ funktio
+tiedet√§√§n olevan v√§lill√§ <tt>0 &lt;= f &lt; 1</tt>, on suhteellisen
+yksinkertainen tapa skaalata t√§m√§ halutulle v√§lille <tt> MIN &lt;= f'
+&lt; MAX</tt> kaavan <tt>f' := (MAX - MIN) * f + MIN</tt> k√§ytt√§minen.
+T√§ss√§ toki pit√§√§ k√§ytetyn liukulukutyypin olla riitt√§v√§n tarkka.  Jos
+haluat tuloksen olevan kokonaisluku v√§lilt√§ <tt/MIN...MAX/, k√§yt√§
+kaavaa <tt/tulos := int( (MAX - MIN + 1) * f) + MIN/, miss√§ funktio
 <tt/int/ tekee liukuluvusta kokonaisluvun katkaisemalla (poimimalla
 suurimman kokonaisluvun, joka ei ole suurempi kuin kyseinen
 liukuluku).
 <p>
-Mik‰li satunnaislukugeneraattori palauttaa kokonaisluvun v‰lilt‰
-<tt/0...RAND_MAX/ ja haluat tulokseksi liukuluvun v‰lilt‰ <tt/MIN
-&lt;= tulos &lt; MAX/, voit k‰ytt‰‰ kaavaa <tt>tulos := double(MAX -
+Mik√§li satunnaislukugeneraattori palauttaa kokonaisluvun v√§lilt√§
+<tt/0...RAND_MAX/ ja haluat tulokseksi liukuluvun v√§lilt√§ <tt/MIN
+&lt;= tulos &lt; MAX/, voit k√§ytt√§√§ kaavaa <tt>tulos := double(MAX -
 MIN) / (RAND_MAX + 1) * f + MIN</tt>.  Jos haluat tuloksen olevan
-kokonaisluku v‰lilt‰ <tt/MIN...MAX/, ongelma on hankalampi: mik‰
-tahansa skaalaustapa saattaa tehd‰ huonoa satunnaislukujen
-satunnaisuudelle.  K‰ytetyin tapa, jakoj‰‰nnˆksen ottaminen, suosii
-satunnaisluvun alimpia bittej‰ ja (mik‰li generaattori on huono, kuten
+kokonaisluku v√§lilt√§ <tt/MIN...MAX/, ongelma on hankalampi: mik√§
+tahansa skaalaustapa saattaa tehd√§ huonoa satunnaislukujen
+satunnaisuudelle.  K√§ytetyin tapa, jakoj√§√§nn√∂ksen ottaminen, suosii
+satunnaisluvun alimpia bittej√§ ja (mik√§li generaattori on huono, kuten
 valitettavan usein on) saattaa jopa tuhota saatavien lukujen
-satunnaisuuden t‰ysin.  Hieman parempi tapa on k‰ytt‰‰ "Numerical
+satunnaisuuden t√§ysin.  Hieman parempi tapa on k√§ytt√§√§ "Numerical
 Recipes in C" -kirjan (Press, Flannery, Teukolsky ja Vetterling;
-Cambridge University Press, 1992) ohjetta ja k‰yd‰ liukulukujen
-kautta.  T‰m‰ metodi toimii C:ll‰ kirjoitettuna seuraavasti:
+Cambridge University Press, 1992) ohjetta ja k√§yd√§ liukulukujen
+kautta.  T√§m√§ metodi toimii C:ll√§ kirjoitettuna seuraavasti:
 <example>
    MIN + (int)((MAX - MIN + 1.0) * rand() / (RAND_MAX + 1.0))
 </example>
-miss‰ <tt>MAX</tt> ja <tt>MIN</tt> ovat halutun luvun yl‰- ja alaraja,
+miss√§ <tt>MAX</tt> ja <tt>MIN</tt> ovat halutun luvun yl√§- ja alaraja,
 ja <tt/RAND_MAX/ satunnaislukugeneraattorin <tt/rand()/ tuottama
-suurin kokonaisluku (pienin on nolla).  T‰m‰n metodin hankaluutena on
-liukulukujen k‰ytˆn aiheuttama laskentaep‰tarkkuus.
+suurin kokonaisluku (pienin on nolla).  T√§m√§n metodin hankaluutena on
+liukulukujen k√§yt√∂n aiheuttama laskentaep√§tarkkuus.
 <p>
 Toinen tapa on seuraava: Toinen tapa on seuraava: Olkoon ensin <tt/N
-:= MAX - MIN + 1/ ja <tt/RM := RAND_MAX + 1/ (miss‰ <tt/RAND_MAX/ on
-suurin luku, jonka satunnaislukugeneraattori tuottaa). Jaetaan v‰li
-<tt/0..RAND_MAX/ <tt/N+1/:een osaan, joista <tt/N/ ensimm‰ist‰ ovat
-yht‰ pitki‰. Viimeinen osa saa olla tyhj‰. Viimeisest‰ osasta
-kannattaa tehd‰ lyhyt, mutta sen ei v‰ltt‰m‰tt‰ tarvitse olla lyhyin
+:= MAX - MIN + 1/ ja <tt/RM := RAND_MAX + 1/ (miss√§ <tt/RAND_MAX/ on
+suurin luku, jonka satunnaislukugeneraattori tuottaa). Jaetaan v√§li
+<tt/0..RAND_MAX/ <tt/N+1/:een osaan, joista <tt/N/ ensimm√§ist√§ ovat
+yht√§ pitki√§. Viimeinen osa saa olla tyhj√§. Viimeisest√§ osasta
+kannattaa tehd√§ lyhyt, mutta sen ei v√§ltt√§m√§tt√§ tarvitse olla lyhyin
 mahdollinen. Sitten tuotetaan valesatunnaislukuja kunnes tulos <tt/f/
 osuu johonkin muuhun kuin viimeiseen osaan eli <tt/f < N * osan_koko/,
 ja palautetaan <tt>f / osan_koko + MIN</tt>.
-Valmis C-koodi lˆytyy Niemitalon artikkelista
+Valmis C-koodi l√∂ytyy Niemitalon artikkelista
 <tt>&lt;iznpv693fk8.fsf@stekt38.oulu.fi&gt;</tt> (<url
 id="http://groups.google.com/groups?as_umsgid=iznpv693fk8.fsf%40stekt38.oulu.fi" name="Google: Re:
 Satunnaislukujen generointi C++:ssa?">).
 <p>
-Edell‰mainituissa menetelmiss‰ t‰ytyy halutun v‰lin pituuden olla
-enint‰‰n <tt/RAND_MAX/.
+Edell√§mainituissa menetelmiss√§ t√§ytyy halutun v√§lin pituuden olla
+enint√§√§n <tt/RAND_MAX/.
 <p>
-Viel‰ yksi tapa on k‰ytt‰‰ omaa satunnaislukugeneraattoria.  T‰ss‰
-pit‰‰ olla <em/todella/ tarkkana: on helppoa keksi‰ surkea
-satunnaislukugeneraattori ja vaikeata keksi‰ hyv‰ sellainen.
-Satunnaiseen (!) k‰yttˆˆn sopivan C-kielisen generaattorin on
+Viel√§ yksi tapa on k√§ytt√§√§ omaa satunnaislukugeneraattoria.  T√§ss√§
+pit√§√§ olla <em/todella/ tarkkana: on helppoa keksi√§ surkea
+satunnaislukugeneraattori ja vaikeata keksi√§ hyv√§ sellainen.
+Satunnaiseen (!) k√§ytt√∂√∂n sopivan C-kielisen generaattorin on
 kirjoittanut Antti Valmari, ja se on saatavissa <url
 id="http://www.cs.tut.fi/~ava/algoritmit/random.cc" name="verkosta">.
 
 <sect>Lottorivin arvonta
 <p>
-Lottorivi‰ arvottaessa olennaista on, ett‰ samaa lukua ei arvota kahta
-kertaa.  T‰t‰ <em/ei/ pid‰ toteuttaa arpomalla joka kierroksella luku
-v‰lilt‰ 1..39 ja hylk‰‰m‰ll‰ jo arvotut numerot.  Tuo nimitt‰in voi
+Lottorivi√§ arvottaessa olennaista on, ett√§ samaa lukua ei arvota kahta
+kertaa.  T√§t√§ <em/ei/ pid√§ toteuttaa arpomalla joka kierroksella luku
+v√§lilt√§ 1..39 ja hylk√§√§m√§ll√§ jo arvotut numerot.  Tuo nimitt√§in voi
 johtaa umpiluuppiin.
 <p>
-Hyv‰ ja yksinkertainen lottorivin arvonta-algoritmi on t‰ss‰
+Hyv√§ ja yksinkertainen lottorivin arvonta-algoritmi on t√§ss√§
 (kiitokset Kimmo Surakalle): Kootaan taulukkoon kaikki 39 lukua,
-joista arvonta suoritetaan.  Arvotaan ensimm‰inen luku hakemalla
-satunnaisluku v‰lilt‰ 1..39 ja katsotaan, mik‰ luku t‰m‰n numeron
-osoittamassa kohdassa on: se on ensimm‰inen lottonumero.  Poistetaan
-t‰m‰ numero taulukosta, ja arvotaan luku v‰lilt‰ 1..38, jonka
+joista arvonta suoritetaan.  Arvotaan ensimm√§inen luku hakemalla
+satunnaisluku v√§lilt√§ 1..39 ja katsotaan, mik√§ luku t√§m√§n numeron
+osoittamassa kohdassa on: se on ensimm√§inen lottonumero.  Poistetaan
+t√§m√§ numero taulukosta, ja arvotaan luku v√§lilt√§ 1..38, jonka
 taulukosta osoittama luku on seuraava lottonumero, joka poistetaan.
-Toistetaan, kunnes kaikki seitsem‰n numeroa on arvottu.  Algoritmin
-C-kielinen toteutus lˆytyy Surakan alkuper‰isest‰ nyysiartikkelista
+Toistetaan, kunnes kaikki seitsem√§n numeroa on arvottu.  Algoritmin
+C-kielinen toteutus l√∂ytyy Surakan alkuper√§isest√§ nyysiartikkelista
 <tt>&lt;u1lbtaksryk.fsf@mustahaikara.cs.tut.fi&gt;</tt> (<url
 id="http://groups.google.com/groups?as_umsgid=u1lbtaksryk.fsf%40mustahaikara.cs.tut.fi"
 name="Google: Re: Lotto C++:lla">), jossa on pieni virhe: ohjelman
-kolmanneksi viimeinen ja toiseksi viimeinen rivi pit‰‰ vaihtaa.
+kolmanneksi viimeinen ja toiseksi viimeinen rivi pit√§√§ vaihtaa.
 
-<chapt>Muita yleisi‰ ohjelmointiongelmia
+<chapt>Muita yleisi√§ ohjelmointiongelmia
 <p>
-<sect id="taulukot">Taulukot eli Kuinka tehd‰ muuttujia lennossa
+<sect id="taulukot">Taulukot eli Kuinka tehd√§ muuttujia lennossa
 <p>
-Ennen pitk‰‰ tˆrm‰t‰‰n tilanteeseen, jossa halutaan k‰sitell‰ useita
-samantyyppisi‰ tietoalkioita - kuvia n‰ytˆll‰, lukum‰‰ri‰ listassa,
-sarakkeita tiedostosta luettavasta tietueesta yms. - yhten‰
-kokonaisuutena. Usein p‰‰dyt‰‰n ratkaisuun jossa tietoalkiot nimet‰‰n
-tyyliin <tt>kuva1</tt>, <tt>kuva2</tt>, <tt>kuva3</tt>, ja n‰it‰
-k‰sitell‰‰n yksitellen.  Esim:
+Ennen pitk√§√§ t√∂rm√§t√§√§n tilanteeseen, jossa halutaan k√§sitell√§ useita
+samantyyppisi√§ tietoalkioita - kuvia n√§yt√∂ll√§, lukum√§√§ri√§ listassa,
+sarakkeita tiedostosta luettavasta tietueesta yms. - yhten√§
+kokonaisuutena. Usein p√§√§dyt√§√§n ratkaisuun jossa tietoalkiot nimet√§√§n
+tyyliin <tt>kuva1</tt>, <tt>kuva2</tt>, <tt>kuva3</tt>, ja n√§it√§
+k√§sitell√§√§n yksitellen.  Esim:
 <example>
 	tyhjenna_kuva( kuva1 )
 	tyhjenna_kuva( kuva2 )
 	tyhjenna_kuva( kuva3 )
 </example>
 <p>
-Ratkaisu on sin‰ll‰‰n t‰ysin toimiva. Kun esim. n‰ytˆlle lis‰t‰‰n uusi 
-kuva, niin ohjelmaan lis‰t‰‰n uuden kuvan k‰sittely kaikkiin kohtiin 
-joissa sit‰ tarvitaan. Se onkin t‰m‰n ratkaisun suurin ongelma. Jos 
-kuvia lis‰t‰‰n, ennen pitk‰‰ ohjelmakoodi on t‰ynn‰ identtisi‰ 
-ohjelmarivej‰, joissa vain k‰sitelt‰v‰ tietoalkio vaihtuu. Viel‰ 
-ik‰v‰mp‰‰ on se, ett‰ joskus (useammin kuin haluaisikaan) t‰m‰ lis‰ys 
-unohtuu ja ohjelma ei en‰‰ toimi niin kuin pit‰isi. Toinen ongelma on 
-se, ett‰ k‰sitelt‰vien tietoalkioiden m‰‰r‰ on tiedett‰v‰ ohjelman 
+Ratkaisu on sin√§ll√§√§n t√§ysin toimiva. Kun esim. n√§yt√∂lle lis√§t√§√§n uusi 
+kuva, niin ohjelmaan lis√§t√§√§n uuden kuvan k√§sittely kaikkiin kohtiin 
+joissa sit√§ tarvitaan. Se onkin t√§m√§n ratkaisun suurin ongelma. Jos 
+kuvia lis√§t√§√§n, ennen pitk√§√§ ohjelmakoodi on t√§ynn√§ identtisi√§ 
+ohjelmarivej√§, joissa vain k√§sitelt√§v√§ tietoalkio vaihtuu. Viel√§ 
+ik√§v√§mp√§√§ on se, ett√§ joskus (useammin kuin haluaisikaan) t√§m√§ lis√§ys 
+unohtuu ja ohjelma ei en√§√§ toimi niin kuin pit√§isi. Toinen ongelma on 
+se, ett√§ k√§sitelt√§vien tietoalkioiden m√§√§r√§ on tiedett√§v√§ ohjelman 
 kirjoitusvaiheessa.
 <p>
-Monen mielest‰ luonolliselta tuntuva ratkaisu usean samanlaisen ja 
-l‰hes samannimisen tietoalkion k‰sittelyyn olisi k‰sitell‰ tietoalkion 
-nime‰ kuin merkkijonoa ja korvata nimen lopussa oleva numeroarvo, 
-tietoalkion j‰rjestysnumero, arvolla joka lasketaan ohjelman 
-suorituksen yhteydess‰. N‰in saadun nimen perusteella haettaisiin 
-sitten kukin tietoalkio ohjelman suoritusvaiheessa erikseen, ja sit‰ 
-k‰sitelt‰isiin kuten aikaisemminkin. Esim:
+Monen mielest√§ luonolliselta tuntuva ratkaisu usean samanlaisen ja 
+l√§hes samannimisen tietoalkion k√§sittelyyn olisi k√§sitell√§ tietoalkion 
+nime√§ kuin merkkijonoa ja korvata nimen lopussa oleva numeroarvo, 
+tietoalkion j√§rjestysnumero, arvolla joka lasketaan ohjelman 
+suorituksen yhteydess√§. N√§in saadun nimen perusteella haettaisiin 
+sitten kukin tietoalkio ohjelman suoritusvaiheessa erikseen, ja sit√§ 
+k√§sitelt√§isiin kuten aikaisemminkin. Esim:
 <example>
 	for i in 1 upto kuvien_lukumaara
       loop
@@ -510,35 +510,35 @@ k‰sitelt‰isiin kuten aikaisemminkin. Esim:
       endloop
 </example>
 <p>
-T‰ss‰ kuitenkin sekoitetaan monta asiaa kesken‰‰n. Tietoalkioiden
-nimien perusteella toki lˆydet‰‰n haluttu tietoalkio, mutta t‰m‰n
-toimenpiteen tekee k‰‰nt‰j‰ tai tulkki _ennen_ tuollaisen
-suorittamista joten senkin on tiedett‰v‰ etuk‰teen mink‰ niminen
-tietoalkio t‰llˆin on kyseess‰. Yleens‰ ohjelman suoritusvaiheessa
-t‰t‰ nime‰ ei ole en‰‰ oikeastaan olemassa, ja siin‰ miss‰ ohjelman
-l‰hdekoodissa on nimi, suoritettavassa ohjelmassa se on korvattu
-tiedolla siit‰, mist‰ vastaava tietoalkio lˆytyy. K‰‰nt‰j‰n tai tulkin
-kannalta nimet <tt>kuva1</tt> ja <tt>kuva2</tt> ovat t‰ysin erillisi‰
-nimi‰, eik‰ niill‰ ole yhtenev‰st‰ alkuosasta huolimatta mit‰‰n
-tekemist‰ toistensa kanssa. Aluksi t‰m‰ voin tuntua keinotekoiselta
-rajoitukselta, ja joissakin ohjelmointikieliss‰ nimien luominen ja
-niit‰ vastaavien tietoalkioiden hakeminen lennossa onnistuukin.  T‰m‰
-rajoitus muissa kieliss‰ on kuitenkin perustelua mm.  suoritusnopeuden
-takia, ja koska sen kiert‰minen onnistuu turvallisestikin, sen
-poistaminen ei ole mielek‰st‰.
+T√§ss√§ kuitenkin sekoitetaan monta asiaa kesken√§√§n. Tietoalkioiden
+nimien perusteella toki l√∂ydet√§√§n haluttu tietoalkio, mutta t√§m√§n
+toimenpiteen tekee k√§√§nt√§j√§ tai tulkki _ennen_ tuollaisen
+suorittamista joten senkin on tiedett√§v√§ etuk√§teen mink√§ niminen
+tietoalkio t√§ll√∂in on kyseess√§. Yleens√§ ohjelman suoritusvaiheessa
+t√§t√§ nime√§ ei ole en√§√§ oikeastaan olemassa, ja siin√§ miss√§ ohjelman
+l√§hdekoodissa on nimi, suoritettavassa ohjelmassa se on korvattu
+tiedolla siit√§, mist√§ vastaava tietoalkio l√∂ytyy. K√§√§nt√§j√§n tai tulkin
+kannalta nimet <tt>kuva1</tt> ja <tt>kuva2</tt> ovat t√§ysin erillisi√§
+nimi√§, eik√§ niill√§ ole yhtenev√§st√§ alkuosasta huolimatta mit√§√§n
+tekemist√§ toistensa kanssa. Aluksi t√§m√§ voin tuntua keinotekoiselta
+rajoitukselta, ja joissakin ohjelmointikieliss√§ nimien luominen ja
+niit√§ vastaavien tietoalkioiden hakeminen lennossa onnistuukin.  T√§m√§
+rajoitus muissa kieliss√§ on kuitenkin perustelua mm.  suoritusnopeuden
+takia, ja koska sen kiert√§minen onnistuu turvallisestikin, sen
+poistaminen ei ole mielek√§st√§.
 <p>
 Ratkaisun avaimet ovat taulukot, listat, assosiatiiviset taulukot 
-yms.. Eri ohjelmointikieliss‰ ja kirjastototeutuksissa n‰ill‰ on omat 
-nimens‰, esim. perliss‰ assosiatiivinen taulukon nimi on hash ja C++:n 
-STL:ss‰ map. N‰m‰ ovat tietorakenteita joiden avulla useiden (yleens‰) 
-samantyyppisten alkoiden k‰sittely yleens‰ tehd‰‰n. Yksinkertaisuuden 
-vuoksi k‰sittelen t‰ss‰ vain yksinkertaisia taulukoita ja listoja.
+yms.. Eri ohjelmointikieliss√§ ja kirjastototeutuksissa n√§ill√§ on omat 
+nimens√§, esim. perliss√§ assosiatiivinen taulukon nimi on hash ja C++:n 
+STL:ss√§ map. N√§m√§ ovat tietorakenteita joiden avulla useiden (yleens√§) 
+samantyyppisten alkoiden k√§sittely yleens√§ tehd√§√§n. Yksinkertaisuuden 
+vuoksi k√§sittelen t√§ss√§ vain yksinkertaisia taulukoita ja listoja.
 <p>
-Taulukot ja listat yleens‰ tekev‰t saman kuin edell‰ esitetty (tosin 
-toimimaton) esimerkki j‰rjestysnumeron laskemisesta, toimintatapa on 
+Taulukot ja listat yleens√§ tekev√§t saman kuin edell√§ esitetty (tosin 
+toimimaton) esimerkki j√§rjestysnumeron laskemisesta, toimintatapa on 
 vain hiukan erilainen. Taulukoissa tietoalkiot ovat jonossa ja kukin 
-niist‰ saadaan k‰sitelt‰v‰ksi kertomalla mist‰ taulukosta ja kuinka 
-mones alkio on kyseess‰. Esim:
+niist√§ saadaan k√§sitelt√§v√§ksi kertomalla mist√§ taulukosta ja kuinka 
+mones alkio on kyseess√§. Esim:
 <example>
 	for i in 1 upto kuvien_lukumaara
 	loop
@@ -546,190 +546,190 @@ mones alkio on kyseess‰. Esim:
 	endloop
 </example>
 <p>
-T‰ss‰ esimerkiss‰ "kuvat" on taulukko jossa kaikki k‰sitelt‰v‰t kuvat
-ovat jonossa. <tt>Kuvat[1]</tt> tarkoittaa ensimm‰ist‰ kuvaa t‰ss‰
+T√§ss√§ esimerkiss√§ "kuvat" on taulukko jossa kaikki k√§sitelt√§v√§t kuvat
+ovat jonossa. <tt>Kuvat[1]</tt> tarkoittaa ensimm√§ist√§ kuvaa t√§ss√§
 taulukossa, <tt>kuvat[2]</tt> toista kuvaa; haluttu numeroarvo voidaan
 korvata ohjelman suoritusvaiheessa laskettavalla arvolla ja taulukosta
 voidaan hakea kyseinen kuva.
 <p>
-Taulukot tai listat mahdollistavat myˆs k‰sitelt‰vien alkioiden m‰‰r‰n 
-kertomisen ohjelman suoritusaikana. Eri ohjelmointikieliss‰ n‰m‰ on 
-toteutettu eri tavoin, esim. C:ss‰ l‰hinn‰ taulukkoa vastaavan 
-tietorakenteen koko on tiedett‰v‰ kun se luodaan kun taas C++:n 
-STL:ss‰ olevaan list:iin voi lis‰t‰ alkioita miss‰ vaiheessa tahansa. 
-Hyvin tehdyt jo olemassaolevat toteutukset, jotka k‰sittelev‰t 
-taulukoissa olevia tietoalkioita, eiv‰t muutu jos taulukossa olevien 
-alkoiden m‰‰r‰ muuttuu. T‰m‰ s‰‰st‰‰ paljon aikaa ohjelmaa 
-muutettaessa, on havainnollisempaa kuin useita l‰hes samanlaisia 
-rivej‰ per‰k‰kin ja toimiikin yleens‰ nopeammin.
+Taulukot tai listat mahdollistavat my√∂s k√§sitelt√§vien alkioiden m√§√§r√§n 
+kertomisen ohjelman suoritusaikana. Eri ohjelmointikieliss√§ n√§m√§ on 
+toteutettu eri tavoin, esim. C:ss√§ l√§hinn√§ taulukkoa vastaavan 
+tietorakenteen koko on tiedett√§v√§ kun se luodaan kun taas C++:n 
+STL:ss√§ olevaan list:iin voi lis√§t√§ alkioita miss√§ vaiheessa tahansa. 
+Hyvin tehdyt jo olemassaolevat toteutukset, jotka k√§sittelev√§t 
+taulukoissa olevia tietoalkioita, eiv√§t muutu jos taulukossa olevien 
+alkoiden m√§√§r√§ muuttuu. T√§m√§ s√§√§st√§√§ paljon aikaa ohjelmaa 
+muutettaessa, on havainnollisempaa kuin useita l√§hes samanlaisia 
+rivej√§ per√§k√§kin ja toimiikin yleens√§ nopeammin.
 <p>
 
 <sect id="liukuluvut">Liukuluvuista
 <p>
-Ohjelmointikielet k‰ytt‰v‰t reaalilukujen esitt‰miseen yleens‰ liukulukuja.
-Liukuluvilla ei voida esitt‰‰ reaalilukuja tarkasti, mist‰ usein seuraa
-yll‰tt‰vi‰ ongelmia. Esimerkiksi liukuluvilla laskettaessa monet normaalit
-laskus‰‰nnˆt eiv‰t v‰ltt‰m‰tt‰ p‰de, koska esitett‰v‰n luvun tarkkuus
+Ohjelmointikielet k√§ytt√§v√§t reaalilukujen esitt√§miseen yleens√§ liukulukuja.
+Liukuluvilla ei voida esitt√§√§ reaalilukuja tarkasti, mist√§ usein seuraa
+yll√§tt√§vi√§ ongelmia. Esimerkiksi liukuluvilla laskettaessa monet normaalit
+laskus√§√§nn√∂t eiv√§t v√§ltt√§m√§tt√§ p√§de, koska esitett√§v√§n luvun tarkkuus
 riippuu suuruusluokasta.  
 
-Jori M‰ntysalo on tehnyt sivun, jolla kerrotaan tarkemmin 
+Jori M√§ntysalo on tehnyt sivun, jolla kerrotaan tarkemmin 
 <url id="http://www.uta.fi/~jm58660/jutut/ohjelmointi/liukuluku/mika_on.html" 
-name="mik‰ on liukuluku">. H‰non myˆs tehnyt sivun "<url 
+name="mik√§ on liukuluku">. H√§non my√∂s tehnyt sivun "<url 
 id="http://www.uta.fi/~jm58660/jutut/ohjelmointi/liukuluku/laskee_vaarin.html"
-name="Tietokone laskee v‰‰rin">", jossa esitet‰‰n muutama esimerkki asiasta.
+name="Tietokone laskee v√§√§rin">", jossa esitet√§√§n muutama esimerkki asiasta.
 <p>
 
-<sect id="tiedostot">Miten poistan tai lis‰‰n rivej‰ tiedostosta/tiedostoon?
+<sect id="tiedostot">Miten poistan tai lis√§√§n rivej√§ tiedostosta/tiedostoon?
 
 <p>
-Tiedostojen k‰sittely on periaatteessa k‰yttˆj‰rjestelm‰riippuvaista.
-Koska kaikki nykyiset yleiset k‰yttˆj‰rjestelm‰t k‰sittelev‰t
-tiedostoja suunnilleen samalla tavalla, er‰‰t perusasiat p‰tev‰t
+Tiedostojen k√§sittely on periaatteessa k√§ytt√∂j√§rjestelm√§riippuvaista.
+Koska kaikki nykyiset yleiset k√§ytt√∂j√§rjestelm√§t k√§sittelev√§t
+tiedostoja suunnilleen samalla tavalla, er√§√§t perusasiat p√§tev√§t
 kaikkialla. 
 <P>
-Yleens‰ tiedostoa k‰sitell‰‰n yhten‰isen‰ jonona tavuja., johon ei voi
-lis‰t‰ keskelle mit‰‰n tai poistaa mit‰‰n keskelt‰.
-Kirjoitusoperaatiot kirjoittavat tiedostossa olevan datan p‰‰lle.
-Tiedoston kokoa voi yleens‰ muuttaa kirjoittamalla tiedoston loppuun
+Yleens√§ tiedostoa k√§sitell√§√§n yhten√§isen√§ jonona tavuja., johon ei voi
+lis√§t√§ keskelle mit√§√§n tai poistaa mit√§√§n keskelt√§.
+Kirjoitusoperaatiot kirjoittavat tiedostossa olevan datan p√§√§lle.
+Tiedoston kokoa voi yleens√§ muuttaa kirjoittamalla tiedoston loppuun
 tai katkaisemalla tiedosto tietyn kokoiseksi.
 <P>
-Niinp‰ yksinkertaisin algoritmi rivien poistamiseksi on seuraava:
+Niinp√§ yksinkertaisin algoritmi rivien poistamiseksi on seuraava:
 <enumlist>
 <item>Avaa haluttu tiedosto lukua varten.</item>
-<item>Luo v‰liaikaistiedosto kirjoittamista varten.</item>
+<item>Luo v√§liaikaistiedosto kirjoittamista varten.</item>
 <item>Lue tiedostosta rivi</item>
 <item>Jos se ei ole poistettava rivi, kirjoita se
-v‰liaikaistiedostoon.</item>
-<item>Toista kohtia 3. ja 4. kunnes alkuper‰inen tiedosto on luettu 
+v√§liaikaistiedostoon.</item>
+<item>Toista kohtia 3. ja 4. kunnes alkuper√§inen tiedosto on luettu 
 kokonaan.</item>
 <item>Sulje molemmat tiedostot.</item>
-<item>Poista alkuper‰inen tiedosto ja nime‰ v‰liaikaistiedosto
-alkuper‰iseksi.
+<item>Poista alkuper√§inen tiedosto ja nime√§ v√§liaikaistiedosto
+alkuper√§iseksi.
 </item>
 </enumlist>
 <P>
-Vastaavasti tiedostoon lis‰t‰‰n rivej‰ keskelle tai alkuun 
+Vastaavasti tiedostoon lis√§t√§√§n rivej√§ keskelle tai alkuun 
 seuraavalla tavalla:
 <enumlist>
 <item>Avaa haluttu tiedosto lukua varten.</item>
-<item>Luo v‰liaikaistiedosto kirjoittamista varten.</item>
+<item>Luo v√§liaikaistiedosto kirjoittamista varten.</item>
 <item>Lue tiedostosta rivi</item>
-<item>kirjoita se v‰liaikaistiedostoon.</item>
+<item>kirjoita se v√§liaikaistiedostoon.</item>
 <item>Toista kohtia 3. ja 4. kunnes ollaan kohdassa, johon haluat
-uuden rivin lis‰t‰.</item>
-<item>Lis‰‰ uusi rivi (tai uudet rivit).</item>
-<item>Kirjoita loput alkuper‰isest‰ tiedostosta uuteen tiedostoon
+uuden rivin lis√§t√§.</item>
+<item>Lis√§√§ uusi rivi (tai uudet rivit).</item>
+<item>Kirjoita loput alkuper√§isest√§ tiedostosta uuteen tiedostoon
 samalla tavalla kuin kohdissa 3-5.</item>
 <item>Sulje molemmat tiedostot.</item>
-<item>Poista alkuper‰inen tiedosto ja nime‰ v‰liaikaistiedosto
-alkuper‰iseksi.</item>
+<item>Poista alkuper√§inen tiedosto ja nime√§ v√§liaikaistiedosto
+alkuper√§iseksi.</item>
 </enumlist>
-Tiedoston alkuun lis‰t‰‰n rivej‰ hypp‰‰m‰ll‰ kohtien 3-5 yli ja
-jatkamalla kohdasta 6 eteenp‰in.
-<sect>Ongelmia C tai C++ -kielen k‰‰nt‰misen kanssa
+Tiedoston alkuun lis√§t√§√§n rivej√§ hypp√§√§m√§ll√§ kohtien 3-5 yli ja
+jatkamalla kohdasta 6 eteenp√§in.
+<sect>Ongelmia C tai C++ -kielen k√§√§nt√§misen kanssa
 <p>
-Seuraavassa kuvataan, miten C-k‰‰nt‰j‰ tuottaa l‰hdekoodista
-ohjelmatiedoston. Vaikka nykyiaikaiset kehitysymp‰ristˆt usein
-piilottavat k‰‰nnˆksen v‰livaiheet, toimintaperiaate on useimmissa
-ymp‰ristˆiss‰ sama. T‰m‰n toiminnan tunteminen saattaa usein auttaa
-ongelmien selvitt‰misess‰.
+Seuraavassa kuvataan, miten C-k√§√§nt√§j√§ tuottaa l√§hdekoodista
+ohjelmatiedoston. Vaikka nykyiaikaiset kehitysymp√§rist√∂t usein
+piilottavat k√§√§nn√∂ksen v√§livaiheet, toimintaperiaate on useimmissa
+ymp√§rist√∂iss√§ sama. T√§m√§n toiminnan tunteminen saattaa usein auttaa
+ongelmien selvitt√§misess√§.
 <p>
-Myˆs C++-ohjelmat k‰‰nnet‰‰n samalla tavalla.
+My√∂s C++-ohjelmat k√§√§nnet√§√§n samalla tavalla.
 
-<sect1>Miten C-k‰‰nt‰j‰ k‰‰nt‰‰ ohjelman?
+<sect1>Miten C-k√§√§nt√§j√§ k√§√§nt√§√§ ohjelman?
 <p>
-C-l‰hdekoodin k‰‰nt‰minen koostuu itseasiassa kolmesta 
+C-l√§hdekoodin k√§√§nt√§minen koostuu itseasiassa kolmesta 
 vaiheesta:
 	    <enumlist>
 	      <item>
-		<p><em>Esik‰‰nt‰j‰</em> k‰sittelee l‰hdekooditiedoston
-		  ennen sen k‰‰nt‰mist‰. Se sis‰llytt‰‰ l‰hdekoodiin 
-		  <tt>#include</tt>-direktiivill‰ m‰‰ritellyt
+		<p><em>Esik√§√§nt√§j√§</em> k√§sittelee l√§hdekooditiedoston
+		  ennen sen k√§√§nt√§mist√§. Se sis√§llytt√§√§ l√§hdekoodiin 
+		  <tt>#include</tt>-direktiivill√§ m√§√§ritellyt
 		  tiedostot, korvaa <tt>#define</tt> -makrot niiden
-		  arvoilla ja k‰sittelee ehdolliset <tt>#ifdef</tt>
-		  -osiot. Se myˆs usein poistaa kommentit.		  
+		  arvoilla ja k√§sittelee ehdolliset <tt>#ifdef</tt>
+		  -osiot. Se my√∂s usein poistaa kommentit.		  
 		</p>
 	      </item>
 	      <item>
 		<p>
-		  <em>K‰‰nt‰j‰</em> lukee <em>esik‰‰nt‰j‰n</em>
-		  k‰sittelem‰n l‰hdekooditiedoston ja k‰‰nt‰‰ sen. Se luo joko
-		  luo suoraan bin‰‰rikoodisen <em>objektitiedoston</em>
-		  tai <em>symbolisen konekoodin</em>, josta tehd‰‰n
+		  <em>K√§√§nt√§j√§</em> lukee <em>esik√§√§nt√§j√§n</em>
+		  k√§sittelem√§n l√§hdekooditiedoston ja k√§√§nt√§√§ sen. Se luo joko
+		  luo suoraan bin√§√§rikoodisen <em>objektitiedoston</em>
+		  tai <em>symbolisen konekoodin</em>, josta tehd√§√§n
 		  <em>objektitiedosto</em> <em>assemblerin</em>
-		  avulla. Jokaisesta l‰hdekooditiedostosta tehd‰‰n oma
+		  avulla. Jokaisesta l√§hdekooditiedostosta tehd√§√§n oma
 		  <em>objektitiedosto</em>.
 		</p>
 	      </item>
 	      <item>
-		<p><em>Linkkeri</em> kokoaa <em>k‰‰nt‰j‰n</em>
+		<p><em>Linkkeri</em> kokoaa <em>k√§√§nt√§j√§n</em>
 		  luomista <em>objektitiedostoista</em> ja
 		  <em>kirjastotiedostoista</em> ajokelpoisen ohjelman.
 		</p>
 	      </item>
 	    </enumlist>
 <p>
-	    Muutamaan asiaan kannattaa kiinnitt‰‰ huomiota. 
-	    <em>Esik‰‰nt‰j‰</em> ei ymm‰rr‰ C:n syntaksia. Sille
-	    ohjelmakoodi on pelkk‰‰ teksti‰. Rivi <tt>#include
-	    "jotain.h"</tt> vastaa t‰ysin sit‰, ett‰ sijoittaisit tuon
-	    rivin tilalle tiedoston "jotain.h" sis‰llˆn ja
-	    <tt>#define</tt> -m‰‰rittelyt vain korvaavat merkkijonoja
+	    Muutamaan asiaan kannattaa kiinnitt√§√§ huomiota. 
+	    <em>Esik√§√§nt√§j√§</em> ei ymm√§rr√§ C:n syntaksia. Sille
+	    ohjelmakoodi on pelkk√§√§ teksti√§. Rivi <tt>#include
+	    "jotain.h"</tt> vastaa t√§ysin sit√§, ett√§ sijoittaisit tuon
+	    rivin tilalle tiedoston "jotain.h" sis√§ll√∂n ja
+	    <tt>#define</tt> -m√§√§rittelyt vain korvaavat merkkijonoja
 	    toisilla. 
 <P>
-	    <em>K‰‰nt‰j‰</em> k‰sittelee kerrallaan vain yht‰
+	    <em>K√§√§nt√§j√§</em> k√§sittelee kerrallaan vain yht√§
 	    tiedostoa. Vasta linkkeri kokoaa eri ohjelmatiedostoissa
-	    olevan koodin yhdeksi ohjelmaksi. <em>K‰‰nt‰j‰</em> ei
-	    myˆsk‰‰n k‰sittele <tt>#include</tt> -tiedostoista
-	    sis‰llytetty‰ koodia mitenk‰‰n erikoisella tavalla.
+	    olevan koodin yhdeksi ohjelmaksi. <em>K√§√§nt√§j√§</em> ei
+	    my√∂sk√§√§n k√§sittele <tt>#include</tt> -tiedostoista
+	    sis√§llytetty√§ koodia mitenk√§√§n erikoisella tavalla.
 <P>
-	    Linkkeri k‰sittelee konekoodia sis‰lt‰vi‰
-	    <tt>objektitiedostoja</tt>. Se ei tied‰ mill‰
-	    ohjelmointikielell‰ kyseinen ohjelmakoodi on kirjoitettu. 
+	    Linkkeri k√§sittelee konekoodia sis√§lt√§vi√§
+	    <tt>objektitiedostoja</tt>. Se ei tied√§ mill√§
+	    ohjelmointikielell√§ kyseinen ohjelmakoodi on kirjoitettu. 
 
-<sect1>Miksi k‰‰nt‰j‰ valittaa "unresolved symbol", vaikka
+<sect1>Miksi k√§√§nt√§j√§ valittaa "unresolved symbol", vaikka
 	    ohjelmassani on kaikki vaaditut <tt>#includet</tt>?
 <P>
-	    Kuten edellisest‰ k‰vi selville <tt>#include</tt> ei ole
-	    ohje <em>C-k‰‰nt‰j‰lle</em> liitt‰‰ ohjelmaan tietty
-	    kirjasto, vaan ohje <em>esik‰‰nt‰j‰lle</em> sis‰llytt‰‰
-	    kyseisen tiedoston sis‰ltˆ kyseiseen kohtaan
-	    ohjelmakoodia. T‰m‰ tiedosto
-	    (ns. <em>header</em>-tiedosto) yleens‰ sis‰lt‰‰ kirjastoa
-	    k‰ytt‰vien ohjelmien <em>k‰‰nt‰miseen</em> tarvittavat
-	    m‰‰rittelyt. Sinun on viel‰ kerrottava
-	    <tt>linkkerille</tt> ett‰ haluat kyseisen kirjaston
+	    Kuten edellisest√§ k√§vi selville <tt>#include</tt> ei ole
+	    ohje <em>C-k√§√§nt√§j√§lle</em> liitt√§√§ ohjelmaan tietty
+	    kirjasto, vaan ohje <em>esik√§√§nt√§j√§lle</em> sis√§llytt√§√§
+	    kyseisen tiedoston sis√§lt√∂ kyseiseen kohtaan
+	    ohjelmakoodia. T√§m√§ tiedosto
+	    (ns. <em>header</em>-tiedosto) yleens√§ sis√§lt√§√§ kirjastoa
+	    k√§ytt√§vien ohjelmien <em>k√§√§nt√§miseen</em> tarvittavat
+	    m√§√§rittelyt. Sinun on viel√§ kerrottava
+	    <tt>linkkerille</tt> ett√§ haluat kyseisen kirjaston
 	    mukaan.
 
-<sect1>Miksi GCC ei osaa sis‰llytt‰‰ C++-kirjastoja, kun k‰‰nn‰n
+<sect1>Miksi GCC ei osaa sis√§llytt√§√§ C++-kirjastoja, kun k√§√§nn√§n
 	    C++-ohjelmia?
 <P>
-	    Itseasiassa GCC:ss‰ on kaksi eri ominaisuutta
-	    helpottamassa ohjelmointia. Ensimm‰inen on se, ett‰ se
-	    tunnistaa l‰hdekooditiedoston p‰‰tteest‰ sen tyypin ja
-	    k‰ytt‰‰ oikeaa <em>k‰‰nt‰j‰‰</em>. T‰m‰ ei kuitenkaan
-	    vaikuta ohjelmien <em>linkitt‰miseen</em> mitenk‰‰n.
+	    Itseasiassa GCC:ss√§ on kaksi eri ominaisuutta
+	    helpottamassa ohjelmointia. Ensimm√§inen on se, ett√§ se
+	    tunnistaa l√§hdekooditiedoston p√§√§tteest√§ sen tyypin ja
+	    k√§ytt√§√§ oikeaa <em>k√§√§nt√§j√§√§</em>. T√§m√§ ei kuitenkaan
+	    vaikuta ohjelmien <em>linkitt√§miseen</em> mitenk√§√§n.
 <P>
-	    Toinen ominaisuus on se, ett‰ kun <em>linkkeri‰</em> 
+	    Toinen ominaisuus on se, ett√§ kun <em>linkkeri√§</em> 
 	    kutsutaan <tt>g++</tt>-komennon avulla, GCC
-	    automaattisesti linkitt‰‰ mukaan C++-ohjelman tarvitsemat
-	    ajonaikaiset kirjastot. K‰‰nn‰ siis C++-ohjelmat k‰ytt‰en
+	    automaattisesti linkitt√§√§ mukaan C++-ohjelman tarvitsemat
+	    ajonaikaiset kirjastot. K√§√§nn√§ siis C++-ohjelmat k√§ytt√§en
 	    <tt>g++</tt>-komentoa.
 
 <chapt>Kommentteja halutaan, kiitoksia annetaan
 <p>
-Haluan kommentteja, risuja, kritiikki‰ sek‰ ehdotuksia.  Avuliaat
-palkitaan ikuisella kunnialla - sill‰, ett‰ saa nimens‰ alla olevaan
-luetteloon.  Niin, ja avulias saa itselleen hyv‰n mielen, mik‰
-t‰rkeint‰!
+Haluan kommentteja, risuja, kritiikki√§ sek√§ ehdotuksia.  Avuliaat
+palkitaan ikuisella kunnialla - sill√§, ett√§ saa nimens√§ alla olevaan
+luetteloon.  Niin, ja avulias saa itselleen hyv√§n mielen, mik√§
+t√§rkeint√§!
 <p>
-Haluan kiitt‰‰ kaikkia, jotka ovat auttaneet minua t‰m‰n kirjoitelman
-kokoamisessa.  Erityisesti haluan kiitt‰‰ seuraavia ihmisi‰, jotka
-mainitsen aakkosj‰rjestyksess‰:
+Haluan kiitt√§√§ kaikkia, jotka ovat auttaneet minua t√§m√§n kirjoitelman
+kokoamisessa.  Erityisesti haluan kiitt√§√§ seuraavia ihmisi√§, jotka
+mainitsen aakkosj√§rjestyksess√§:
 
 <list>
 <item>Heikki Kantola
-<item>Paul Kein‰nen
+<item>Paul Kein√§nen
 <item>Jukka Korpela
 <item>Jouko Koski
 <item>Vesa Lappalainen
@@ -741,13 +741,13 @@ mainitsen aakkosj‰rjestyksess‰:
 <item>Antti Valmari
 </list>
 
-Mik‰li mielest‰si sinun pit‰isi olla mainittu tuossa listassa, olet
-luultavasti oikeassa; pist‰ minulle meili‰, olen todenn‰kˆisesti vain
+Mik√§li mielest√§si sinun pit√§isi olla mainittu tuossa listassa, olet
+luultavasti oikeassa; pist√§ minulle meili√§, olen todenn√§k√∂isesti vain
 ollut hieman hajamielinen.
 
 <p>
-FAQ:n yll‰pit‰j‰ tarvitsee avustajia.  Jos kiinnostaa, ota yhteytt‰
-meilill‰ (<email/jautero@iki.fi/).
+FAQ:n yll√§pit√§j√§ tarvitsee avustajia.  Jos kiinnostaa, ota yhteytt√§
+meilill√§ (<email/jautero@iki.fi/).
 
 </book>
 <!-- Keep this comment at the end of the file
