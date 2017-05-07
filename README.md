@@ -16,7 +16,7 @@ ja joka on suunniteltu lukukelpoiseksi tekstitiedostoksi sellaisenaan. Tämä te
 helpompaa, myös varmistaa, että tiedosto on luettavissa, vaikka prosessointityökaluja ei olisi saatavilla.
 
 Konvertoin _SGML_-dokumentit ensin _Docbookiksi_ `debiandoc2dbk` -ohjelmalla ja sen jälkeen käytin `pandoc` -komentoa
-kääntämään ne _Markdowniksi_. Ironisesti tätä varten jouduin rakentamaan _DebianDoc_ _SGML_ -ympäristön, mikä tavalllaan
+kääntämään ne _Markdowniksi_. Ironisesti tätä varten jouduin rakentamaan _DebianDoc_ _SGML_ -ympäristön, mikä tavallaan
 poisti alkuperäisen tarpeen kuvauskielen vaihtamiseksi. 
 
 Toistaiseksi _Markdown_ tiedostoihin ei ole tehty muutoksia ja säilytän _SGML_-tiedostot ainakin kunnes olen päivittänyt
