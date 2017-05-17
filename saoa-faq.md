@@ -22,10 +22,10 @@ erityisen tärkeää tai toisaalta jotenkin tarpeetonta asiaa.
 Tämä kirjoitelma postataan kerran kuukaudessa uutisryhmään
 `sfnet.atk.ohjelmointi.alkeet`. Uusin julkaistu versio on myös
 saatavilla seitistä seuraavissa muodoissa:
-[HTML](http://www.iki.fi/jautero/faq/saoa-faq.html), [tavallinen
-teksti](http://www.iki.fi/jautero/faq/saoa-faq.txt), [teksti
-korostuksin](http://www.iki.fi/jautero/faq/saoa-faq.tov) ja
-[SGML/Debiandoc](http://www.iki.fi/jautero/faq/saoa-faq.sgml).
+[HTML](https://jautero.github.io/sao-faq/saoa-faq.html), [tavallinen
+teksti](https://jautero.github.io/sao-faq/saoa-faq.txt), [teksti
+korostuksin](https://jautero.github.io/sao-faq/saoa-faq.tov) ja
+[SGML/Debiandoc](https://jautero.github.io/sao-faq/saoa-faq.sgml).
 Viimeksimainitun käsittelemiseen tarvitaan
 [Debiandoc-SGML-paketti](http://www.debian.org/Packages/unstable/text/debiandoc-sgml.html),
 joka toiminee ainakin kaikissa Unixeissa.
@@ -36,8 +36,8 @@ kirjoituksen "minä" on poikkeuksetta Antti-Juhani, mutta mukana on myös
 muidenkin kirjoittajien tekstiä. Juha ottaa vastaan tähän kirjoitelmaan
 liittyviä kommentteja, korjauksia ja muita sellaisia. Kirjoitelmaan
 tehdyt muutokset löytyvät [GNU
-ChangeLog](http://www.iki.fi/jautero/faq/ChangeLog) sekä
-[HTML](http://www.iki.fi/jautero/faq/changelog.html)-muodossa.
+ChangeLog](https://jautero.github.io/sao-faq/ChangeLog) sekä
+[HTML](https://jautero.github.io/sao-faq/changelog.html)-muodossa.
 
 Sananen hyvästä käytöksestä uutisryhmissä
 =========================================
@@ -105,7 +105,7 @@ VUKK:ssa](http://www.heikniemi.net/svwww-vukk/) tai englanninkielisessä
 
 Ennen kysymyksen lähettämistä uutisryhmään tarkista, ettei kysymykseesi
 ole vastattu tässä kirjoituksessa tai [moderoidun ohjelmointiryhmän
-FAQ:ssa](http://www.iki.fi/jautero/faq/sao-faq.html).
+FAQ:ssa](https://jautero.github.io/sao-faq/sao-faq.html).
 
 Ohjelmoinnin opettelemisesta
 ============================
@@ -330,9 +330,9 @@ On ehkä liiankin hyvin opetettu ihmisiä sanomaan \`\`randomize'' tai
 satunnaislukugeneraattori antaisi hyvän tuloksen. Nimittäin on helppo
 ymmärtää tämä väärin, loitsu lausutaan joka kerta, kun halutaan
 satunnaisluku. [Esimerkki
-virheestä](http://www.iki.fi/jautero/faq/srand-virhe.c) tuottaa
+virheestä](https://jautero.github.io/sao-faq/srand-virhe.c) tuottaa
 ajettaessa [mainitun
-tuloksen](http://www.iki.fi/jautero/faq/srand-virhe-esim).
+tuloksen](https://jautero.github.io/sao-faq/srand-virhe-esim).
 
 Pääsääntö on yksinkertainen: **Käytä satunnaisluvun alustajaa
 (randomize, srand tms) vain kerran ohjelmassa**. Yleensä hyvä paikka

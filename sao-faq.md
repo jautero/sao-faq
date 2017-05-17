@@ -1,8 +1,8 @@
-Yleistä
-=======
+# Yleistä
 
-Olemisen tarkoitus
-==================
+
+## Olemisen tarkoitus
+
 
 Tämän dokumentin on tarkoitus vastata sellaisiin keskusteluryhmissä
 `sfnet.atk.ohjelmointi` usein esitettyihin kysymyksiin, joihin ei ole
@@ -14,7 +14,7 @@ käyttäytymissääntöjä.
 
 Ohjelmoinnin ja ohjelmointikielten alkeita käsitellään ryhmän
 `sfnet.atk.ohjelmointi.alkeet`
-[FAQ:ssa](http://www.iki.fi/jautero/faq/saoa-faq.html)
+[FAQ:ssa](https://jautero.github.io/sao-faq/saoa-faq.html)
 
 Edellä esitettyjen rajausten vuoksi tämä FAQ käsittelee lähinnä
 sellaisia algoritmeja, joiden käyttöönoton taustalla on hallinnollinen
@@ -27,13 +27,13 @@ Yleensä tähän kysymykseen vastataan: "Luet sitä nyt juuri, joten
 *säilytä* hallussasi oleva kappale."
 
 Uusin versio on aina löydettävissä FAQin
-[seittisivulta](http://www.iki.fi/jautero/faq/sao-faq.html).
+[seittisivulta](https://jautero.github.io/sao-faq/sao-faq.html).
 
 Tämä dokumentti on olemassa myös tekstiversiona ([ilman
-korostuksia](http://www.iki.fi/jautero/faq/sao-faq.txt) ja
-[korostuksineen](http://www.iki.fi/jautero/faq/sao-faq.tov)).
+korostuksia](https://jautero.github.io/sao-faq/sao-faq.txt) ja
+[korostuksineen](https://jautero.github.io/sao-faq/sao-faq.tov)).
 
-Myös FAQin [SGML-sorsat](http://www.iki.fi/jautero/faq/sao-faq.sgml)
+Myös FAQin [SGML-sorsat](https://jautero.github.io/sao-faq/sao-faq.sgml)
 ovat saatavilla. Tarvitset niiden käsittelemiseen uudehkon
 [Debiandoc-SGML-paketin](http://www.debian.org/Packages/unstable/text/debiandoc-sgml.html),
 joka toiminee ainakin kaikissa Unixeissa.
@@ -41,8 +41,8 @@ joka toiminee ainakin kaikissa Unixeissa.
 Kaikissa ylläolevissa osoitteissa on aina FAQin uusin julkaistu versio.
 
 Kirjoitelmaan tehdyt muutokset löytyvät [GNU
-ChangeLog](http://www.iki.fi/jautero/faq/ChangeLog) sekä
-[HTML](http://www.iki.fi/jautero/faq/changelog.html)-muodossa.
+ChangeLog](https://jautero.github.io/sao-faq/ChangeLog) sekä
+[HTML](https://jautero.github.io/sao-faq/changelog.html)-muodossa.
 
 Tämä FAQ pyritään postaamaan joka kuukauden 17. päivänä uutisryhmään
 `sfnet.atk.ohjelmointi`.
@@ -72,7 +72,7 @@ kysymystä käsitellään hyvin osa-alueen perusoppikirjoissa, se kuuluu
 alkeet-ryhmään. Toisaalta se, että vuosia ohjelmoinut ihminen ei
 kohtuullisella vaivalla löydä ratkaisua ongelmaansa, on kohtuullisen
 hyvä merkki siitä, että kysymys ei ole alkeista. Alkeet-ryhmällä on [oma
-FAQ](http://www.iki.fi/jautero/faq/saoa-faq.html).
+FAQ](https://jautero.github.io/sao-faq/saoa-faq.html).
 
 *HTML-kieleen liittyvät kysymykset eivät kuulu mihinkään
 ohjelmointiryhmään,* sillä HTML ei ole ohjelmointikieli. Esitä ne
@@ -193,7 +193,7 @@ yksi se on 1 jne. Jos siis jakojäännös on 30, on tarkistemerkkinä
 kirjain Y.
 
 Olen kirjoittanut [C-kielisen
-ohjelman](http://www.iki.fi/jautero/faq/hetu.c), joka tarkastaa
+ohjelman](https://jautero.github.io/sao-faq/hetu.c), joka tarkastaa
 henkilötunnuksen oikeellisuuden.
 
 [Lars Wirzenius](http://www.iki.fi/liw/) on kirjoittanut
@@ -619,5 +619,3 @@ kiitos heille kaikille.
 -   Lars Wirzenius
 
 -   Miika Åsten
-
-
